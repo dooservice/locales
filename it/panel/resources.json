@@ -1,0 +1,104 @@
+{
+  "title": "Spazio",
+  "gb": "{{value}} GB",
+  "empty": "Ancora nessuna misurazione. I server comunicano cosa occupano a ogni heartbeat.",
+  "unreachable": "Impossibile leggere il tuo utilizzo.",
+  "storage": {
+    "title": "Spazio",
+    "database": "Database",
+    "filestore": "File",
+    "backups": "Backup",
+    "freshness": "Misurato su ogni server e aggiornato ogni ora: non sono dati in tempo reale.",
+    "byEnvironment": "Spazio per ambiente"
+  },
+  "accounted": {
+    "title": "Spazio per progetto",
+    "hint": "Ogni copia conta per intero, perché è quanto occupa sul disco."
+  },
+  "table": {
+    "total": "Totale",
+    "accounted": "Totale",
+    "project": "Progetto",
+    "environment": "Ambiente",
+    "environmentCount": "{{count}} ambiente",
+    "environmentCount_other": "{{count}} ambienti",
+    "environmentCount_many": "{{count}} ambienti"
+  },
+  "mode": {
+    "production": "Produzione",
+    "development": "Sviluppo"
+  },
+  "project": {
+    "title": "Risorse",
+    "hint": "Cosa esegue questo progetto e cosa resta libero sul suo server."
+  },
+  "workers": {
+    "title": "Worker di produzione",
+    "hint": "Uno basta per sviluppare. Usane due o più per servire i clienti.",
+    "count": "{{count}} worker",
+    "count_other": "{{count}} worker",
+    "count_many": "{{count}} worker",
+    "cannotDecrease": "Si può solo aumentare: ridurli interromperebbe le sessioni che quei worker stanno servendo",
+    "noRoom": "Non c'è spazio su questo server",
+    "willRestart": "Applicarlo riavvia Odoo. Non si perde nulla, ma il sito resta fermo per qualche secondo.",
+    "apply": "Applica",
+    "cancel": "Annulla",
+    "tier": {
+      "1": "Sviluppo",
+      "2": "Produzione leggera",
+      "4": "Produzione standard",
+      "8": "Traffico elevato"
+    }
+  },
+  "capacity": {
+    "memory": "Memoria",
+    "disk": "Disco",
+    "of": "{{used}} di {{total}} GB",
+    "unreported": "Questo server non ha ancora comunicato dati. Le cifre appaiono al suo primo heartbeat.",
+    "freeLeft": "· {{value}} GB liberi ({{percent}}% in uso)",
+    "oversubscribed": "Questo server ha promesso alle sue istanze più memoria di quella che ha. Funzionano perché nessuna usa tutto il suo limite contemporaneamente, ma non ci sta altro finché una non si riduce o la macchina non cresce."
+  },
+  "health": {
+    "title": "Salute del database",
+    "hint": "Cosa occupa spazio nel database di {{environment}}. Interrogato quando lo apri.",
+    "unreachable": "Impossibile leggere il database. Il server potrebbe essere giù o l'ambiente fermo.",
+    "readOnly": "Sola lettura: qui non si elimina nulla. Cosa si può pulire dipende dall'uso dei dati, e lo sai tu.",
+    "table": "Tabella",
+    "rows": "Righe",
+    "size": "Dimensione",
+    "total": "Totale database",
+    "rowCount": "{{count}} riga",
+    "rowCount_other": "{{count}} righe",
+    "rowCount_many": "{{count}} righe",
+    "advice": {
+      "mail_message": "La cronologia del chatter. Cresce con ogni email e ogni nota. Odoo include una regola di eliminazione automatica che di solito arriva disattivata.",
+      "mail_tracking": "Il registro di quale campo è cambiato in ogni messaggio. Si svuota insieme ai messaggi.",
+      "orphan_attachments": "Allegati non più collegati a nessun record. Di solito avanzi di importazioni e report generati.",
+      "logging": "Log che Odoo conserva nel database stesso. Si possono svuotare senza perdere nulla del business.",
+      "stuck_jobs": "Job della coda falliti o bloccati. Non è solo spazio: qualcosa potrebbe non essere stato eseguito da tempo."
+    },
+    "sizeAnyway": "Il database pesa {{value}} MB, ma non è stato possibile guardarci dentro."
+  },
+  "history": {
+    "title": "Come è cresciuto",
+    "hint": "Quanto occupa ogni ambiente, giorno per giorno. {{count}} giorni di cronologia.",
+    "tooEarly": "Non c'è ancora abbastanza cronologia per una tendenza. Torna domani: si conserva un punto al giorno."
+  },
+  "summary": {
+    "perMonth": "/mese",
+    "breakdown": "Vedi il progetto",
+    "breakdown_other": "Vedi tutti i {{count}} progetti",
+    "breakdown_many": "Vedi tutti i {{count}} progetti",
+    "environments": "{{count}} ambiente",
+    "environments_other": "{{count}} ambienti",
+    "environments_many": "{{count}} ambienti"
+  },
+  "disk": {
+    "title": "Disco",
+    "usage": "{{used}} di {{total}} · {{free}} liberi",
+    "database": "Database",
+    "filestore": "File",
+    "backups": "Backup",
+    "system": "Sistema e immagini Docker"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "count": "{{count}} deploy",
+  "noDeployments": "Ancora nessun deploy. Compariranno dopo un git pull.",
+  "rollback": "Rollback",
+  "statuses": {
+    "success": "Riuscito",
+    "failed": "Fallito",
+    "rolled_back": "Annullato con rollback",
+    "dropped": "Scartato"
+  },
+  "rollbackDialog": {
+    "title": "Fare il rollback del deploy?",
+    "description": "Riporta <strong>{{name}}</strong> al commit <code>{{commit}}</code> (revisione #{{revision}}) e il suo database al backup fatto prima di quel deploy. Prima viene fatto un backup completo dell'ambiente così com'è ora, e gli allegati vengono mantenuti.",
+    "confirm": "Sì, fai il rollback",
+    "started": "Rollback avviato",
+    "failed": "Rollback non riuscito"
+  },
+  "unknownAuthor": "Autore sconosciuto",
+  "commitUnavailable": "Il commit non è più nel repository",
+  "detail": {
+    "title": "Deploy #{{revision}}",
+    "compare": "Vedi le modifiche su GitHub",
+    "commits_one": "{{count}} commit incluso",
+    "commits_other": "{{count}} commit inclusi",
+    "commits_many": "{{count}} commit inclusi",
+    "unknown": "Il repository non ha più questi commit.",
+    "backup": "Backup precedente",
+    "rollback": "Torna a questo deploy"
+  }
+}

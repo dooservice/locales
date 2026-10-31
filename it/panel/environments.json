@@ -1,0 +1,285 @@
+{
+  "tabs": {
+    "overview": "Panoramica",
+    "addons": "Addons",
+    "backups": "Backup",
+    "logs": "Log",
+    "console": "Console",
+    "deployments": "Deploy",
+    "settings": "Impostazioni"
+  },
+  "selectFirst": "Prima seleziona un ambiente.",
+  "sidebar": {
+    "production": "Produzione",
+    "development": "Sviluppo",
+    "newEnv": "Nuovo ambiente",
+    "add": "Aggiungi ambiente",
+    "temporary": "Copia temporanea della produzione: si elimina tra {{hours}} h"
+  },
+  "runtime": {
+    "running": "In esecuzione",
+    "stopped": "Fermo",
+    "starting": "Avvio in corso",
+    "stopping": "Arresto in corso",
+    "provisioning": "Creazione in corso",
+    "failed": "Errore"
+  },
+  "modes": {
+    "development": "Sviluppo",
+    "production": "Produzione"
+  },
+  "logs": {
+    "live": "In diretta",
+    "paused": "In pausa",
+    "lines": "{{count}} righe",
+    "noLogs": "Nessun log disponibile.",
+    "refresh": "Aggiorna",
+    "mustBeRunning": "L'ambiente deve essere in esecuzione per vedere i log."
+  },
+  "noEnvs": {
+    "title": "Ancora nessun ambiente",
+    "description": "Usa il pulsante + accanto a ogni gruppo nella barra laterale per crearne uno."
+  },
+  "overview": {
+    "openInstance": "Apri istanza",
+    "created": "Creato",
+    "updated": "Aggiornato",
+    "start": "Avvia",
+    "stop": "Ferma",
+    "clone": "Clona",
+    "rebuild": "Ricrea",
+    "startFailed": "Avvio non riuscito",
+    "stopFailed": "Arresto non riuscito",
+    "rebuildFailed": "Ricreazione non riuscita",
+    "rebuildDialog": {
+      "title": "Ricreare l'ambiente?",
+      "description": "Tutti i dati verranno cancellati e Odoo verrà reinstallato da zero. Questa azione non si può annullare.",
+      "confirm": "Sì, ricrea"
+    },
+    "image": "Immagine di Odoo",
+    "imageWaiting": "{{pinned}} disponibile",
+    "imageRejected": "{{pinned}} non si è avviata",
+    "lastDeploy": "Ultimo deploy",
+    "lastBackup": "Ultimo backup",
+    "none": "Ancora nessuno",
+    "repository": "Repository",
+    "noRepository": "Nessun repository collegato"
+  },
+  "clone": {
+    "title": "Clona ambiente",
+    "description": "Crea una copia di <strong>{{name}}</strong> come nuovo ambiente di sviluppo in questo progetto.",
+    "cloneBtn": "Clona",
+    "failed": "Clonazione non riuscita",
+    "titleOf": "Clona «{{name}}»",
+    "sourceBranch": "Branch di {{name}}"
+  },
+  "provision": {
+    "provision": {
+      "title": "Creazione dell'ambiente",
+      "done": "L'ambiente è pronto",
+      "failed": "Creazione non riuscita",
+      "running": "Preparazione dell'ambiente..."
+    },
+    "clone": {
+      "title": "Clonazione dell'ambiente",
+      "done": "Ambiente clonato",
+      "failed": "Clonazione non riuscita",
+      "running": "Clonazione dell'ambiente..."
+    },
+    "rebuild": {
+      "title": "Ricreazione dell'ambiente",
+      "done": "Ambiente ricreato",
+      "failed": "Ricreazione non riuscita",
+      "running": "Ricreazione dell'ambiente..."
+    },
+    "takesMinutes": "Potrebbe richiedere qualche minuto...",
+    "inBackground": "Continua in background"
+  },
+  "settings": {
+    "dangerZone": "Zona pericolosa",
+    "deleteEnv": "Elimina ambiente",
+    "deleteDesc": "Eliminando questo ambiente si distruggono per sempre tutti i suoi dati e i suoi container. Questa azione non si può annullare.",
+    "deleteDialog": {
+      "title": "Elimina ambiente",
+      "description": "Vuoi davvero eliminare <strong>{{name}}</strong>? Questa azione non si può annullare."
+    }
+  },
+  "domain": {
+    "title": "Dominio personalizzato",
+    "validDomainError": "Inserisci un dominio valido",
+    "howTo": "Come collegare il tuo dominio",
+    "step1": "Inserisci il sottodominio che vuoi usare (es. odoo.miaazienda.com).",
+    "step2": "Fai clic su \"Aggiungi dominio\": ti mostreremo la destinazione CNAME da configurare.",
+    "step3": "Vai dal tuo provider DNS e aggiungi un record CNAME che punti il sottodominio alla destinazione indicata.",
+    "step4": "Torna qui e fai clic su \"Verifica\" quando il record è salvato. Le modifiche DNS possono richiedere qualche minuto per propagarsi.",
+    "addDomain": "Aggiungi dominio",
+    "addFailed": "Impossibile impostare il dominio",
+    "dnsRecord": "Aggiungi questo record nel tuo provider DNS",
+    "type": "Tipo",
+    "name": "Nome",
+    "target": "Valore (destinazione)",
+    "domainActive": "Il tuo dominio è attivo e punta correttamente a questo ambiente.",
+    "verify": "Verifica",
+    "verifyFailed": "Verifica non riuscita",
+    "remove": "Rimuovi",
+    "removeFailed": "Impossibile rimuovere il dominio",
+    "noneConfigured": "Nessun dominio personalizzato configurato."
+  },
+  "domainStatus": {
+    "verified": "Verificato",
+    "failed": "Errore",
+    "pending": "In attesa"
+  },
+  "provisionDialog": {
+    "title": "Nuovo ambiente di sviluppo",
+    "branch": "Branch",
+    "defaultBranchDesc": "Usa il branch predefinito del repository. Non viene creato nessun branch.",
+    "selectBranch": "Seleziona un branch",
+    "newBranchPlaceholder": "nome-nuovo-branch",
+    "forkFrom": "Parti da",
+    "defaultBranch": "Branch predefinito",
+    "neutralize": "Neutralizza ambiente",
+    "neutralizeDesc": "Disattiva azioni pianificate, email e integrazioni esterne. Consigliato per lo sviluppo.",
+    "adminEmail": "Email dell'amministratore",
+    "adminPassword": "Password dell'amministratore",
+    "provisionBtn": "Crea ambiente",
+    "branchModes": {
+      "default": "Predefinito",
+      "existing": "Branch esistente",
+      "new": "Nuovo branch"
+    },
+    "branchTaken": "Quel branch esiste già: sceglilo in «Branch esistente» o usa un altro nome.",
+    "neutralizeOff": "Con dati reali, l'ambiente potrebbe inviare email ai clienti ed eseguire integrazioni."
+  },
+  "workers": {
+    "title": "Worker",
+    "movedToResources": "Si impostano nelle risorse del progetto, accanto alla memoria del suo server.",
+    "goToResources": "Vai alle risorse"
+  },
+  "console": {
+    "intro": {
+      "shell": "Un terminale isolato accanto a questo ambiente, con il suo codice e il suo database. Digita `dooservice` per vedere cosa puoi fare.",
+      "claude": "Claude Code su questo ambiente: configura Odoo e, quando serve codice, lo propone prima di scriverlo nel repository. Con il tuo account; l'accesso dura quanto la sessione.",
+      "opencode": "opencode su questo ambiente: configura Odoo e, quando serve codice, lo propone prima di scriverlo nel repository. Con il tuo provider; l'accesso dura quanto la sessione."
+    },
+    "open": "Apri console",
+    "openAnother": "Aprine un'altra",
+    "close": "Termina sessione",
+    "openFailed": "Impossibile aprire la console",
+    "mustBeRunning": "L'ambiente deve essere in esecuzione per aprire una console.",
+    "productionNotYet": "Questo server ha bisogno di un agente più recente per aprire la console in produzione.",
+    "lost": "La connessione al server si è interrotta. Puoi aprire un'altra console.",
+    "phase": {
+      "idle": "Nessuna sessione",
+      "opening": "Connessione…",
+      "live": "Attiva",
+      "ended": "Terminata",
+      "lost": "Disconnessa"
+    },
+    "ended": {
+      "closed": "Hai terminato la sessione.",
+      "exited": "La shell è terminata.",
+      "abandoned": "La sessione è stata chiusa perché questa pagina ha smesso di rispondere.",
+      "idle": "La sessione è stata chiusa dopo 30 minuti di inattività.",
+      "expired": "La sessione ha raggiunto il limite di 4 ore.",
+      "failed": "Non è stato possibile avviare la console.",
+      "agent_stopped": "L'agente del server si è fermato."
+    },
+    "tools": {
+      "shell": "Terminale",
+      "claude": "Claude Code",
+      "opencode": "opencode"
+    },
+    "loginRequested": "Il browser non ha lasciato aprire la pagina di accesso. Aprila da qui.",
+    "openLogin": "Apri accesso",
+    "notReady": "La console non è ancora pronta per Odoo {{version}} su questo server: i suoi strumenti si stanno ancora scaricando o non esistono ancora per quella versione.",
+    "pullRequests": {
+      "button": "Pull request",
+      "title": "Pubblicate dalla console",
+      "opened": "Aperta",
+      "updated": "Aggiornata"
+    }
+  },
+  "exposure": {
+    "title": "Pubblica su internet",
+    "explanation": "Questo server è nella rete del cliente, quindi i suoi ambienti rispondono solo al suo interno. Se pubblicato, lo stesso dominio risponde anche dall'esterno, senza cambiare nulla nella sua rete.",
+    "on": "Pubblicato",
+    "expose": "Pubblica su internet",
+    "withdraw": "Smetti di pubblicare",
+    "exposed": "Questo ambiente ora risponde da internet",
+    "withdrawn": "Questo ambiente risponde di nuovo solo nella rete del cliente",
+    "failed": "Non è stato possibile cambiarlo",
+    "tlsStaysHere": "Il certificato e la sua chiave privata non lasciano mai questo server: il traffico è cifrato end-to-end e nessuno lo apre lungo il percorso.",
+    "nothingDialsIn": "Non serve aprire nessuna porta sul router del cliente e non cambia nulla nella sua rete: è il server a collegarsi verso l'esterno.",
+    "unavailable": "La pubblicazione non è disponibile in questo momento. Riprova tra qualche minuto; se continua, contattaci.",
+    "whatIsVisible": "Dall'esterno si vedono solo il nome richiesto, l'ora e l'indirizzo del visitatore; non il contenuto."
+  },
+  "image": {
+    "current": "Odoo {{version}} · {{current}} ✓",
+    "available": "Odoo {{version}} · {{current}} → {{available}} disponibile",
+    "rejected": "Odoo {{version}} · {{current}} · {{available}} non si è avviata",
+    "when": "Si applica al prossimo deploy, oppure nelle ore di manutenzione dopo due settimane.",
+    "now": "Applica ora",
+    "retry": "Riprova",
+    "requested": "Applicazione della nuova revisione",
+    "requestedDetail": "L'ambiente si riavvia tra qualche minuto. Se non si avvia, torna a quella che aveva.",
+    "failed": "Impossibile applicare la nuova revisione"
+  },
+  "productionConsole": {
+    "intro": "Dati reali. Aprendola si fa un backup; finché non è pronto, sola lettura.",
+    "badge": "PRODUZIONE",
+    "backingUp": "Backup in corso…",
+    "backupReady": "Backup pronto {{time}}",
+    "backupFailed": "Il backup non è riuscito: questa sessione è in sola lettura.",
+    "policyTitle": "IA in produzione",
+    "policyHint": "Vale per tutta l'organizzazione. L'accesso di ogni persona alla console di produzione si imposta in Membri.",
+    "allowAi": "Consenti l'IA in produzione",
+    "allowAiHint": "L'IA potrà leggere i dati reali dei tuoi clienti, che vengono inviati al provider di IA di ogni utente. Modifica i dati solo tramite Odoo e dopo la tua conferma.",
+    "ownersOnly": "Solo i proprietari possono cambiarlo.",
+    "notAllowed": "Non hai la console di produzione in questo progetto. Puoi lavorare su una copia: dati neutralizzati, si elimina da sola dopo 24 h.",
+    "copy": "Riproduci su una copia"
+  },
+  "dataSource": {
+    "title": "Dati",
+    "blank": "Database vuoto",
+    "current": "Copia ora",
+    "backup": "Backup esistente",
+    "blankHint": "Un nuovo database, senza dati.",
+    "currentHint": "I dati di {{name}} vengono copiati così come sono ora.",
+    "noProduction": "Non c'è ancora una produzione da copiare.",
+    "serverCannot": "Questo server non può ancora partire da un backup; lo porterà il suo prossimo aggiornamento.",
+    "noBackups": "Non ci sono ancora backup completi."
+  },
+  "picker": {
+    "choose": "Scegli il backup",
+    "all": "Vedi tutti ({{count}})",
+    "fewer": "Vedi meno",
+    "fullOnly": "Solo backup completi: database e allegati."
+  },
+  "wizard": {
+    "back": "Indietro",
+    "next": "Avanti",
+    "badEmail": "Scrivi un'email valida o lascia vuoto.",
+    "steps": {
+      "branch": "Branch",
+      "data": "Dati",
+      "settings": "Impostazioni",
+      "review": "Riepilogo"
+    },
+    "review": {
+      "branch": "Branch",
+      "defaultBranch": "Quello predefinito del repository",
+      "newBranch": "{{name}} (nuovo, da: {{from}})",
+      "data": "Dati",
+      "blank": "Database vuoto",
+      "current": "Copia di {{name}} così com'è ora",
+      "fromBackup": "Backup del {{date}} ({{size}})",
+      "neutralize": "Neutralizzato",
+      "yes": "Sì",
+      "no": "No"
+    }
+  },
+  "connect": {
+    "hint": "Entri come amministratore di Odoo, senza password."
+  }
+}

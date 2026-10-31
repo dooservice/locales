@@ -1,0 +1,126 @@
+{
+  "title": "Backup",
+  "create": "Crea backup",
+  "upload": "Carica",
+  "download": "Scarica",
+  "downloadPreparing": "Preparazione del download: richiede qualche minuto e parte da solo.",
+  "downloadFailed": "Non è stato possibile preparare il download",
+  "restore": "Ripristina",
+  "count_one": "{{count}} backup",
+  "count_other": "{{count}} backup",
+  "count_many": "{{count}} backup",
+  "noBackupsYet": "Ancora nessun backup",
+  "backupTypes": {
+    "full": "Completo",
+    "database": "Database"
+  },
+  "date": "Data",
+  "type": "Tipo",
+  "status": "Stato",
+  "size": "Dimensione",
+  "description": "Descrizione",
+  "statuses": {
+    "completed": "Completato",
+    "in_progress": "In corso",
+    "failed": "Fallito",
+    "dropped": "Scartato"
+  },
+  "onlyS3": "Disponibile solo per i backup su S3",
+  "createDialog": {
+    "title": "Crea backup",
+    "description": "Crea uno snapshot di <strong>{{name}}</strong>.",
+    "backupType": "Tipo di backup",
+    "full": "Completo",
+    "fullDesc": "Database + filestore",
+    "database": "Solo database",
+    "databaseDesc": "Più piccolo, più veloce",
+    "descriptionLabel": "Descrizione",
+    "descriptionPlaceholder": "es. prima della migrazione",
+    "started": "Backup avviato"
+  },
+  "uploadDialog": {
+    "title": "Carica backup",
+    "description": "Carica un file di backup .zip per <strong>{{name}}</strong>. Il file viene caricato direttamente su S3.",
+    "selectFile": "Fai clic per scegliere un file .zip",
+    "uploading": "Caricamento su S3…",
+    "registering": "Registrazione del backup…",
+    "imported": "Backup importato",
+    "importedDesc": "Il backup è ora disponibile nell'elenco.",
+    "failed": "Caricamento non riuscito"
+  },
+  "schedule": {
+    "title": "Backup automatici",
+    "descEnabled": "I backup vengono eseguiti una volta al giorno all'ora impostata.",
+    "descDisabled": "Attiva per impostare un backup giornaliero ricorrente.",
+    "runAt": "Esegui alle",
+    "saved": "Pianificazione dei backup salvata",
+    "saveFailed": "Impossibile salvare la pianificazione",
+    "save": "Salva pianificazione"
+  },
+  "restoreDialog": {
+    "title": "Ripristina backup",
+    "description": "Sostituisce i dati di <strong>{{name}}</strong> con il backup del {{date}}. Prima il backup viene verificato e viene fatto un backup completo dell'ambiente così com'è ora, per poter tornare indietro. Se il backup contiene solo il database, gli allegati attuali vengono mantenuti.",
+    "started": "Ripristino avviato",
+    "failed": "Ripristino non riuscito",
+    "origin": "Origine",
+    "immediate": "Immediato",
+    "download": "Download di {{size}}",
+    "notHere": "Nessuna copia in questa posizione"
+  },
+  "sources": {
+    "scheduled": "Giornaliero",
+    "pre_deploy": "Pre-deploy",
+    "manual": "Manuale"
+  },
+  "places": {
+    "title": "Posizioni",
+    "server": "Server",
+    "primary": "Principale",
+    "vault": "Caveau",
+    "own": "Bucket proprio",
+    "hint": {
+      "server": "Sul server stesso. Ripristinare da qui è più veloce.",
+      "primary": "Fuori dal server, in un'altra regione. Conserva tutti i backup.",
+      "vault": "Un backup a settimana che nessuno può eliminare né modificare per 14 giorni.",
+      "own": "Nello storage della tua organizzazione."
+    }
+  },
+  "kept": {
+    "title": "Conservazione",
+    "daily": "Giornaliero",
+    "weekly": "Settimanale",
+    "monthly": "Mensile",
+    "manual": "Manuale ({{position}} di {{total}})",
+    "until": "Fino al {{date}}",
+    "suspicious": "In verifica: dimensione insolita",
+    "floor": "Minimo di sicurezza",
+    "leaving": "In attesa di eliminazione"
+  },
+  "summary": {
+    "newest": "Ultimo backup",
+    "pending": "In attesa",
+    "check": "Test di ripristino",
+    "passed": "Superato",
+    "failed": "Fallito",
+    "skipped": "Non eseguito",
+    "counted": "{{tables}} tabelle · {{users}} utenti",
+    "noCheck": "In attesa",
+    "offsiteHint": "Data della copia più recente in ogni posizione.",
+    "checkHint": "Ogni domenica l'ultimo backup viene ripristinato in un ambiente isolato per confermare che funziona.",
+    "next": "Prossimo: {{date}}",
+    "reasons": {
+      "no_room": "Spazio esaurito sul server",
+      "nothing": "Nessun backup da testare",
+      "connection": "Nessuna connessione al database",
+      "restore_errors": "Ripristinato con errori",
+      "incomplete": "Ripristino incompleto",
+      "unanswered": "Il test non ha risposto"
+    }
+  },
+  "detail": {
+    "title": "Backup · {{date}}",
+    "fingerprint": "Impronta",
+    "available": "Disponibile",
+    "vaultDates": "Bloccato fino al {{locked}} · eliminato il {{expires}}"
+  }
+}

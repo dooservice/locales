@@ -1,0 +1,74 @@
+{
+  "cancel": "Annulla",
+  "save": "Salva",
+  "create": "Crea",
+  "delete": "Elimina",
+  "close": "Chiudi",
+  "confirm": "Conferma",
+  "loading": "Caricamento…",
+  "comingSoon": "Prossimamente",
+  "optional": "facoltativo",
+  "settings": "Impostazioni",
+  "signOut": "Esci",
+  "darkMode": "Tema scuro",
+  "lightMode": "Tema chiaro",
+  "actions": {
+    "open": "Apri"
+  },
+  "copy": "Copia",
+  "copied": "Copiato",
+  "aria": {
+    "accountMenu": "Menu dell'account",
+    "projectActions": "Azioni del progetto"
+  },
+  "copyFailed": "Premi Ctrl+C",
+  "typeToConfirm": "Scrivi {{name}} per confermare.",
+  "jobs": {
+    "title": "Attività",
+    "running_one": "{{count}} in corso",
+    "running_other": "{{count}} in corso",
+    "running_many": "{{count}} in corso",
+    "recent": "Recenti",
+    "waiting": "In coda",
+    "status": {
+      "queued": "In coda",
+      "running": "In corso",
+      "completed": "Completata",
+      "failed": "Non riuscita"
+    },
+    "kind": {
+      "env_provision": "Creare l'ambiente",
+      "env_clone": "Clonare l'ambiente",
+      "env_rebuild": "Ricostruire l'ambiente",
+      "env_rollback": "Rollback di un deploy",
+      "env_renew_image": "Rinnovare l'immagine di Odoo",
+      "env_delete": "Eliminare l'ambiente",
+      "git_pull": "Deploy",
+      "submodule_sync": "Sincronizzare i submodule",
+      "agent_update": "Aggiornare il server",
+      "platform_apply_shared": "Eseguire la manutenzione",
+      "backup_create": "Creare un backup",
+      "backup_restore": "Ripristinare un backup",
+      "project_create": "Creare il progetto"
+    },
+    "history": {
+      "server": "Server",
+      "state": "Stato",
+      "kind": "Tipo",
+      "allServers": "Tutti i server",
+      "allStates": "Tutti gli stati",
+      "allKinds": "Tutti i tipi",
+      "by": "Da {{name}}",
+      "automatic": "Automatica",
+      "took": "durata {{duration}}",
+      "empty": "Nessuna attività corrisponde a questi filtri.",
+      "emptyHint": "Qui compare tutto ciò che viene eseguito sui server dell'organizzazione: in corso, completato o non riuscito.",
+      "more": "Carica altre",
+      "seeAll": "Vedi tutte le attività"
+    }
+  },
+  "zone": {
+    "search": "Cerca zona…",
+    "none": "Nessuna zona con questo nome."
+  }
+}
