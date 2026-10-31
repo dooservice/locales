@@ -1,0 +1,225 @@
+{
+  "footer": "Tutti i diritti riservati.",
+  "tags": {
+    "critical": "CRITICO",
+    "warning": "ATTENZIONE",
+    "resolved": "RISOLTO",
+    "server": "SERVER",
+    "environment": "AMBIENTE",
+    "backup": "BACKUP",
+    "update": "AGGIORNAMENTO",
+    "billing": "FATTURAZIONE",
+    "account": "ACCOUNT",
+    "test": "TEST",
+    "production": "PRODUZIONE"
+  },
+  "months": "gen,feb,mar,apr,mag,giu,lug,ago,set,ott,nov,dic",
+  "verification": {
+    "subject": "Verifica la tua email — {product}",
+    "title": "Verifica la tua email",
+    "intro": "Usa questo codice per completare la registrazione. Scade tra",
+    "minutes": "15 minuti",
+    "ignore": "Se non l'hai richiesto tu, puoi ignorare questa email."
+  },
+  "reset": {
+    "subject": "Reimposta la password — {product}",
+    "title": "Reimposta la password",
+    "intro": "Usa questo codice per impostare una nuova password. Scade tra",
+    "minutes": "15 minuti",
+    "ignore": "Se non l'hai richiesto tu, ignora questa email. La tua password non cambierà."
+  },
+  "alert": {
+    "todo": "Cosa fare",
+    "open": "Apri nel pannello",
+    "once": "Riceverai un altro avviso quando sarà risolto.",
+    "closed": "Non serve fare altro.",
+    "rows": {
+      "server": "Server",
+      "project": "Progetto",
+      "environment": "Ambiente",
+      "since": "Da",
+      "lasted": "Durata",
+      "detail": "Dettaglio"
+    },
+    "span": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} h {minutes} min",
+      "days": "{days} g {hours} h"
+    },
+    "kinds": {
+      "agent_offline": {
+        "headline": "Il server non dà più segnali",
+        "resolved": "Il server dà di nuovo segnali",
+        "advice": "Verifica che la macchina sia accesa e connessa a internet."
+      },
+      "backup_failed": {
+        "headline": "Il backup non è riuscito",
+        "resolved": "I backup funzionano di nuovo",
+        "advice": "Controlla lo spazio libero su disco del server ed esegui un backup manuale."
+      },
+      "disk_low": {
+        "headline": "Il disco è quasi pieno",
+        "resolved": "Il disco ha di nuovo spazio libero",
+        "advice": "Libera spazio o amplia il disco: quando è pieno, Odoo smette di funzionare."
+      },
+      "environment_down": {
+        "headline": "La produzione non è in esecuzione",
+        "resolved": "La produzione è di nuovo in esecuzione",
+        "advice": "Controlla i log dell'ambiente e riavvialo dal pannello."
+      },
+      "agent_outdated": {
+        "headline": "L'agente va aggiornato",
+        "resolved": "L'agente è aggiornato",
+        "advice": "Premi «Aggiorna ora» nella pagina del server. Fino ad allora non sono possibili deploy né backup."
+      },
+      "agent_version_unknown": {
+        "headline": "L'agente non comunica la sua versione",
+        "resolved": "L'agente comunica di nuovo la sua versione",
+        "advice": "Finché non lo fa, non si possono verificare i suoi aggiornamenti. Premi «Aggiorna ora» nella pagina del server o reinstalla l'agente."
+      },
+      "update_failed": {
+        "headline": "L'aggiornamento dell'agente non è riuscito",
+        "resolved": "L'aggiornamento dell'agente è stato completato",
+        "advice": "Il server è tornato da solo alla versione precedente e continua a funzionare. Riprova con «Aggiorna ora»."
+      },
+      "platform_step_failed": {
+        "headline": "Non è stato possibile aggiornare un componente",
+        "resolved": "Il componente è stato aggiornato",
+        "advice": "È tornato da solo alla versione precedente e continua a funzionare. Verrà riprovato con la prossima versione."
+      },
+      "platform_behind": {
+        "headline": "Il server non si aggiorna da giorni",
+        "resolved": "Il server è aggiornato",
+        "advice": "Verifica che gli aggiornamenti automatici siano attivi e che il disco abbia spazio libero."
+      },
+      "backup_not_offsite": {
+        "headline": "La produzione non ha backup fuori dal server",
+        "resolved": "La produzione ha di nuovo un backup fuori dal server",
+        "advice": "Se perdi il server, perdi i dati. Controlla il backup notturno."
+      },
+      "backup_suspicious": {
+        "headline": "L'ultimo backup è molto più piccolo del precedente",
+        "resolved": "I backup hanno di nuovo una dimensione normale",
+        "advice": "Verifica che i dati dell'ambiente ci siano ancora. I backup precedenti vengono conservati."
+      },
+      "backup_growing": {
+        "headline": "I backup crescono più del solito",
+        "resolved": "I backup hanno una dimensione stabile",
+        "advice": "Controlla la dimensione del database e l'elenco dei backup."
+      },
+      "restore_test_failed": {
+        "headline": "Il ripristino di prova non è riuscito",
+        "resolved": "Il ripristino di prova funziona di nuovo",
+        "advice": "Esegui un backup manuale e non contare sul ripristino dell'ultimo finché una prova non riesce."
+      }
+    },
+    "details": {
+      "agent_offline": "Nessun segnale da {minutes} min",
+      "disk_low": "{percent}% usato · {free_gb} GB liberi",
+      "environment_down": "Stato: {state}",
+      "agent_outdated": "Versione {version} · minima {min_version}",
+      "update_failed": "Impossibile passare a {version} · ancora su {current}",
+      "platform_step_failed": "{step} · piattaforma {platform}",
+      "platform_behind": "Su {applied} · disponibile {latest}",
+      "backup_not_offsite": "Ultimo backup fuori dal server {hours} h fa",
+      "backup_suspicious": "{size_mb} MB · precedente {previous_mb} MB",
+      "backup_growing": "Da {from_gb} GB a {to_gb} GB in una settimana",
+      "restore_test_failed": "{reason}"
+    },
+    "states": {
+      "stopped": "fermo",
+      "failed": "in errore",
+      "provisioning": "in installazione",
+      "failing": "non risponde",
+      "unknown": "sconosciuto"
+    },
+    "reasons": {
+      "no_room": "spazio su disco insufficiente per la prova",
+      "nothing": "non c'era nessun backup da provare",
+      "connection": "impossibile connettersi al database",
+      "restore_errors": "il ripristino è terminato con errori",
+      "incomplete": "il database ripristinato era incompleto",
+      "unanswered": "il server non ha completato la prova"
+    },
+    "leave": "Non ricevere più questi avvisi"
+  },
+  "billing": {
+    "go": "Vai alla fatturazione",
+    "nothing_deleted": "Per un pagamento in sospeso non viene eliminato nulla di ciò che hai.",
+    "card_refused": {
+      "subject": "Non siamo riusciti ad addebitare il tuo abbonamento",
+      "detail": "La tua banca ha risposto: {reason}.",
+      "retry": "Riproveremo il {date}.",
+      "change": "Puoi cambiare la carta dalla fatturazione."
+    },
+    "plan_ended": {
+      "subject": "Il tuo piano è terminato per mancato pagamento",
+      "detail": "I tuoi progetti continuano a funzionare sui tuoi server. La piattaforma continua a lavorare su quello che mantieni nel piano gratuito; gli altri si possono consultare, scaricarne i backup o eliminarli. Abbonati di nuovo dalla fatturazione quando vuoi."
+    },
+    "plan_cancelled": {
+      "subject": "Il tuo piano è terminato come hai chiesto",
+      "detail": "Il periodo pagato è finito e l'abbonamento non è stato rinnovato. I tuoi progetti continuano a funzionare sui tuoi server. La piattaforma continua a lavorare su quello che mantieni nel piano gratuito; gli altri si possono consultare, scaricarne i backup o eliminarli. Abbonati di nuovo dalla fatturazione quando vuoi."
+    },
+    "copies_ending": {
+      "subject": "I tuoi backup remoti verranno eliminati a breve",
+      "detail": "Il tuo piano è terminato e i backup conservati fuori dai tuoi server verranno eliminati il {date}. Scaricali prima se ti servono, oppure riattiva il piano per conservarli."
+    },
+    "copies_deleted": {
+      "subject": "I tuoi backup remoti sono stati eliminati",
+      "detail": "Sono passati novanta giorni dalla fine del tuo piano. I backup sui tuoi server non sono stati toccati."
+    },
+    "declines": {
+      "insufficient_funds": "la carta non ha fondi sufficienti",
+      "stolen_card": "la carta è stata segnalata come rubata",
+      "lost_card": "la carta è stata segnalata come smarrita",
+      "invalid_cvv": "il codice di sicurezza è errato",
+      "expired_card": "la carta è scaduta",
+      "invalid_card": "la carta non è valida",
+      "invalid_transaction": "la transazione non è valida",
+      "issuer_not_available": "la banca al momento non è disponibile",
+      "contact_issuer": "la banca chiede di contattarla",
+      "authentication_required": "la banca ha chiesto di confermare l'addebito",
+      "generic": "il pagamento è stato rifiutato"
+    }
+  },
+  "complaint": {
+    "subject": "Modulo di reclamo {code}",
+    "title": "Libro dei reclami",
+    "intro": "Abbiamo ricevuto il tuo modulo di reclamo {code}. Questa è la tua copia.",
+    "deadline": "Ti risponderemo via email entro un massimo di 15 giorni lavorativi.",
+    "indecopi": "Presentare un reclamo non impedisce di ricorrere ad altri mezzi di risoluzione delle controversie, né è un requisito prima di presentare una denuncia all'INDECOPI.",
+    "kinds": {
+      "claim": "Reclamo: disaccordo con il servizio",
+      "grievance": "Lamentela: insoddisfazione per l'assistenza ricevuta"
+    },
+    "fields": {
+      "code": "Numero",
+      "date": "Data",
+      "kind": "Tipo",
+      "name": "Nome",
+      "document": "Documento",
+      "address": "Indirizzo",
+      "email": "Email",
+      "phone": "Telefono",
+      "guardian": "Genitore o tutore",
+      "service": "Servizio contrattato",
+      "amount": "Importo reclamato",
+      "detail": "Dettaglio",
+      "request": "Richiesta"
+    }
+  },
+  "audience": {
+    "invitation": {
+      "headline": "Conferma che vuoi ricevere gli avvisi",
+      "detail": "Sei stato aggiunto ai destinatari degli avvisi di {org}: server senza segnale, backup non riusciti, dischi pieni e altri problemi.",
+      "action": "Conferma",
+      "note": "Se non ti aspettavi questa email, ignorala: non viene inviato nulla senza conferma."
+    },
+    "test": {
+      "headline": "Email di prova",
+      "detail": "Gli avvisi di {org} arrivano a questo indirizzo.",
+      "action": "Vedi avvisi",
+      "note": "Non serve fare nulla."
+    }
+  }
+}
