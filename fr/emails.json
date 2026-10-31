@@ -1,0 +1,225 @@
+{
+  "footer": "Tous droits réservés.",
+  "tags": {
+    "critical": "CRITIQUE",
+    "warning": "AVERTISSEMENT",
+    "resolved": "RÉSOLU",
+    "server": "SERVEUR",
+    "environment": "ENVIRONNEMENT",
+    "backup": "SAUVEGARDE",
+    "update": "MISE À JOUR",
+    "billing": "FACTURATION",
+    "account": "COMPTE",
+    "test": "TEST",
+    "production": "PRODUCTION"
+  },
+  "months": "janv.,févr.,mars,avr.,mai,juin,juil.,août,sept.,oct.,nov.,déc.",
+  "verification": {
+    "subject": "Vérifiez votre adresse e-mail — {product}",
+    "title": "Vérifiez votre adresse e-mail",
+    "intro": "Utilisez ce code pour terminer votre inscription. Il expire dans",
+    "minutes": "15 minutes",
+    "ignore": "Si vous n'êtes pas à l'origine de cette demande, vous pouvez ignorer cet e-mail."
+  },
+  "reset": {
+    "subject": "Réinitialisez votre mot de passe — {product}",
+    "title": "Réinitialisez votre mot de passe",
+    "intro": "Utilisez ce code pour définir un nouveau mot de passe. Il expire dans",
+    "minutes": "15 minutes",
+    "ignore": "Si vous n'êtes pas à l'origine de cette demande, ignorez cet e-mail. Votre mot de passe ne changera pas."
+  },
+  "alert": {
+    "todo": "Que faire",
+    "open": "Ouvrir dans le panneau",
+    "once": "Vous recevrez un autre avis lorsque le problème sera résolu.",
+    "closed": "Aucune action n'est nécessaire.",
+    "rows": {
+      "server": "Serveur",
+      "project": "Projet",
+      "environment": "Environnement",
+      "since": "Depuis",
+      "lasted": "Durée",
+      "detail": "Détail"
+    },
+    "span": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} h {minutes} min",
+      "days": "{days} j {hours} h"
+    },
+    "kinds": {
+      "agent_offline": {
+        "headline": "Le serveur ne répond plus",
+        "resolved": "Le serveur répond à nouveau",
+        "advice": "Vérifiez que la machine est allumée et connectée à Internet."
+      },
+      "backup_failed": {
+        "headline": "La sauvegarde a échoué",
+        "resolved": "Les sauvegardes fonctionnent à nouveau",
+        "advice": "Vérifiez l'espace disque libre du serveur et lancez une sauvegarde manuelle."
+      },
+      "disk_low": {
+        "headline": "Le disque est presque plein",
+        "resolved": "Le disque a de nouveau de l'espace libre",
+        "advice": "Libérez de l'espace ou agrandissez le disque : une fois plein, Odoo cesse de fonctionner."
+      },
+      "environment_down": {
+        "headline": "La production ne tourne pas",
+        "resolved": "La production tourne à nouveau",
+        "advice": "Consultez les journaux de l'environnement et redémarrez-le depuis le panneau."
+      },
+      "agent_outdated": {
+        "headline": "L'agent doit être mis à jour",
+        "resolved": "L'agent est à jour",
+        "advice": "Cliquez sur « Mettre à jour maintenant » sur la page du serveur. D'ici là, les déploiements et les sauvegardes sont impossibles."
+      },
+      "agent_version_unknown": {
+        "headline": "L'agent n'indique pas sa version",
+        "resolved": "L'agent indique à nouveau sa version",
+        "advice": "Ses mises à jour ne peuvent pas être vérifiées tant qu'il ne le fait pas. Cliquez sur « Mettre à jour maintenant » sur la page du serveur, ou réinstallez l'agent."
+      },
+      "update_failed": {
+        "headline": "La mise à jour de l'agent a échoué",
+        "resolved": "La mise à jour de l'agent est terminée",
+        "advice": "Le serveur est revenu tout seul à la version précédente et continue de tourner. Réessayez avec « Mettre à jour maintenant »."
+      },
+      "platform_step_failed": {
+        "headline": "Un composant n'a pas pu être mis à jour",
+        "resolved": "Le composant a été mis à jour",
+        "advice": "Il est revenu tout seul à sa version précédente et continue de tourner. Une nouvelle tentative aura lieu avec la prochaine version."
+      },
+      "platform_behind": {
+        "headline": "Le serveur ne s'est pas mis à jour depuis plusieurs jours",
+        "resolved": "Le serveur est à jour",
+        "advice": "Vérifiez que les mises à jour automatiques sont activées et que le disque a de l'espace libre."
+      },
+      "backup_not_offsite": {
+        "headline": "La production n'a aucune sauvegarde hors du serveur",
+        "resolved": "La production a de nouveau une sauvegarde hors du serveur",
+        "advice": "Si le serveur est perdu, les données sont perdues. Vérifiez la sauvegarde nocturne."
+      },
+      "backup_suspicious": {
+        "headline": "La dernière sauvegarde est beaucoup plus petite que la précédente",
+        "resolved": "Les sauvegardes ont retrouvé une taille normale",
+        "advice": "Vérifiez que les données de l'environnement sont toujours là. Les sauvegardes précédentes sont conservées."
+      },
+      "backup_growing": {
+        "headline": "Les sauvegardes grossissent plus vite que d'habitude",
+        "resolved": "La taille des sauvegardes est stable",
+        "advice": "Vérifiez la taille de la base de données et la liste des sauvegardes."
+      },
+      "restore_test_failed": {
+        "headline": "Le test de restauration a échoué",
+        "resolved": "Le test de restauration fonctionne à nouveau",
+        "advice": "Lancez une sauvegarde manuelle, et ne comptez pas sur la restauration de la dernière tant qu'un test n'a pas réussi."
+      }
+    },
+    "details": {
+      "agent_offline": "Aucun signal depuis {minutes} min",
+      "disk_low": "{percent} % utilisé · {free_gb} Go libres",
+      "environment_down": "État : {state}",
+      "agent_outdated": "Version {version} · minimum {min_version}",
+      "update_failed": "Passage à {version} impossible · toujours en {current}",
+      "platform_step_failed": "{step} · plateforme {platform}",
+      "platform_behind": "En {applied} · disponible {latest}",
+      "backup_not_offsite": "Dernière sauvegarde hors serveur il y a {hours} h",
+      "backup_suspicious": "{size_mb} Mo · précédente {previous_mb} Mo",
+      "backup_growing": "De {from_gb} Go à {to_gb} Go en une semaine",
+      "restore_test_failed": "{reason}"
+    },
+    "states": {
+      "stopped": "arrêté",
+      "failed": "en échec",
+      "provisioning": "installation",
+      "failing": "ne répond pas",
+      "unknown": "inconnu"
+    },
+    "reasons": {
+      "no_room": "pas assez d'espace disque pour le test",
+      "nothing": "aucune sauvegarde à tester",
+      "connection": "connexion à la base de données impossible",
+      "restore_errors": "la restauration s'est terminée avec des erreurs",
+      "incomplete": "la base restaurée était incomplète",
+      "unanswered": "le serveur n'a pas terminé le test"
+    },
+    "leave": "Ne plus recevoir ces alertes"
+  },
+  "billing": {
+    "go": "Aller à la facturation",
+    "nothing_deleted": "Rien de ce que vous avez n'est supprimé en raison d'un paiement en attente.",
+    "card_refused": {
+      "subject": "Nous n'avons pas pu prélever votre abonnement",
+      "detail": "Votre banque a répondu : {reason}.",
+      "retry": "Nous réessaierons le {date}.",
+      "change": "Vous pouvez changer de carte depuis la facturation."
+    },
+    "plan_ended": {
+      "subject": "Votre offre a pris fin faute de paiement",
+      "detail": "Vos projets continuent de tourner sur vos serveurs. La plateforme continue de fonctionner sur celui que vous conservez dans l'offre gratuite ; pour les autres, vous pouvez les consulter, télécharger leurs sauvegardes ou les supprimer. Abonnez-vous à nouveau depuis la facturation quand vous le souhaitez."
+    },
+    "plan_cancelled": {
+      "subject": "Votre offre a pris fin comme vous l'avez demandé",
+      "detail": "La période que vous avez payée est terminée et l'abonnement n'a pas été renouvelé. Vos projets continuent de tourner sur vos serveurs. La plateforme continue de fonctionner sur celui que vous conservez dans l'offre gratuite ; pour les autres, vous pouvez les consulter, télécharger leurs sauvegardes ou les supprimer. Abonnez-vous à nouveau depuis la facturation quand vous le souhaitez."
+    },
+    "copies_ending": {
+      "subject": "Vos sauvegardes hors site seront bientôt supprimées",
+      "detail": "Votre offre a pris fin et les sauvegardes conservées hors de vos serveurs seront supprimées le {date}. Téléchargez-les avant si vous en avez besoin, ou réactivez l'offre pour les conserver."
+    },
+    "copies_deleted": {
+      "subject": "Vos sauvegardes hors site ont été supprimées",
+      "detail": "Quatre-vingt-dix jours se sont écoulés depuis la fin de votre offre. Les sauvegardes sur vos propres serveurs ne sont pas touchées."
+    },
+    "declines": {
+      "insufficient_funds": "la carte n'a pas une provision suffisante",
+      "stolen_card": "la carte a été déclarée volée",
+      "lost_card": "la carte a été déclarée perdue",
+      "invalid_cvv": "le code de sécurité est incorrect",
+      "expired_card": "la carte a expiré",
+      "invalid_card": "la carte n'est pas valide",
+      "invalid_transaction": "la transaction n'est pas valide",
+      "issuer_not_available": "la banque n'est pas disponible pour le moment",
+      "contact_issuer": "la banque vous demande de la contacter",
+      "authentication_required": "la banque a demandé à confirmer le paiement",
+      "generic": "le paiement a été refusé"
+    }
+  },
+  "complaint": {
+    "subject": "Feuille de réclamation {code}",
+    "title": "Livre de réclamations",
+    "intro": "Nous avons reçu votre feuille de réclamation {code}. Voici votre copie.",
+    "deadline": "Nous vous répondrons par e-mail dans un délai maximal de 15 jours ouvrables.",
+    "indecopi": "Le dépôt d'une réclamation ne vous empêche pas de recourir à d'autres modes de résolution des litiges et n'est pas un préalable obligatoire pour déposer une plainte auprès de l'INDECOPI.",
+    "kinds": {
+      "claim": "Réclamation : désaccord avec le service",
+      "grievance": "Plainte : mécontentement quant à l'accueil reçu"
+    },
+    "fields": {
+      "code": "Numéro",
+      "date": "Date",
+      "kind": "Type",
+      "name": "Nom",
+      "document": "Pièce d'identité",
+      "address": "Adresse",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "guardian": "Parent ou tuteur",
+      "service": "Service souscrit",
+      "amount": "Montant réclamé",
+      "detail": "Détail",
+      "request": "Demande"
+    }
+  },
+  "audience": {
+    "invitation": {
+      "headline": "Confirmez que vous souhaitez recevoir les alertes",
+      "detail": "Vous avez été ajouté pour recevoir les alertes de {org} : serveurs sans signal, sauvegardes en échec, disques pleins et autres problèmes.",
+      "action": "Confirmer",
+      "note": "Si vous n'attendiez pas cet e-mail, ignorez-le : rien n'est envoyé sans confirmation."
+    },
+    "test": {
+      "headline": "E-mail de test",
+      "detail": "Les alertes de {org} arrivent à cette adresse.",
+      "action": "Voir les alertes",
+      "note": "Aucune action n'est nécessaire."
+    }
+  }
+}
