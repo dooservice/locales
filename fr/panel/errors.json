@@ -200,5 +200,12 @@
   "ai_model_required": "Ce fournisseur n'a pas de modèles par défaut : choisissez-en un pour chaque tâche.",
   "connect_unavailable": "Le serveur de ce projet ne prend pas encore en charge « Se connecter » : son agent doit être mis à jour.",
   "connect_no_address": "Cet environnement n'a aucune adresse à laquelle se connecter.",
-  "connect_production_needs_admin": "Seul un administrateur du projet peut se connecter à la production."
+  "connect_production_needs_admin": "Seul un administrateur du projet peut se connecter à la production.",
+  "origin_not_allowed": "Cette demande ne vient pas du panneau. Ouvrez le panneau et réessayez.",
+  "body_too_large": "Ce que vous avez envoyé est trop volumineux.",
+  "invalid_github_name": "Ce n'est pas un nom valide sur GitHub.",
+  "backup_not_found": "Cette sauvegarde n'existe pas dans ce projet.",
+  "repo_not_accessible": "Vous ne pouvez pas pousser vers {{repo}} sur GitHub. Demandez un accès en écriture ou choisissez un autre dépôt.",
+  "new_repository_needs_admin": "Seul un administrateur du projet peut ajouter {{repo}}, que ce projet n'utilise pas encore.",
+  "agent_id_retired": "Un serveur supprimé a utilisé ce nom récemment. Choisissez un autre nom pour ce serveur."
 }

@@ -200,5 +200,12 @@
   "ai_model_required": "Este provedor não tem modelos padrão: escolha um para cada tarefa.",
   "connect_unavailable": "O servidor deste projeto ainda não aceita «Conectar»: o agente precisa ser atualizado.",
   "connect_no_address": "Este ambiente não tem endereço para se conectar.",
-  "connect_production_needs_admin": "Somente um administrador do projeto se conecta à produção."
+  "connect_production_needs_admin": "Somente um administrador do projeto se conecta à produção.",
+  "origin_not_allowed": "Esta solicitação não veio do painel. Abra o painel e tente novamente.",
+  "body_too_large": "O que você enviou é grande demais.",
+  "invalid_github_name": "Esse não é um nome válido no GitHub.",
+  "backup_not_found": "Esse backup não existe neste projeto.",
+  "repo_not_accessible": "Você não pode enviar alterações para {{repo}} no GitHub. Peça acesso de escrita ou escolha outro repositório.",
+  "new_repository_needs_admin": "Só um administrador do projeto pode adicionar {{repo}}, que este projeto ainda não usa.",
+  "agent_id_retired": "Um servidor removido usou este nome recentemente. Escolha outro nome para este servidor."
 }

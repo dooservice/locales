@@ -200,5 +200,12 @@
   "ai_model_required": "This provider has no default models: choose one for each task.",
   "connect_unavailable": "This project's server does not take «Connect» yet: its agent needs updating.",
   "connect_no_address": "This environment has no address to connect to.",
-  "connect_production_needs_admin": "Only an admin of the project connects to production."
+  "connect_production_needs_admin": "Only an admin of the project connects to production.",
+  "origin_not_allowed": "This request did not come from the panel. Open the panel and try again.",
+  "body_too_large": "What you sent is too large.",
+  "invalid_github_name": "That is not a valid name on GitHub.",
+  "backup_not_found": "That backup does not exist in this project.",
+  "repo_not_accessible": "You cannot push to {{repo}} on GitHub. Ask for write access, or choose another repository.",
+  "new_repository_needs_admin": "Only a project admin can add {{repo}}, which this project does not use yet.",
+  "agent_id_retired": "A removed server used this name recently. Choose another name for this server."
 }

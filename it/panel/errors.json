@@ -200,5 +200,12 @@
   "ai_model_required": "Questo provider non ha modelli predefiniti: scegline uno per ogni attività.",
   "connect_unavailable": "Il server di questo progetto non supporta ancora «Collega»: il suo agente va aggiornato.",
   "connect_no_address": "Questo ambiente non ha un indirizzo a cui connettersi.",
-  "connect_production_needs_admin": "Solo un amministratore del progetto può connettersi alla produzione."
+  "connect_production_needs_admin": "Solo un amministratore del progetto può connettersi alla produzione.",
+  "origin_not_allowed": "Questa richiesta non arriva dal pannello. Apri il pannello e riprova.",
+  "body_too_large": "Quello che hai inviato è troppo grande.",
+  "invalid_github_name": "Non è un nome valido su GitHub.",
+  "backup_not_found": "Questo backup non esiste in questo progetto.",
+  "repo_not_accessible": "Non puoi fare push su {{repo}} su GitHub. Chiedi l'accesso in scrittura o scegli un altro repository.",
+  "new_repository_needs_admin": "Solo un amministratore del progetto può aggiungere {{repo}}, che questo progetto non usa ancora.",
+  "agent_id_retired": "Un server rimosso ha usato questo nome di recente. Scegli un altro nome per questo server."
 }
