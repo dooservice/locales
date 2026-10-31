@@ -10,8 +10,7 @@
     "update": "AGGIORNAMENTO",
     "billing": "FATTURAZIONE",
     "account": "ACCOUNT",
-    "test": "TEST",
-    "production": "PRODUZIONE"
+    "test": "TEST"
   },
   "months": "gen,feb,mar,apr,mag,giu,lug,ago,set,ott,nov,dic",
   "verification": {

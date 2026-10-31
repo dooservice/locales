@@ -10,8 +10,7 @@
     "update": "MISE À JOUR",
     "billing": "FACTURATION",
     "account": "COMPTE",
-    "test": "TEST",
-    "production": "PRODUCTION"
+    "test": "TEST"
   },
   "months": "janv.,févr.,mars,avr.,mai,juin,juil.,août,sept.,oct.,nov.,déc.",
   "verification": {

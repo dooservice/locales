@@ -10,8 +10,7 @@
     "update": "ATUALIZAÇÃO",
     "billing": "FATURAMENTO",
     "account": "CONTA",
-    "test": "TESTE",
-    "production": "PRODUÇÃO"
+    "test": "TESTE"
   },
   "months": "jan,fev,mar,abr,mai,jun,jul,ago,set,out,nov,dez",
   "verification": {
