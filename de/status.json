@@ -1,0 +1,79 @@
+{
+  "cases": {
+    "creating": {
+      "label": "Einrichtung",
+      "title": "Dieses Odoo wird eingerichtet",
+      "text": "Die Datenbank und die Apps werden erstellt. Sobald alles bereit ist, kommst du direkt hinein."
+    },
+    "updating": {
+      "label": "Aktualisierung",
+      "title": "Dieses Odoo wird aktualisiert",
+      "text": "Eine neue Version wird eingespielt. In wenigen Minuten ist es zurück und du kommst direkt hinein."
+    },
+    "restoring": {
+      "label": "Wiederherstellung",
+      "title": "Die Daten werden wiederhergestellt",
+      "text": "Die Daten werden aus einer Sicherung wiederhergestellt. Sobald das erledigt ist, kommst du direkt hinein."
+    },
+    "starting": {
+      "label": "Start",
+      "title": "Wird gestartet…",
+      "text": "Odoo startet. Das dauert meist weniger als eine Minute."
+    },
+    "maintenance": {
+      "label": "Wartung",
+      "title": "Geplante Wartung",
+      "text": "Der Server wird aktualisiert. In wenigen Minuten ist er zurück und du kommst direkt hinein."
+    },
+    "not_responding": {
+      "label": "Keine Antwort",
+      "title": "Dieses Odoo antwortet nicht",
+      "text": "Das ist meist nur vorübergehend. Diese Seite versucht es weiter und bringt dich hinein, sobald es antwortet."
+    },
+    "failing": {
+      "label": "Ein Problem",
+      "title": "Bei diesem Odoo ist ein Problem aufgetreten",
+      "text": "Sein Team wurde informiert. Diese Seite versucht es weiter und bringt dich hinein, sobald es wieder funktioniert."
+    },
+    "verifying_domain": {
+      "label": "Domain wird vorbereitet",
+      "title": "Diese Adresse wird vorbereitet",
+      "text": "Diese Domain ist neu und ihr Zertifikat wird ausgestellt. Das dauert meist ein paar Minuten."
+    },
+    "stopped": {
+      "label": "Gestoppt",
+      "title": "Dieses Odoo ist gestoppt",
+      "text": "Es wurde von seinen Administratoren gestoppt. Wenn du es brauchst, wende dich an sie."
+    },
+    "expired": {
+      "label": "Abgelaufen",
+      "title": "Diese Kopie gibt es nicht mehr",
+      "text": "Es war eine befristete Testkopie und wurde nach Ablauf entfernt. Frag nach einer neuen, wenn du sie brauchst."
+    },
+    "unknown": {
+      "label": "Seite nicht gefunden",
+      "title": "Unter dieser Adresse gibt es kein Odoo",
+      "text": "Prüfe, ob die Adresse richtig geschrieben ist."
+    }
+  },
+  "missing": "{host} existiert nicht (mehr?)",
+  "choices": {
+    "discover": {
+      "label": "Dooservice entdecken",
+      "hint": "Wenn du nicht weißt, warum du hier gelandet bist"
+    },
+    "projects": {
+      "label": "Meine Projekte",
+      "hint": "Sieh dir die Liste deiner Umgebungen an"
+    },
+    "help": {
+      "label": "Hilfe holen",
+      "hint": "Wenn du eine gelöschte Umgebung wiederherstellen willst"
+    }
+  },
+  "actions": {
+    "open": "Dooservice öffnen",
+    "visit": "dooservice.sh besuchen"
+  },
+  "help": "Brauchst du Hilfe? Kontaktiere den Support"
+}

@@ -1,0 +1,79 @@
+{
+  "cases": {
+    "creating": {
+      "label": "Configurazione",
+      "title": "Questo Odoo è in fase di configurazione",
+      "text": "Il database e le app sono in fase di creazione. Entrerai appena sarà pronto."
+    },
+    "updating": {
+      "label": "Aggiornamento",
+      "title": "Aggiornamento di questo Odoo",
+      "text": "È in corso l'installazione di una nuova versione. Tornerà disponibile tra pochi minuti ed entrerai automaticamente."
+    },
+    "restoring": {
+      "label": "Ripristino",
+      "title": "Ripristino dei dati",
+      "text": "I dati vengono ripristinati da un backup. Entrerai al termine."
+    },
+    "starting": {
+      "label": "Avvio",
+      "title": "Avvio in corso…",
+      "text": "Odoo si sta avviando. Di solito richiede meno di un minuto."
+    },
+    "maintenance": {
+      "label": "Manutenzione",
+      "title": "Manutenzione programmata",
+      "text": "Il server è in aggiornamento. Tornerà disponibile tra pochi minuti ed entrerai automaticamente."
+    },
+    "not_responding": {
+      "label": "Non risponde",
+      "title": "Questo Odoo non risponde",
+      "text": "Di solito è temporaneo. Questa pagina continua a riprovare e ti fa entrare quando risponde."
+    },
+    "failing": {
+      "label": "Si è verificato un problema",
+      "title": "Questo Odoo ha avuto un problema",
+      "text": "Il suo team è stato avvisato. Questa pagina continua a riprovare e ti fa entrare appena torna a funzionare."
+    },
+    "verifying_domain": {
+      "label": "Preparazione del dominio",
+      "title": "Preparazione di questo indirizzo",
+      "text": "Questo dominio è nuovo e il suo certificato è in fase di emissione. Di solito richiede pochi minuti."
+    },
+    "stopped": {
+      "label": "Fermo",
+      "title": "Questo Odoo è fermo",
+      "text": "È stato fermato dai suoi amministratori. Se ti serve, contattali."
+    },
+    "expired": {
+      "label": "Scaduta",
+      "title": "Questa copia non esiste più",
+      "text": "Era una copia di prova temporanea ed è stata rimossa alla scadenza. Chiedine una nuova se ti serve."
+    },
+    "unknown": {
+      "label": "Pagina non trovata",
+      "title": "Non c'è nessun Odoo a questo indirizzo",
+      "text": "Controlla che l'indirizzo sia scritto correttamente."
+    }
+  },
+  "missing": "{host} non esiste (più?)",
+  "choices": {
+    "discover": {
+      "label": "Scopri Dooservice",
+      "hint": "Se non sai perché sei arrivato qui"
+    },
+    "projects": {
+      "label": "I miei progetti",
+      "hint": "Consulta l'elenco dei tuoi ambienti"
+    },
+    "help": {
+      "label": "Chiedi aiuto",
+      "hint": "Se vuoi recuperare un ambiente eliminato"
+    }
+  },
+  "actions": {
+    "open": "Apri Dooservice",
+    "visit": "Visita dooservice.sh"
+  },
+  "help": "Serve aiuto? Contatta l'assistenza"
+}

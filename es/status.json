@@ -1,0 +1,79 @@
+{
+  "cases": {
+    "creating": {
+      "label": "Preparando",
+      "title": "Este Odoo se está preparando",
+      "text": "Se están creando la base de datos y las aplicaciones. Entrarás en cuanto esté listo."
+    },
+    "updating": {
+      "label": "Actualizando",
+      "title": "Actualizando este Odoo",
+      "text": "Se está aplicando una nueva versión. Volverá en unos minutos y entrarás automáticamente."
+    },
+    "restoring": {
+      "label": "Restaurando",
+      "title": "Restaurando los datos",
+      "text": "Los datos se están restaurando desde una copia de seguridad. Entrarás cuando termine."
+    },
+    "starting": {
+      "label": "Iniciando",
+      "title": "Iniciando…",
+      "text": "Odoo se está iniciando. Suele tardar menos de un minuto."
+    },
+    "maintenance": {
+      "label": "Mantenimiento",
+      "title": "Mantenimiento programado",
+      "text": "El servidor se está actualizando. Volverá en unos minutos y entrarás automáticamente."
+    },
+    "not_responding": {
+      "label": "Sin respuesta",
+      "title": "Este Odoo no responde",
+      "text": "Suele ser algo pasajero. Esta página sigue intentándolo y te lleva dentro cuando responda."
+    },
+    "failing": {
+      "label": "Con un problema",
+      "title": "Este Odoo tuvo un problema",
+      "text": "Su equipo ya está avisado. Esta página sigue intentándolo y te lleva dentro en cuanto vuelva a funcionar."
+    },
+    "verifying_domain": {
+      "label": "Preparando el dominio",
+      "title": "Preparando esta dirección",
+      "text": "Este dominio es nuevo y se está emitiendo su certificado. Suele tardar unos minutos."
+    },
+    "stopped": {
+      "label": "Detenido",
+      "title": "Este Odoo está detenido",
+      "text": "Lo detuvieron sus administradores. Si lo necesitas, contacta con ellos."
+    },
+    "expired": {
+      "label": "Caducada",
+      "title": "Esta copia ya no existe",
+      "text": "Era una copia de prueba temporal y se eliminó al caducar. Pide una nueva si la necesitas."
+    },
+    "unknown": {
+      "label": "Página no encontrada",
+      "title": "No hay ningún Odoo en esta dirección",
+      "text": "Comprueba que la dirección esté bien escrita."
+    }
+  },
+  "missing": "{host} no existe (¿ya no?)",
+  "choices": {
+    "discover": {
+      "label": "Descubre Dooservice",
+      "hint": "Si no sabes por qué llegaste aquí"
+    },
+    "projects": {
+      "label": "Mis proyectos",
+      "hint": "Consulta la lista de tus entornos"
+    },
+    "help": {
+      "label": "Pedir ayuda",
+      "hint": "Si quieres recuperar un entorno eliminado"
+    }
+  },
+  "actions": {
+    "open": "Abrir Dooservice",
+    "visit": "Visitar dooservice.sh"
+  },
+  "help": "¿Necesitas ayuda? Contacta con soporte"
+}

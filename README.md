@@ -17,6 +17,7 @@ en/                       the reference: every other language has the same keys
   console.json            the console's welcome and splash
   pull-request.json       a published pull request's section headings and closing lines
   landing.json            dooservice.sh
+  status.json             the page a server shows while an environment is down
 es/ pt/ fr/ it/ de/        the same files, translated
 ```
 
