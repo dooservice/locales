@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "summary": "Zusammenfassung",
+    "why": "Grund",
+    "changes": "Änderungen",
+    "how_to_test": "Testanleitung",
+    "deployment": "Bereitstellung",
+    "risks": "Risiken",
+    "references": "Referenzen"
+  },
+  "words": {
+    "signature": "🤖 Erstellt mit [Dooservice](https://dooservice.sh)",
+    "signature_mark": "erstellt mit",
+    "requested_by": "Angefordert von {name}.",
+    "tests": "In der Konsole ausgeführte Tests:",
+    "passed": "bestanden",
+    "failed": "fehlgeschlagen",
+    "branch": "Veröffentlicht aus der Umgebung {environment}."
+  }
+}
