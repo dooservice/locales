@@ -1,0 +1,16 @@
+{
+  "roles": {
+    "admin": {
+      "label": "Admin",
+      "description": "Full control, including members, locking and deletion"
+    },
+    "developer": {
+      "label": "Developer",
+      "description": "Create and operate environments, deploy and roll back"
+    },
+    "viewer": {
+      "label": "Viewer",
+      "description": "Read-only access, including logs"
+    }
+  }
+}

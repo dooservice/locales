@@ -1,0 +1,285 @@
+{
+  "tabs": {
+    "overview": "Overview",
+    "addons": "Addons",
+    "backups": "Backups",
+    "logs": "Logs",
+    "console": "Console",
+    "deployments": "Deployments",
+    "settings": "Settings"
+  },
+  "selectFirst": "Select an environment first.",
+  "sidebar": {
+    "production": "Production",
+    "development": "Development",
+    "newEnv": "New environment",
+    "add": "Add environment",
+    "temporary": "Temporary copy of production: deleted in {{hours}} h"
+  },
+  "runtime": {
+    "running": "Running",
+    "stopped": "Stopped",
+    "starting": "Starting",
+    "stopping": "Stopping",
+    "provisioning": "Provisioning",
+    "failed": "Failed"
+  },
+  "modes": {
+    "development": "Development",
+    "production": "Production"
+  },
+  "logs": {
+    "live": "Live",
+    "paused": "Paused",
+    "lines": "{{count}} lines",
+    "noLogs": "No logs available.",
+    "refresh": "Refresh",
+    "mustBeRunning": "Environment must be running to view logs."
+  },
+  "noEnvs": {
+    "title": "No environments yet",
+    "description": "Use the + button next to each group in the sidebar to create one."
+  },
+  "overview": {
+    "openInstance": "Open instance",
+    "created": "Created",
+    "updated": "Updated",
+    "start": "Start",
+    "stop": "Stop",
+    "clone": "Clone",
+    "rebuild": "Rebuild",
+    "startFailed": "Start failed",
+    "stopFailed": "Stop failed",
+    "rebuildFailed": "Rebuild failed",
+    "rebuildDialog": {
+      "title": "Rebuild environment?",
+      "description": "This will wipe all data and reinstall Odoo from scratch. This action cannot be undone.",
+      "confirm": "Yes, rebuild"
+    },
+    "image": "Odoo image",
+    "imageWaiting": "{{pinned}} available",
+    "imageRejected": "{{pinned}} did not start",
+    "lastDeploy": "Last deploy",
+    "lastBackup": "Last backup",
+    "none": "None yet",
+    "repository": "Repository",
+    "noRepository": "No repository linked"
+  },
+  "clone": {
+    "title": "Clone environment",
+    "description": "Creates a copy of <strong>{{name}}</strong> as a new development environment in this project.",
+    "cloneBtn": "Clone",
+    "failed": "Clone failed",
+    "titleOf": "Clone «{{name}}»",
+    "sourceBranch": "{{name}}'s branch"
+  },
+  "provision": {
+    "provision": {
+      "title": "Provisioning Environment",
+      "done": "Environment is ready",
+      "failed": "Provisioning failed",
+      "running": "Setting up environment..."
+    },
+    "clone": {
+      "title": "Cloning Environment",
+      "done": "Environment cloned successfully",
+      "failed": "Clone failed",
+      "running": "Cloning environment..."
+    },
+    "rebuild": {
+      "title": "Rebuilding Environment",
+      "done": "Environment rebuilt successfully",
+      "failed": "Rebuild failed",
+      "running": "Rebuilding environment..."
+    },
+    "takesMinutes": "This may take a few minutes...",
+    "inBackground": "Keep going in the background"
+  },
+  "settings": {
+    "dangerZone": "Danger Zone",
+    "deleteEnv": "Delete Environment",
+    "deleteDesc": "Deleting this environment will permanently destroy all its data and containers. This action cannot be undone.",
+    "deleteDialog": {
+      "title": "Delete Environment",
+      "description": "Are you sure you want to delete <strong>{{name}}</strong>? This action cannot be undone."
+    }
+  },
+  "domain": {
+    "title": "Custom Domain",
+    "validDomainError": "Enter a valid domain",
+    "howTo": "How to connect your domain",
+    "step1": "Enter the subdomain you want to use (e.g. odoo.mycompany.com).",
+    "step2": "Click \"Add domain\" — we'll show you the CNAME target to configure.",
+    "step3": "Go to your DNS provider and add a CNAME record pointing your subdomain to the target shown.",
+    "step4": "Come back and click \"Verify\" once the record is saved. DNS changes can take a few minutes to propagate.",
+    "addDomain": "Add domain",
+    "addFailed": "Failed to set domain",
+    "dnsRecord": "Add this record in your DNS provider",
+    "type": "Type",
+    "name": "Name",
+    "target": "Value (target)",
+    "domainActive": "Your domain is active and pointing correctly to this environment.",
+    "verify": "Verify",
+    "verifyFailed": "Verification failed",
+    "remove": "Remove",
+    "removeFailed": "Failed to remove domain",
+    "noneConfigured": "No custom domain configured."
+  },
+  "domainStatus": {
+    "verified": "Verified",
+    "failed": "Failed",
+    "pending": "Pending"
+  },
+  "provisionDialog": {
+    "title": "New Development Environment",
+    "branch": "Branch",
+    "defaultBranchDesc": "Uses the repository's default branch. No branch is created.",
+    "selectBranch": "Select a branch",
+    "newBranchPlaceholder": "new-branch-name",
+    "forkFrom": "Fork from",
+    "defaultBranch": "Default branch",
+    "neutralize": "Neutralize environment",
+    "neutralizeDesc": "Disables scheduled actions, emails, and external integrations. Recommended for development.",
+    "adminEmail": "Admin Email",
+    "adminPassword": "Admin Password",
+    "provisionBtn": "Provision Environment",
+    "branchModes": {
+      "default": "Default",
+      "existing": "Existing branch",
+      "new": "New branch"
+    },
+    "branchTaken": "That branch exists already: pick it under «Existing branch» or use another name.",
+    "neutralizeOff": "With real data, the environment could email customers and run integrations."
+  },
+  "workers": {
+    "title": "Workers",
+    "movedToResources": "Set on the project's resources, beside the memory its server has.",
+    "goToResources": "Go to resources"
+  },
+  "console": {
+    "intro": {
+      "shell": "An isolated terminal next to this environment, with its code and its database. Type `dooservice` to see what you can do.",
+      "claude": "Claude Code on this environment: it configures Odoo and, when code is needed, proposes it before writing it in the repository. With your own account; the sign-in lasts as long as the session.",
+      "opencode": "opencode on this environment: it configures Odoo and, when code is needed, proposes it before writing it in the repository. With your own provider; the sign-in lasts as long as the session."
+    },
+    "open": "Open console",
+    "openAnother": "Open another",
+    "close": "End session",
+    "openFailed": "Could not open the console",
+    "mustBeRunning": "The environment must be running to open a console.",
+    "productionNotYet": "This server needs a newer agent to open the console on production.",
+    "lost": "The connection to the server was lost. You can open another console.",
+    "phase": {
+      "idle": "No session",
+      "opening": "Connecting…",
+      "live": "Live",
+      "ended": "Ended",
+      "lost": "Disconnected"
+    },
+    "ended": {
+      "closed": "You ended the session.",
+      "exited": "The shell exited.",
+      "abandoned": "The session was closed because this page stopped responding.",
+      "idle": "The session was closed after 30 minutes without activity.",
+      "expired": "The session reached its 4-hour limit.",
+      "failed": "The console could not start.",
+      "agent_stopped": "The server's agent stopped."
+    },
+    "tools": {
+      "shell": "Terminal",
+      "claude": "Claude Code",
+      "opencode": "opencode"
+    },
+    "loginRequested": "Your browser did not let the sign-in page open. Open it from here.",
+    "openLogin": "Open sign-in",
+    "notReady": "The console is not ready for Odoo {{version}} on this server yet: its tools are still downloading, or do not exist for that version yet.",
+    "pullRequests": {
+      "button": "Pull requests",
+      "title": "Published from the console",
+      "opened": "Opened",
+      "updated": "Updated"
+    }
+  },
+  "exposure": {
+    "title": "Publish on the internet",
+    "explanation": "This server is on the customer's network, so its environments only answer inside it. Published, the same domain answers from outside too, without changing anything in their network.",
+    "on": "Published",
+    "expose": "Publish on the internet",
+    "withdraw": "Stop publishing",
+    "exposed": "This environment now answers from the internet",
+    "withdrawn": "This environment answers on the customer's network only again",
+    "failed": "It could not be changed",
+    "tlsStaysHere": "The certificate and its private key never leave this server: traffic is encrypted end to end and nothing opens it on the way.",
+    "nothingDialsIn": "No port has to be opened on the customer's router and nothing changes in their network: the server reaches out.",
+    "unavailable": "Publishing is not available right now. Try again in a few minutes; if it persists, get in touch.",
+    "whatIsVisible": "From outside, only the name asked for, the time and the visitor's address are visible; not the contents."
+  },
+  "image": {
+    "current": "Odoo {{version}} · {{current}} ✓",
+    "available": "Odoo {{version}} · {{current}} → {{available}} available",
+    "rejected": "Odoo {{version}} · {{current}} · {{available}} did not start",
+    "when": "It is applied at the next deploy, or in the maintenance hours after two weeks.",
+    "now": "Apply now",
+    "retry": "Retry",
+    "requested": "Applying the new revision",
+    "requestedDetail": "The environment restarts in a few minutes. If it does not start, it goes back to the one it had.",
+    "failed": "Could not apply the new revision"
+  },
+  "productionConsole": {
+    "intro": "Real data. Opening it makes a backup; until it is done, read only.",
+    "badge": "PRODUCTION",
+    "backingUp": "Backup in progress…",
+    "backupReady": "Backup ready {{time}}",
+    "backupFailed": "The backup failed: this session only reads.",
+    "policyTitle": "AI on production",
+    "policyHint": "Applies to the whole organization. Each person’s access to the production console is set in Members.",
+    "allowAi": "Allow the AI on production",
+    "allowAiHint": "The AI will be able to read your customers’ real data, which is sent to each user’s AI provider. It only changes data through Odoo and after your confirmation.",
+    "ownersOnly": "Only owners can change this.",
+    "notAllowed": "You don't have the production console in this project. You can work on a copy: neutralized data, it deletes itself after 24 h.",
+    "copy": "Reproduce on a copy"
+  },
+  "dataSource": {
+    "title": "Data",
+    "blank": "Empty database",
+    "current": "Copy now",
+    "backup": "Existing backup",
+    "blankHint": "A new database, with no data.",
+    "currentHint": "{{name}}'s data is copied as it is now.",
+    "noProduction": "There is no production to copy from yet.",
+    "serverCannot": "This server cannot start from a backup yet; its next update brings it.",
+    "noBackups": "There are no full backups yet."
+  },
+  "picker": {
+    "choose": "Choose the backup",
+    "all": "See all ({{count}})",
+    "fewer": "See fewer",
+    "fullOnly": "Full backups only: database and attachments."
+  },
+  "wizard": {
+    "back": "Back",
+    "next": "Next",
+    "badEmail": "Type a valid email or leave it empty.",
+    "steps": {
+      "branch": "Branch",
+      "data": "Data",
+      "settings": "Settings",
+      "review": "Review"
+    },
+    "review": {
+      "branch": "Branch",
+      "defaultBranch": "The repository's default",
+      "newBranch": "{{name}} (new, from: {{from}})",
+      "data": "Data",
+      "blank": "Empty database",
+      "current": "Copy of {{name}} as it is now",
+      "fromBackup": "Backup of {{date}} ({{size}})",
+      "neutralize": "Neutralized",
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "connect": {
+    "hint": "You go in as Odoo's administrator, without a password."
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "progress": "Step {{step}} of {{total}}",
+  "next": "Next",
+  "back": "Back",
+  "finish": "Finish",
+  "stop": "Stop the tour",
+  "hide": "Hide for now",
+  "tours": {
+    "platform": {
+      "welcome": {
+        "title": "Hello, I'm Doo",
+        "body": "Half a minute to show you this screen.",
+        "points": [
+          "Each screen has its own tour",
+          "You can stop it whenever you like"
+        ]
+      },
+      "projects": {
+        "title": "Projects",
+        "body": "A project holds the work of one customer or implementation.",
+        "points": [
+          "Its Odoo environments",
+          "Its module repository",
+          "Each person's permissions"
+        ]
+      },
+      "servers": {
+        "title": "Servers",
+        "body": "The machines the environments are deployed on.",
+        "points": [
+          "Create one at your cloud provider",
+          "Or register one you already run",
+          "The machine and its invoice are yours"
+        ]
+      },
+      "org": {
+        "title": "Organisation",
+        "body": "It sets the scope of everything you see.",
+        "points": [
+          "Projects, servers, backups and alerts",
+          "You can have one organisation per customer"
+        ]
+      },
+      "orgMenu": {
+        "title": "Organisation menu",
+        "body": "",
+        "points": [
+          "Switch organisation",
+          "Members: team and permissions",
+          "Storage: space your backups take",
+          "Alerts: incidents across the organisation",
+          "Backups: where copies are kept",
+          "Settings: the organisation's name",
+          "Create a new organisation"
+        ]
+      },
+      "account": {
+        "title": "Your account",
+        "body": "",
+        "points": [
+          "Language",
+          "Light or dark theme",
+          "Personal details and password",
+          "Sign out"
+        ]
+      },
+      "done": {
+        "title": "Done",
+        "body": "Each screen has its own tour.",
+        "points": [
+          "Projects",
+          "Servers",
+          "A project's detail, when you open it"
+        ]
+      }
+    },
+    "servers": {
+      "add": {
+        "title": "Add a server",
+        "body": "Two ways to register a machine.",
+        "points": [
+          "Create it in your cloud account",
+          "Register an existing one with a command",
+          "The machine and its invoice are yours"
+        ]
+      },
+      "list": {
+        "title": "Registered servers",
+        "body": "Every machine in the organisation.",
+        "points": [
+          "A machine out of space or out of signal stands out here"
+        ]
+      },
+      "card": {
+        "title": "A server at a glance",
+        "body": "Each card summarises one machine.",
+        "points": [
+          "Connection state",
+          "CPU, memory and disk usage",
+          "Last signal received",
+          "Open it for the full detail"
+        ]
+      }
+    },
+    "server": {
+      "overview": {
+        "title": "Server detail",
+        "body": "Data sent by the agent installed on the machine.",
+        "points": [
+          "Address and region",
+          "Uptime",
+          "CPU, memory and disk usage"
+        ]
+      },
+      "alerts": {
+        "title": "Server alerts",
+        "body": "Incidents on this machine, not the whole fleet.",
+        "points": [
+          "Outages and recoveries",
+          "History, to spot patterns"
+        ]
+      },
+      "settings": {
+        "title": "Server settings",
+        "body": "",
+        "points": [
+          "Update hours and early access",
+          "Public or private network: it sets the instances' domain and where their certificate comes from",
+          "Retire the server from the platform"
+        ]
+      },
+      "storage": {
+        "title": "Storage",
+        "body": "What this machine's disk holds, project by project.",
+        "points": [
+          "Database, files and the backups kept here",
+          "Backups already off the server are shown under Billing"
+        ]
+      },
+      "updates": {
+        "title": "Updates",
+        "body": "What this server still has to take, and when.",
+        "points": [
+          "What is pending and when it applies",
+          "Each piece's version",
+          "What each release brings"
+        ]
+      }
+    },
+    "projects": {
+      "create": {
+        "title": "New project",
+        "body": "Creating it you define:",
+        "points": [
+          "The server its environments will live on",
+          "The name, which is used in the domains"
+        ]
+      },
+      "list": {
+        "title": "Your projects",
+        "body": "The ones in the selected organisation.",
+        "points": [
+          "Only the ones your role lets you see"
+        ]
+      },
+      "card": {
+        "title": "A project at a glance",
+        "body": "Each card summarises one project.",
+        "points": [
+          "Server it runs on",
+          "Number of environments",
+          "Your role in the project"
+        ]
+      }
+    },
+    "project": {
+      "nav": {
+        "title": "Project sections",
+        "body": "Four sections, always visible.",
+        "points": [
+          "Environments",
+          "Resources",
+          "Alerts",
+          "Configuration"
+        ]
+      },
+      "navEnvironments": {
+        "title": "Environments",
+        "body": "The project's Odoo installations.",
+        "points": [
+          "The section open right now"
+        ]
+      },
+      "navResources": {
+        "title": "Resources",
+        "body": "The project's consumption, environment by environment.",
+        "points": [
+          "CPU, memory and disk",
+          "Reference before adding load to the server"
+        ]
+      },
+      "navAlerts": {
+        "title": "Project alerts",
+        "body": "Incidents limited to this project.",
+        "points": [
+          "Failed deployments",
+          "Backups that did not complete",
+          "Stopped environments"
+        ]
+      },
+      "envs": {
+        "title": "Project environments",
+        "body": "Each environment is a separate Odoo installation, with its own database and domain.",
+        "points": [
+          "Production, at the top",
+          "Staging and development, below",
+          "Button to create a new one"
+        ]
+      },
+      "overview": {
+        "title": "Overview",
+        "body": "State of the selected environment.",
+        "points": [
+          "Domain and Odoo version",
+          "Start, stop and restart"
+        ]
+      },
+      "deployments": {
+        "title": "Deployments",
+        "body": "Publishing the repository's modules.",
+        "points": [
+          "Run a deployment",
+          "History with its outcome",
+          "Log of any failure"
+        ]
+      },
+      "addons": {
+        "title": "Addons",
+        "body": "Where this environment gets the code it loads.",
+        "points": [
+          "What the repository declares",
+          "What you add here, and its access"
+        ]
+      },
+      "logs": {
+        "title": "Logs",
+        "body": "Odoo's output in real time.",
+        "points": [
+          "No SSH access needed"
+        ]
+      },
+      "console": {
+        "title": "Console",
+        "body": "A terminal inside the environment.",
+        "points": [
+          "Claude Code and opencode available",
+          "Shell for commands and scripts"
+        ]
+      },
+      "backups": {
+        "title": "Backups",
+        "body": "Copies of the environment and its database.",
+        "points": [
+          "Configurable schedule",
+          "Destination: your server or your bucket",
+          "Clone production into staging, neutralised",
+          "Restore a copy"
+        ]
+      },
+      "settings": {
+        "title": "Environment settings",
+        "body": "",
+        "points": [
+          "Assigned resources",
+          "Domain",
+          "Backup schedule and retention"
+        ]
+      },
+      "done": {
+        "title": "End of the tour",
+        "body": "You now know the whole project.",
+        "points": [
+          "Environments on the left",
+          "Seven tabs per environment"
+        ]
+      }
+    }
+  }
+}

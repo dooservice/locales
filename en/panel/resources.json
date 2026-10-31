@@ -1,0 +1,99 @@
+{
+  "title": "Storage",
+  "gb": "{{value}} GB",
+  "empty": "No measurements yet. Servers report what they store on every heartbeat.",
+  "unreachable": "Could not read your usage.",
+  "storage": {
+    "title": "Storage",
+    "database": "Database",
+    "filestore": "Files",
+    "backups": "Backups",
+    "freshness": "Measured on each server and refreshed hourly, so these are not live figures.",
+    "byEnvironment": "Storage by environment"
+  },
+  "accounted": {
+    "title": "Storage by project",
+    "hint": "Every copy counts at full size, because that is what it takes up on the disk."
+  },
+  "table": {
+    "total": "Total",
+    "accounted": "Total",
+    "project": "Project",
+    "environment": "Environment",
+    "environmentCount": "{{count}} environment",
+    "environmentCount_other": "{{count}} environments"
+  },
+  "mode": {
+    "production": "Production",
+    "development": "Development"
+  },
+  "project": {
+    "title": "Resources",
+    "hint": "What this project runs, and what its server has left."
+  },
+  "workers": {
+    "title": "Production workers",
+    "hint": "One is enough to develop against. Use two or more to serve customers.",
+    "count": "{{count}} worker",
+    "count_other": "{{count}} workers",
+    "cannotDecrease": "Can only go up: shrinking would cut the sessions those workers are serving",
+    "noRoom": "No room on this server",
+    "willRestart": "Applying this restarts Odoo. Nothing is lost, but the site is down for a few seconds.",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "tier": {
+      "1": "Development",
+      "2": "Light production",
+      "4": "Standard production",
+      "8": "High traffic"
+    }
+  },
+  "capacity": {
+    "memory": "Memory",
+    "disk": "Disk",
+    "of": "{{used}} of {{total}} GB",
+    "unreported": "This server has not reported yet. The figures appear on its first heartbeat.",
+    "freeLeft": "· {{value}} GB free ({{percent}}% in use)",
+    "oversubscribed": "This server has promised its instances more memory than it has. They run because none uses its whole limit at once, but nothing more fits until one shrinks or the machine grows."
+  },
+  "health": {
+    "title": "Database health",
+    "hint": "What is taking up room in {{environment}}'s database. Asked when you open it.",
+    "unreachable": "Could not read the database. The server may be down or the environment stopped.",
+    "readOnly": "Read-only: nothing is deleted here. What can be cleaned depends on what the data is for, and you are the one who knows.",
+    "table": "Table",
+    "rows": "Rows",
+    "size": "Size",
+    "total": "Database total",
+    "rowCount": "{{count}} row",
+    "rowCount_other": "{{count}} rows",
+    "advice": {
+      "mail_message": "The chatter history. It grows with every email and every note. Odoo ships an automatic deletion rule that usually arrives switched off.",
+      "mail_tracking": "The record of which field changed in each message. It clears along with the messages.",
+      "orphan_attachments": "Attachments no longer hanging off any record. Usually left over from imports and generated reports.",
+      "logging": "Logs Odoo keeps in the database itself. Safe to empty without losing anything of the business.",
+      "stuck_jobs": "Queue jobs failed or stuck. Not only room: something may not have run in a while."
+    },
+    "sizeAnyway": "The database weighs {{value}} MB, but could not be looked inside."
+  },
+  "history": {
+    "title": "How it has grown",
+    "hint": "What each environment takes up, day by day. {{count}} days of history.",
+    "tooEarly": "Not enough history for a trend yet. Come back tomorrow — one point is kept per day."
+  },
+  "summary": {
+    "perMonth": "/mo",
+    "breakdown": "See the project",
+    "breakdown_other": "See all {{count}} projects",
+    "environments": "{{count}} environment",
+    "environments_other": "{{count}} environments"
+  },
+  "disk": {
+    "title": "Disk",
+    "usage": "{{used}} of {{total}} · {{free}} free",
+    "database": "Databases",
+    "filestore": "Files",
+    "backups": "Backups",
+    "system": "System and Docker images"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "cancel": "Cancel",
+  "save": "Save",
+  "create": "Create",
+  "delete": "Delete",
+  "close": "Close",
+  "confirm": "Confirm",
+  "loading": "Loading…",
+  "comingSoon": "Coming soon",
+  "optional": "optional",
+  "settings": "Settings",
+  "signOut": "Sign Out",
+  "darkMode": "Dark mode",
+  "lightMode": "Light mode",
+  "actions": {
+    "open": "Open"
+  },
+  "copy": "Copy",
+  "copied": "Copied",
+  "aria": {
+    "accountMenu": "Account menu",
+    "projectActions": "Project actions"
+  },
+  "copyFailed": "Press Ctrl+C",
+  "typeToConfirm": "Type {{name}} to confirm.",
+  "jobs": {
+    "title": "Jobs",
+    "running_one": "{{count}} running",
+    "running_other": "{{count}} running",
+    "recent": "Recent",
+    "waiting": "Queued",
+    "status": {
+      "queued": "Queued",
+      "running": "Running",
+      "completed": "Done",
+      "failed": "Failed"
+    },
+    "kind": {
+      "env_provision": "Provision environment",
+      "env_clone": "Clone environment",
+      "env_rebuild": "Rebuild environment",
+      "env_rollback": "Roll back a deploy",
+      "env_renew_image": "Renew Odoo image",
+      "env_delete": "Delete environment",
+      "git_pull": "Deploy",
+      "submodule_sync": "Synchronize submodules",
+      "agent_update": "Update server",
+      "platform_apply_shared": "Run maintenance",
+      "backup_create": "Create backup",
+      "backup_restore": "Restore backup",
+      "project_create": "Create project"
+    },
+    "history": {
+      "server": "Server",
+      "state": "State",
+      "kind": "Kind",
+      "allServers": "All servers",
+      "allStates": "All states",
+      "allKinds": "All kinds",
+      "by": "By {{name}}",
+      "automatic": "Automatic",
+      "took": "took {{duration}}",
+      "empty": "No jobs match these filters.",
+      "emptyHint": "Everything that runs on the organization's servers shows up here: running, finished or failed.",
+      "more": "Load more",
+      "seeAll": "See all jobs"
+    }
+  },
+  "zone": {
+    "search": "Search zone…",
+    "none": "No zone by that name."
+  }
+}

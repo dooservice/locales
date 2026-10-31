@@ -1,0 +1,133 @@
+{
+  "title": "Alerts",
+  "open": "{{count}} open problem",
+  "open_other": "{{count}} open problems",
+  "seeHistory": "See history",
+  "deliveredTo": "sent to {{count}}",
+  "notSent": "not sent",
+  "notNotified": "No email went out. Usually the server has no email configured.",
+  "empty": {
+    "title": "Nothing has ever gone wrong.",
+    "hint": "Servers that stop reporting, backups that fail and disks that fill will show up here — along with whether anybody was told."
+  },
+  "kind": {
+    "agent_offline": "stopped reporting",
+    "backup_failed": "last backup failed",
+    "disk_low": "disk nearly full",
+    "environment_down": "production stopped",
+    "agent_outdated": "agent out of date",
+    "update_failed": "update rolled back",
+    "platform_step_failed": "piece put back",
+    "platform_behind": "platform behind",
+    "backup_not_offsite": "no remote copy",
+    "backup_suspicious": "suspicious backup",
+    "backup_growing": "backups growing",
+    "restore_test_failed": "restore test failed",
+    "agent_version_unknown": "agent without a version"
+  },
+  "recovered": "resolved: {{what}}",
+  "details": {
+    "agent_offline": "No signal for {{minutes}} min",
+    "disk_low": "{{percent}}% used · {{free_gb}} GB free",
+    "environment_down": "State: {{state}}",
+    "agent_outdated": "Version {{version}} · minimum {{min_version}}",
+    "update_failed": "Could not move to {{version}} · still on {{current}}",
+    "platform_step_failed": "{{step}} · platform {{platform}}",
+    "platform_behind": "On {{applied}} · available {{latest}}",
+    "backup_not_offsite": "Last off-server backup {{hours}} h ago",
+    "backup_suspicious": "{{size_mb}} MB · previous {{previous_mb}} MB",
+    "backup_growing": "From {{from_gb}} GB to {{to_gb}} GB in a week",
+    "restore_test_failed": "{{reason}}"
+  },
+  "states": {
+    "stopped": "stopped",
+    "failed": "failed",
+    "provisioning": "installing",
+    "unknown": "unknown"
+  },
+  "openNow": {
+    "title": "Open",
+    "count_one": "{{count}} open problem",
+    "count_other": "{{count}} open problems",
+    "none": "Nothing open right now."
+  },
+  "failedTo_one": "{{count}} failed",
+  "failedTo_other": "{{count}} failed",
+  "audience": {
+    "title": "Alert recipients",
+    "subtitle": "Who gets an email about problems with this organization's servers and environments.",
+    "test": "Send test",
+    "testSent_one": "Test sent to {{count}} address",
+    "testSent_other": "Test sent to {{count}} addresses",
+    "members": "Members",
+    "membersHint": "Owners and administrators. Each one chooses what they receive.",
+    "added": "Other addresses",
+    "addedHint": "Addresses outside the organization, such as support. They get an email to confirm before anything is sent.",
+    "pending": "Awaiting confirmation",
+    "remove": "Remove",
+    "add": "Add",
+    "emailPlaceholder": "support@company.com",
+    "invited": "We sent a confirmation email to {{email}}",
+    "addFailed": "Could not add it",
+    "levelsHint": "Critical: server without signal, production stopped, full disk and backup failures. Warnings: pending or rolled-back updates and backups of unusual size.",
+    "level": {
+      "all": "All",
+      "critical": "Critical only",
+      "none": "None"
+    }
+  },
+  "link": {
+    "invalid": "The link is not valid or was already used.",
+    "confirm": {
+      "title": "Confirm alerts",
+      "done": "Done. This address will receive the organization's alerts."
+    },
+    "leave": {
+      "title": "Stop receiving alerts",
+      "done": "Done. This address will no longer receive alerts."
+    }
+  },
+  "reasons": {
+    "no_room": "not enough disk space for the test",
+    "nothing": "there was no backup to test",
+    "connection": "could not connect to the database",
+    "restore_errors": "the restore ended with errors",
+    "incomplete": "the restored database was incomplete",
+    "unanswered": "the test did not answer"
+  },
+  "group": {
+    "agent_offline_one": "{{count}} server without signal",
+    "agent_offline_other": "{{count}} servers without signal",
+    "backup_failed_one": "{{count}} failed backup",
+    "backup_failed_other": "{{count}} failed backups",
+    "disk_low_one": "{{count}} disk almost full",
+    "disk_low_other": "{{count}} disks almost full",
+    "environment_down_one": "{{count}} production stopped",
+    "environment_down_other": "{{count}} productions stopped",
+    "agent_outdated_one": "{{count}} outdated agent",
+    "agent_outdated_other": "{{count}} outdated agents",
+    "update_failed_one": "{{count}} rolled-back update",
+    "update_failed_other": "{{count}} rolled-back updates",
+    "platform_step_failed_one": "{{count}} rolled-back component",
+    "platform_step_failed_other": "{{count}} rolled-back components",
+    "platform_behind_one": "{{count}} server behind",
+    "platform_behind_other": "{{count}} servers behind",
+    "backup_not_offsite_one": "{{count}} production without an off-site backup",
+    "backup_not_offsite_other": "{{count}} productions without an off-site backup",
+    "backup_suspicious_one": "{{count}} suspicious backup",
+    "backup_suspicious_other": "{{count}} suspicious backups",
+    "backup_growing_one": "{{count}} environment with growing backups",
+    "backup_growing_other": "{{count}} environments with growing backups",
+    "restore_test_failed_one": "{{count}} failed test restore",
+    "restore_test_failed_other": "{{count}} failed test restores",
+    "agent_version_unknown_one": "{{count}} agent without a version",
+    "agent_version_unknown_other": "{{count}} agents without a version"
+  },
+  "onServers_one": "on {{count}} server",
+  "onServers_other": "on {{count}} servers",
+  "moreKinds_one": "and {{count}} more kind",
+  "moreKinds_other": "and {{count}} more kinds",
+  "seeAlerts": "See alerts →",
+  "openOnServer_one": "{{count}} open problem",
+  "openOnServer_other": "{{count}} open problems"
+}

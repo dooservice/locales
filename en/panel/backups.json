@@ -1,0 +1,125 @@
+{
+  "title": "Backups",
+  "create": "Create backup",
+  "upload": "Upload",
+  "download": "Download",
+  "downloadPreparing": "Preparing the download: it takes a few minutes and starts by itself.",
+  "downloadFailed": "The download could not be prepared",
+  "restore": "Restore",
+  "count_one": "{{count}} backup",
+  "count_other": "{{count}} backups",
+  "noBackupsYet": "No backups yet",
+  "backupTypes": {
+    "full": "Full",
+    "database": "Database"
+  },
+  "date": "Date",
+  "type": "Type",
+  "status": "Status",
+  "size": "Size",
+  "description": "Description",
+  "statuses": {
+    "completed": "Completed",
+    "in_progress": "In progress",
+    "failed": "Failed",
+    "dropped": "Dropped"
+  },
+  "onlyS3": "Only available for S3 backups",
+  "createDialog": {
+    "title": "Create backup",
+    "description": "Create a snapshot of <strong>{{name}}</strong>.",
+    "backupType": "Backup type",
+    "full": "Full",
+    "fullDesc": "Database + filestore",
+    "database": "Database only",
+    "databaseDesc": "Smaller, faster",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "e.g. before migration",
+    "started": "Backup started"
+  },
+  "uploadDialog": {
+    "title": "Upload backup",
+    "description": "Upload a .zip backup file for <strong>{{name}}</strong>. The file will be uploaded directly to S3.",
+    "selectFile": "Click to select a .zip file",
+    "uploading": "Uploading to S3…",
+    "registering": "Registering backup…",
+    "imported": "Backup imported",
+    "importedDesc": "The backup is now available in the list.",
+    "failed": "Upload failed"
+  },
+  "schedule": {
+    "title": "Automatic Backups",
+    "descEnabled": "Backups will run once a day at the configured time.",
+    "descDisabled": "Enable to configure a recurring daily backup.",
+    "runAt": "Run at",
+    "saved": "Backup schedule saved",
+    "saveFailed": "Failed to save schedule",
+    "save": "Save schedule"
+  },
+  "restoreDialog": {
+    "title": "Restore backup",
+    "description": "This replaces the data of <strong>{{name}}</strong> with the backup of {{date}}. The backup is checked first and a full backup of the environment as it is now is taken, so you can go back. If the backup holds only the database, the current attachments are kept.",
+    "started": "Restore started",
+    "failed": "Restore failed",
+    "origin": "Source",
+    "immediate": "Immediate",
+    "download": "{{size}} download",
+    "notHere": "No copy in this location"
+  },
+  "sources": {
+    "scheduled": "Daily",
+    "pre_deploy": "Pre-deploy",
+    "manual": "Manual"
+  },
+  "places": {
+    "title": "Locations",
+    "server": "Server",
+    "primary": "Primary",
+    "vault": "Vault",
+    "own": "Own bucket",
+    "hint": {
+      "server": "On the server itself. Restoring from here is fastest.",
+      "primary": "Off the server, in another region. Keeps every backup.",
+      "vault": "One backup a week that nobody can delete or change for 14 days.",
+      "own": "In your organization's own storage."
+    }
+  },
+  "kept": {
+    "title": "Retention",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "manual": "Manual ({{position}} of {{total}})",
+    "until": "Until {{date}}",
+    "suspicious": "Under review: unusual size",
+    "floor": "Safety minimum",
+    "leaving": "Pending deletion"
+  },
+  "summary": {
+    "newest": "Latest backup",
+    "pending": "Pending",
+    "check": "Restore test",
+    "passed": "Passed",
+    "failed": "Failed",
+    "skipped": "Not run",
+    "counted": "{{tables}} tables · {{users}} users",
+    "noCheck": "Pending",
+    "offsiteHint": "Date of the newest copy in each location.",
+    "checkHint": "Every Sunday the latest backup is restored in an isolated environment to confirm it works.",
+    "next": "Next: {{date}}",
+    "reasons": {
+      "no_room": "No space on the server",
+      "nothing": "No backups to test",
+      "connection": "No connection to the database",
+      "restore_errors": "Restored with errors",
+      "incomplete": "Incomplete restore",
+      "unanswered": "The test did not answer"
+    }
+  },
+  "detail": {
+    "title": "Backup · {{date}}",
+    "fingerprint": "Fingerprint",
+    "available": "Available",
+    "vaultDates": "Locked until {{locked}} · deleted on {{expires}}"
+  }
+}

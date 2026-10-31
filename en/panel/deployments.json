@@ -1,0 +1,29 @@
+{
+  "count": "{{count}} deployments",
+  "noDeployments": "No deployments yet. They will appear after a git pull.",
+  "rollback": "Rollback",
+  "statuses": {
+    "success": "Success",
+    "failed": "Failed",
+    "rolled_back": "Rolled back",
+    "dropped": "Dropped"
+  },
+  "rollbackDialog": {
+    "title": "Rollback deployment?",
+    "description": "This takes <strong>{{name}}</strong> back to commit <code>{{commit}}</code> (revision #{{revision}}) and its database to the backup taken before that deployment. A full backup of the environment as it is now is taken first, and the attachments are kept.",
+    "confirm": "Yes, rollback",
+    "started": "Rollback started",
+    "failed": "Rollback failed"
+  },
+  "unknownAuthor": "Unknown author",
+  "commitUnavailable": "Commit no longer in the repository",
+  "detail": {
+    "title": "Deployment #{{revision}}",
+    "compare": "View changes on GitHub",
+    "commits_one": "{{count}} commit included",
+    "commits_other": "{{count}} commits included",
+    "unknown": "The repository no longer has these commits.",
+    "backup": "Backup before",
+    "rollback": "Go back to this deployment"
+  }
+}
