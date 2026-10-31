@@ -182,32 +182,6 @@
       "generic": "the payment was declined"
     }
   },
-  "complaint": {
-    "subject": "Complaint sheet {code}",
-    "title": "Complaints book",
-    "intro": "We received your complaint sheet {code}. This is your copy.",
-    "deadline": "We will answer by email within 15 working days at most.",
-    "indecopi": "Filing a complaint does not prevent you from using other means of dispute resolution, nor is it required before filing a report with INDECOPI.",
-    "kinds": {
-      "claim": "Claim: disagreement with the service",
-      "grievance": "Grievance: discontent with how you were attended"
-    },
-    "fields": {
-      "code": "Number",
-      "date": "Date",
-      "kind": "Kind",
-      "name": "Name",
-      "document": "Document",
-      "address": "Address",
-      "email": "Email",
-      "phone": "Phone",
-      "guardian": "Parent or guardian",
-      "service": "Service contracted",
-      "amount": "Amount claimed",
-      "detail": "Detail",
-      "request": "Request"
-    }
-  },
   "audience": {
     "invitation": {
       "headline": "Confirm that you want to receive alerts",

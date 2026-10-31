@@ -182,32 +182,6 @@
       "generic": "die Zahlung wurde abgelehnt"
     }
   },
-  "complaint": {
-    "subject": "Beschwerdeblatt {code}",
-    "title": "Beschwerdebuch",
-    "intro": "Wir haben dein Beschwerdeblatt {code} erhalten. Dies ist deine Kopie.",
-    "deadline": "Wir antworten per E-Mail innerhalb von höchstens 15 Werktagen.",
-    "indecopi": "Eine Beschwerde hindert dich nicht daran, andere Wege der Streitbeilegung zu nutzen, und ist keine Voraussetzung für eine Anzeige bei INDECOPI.",
-    "kinds": {
-      "claim": "Reklamation: Unzufriedenheit mit dem Service",
-      "grievance": "Beschwerde: Unzufriedenheit mit der Betreuung"
-    },
-    "fields": {
-      "code": "Nummer",
-      "date": "Datum",
-      "kind": "Art",
-      "name": "Name",
-      "document": "Ausweisdokument",
-      "address": "Adresse",
-      "email": "E-Mail",
-      "phone": "Telefon",
-      "guardian": "Elternteil oder Vormund",
-      "service": "Vertraglicher Service",
-      "amount": "Geforderter Betrag",
-      "detail": "Detail",
-      "request": "Anliegen"
-    }
-  },
   "audience": {
     "invitation": {
       "headline": "Bestätige, dass du Alarme erhalten möchtest",

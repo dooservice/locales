@@ -182,32 +182,6 @@
       "generic": "il pagamento è stato rifiutato"
     }
   },
-  "complaint": {
-    "subject": "Modulo di reclamo {code}",
-    "title": "Libro dei reclami",
-    "intro": "Abbiamo ricevuto il tuo modulo di reclamo {code}. Questa è la tua copia.",
-    "deadline": "Ti risponderemo via email entro un massimo di 15 giorni lavorativi.",
-    "indecopi": "Presentare un reclamo non impedisce di ricorrere ad altri mezzi di risoluzione delle controversie, né è un requisito prima di presentare una denuncia all'INDECOPI.",
-    "kinds": {
-      "claim": "Reclamo: disaccordo con il servizio",
-      "grievance": "Lamentela: insoddisfazione per l'assistenza ricevuta"
-    },
-    "fields": {
-      "code": "Numero",
-      "date": "Data",
-      "kind": "Tipo",
-      "name": "Nome",
-      "document": "Documento",
-      "address": "Indirizzo",
-      "email": "Email",
-      "phone": "Telefono",
-      "guardian": "Genitore o tutore",
-      "service": "Servizio contrattato",
-      "amount": "Importo reclamato",
-      "detail": "Dettaglio",
-      "request": "Richiesta"
-    }
-  },
   "audience": {
     "invitation": {
       "headline": "Conferma che vuoi ricevere gli avvisi",

@@ -182,32 +182,6 @@
       "generic": "el pago fue rechazado"
     }
   },
-  "complaint": {
-    "subject": "Hoja de reclamación {code}",
-    "title": "Libro de reclamaciones",
-    "intro": "Recibimos su hoja de reclamación {code}. Esta es su copia.",
-    "deadline": "Le responderemos por correo en un plazo máximo de 15 días hábiles.",
-    "indecopi": "Presentar un reclamo no impide acudir a otras vías de solución de controversias ni es requisito previo para presentar una denuncia ante el INDECOPI.",
-    "kinds": {
-      "claim": "Reclamo: disconformidad con el servicio",
-      "grievance": "Queja: malestar con la atención"
-    },
-    "fields": {
-      "code": "Número",
-      "date": "Fecha",
-      "kind": "Tipo",
-      "name": "Nombre",
-      "document": "Documento",
-      "address": "Domicilio",
-      "email": "Correo",
-      "phone": "Teléfono",
-      "guardian": "Padre, madre o apoderado",
-      "service": "Servicio contratado",
-      "amount": "Monto reclamado",
-      "detail": "Detalle",
-      "request": "Pedido"
-    }
-  },
   "audience": {
     "invitation": {
       "headline": "Confirma que quieres recibir las alertas",

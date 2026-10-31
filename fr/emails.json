@@ -182,32 +182,6 @@
       "generic": "le paiement a été refusé"
     }
   },
-  "complaint": {
-    "subject": "Feuille de réclamation {code}",
-    "title": "Livre de réclamations",
-    "intro": "Nous avons reçu votre feuille de réclamation {code}. Voici votre copie.",
-    "deadline": "Nous vous répondrons par e-mail dans un délai maximal de 15 jours ouvrables.",
-    "indecopi": "Le dépôt d'une réclamation ne vous empêche pas de recourir à d'autres modes de résolution des litiges et n'est pas un préalable obligatoire pour déposer une plainte auprès de l'INDECOPI.",
-    "kinds": {
-      "claim": "Réclamation : désaccord avec le service",
-      "grievance": "Plainte : mécontentement quant à l'accueil reçu"
-    },
-    "fields": {
-      "code": "Numéro",
-      "date": "Date",
-      "kind": "Type",
-      "name": "Nom",
-      "document": "Pièce d'identité",
-      "address": "Adresse",
-      "email": "E-mail",
-      "phone": "Téléphone",
-      "guardian": "Parent ou tuteur",
-      "service": "Service souscrit",
-      "amount": "Montant réclamé",
-      "detail": "Détail",
-      "request": "Demande"
-    }
-  },
   "audience": {
     "invitation": {
       "headline": "Confirmez que vous souhaitez recevoir les alertes",
