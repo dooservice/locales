@@ -1,0 +1,99 @@
+{
+  "title": "Armazenamento",
+  "gb": "{{value}} GB",
+  "empty": "Ainda não há medições. Os servidores informam o que armazenam a cada heartbeat.",
+  "unreachable": "Não foi possível ler seu uso.",
+  "storage": {
+    "title": "Armazenamento",
+    "database": "Base de dados",
+    "filestore": "Arquivos",
+    "backups": "Backups",
+    "freshness": "Medido em cada servidor e atualizado a cada hora, portanto não são números em tempo real.",
+    "byEnvironment": "Armazenamento por ambiente"
+  },
+  "accounted": {
+    "title": "Armazenamento por projeto",
+    "hint": "Cada cópia conta pelo tamanho total, porque é isso que ocupa no disco."
+  },
+  "table": {
+    "total": "Total",
+    "accounted": "Total",
+    "project": "Projeto",
+    "environment": "Ambiente",
+    "environmentCount": "{{count}} ambiente",
+    "environmentCount_other": "{{count}} ambientes"
+  },
+  "mode": {
+    "production": "Produção",
+    "development": "Desenvolvimento"
+  },
+  "project": {
+    "title": "Recursos",
+    "hint": "O que este projeto executa e o que resta no seu servidor."
+  },
+  "workers": {
+    "title": "Workers de produção",
+    "hint": "Um basta para desenvolver. Use dois ou mais para atender clientes.",
+    "count": "{{count}} worker",
+    "count_other": "{{count}} workers",
+    "cannotDecrease": "Só pode aumentar: reduzir cortaria as sessões que esses workers estão atendendo",
+    "noRoom": "Não há espaço neste servidor",
+    "willRestart": "Aplicar isto reinicia o Odoo. Nada se perde, mas o site fica fora do ar por alguns segundos.",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "tier": {
+      "1": "Desenvolvimento",
+      "2": "Produção leve",
+      "4": "Produção padrão",
+      "8": "Tráfego alto"
+    }
+  },
+  "capacity": {
+    "memory": "Memória",
+    "disk": "Disco",
+    "of": "{{used}} de {{total}} GB",
+    "unreported": "Este servidor ainda não reportou. Os números aparecem no seu primeiro heartbeat.",
+    "freeLeft": "· {{value}} GB livres ({{percent}}% em uso)",
+    "oversubscribed": "Este servidor prometeu às suas instâncias mais memória do que tem. Elas funcionam porque nenhuma usa todo o seu limite ao mesmo tempo, mas nada mais cabe até que uma diminua ou a máquina cresça."
+  },
+  "health": {
+    "title": "Saúde da base de dados",
+    "hint": "O que está ocupando espaço na base de dados de {{environment}}. Consultado quando você abre.",
+    "unreachable": "Não foi possível ler a base de dados. O servidor pode estar fora do ar ou o ambiente parado.",
+    "readOnly": "Somente leitura: nada é excluído aqui. O que pode ser limpo depende da finalidade dos dados, e é você quem sabe.",
+    "table": "Tabela",
+    "rows": "Linhas",
+    "size": "Tamanho",
+    "total": "Total da base de dados",
+    "rowCount": "{{count}} linha",
+    "rowCount_other": "{{count}} linhas",
+    "advice": {
+      "mail_message": "O histórico do chatter. Cresce com cada e-mail e cada nota. O Odoo traz uma regra de exclusão automática que costuma vir desativada.",
+      "mail_tracking": "O registro de qual campo mudou em cada mensagem. É limpo junto com as mensagens.",
+      "orphan_attachments": "Anexos que não estão mais ligados a nenhum registro. Geralmente sobram de importações e relatórios gerados.",
+      "logging": "Logs que o Odoo guarda na própria base de dados. Podem ser esvaziados sem perder nada do negócio.",
+      "stuck_jobs": "Tarefas da fila com falha ou travadas. Não é só espaço: algo pode não ter sido executado há um tempo."
+    },
+    "sizeAnyway": "A base de dados ocupa {{value}} MB, mas não foi possível olhar dentro dela."
+  },
+  "history": {
+    "title": "Como cresceu",
+    "hint": "O que cada ambiente ocupa, dia a dia. {{count}} dias de histórico.",
+    "tooEarly": "Ainda não há histórico suficiente para uma tendência. Volte amanhã — é guardado um ponto por dia."
+  },
+  "summary": {
+    "perMonth": "/mês",
+    "breakdown": "Ver o projeto",
+    "breakdown_other": "Ver os {{count}} projetos",
+    "environments": "{{count}} ambiente",
+    "environments_other": "{{count}} ambientes"
+  },
+  "disk": {
+    "title": "Disco",
+    "usage": "{{used}} de {{total}} · {{free}} livres",
+    "database": "Bases de dados",
+    "filestore": "Arquivos",
+    "backups": "Backups",
+    "system": "Sistema e imagens Docker"
+  }
+}

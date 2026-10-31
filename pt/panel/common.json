@@ -1,0 +1,73 @@
+{
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "create": "Criar",
+  "delete": "Excluir",
+  "close": "Fechar",
+  "confirm": "Confirmar",
+  "loading": "Carregando…",
+  "comingSoon": "Em breve",
+  "optional": "opcional",
+  "settings": "Configurações",
+  "signOut": "Sair",
+  "darkMode": "Modo escuro",
+  "lightMode": "Modo claro",
+  "actions": {
+    "open": "Abrir"
+  },
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "aria": {
+    "accountMenu": "Menu da conta",
+    "projectActions": "Ações do projeto"
+  },
+  "copyFailed": "Pressione Ctrl+C",
+  "typeToConfirm": "Digite {{name}} para confirmar.",
+  "jobs": {
+    "title": "Tarefas",
+    "running_one": "{{count}} em execução",
+    "running_other": "{{count}} em execução",
+    "recent": "Recentes",
+    "waiting": "Na fila",
+    "status": {
+      "queued": "Na fila",
+      "running": "Em execução",
+      "completed": "Concluída",
+      "failed": "Falhou"
+    },
+    "kind": {
+      "env_provision": "Provisionar ambiente",
+      "env_clone": "Clonar ambiente",
+      "env_rebuild": "Reconstruir ambiente",
+      "env_rollback": "Reverter um deploy",
+      "env_renew_image": "Renovar imagem do Odoo",
+      "env_delete": "Excluir ambiente",
+      "git_pull": "Fazer deploy",
+      "submodule_sync": "Sincronizar submódulos",
+      "agent_update": "Atualizar servidor",
+      "platform_apply_shared": "Executar manutenção",
+      "backup_create": "Criar backup",
+      "backup_restore": "Restaurar backup",
+      "project_create": "Criar projeto"
+    },
+    "history": {
+      "server": "Servidor",
+      "state": "Estado",
+      "kind": "Tipo",
+      "allServers": "Todos os servidores",
+      "allStates": "Todos os estados",
+      "allKinds": "Todos os tipos",
+      "by": "Por {{name}}",
+      "automatic": "Automática",
+      "took": "levou {{duration}}",
+      "empty": "Nenhuma tarefa corresponde a estes filtros.",
+      "emptyHint": "Aqui aparece tudo o que é executado nos servidores da organização: em execução, concluído ou com falha.",
+      "more": "Carregar mais",
+      "seeAll": "Ver todas as tarefas"
+    }
+  },
+  "zone": {
+    "search": "Buscar zona…",
+    "none": "Nenhuma zona com esse nome."
+  }
+}

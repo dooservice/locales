@@ -1,0 +1,125 @@
+{
+  "title": "Backups",
+  "create": "Criar backup",
+  "upload": "Enviar",
+  "download": "Baixar",
+  "downloadPreparing": "Preparando o download: leva alguns minutos e começa sozinho.",
+  "downloadFailed": "Não foi possível preparar o download",
+  "restore": "Restaurar",
+  "count_one": "{{count}} backup",
+  "count_other": "{{count}} backups",
+  "noBackupsYet": "Ainda não há backups",
+  "backupTypes": {
+    "full": "Completo",
+    "database": "Base de dados"
+  },
+  "date": "Data",
+  "type": "Tipo",
+  "status": "Status",
+  "size": "Tamanho",
+  "description": "Descrição",
+  "statuses": {
+    "completed": "Concluído",
+    "in_progress": "Em andamento",
+    "failed": "Falhou",
+    "dropped": "Descartado"
+  },
+  "onlyS3": "Disponível apenas para backups no S3",
+  "createDialog": {
+    "title": "Criar backup",
+    "description": "Crie um snapshot de <strong>{{name}}</strong>.",
+    "backupType": "Tipo de backup",
+    "full": "Completo",
+    "fullDesc": "Base de dados + arquivos",
+    "database": "Somente base de dados",
+    "databaseDesc": "Menor, mais rápido",
+    "descriptionLabel": "Descrição",
+    "descriptionPlaceholder": "ex.: antes da migração",
+    "started": "Backup iniciado"
+  },
+  "uploadDialog": {
+    "title": "Enviar backup",
+    "description": "Envie um arquivo de backup .zip para <strong>{{name}}</strong>. O arquivo será enviado diretamente ao S3.",
+    "selectFile": "Clique para selecionar um arquivo .zip",
+    "uploading": "Enviando ao S3…",
+    "registering": "Registrando backup…",
+    "imported": "Backup importado",
+    "importedDesc": "O backup já está disponível na lista.",
+    "failed": "Falha no envio"
+  },
+  "schedule": {
+    "title": "Backups automáticos",
+    "descEnabled": "Os backups serão executados uma vez por dia no horário configurado.",
+    "descDisabled": "Ative para configurar um backup diário recorrente.",
+    "runAt": "Executar às",
+    "saved": "Agendamento de backup salvo",
+    "saveFailed": "Não foi possível salvar o agendamento",
+    "save": "Salvar agendamento"
+  },
+  "restoreDialog": {
+    "title": "Restaurar backup",
+    "description": "Isso substitui os dados de <strong>{{name}}</strong> pelo backup de {{date}}. Primeiro o backup é verificado e é feito um backup completo do ambiente como está agora, para que você possa voltar. Se o backup contém apenas a base de dados, os anexos atuais são mantidos.",
+    "started": "Restauração iniciada",
+    "failed": "A restauração falhou",
+    "origin": "Origem",
+    "immediate": "Imediata",
+    "download": "Download de {{size}}",
+    "notHere": "Nenhuma cópia neste local"
+  },
+  "sources": {
+    "scheduled": "Diário",
+    "pre_deploy": "Antes do deploy",
+    "manual": "Manual"
+  },
+  "places": {
+    "title": "Locais",
+    "server": "Servidor",
+    "primary": "Principal",
+    "vault": "Cofre",
+    "own": "Bucket próprio",
+    "hint": {
+      "server": "No próprio servidor. Restaurar daqui é o mais rápido.",
+      "primary": "Fora do servidor, em outra região. Guarda todos os backups.",
+      "vault": "Um backup por semana que ninguém pode excluir nem alterar durante 14 dias.",
+      "own": "No armazenamento próprio da sua organização."
+    }
+  },
+  "kept": {
+    "title": "Retenção",
+    "daily": "Diário",
+    "weekly": "Semanal",
+    "monthly": "Mensal",
+    "manual": "Manual ({{position}} de {{total}})",
+    "until": "Até {{date}}",
+    "suspicious": "Em revisão: tamanho incomum",
+    "floor": "Mínimo de segurança",
+    "leaving": "Exclusão pendente"
+  },
+  "summary": {
+    "newest": "Último backup",
+    "pending": "Pendente",
+    "check": "Teste de restauração",
+    "passed": "Aprovado",
+    "failed": "Falhou",
+    "skipped": "Não executado",
+    "counted": "{{tables}} tabelas · {{users}} usuários",
+    "noCheck": "Pendente",
+    "offsiteHint": "Data da cópia mais recente em cada local.",
+    "checkHint": "Todo domingo o último backup é restaurado em um ambiente isolado para confirmar que funciona.",
+    "next": "Próximo: {{date}}",
+    "reasons": {
+      "no_room": "Sem espaço no servidor",
+      "nothing": "Não há backups para testar",
+      "connection": "Sem conexão com a base de dados",
+      "restore_errors": "Restaurado com erros",
+      "incomplete": "Restauração incompleta",
+      "unanswered": "O teste não respondeu"
+    }
+  },
+  "detail": {
+    "title": "Backup · {{date}}",
+    "fingerprint": "Impressão digital",
+    "available": "Disponível",
+    "vaultDates": "Bloqueado até {{locked}} · excluído em {{expires}}"
+  }
+}

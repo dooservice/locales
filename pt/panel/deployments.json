@@ -1,0 +1,29 @@
+{
+  "count": "{{count}} deploys",
+  "noDeployments": "Ainda não há deploys. Eles aparecerão após um git pull.",
+  "rollback": "Reverter",
+  "statuses": {
+    "success": "Sucesso",
+    "failed": "Falhou",
+    "rolled_back": "Revertido",
+    "dropped": "Descartado"
+  },
+  "rollbackDialog": {
+    "title": "Reverter o deploy?",
+    "description": "Isso leva <strong>{{name}}</strong> de volta ao commit <code>{{commit}}</code> (revisão #{{revision}}) e sua base de dados ao backup feito antes desse deploy. Antes é feito um backup completo do ambiente como está agora, e os anexos são mantidos.",
+    "confirm": "Sim, reverter",
+    "started": "Reversão iniciada",
+    "failed": "A reversão falhou"
+  },
+  "unknownAuthor": "Autor desconhecido",
+  "commitUnavailable": "O commit não está mais no repositório",
+  "detail": {
+    "title": "Deploy #{{revision}}",
+    "compare": "Ver alterações no GitHub",
+    "commits_one": "{{count}} commit incluído",
+    "commits_other": "{{count}} commits incluídos",
+    "unknown": "O repositório não tem mais esses commits.",
+    "backup": "Backup anterior",
+    "rollback": "Voltar a este deploy"
+  }
+}

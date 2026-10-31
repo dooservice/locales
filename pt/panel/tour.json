@@ -1,0 +1,289 @@
+{
+  "progress": "Passo {{step}} de {{total}}",
+  "next": "Próximo",
+  "back": "Voltar",
+  "finish": "Concluir",
+  "stop": "Encerrar o tour",
+  "hide": "Ocultar por enquanto",
+  "tours": {
+    "platform": {
+      "welcome": {
+        "title": "Olá, eu sou o Doo",
+        "body": "Meio minuto para mostrar esta tela a você.",
+        "points": [
+          "Cada tela tem seu próprio tour",
+          "Você pode encerrá-lo quando quiser"
+        ]
+      },
+      "projects": {
+        "title": "Projetos",
+        "body": "Um projeto reúne o trabalho de um cliente ou de uma implementação.",
+        "points": [
+          "Seus ambientes Odoo",
+          "Seu repositório de módulos",
+          "As permissões de cada pessoa"
+        ]
+      },
+      "servers": {
+        "title": "Servidores",
+        "body": "As máquinas onde os ambientes são implantados.",
+        "points": [
+          "Crie uma no seu provedor de nuvem",
+          "Ou registre uma que você já tem",
+          "A máquina e a fatura dela são suas"
+        ]
+      },
+      "org": {
+        "title": "Organização",
+        "body": "Ela define o escopo de tudo o que você vê.",
+        "points": [
+          "Projetos, servidores, backups e alertas",
+          "Você pode ter uma organização por cliente"
+        ]
+      },
+      "orgMenu": {
+        "title": "Menu da organização",
+        "body": "",
+        "points": [
+          "Trocar de organização",
+          "Membros: equipe e permissões",
+          "Armazenamento: espaço que seus backups ocupam",
+          "Alertas: incidentes em toda a organização",
+          "Backups: onde as cópias ficam guardadas",
+          "Configurações: o nome da organização",
+          "Criar uma nova organização"
+        ]
+      },
+      "account": {
+        "title": "Sua conta",
+        "body": "",
+        "points": [
+          "Idioma",
+          "Tema claro ou escuro",
+          "Dados pessoais e senha",
+          "Sair"
+        ]
+      },
+      "done": {
+        "title": "Pronto",
+        "body": "Cada tela tem seu próprio tour.",
+        "points": [
+          "Projetos",
+          "Servidores",
+          "O detalhe de um projeto, quando você o abrir"
+        ]
+      }
+    },
+    "servers": {
+      "add": {
+        "title": "Adicionar um servidor",
+        "body": "Duas formas de registrar uma máquina.",
+        "points": [
+          "Crie-a na sua conta de nuvem",
+          "Registre uma existente com um comando",
+          "A máquina e a fatura dela são suas"
+        ]
+      },
+      "list": {
+        "title": "Servidores registrados",
+        "body": "Todas as máquinas da organização.",
+        "points": [
+          "Uma máquina sem espaço ou sem sinal se destaca aqui"
+        ]
+      },
+      "card": {
+        "title": "Um servidor de relance",
+        "body": "Cada cartão resume uma máquina.",
+        "points": [
+          "Estado da conexão",
+          "Uso de CPU, memória e disco",
+          "Último sinal recebido",
+          "Abra-o para ver todos os detalhes"
+        ]
+      }
+    },
+    "server": {
+      "overview": {
+        "title": "Detalhe do servidor",
+        "body": "Dados enviados pelo agente instalado na máquina.",
+        "points": [
+          "Endereço e região",
+          "Tempo ativo",
+          "Uso de CPU, memória e disco"
+        ]
+      },
+      "alerts": {
+        "title": "Alertas do servidor",
+        "body": "Incidentes desta máquina, não de toda a frota.",
+        "points": [
+          "Quedas e recuperações",
+          "Histórico, para identificar padrões"
+        ]
+      },
+      "settings": {
+        "title": "Configurações do servidor",
+        "body": "",
+        "points": [
+          "Horário de atualizações e acesso antecipado",
+          "Rede pública ou privada: define o domínio das instâncias e de onde vem o certificado delas",
+          "Retirar o servidor da plataforma"
+        ]
+      },
+      "storage": {
+        "title": "Armazenamento",
+        "body": "O que o disco desta máquina guarda, projeto por projeto.",
+        "points": [
+          "Base de dados, arquivos e os backups guardados aqui",
+          "Os backups que já estão fora do servidor aparecem em Faturamento"
+        ]
+      },
+      "updates": {
+        "title": "Atualizações",
+        "body": "O que este servidor ainda precisa receber, e quando.",
+        "points": [
+          "O que está pendente e quando se aplica",
+          "A versão de cada componente",
+          "O que cada versão traz"
+        ]
+      }
+    },
+    "projects": {
+      "create": {
+        "title": "Novo projeto",
+        "body": "Ao criá-lo, você define:",
+        "points": [
+          "O servidor onde seus ambientes vão ficar",
+          "O nome, que é usado nos domínios"
+        ]
+      },
+      "list": {
+        "title": "Seus projetos",
+        "body": "Os da organização selecionada.",
+        "points": [
+          "Apenas os que sua função permite ver"
+        ]
+      },
+      "card": {
+        "title": "Um projeto de relance",
+        "body": "Cada cartão resume um projeto.",
+        "points": [
+          "Servidor onde ele roda",
+          "Número de ambientes",
+          "Sua função no projeto"
+        ]
+      }
+    },
+    "project": {
+      "nav": {
+        "title": "Seções do projeto",
+        "body": "Quatro seções, sempre visíveis.",
+        "points": [
+          "Ambientes",
+          "Recursos",
+          "Alertas",
+          "Configuração"
+        ]
+      },
+      "navEnvironments": {
+        "title": "Ambientes",
+        "body": "As instalações Odoo do projeto.",
+        "points": [
+          "A seção aberta agora"
+        ]
+      },
+      "navResources": {
+        "title": "Recursos",
+        "body": "O consumo do projeto, ambiente por ambiente.",
+        "points": [
+          "CPU, memória e disco",
+          "Referência antes de colocar mais carga no servidor"
+        ]
+      },
+      "navAlerts": {
+        "title": "Alertas do projeto",
+        "body": "Incidentes limitados a este projeto.",
+        "points": [
+          "Deploys que falharam",
+          "Backups que não foram concluídos",
+          "Ambientes parados"
+        ]
+      },
+      "envs": {
+        "title": "Ambientes do projeto",
+        "body": "Cada ambiente é uma instalação Odoo separada, com sua própria base de dados e domínio.",
+        "points": [
+          "Produção, no topo",
+          "Homologação e desenvolvimento, abaixo",
+          "Botão para criar um novo"
+        ]
+      },
+      "overview": {
+        "title": "Visão geral",
+        "body": "Estado do ambiente selecionado.",
+        "points": [
+          "Domínio e versão do Odoo",
+          "Iniciar, parar e reiniciar"
+        ]
+      },
+      "deployments": {
+        "title": "Deploys",
+        "body": "Publicação dos módulos do repositório.",
+        "points": [
+          "Fazer um deploy",
+          "Histórico com o resultado",
+          "Log de qualquer falha"
+        ]
+      },
+      "addons": {
+        "title": "Addons",
+        "body": "De onde este ambiente obtém o código que carrega.",
+        "points": [
+          "O que o repositório declara",
+          "O que você adiciona aqui, e o acesso"
+        ]
+      },
+      "logs": {
+        "title": "Logs",
+        "body": "A saída do Odoo em tempo real.",
+        "points": [
+          "Sem precisar de acesso SSH"
+        ]
+      },
+      "console": {
+        "title": "Console",
+        "body": "Um terminal dentro do ambiente.",
+        "points": [
+          "Claude Code e opencode disponíveis",
+          "Shell para comandos e scripts"
+        ]
+      },
+      "backups": {
+        "title": "Backups",
+        "body": "Cópias do ambiente e da base de dados dele.",
+        "points": [
+          "Agenda configurável",
+          "Destino: seu servidor ou seu bucket",
+          "Clonar produção para homologação, neutralizada",
+          "Restaurar uma cópia"
+        ]
+      },
+      "settings": {
+        "title": "Configurações do ambiente",
+        "body": "",
+        "points": [
+          "Recursos atribuídos",
+          "Domínio",
+          "Agenda e retenção dos backups"
+        ]
+      },
+      "done": {
+        "title": "Fim do tour",
+        "body": "Agora você conhece o projeto inteiro.",
+        "points": [
+          "Ambientes à esquerda",
+          "Sete abas por ambiente"
+        ]
+      }
+    }
+  }
+}

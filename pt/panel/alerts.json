@@ -1,0 +1,133 @@
+{
+  "title": "Alertas",
+  "open": "{{count}} problema aberto",
+  "open_other": "{{count}} problemas abertos",
+  "seeHistory": "Ver histórico",
+  "deliveredTo": "enviado a {{count}}",
+  "notSent": "não enviado",
+  "notNotified": "Nenhum e-mail foi enviado. Normalmente o servidor não tem e-mail configurado.",
+  "empty": {
+    "title": "Nada deu errado até agora.",
+    "hint": "Servidores que param de se comunicar, backups que falham e discos que enchem aparecem aqui — junto com quem foi avisado."
+  },
+  "kind": {
+    "agent_offline": "parou de se comunicar",
+    "backup_failed": "último backup falhou",
+    "disk_low": "disco quase cheio",
+    "environment_down": "produção parada",
+    "agent_outdated": "agente desatualizado",
+    "update_failed": "atualização revertida",
+    "platform_step_failed": "componente revertido",
+    "platform_behind": "plataforma atrasada",
+    "backup_not_offsite": "sem cópia remota",
+    "backup_suspicious": "backup suspeito",
+    "backup_growing": "backups crescendo",
+    "restore_test_failed": "teste de restauração falhou",
+    "agent_version_unknown": "agente sem versão"
+  },
+  "recovered": "resolvido: {{what}}",
+  "details": {
+    "agent_offline": "Sem sinal há {{minutes}} min",
+    "disk_low": "{{percent}}% usado · {{free_gb}} GB livres",
+    "environment_down": "Estado: {{state}}",
+    "agent_outdated": "Versão {{version}} · mínima {{min_version}}",
+    "update_failed": "Não foi possível passar para {{version}} · continua em {{current}}",
+    "platform_step_failed": "{{step}} · plataforma {{platform}}",
+    "platform_behind": "Em {{applied}} · disponível {{latest}}",
+    "backup_not_offsite": "Último backup fora do servidor há {{hours}} h",
+    "backup_suspicious": "{{size_mb}} MB · anterior {{previous_mb}} MB",
+    "backup_growing": "De {{from_gb}} GB para {{to_gb}} GB em uma semana",
+    "restore_test_failed": "{{reason}}"
+  },
+  "states": {
+    "stopped": "parado",
+    "failed": "falhou",
+    "provisioning": "instalando",
+    "unknown": "desconhecido"
+  },
+  "openNow": {
+    "title": "Abertos",
+    "count_one": "{{count}} problema aberto",
+    "count_other": "{{count}} problemas abertos",
+    "none": "Nada aberto no momento."
+  },
+  "failedTo_one": "{{count}} falhou",
+  "failedTo_other": "{{count}} falharam",
+  "audience": {
+    "title": "Destinatários dos alertas",
+    "subtitle": "Quem recebe um e-mail sobre problemas nos servidores e ambientes desta organização.",
+    "test": "Enviar teste",
+    "testSent_one": "Teste enviado para {{count}} endereço",
+    "testSent_other": "Teste enviado para {{count}} endereços",
+    "members": "Membros",
+    "membersHint": "Proprietários e administradores. Cada um escolhe o que recebe.",
+    "added": "Outros endereços",
+    "addedHint": "Endereços fora da organização, como o suporte. Eles recebem um e-mail de confirmação antes de qualquer envio.",
+    "pending": "Aguardando confirmação",
+    "remove": "Remover",
+    "add": "Adicionar",
+    "emailPlaceholder": "suporte@empresa.com",
+    "invited": "Enviamos um e-mail de confirmação para {{email}}",
+    "addFailed": "Não foi possível adicioná-lo",
+    "levelsHint": "Críticos: servidor sem sinal, produção parada, disco cheio e falhas de backup. Avisos: atualizações pendentes ou revertidas e backups de tamanho incomum.",
+    "level": {
+      "all": "Todos",
+      "critical": "Só críticos",
+      "none": "Nenhum"
+    }
+  },
+  "link": {
+    "invalid": "O link não é válido ou já foi usado.",
+    "confirm": {
+      "title": "Confirmar alertas",
+      "done": "Pronto. Este endereço receberá os alertas da organização."
+    },
+    "leave": {
+      "title": "Deixar de receber alertas",
+      "done": "Pronto. Este endereço não receberá mais alertas."
+    }
+  },
+  "reasons": {
+    "no_room": "não há espaço em disco suficiente para o teste",
+    "nothing": "não havia backup para testar",
+    "connection": "não foi possível conectar à base de dados",
+    "restore_errors": "a restauração terminou com erros",
+    "incomplete": "a base de dados restaurada estava incompleta",
+    "unanswered": "o teste não respondeu"
+  },
+  "group": {
+    "agent_offline_one": "{{count}} servidor sem sinal",
+    "agent_offline_other": "{{count}} servidores sem sinal",
+    "backup_failed_one": "{{count}} backup com falha",
+    "backup_failed_other": "{{count}} backups com falha",
+    "disk_low_one": "{{count}} disco quase cheio",
+    "disk_low_other": "{{count}} discos quase cheios",
+    "environment_down_one": "{{count}} produção parada",
+    "environment_down_other": "{{count}} produções paradas",
+    "agent_outdated_one": "{{count}} agente desatualizado",
+    "agent_outdated_other": "{{count}} agentes desatualizados",
+    "update_failed_one": "{{count}} atualização revertida",
+    "update_failed_other": "{{count}} atualizações revertidas",
+    "platform_step_failed_one": "{{count}} componente revertido",
+    "platform_step_failed_other": "{{count}} componentes revertidos",
+    "platform_behind_one": "{{count}} servidor atrasado",
+    "platform_behind_other": "{{count}} servidores atrasados",
+    "backup_not_offsite_one": "{{count}} produção sem backup externo",
+    "backup_not_offsite_other": "{{count}} produções sem backup externo",
+    "backup_suspicious_one": "{{count}} backup suspeito",
+    "backup_suspicious_other": "{{count}} backups suspeitos",
+    "backup_growing_one": "{{count}} ambiente com backups crescendo",
+    "backup_growing_other": "{{count}} ambientes com backups crescendo",
+    "restore_test_failed_one": "{{count}} teste de restauração com falha",
+    "restore_test_failed_other": "{{count}} testes de restauração com falha",
+    "agent_version_unknown_one": "{{count}} agente sem versão",
+    "agent_version_unknown_other": "{{count}} agentes sem versão"
+  },
+  "onServers_one": "em {{count}} servidor",
+  "onServers_other": "em {{count}} servidores",
+  "moreKinds_one": "e mais {{count}} tipo",
+  "moreKinds_other": "e mais {{count}} tipos",
+  "seeAlerts": "Ver alertas →",
+  "openOnServer_one": "{{count}} problema aberto",
+  "openOnServer_other": "{{count}} problemas abertos"
+}

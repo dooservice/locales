@@ -1,0 +1,29 @@
+{
+  "card": {
+    "title": "GitHub",
+    "loading": "Carregando...",
+    "connected": "Conectado",
+    "disconnect": "Desconectar",
+    "connectDesc": "Conecte o GitHub para criar e vincular repositórios.",
+    "connectBtn": "Conectar GitHub"
+  },
+  "repoMode": {
+    "none": "Sem repositório",
+    "create": "Criar novo repositório",
+    "link": "Vincular existente"
+  },
+  "ownerCombobox": {
+    "selectOwner": "Selecione o proprietário...",
+    "searchOwner": "Buscar proprietário...",
+    "noOwners": "Nenhum proprietário encontrado.",
+    "org": "organização",
+    "you": "você"
+  },
+  "repoCombobox": {
+    "loading": "Carregando…",
+    "selectRepo": "Selecione o repositório…",
+    "searchRepo": "Buscar repositório...",
+    "noRepos": "Nenhum repositório encontrado.",
+    "private": "privado"
+  }
+}

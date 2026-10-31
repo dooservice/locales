@@ -1,0 +1,17 @@
+{
+  "title": "Configurações",
+  "nav": {
+    "account": "Conta"
+  },
+  "profile": {
+    "title": "Configurações da conta",
+    "email": "Endereço de e-mail",
+    "emailHelper": "O e-mail não pode ser alterado.",
+    "displayName": "Nome de exibição",
+    "saveChanges": "Salvar alterações"
+  },
+  "language": {
+    "title": "Idioma",
+    "description": "Escolha o idioma da interface."
+  }
+}
