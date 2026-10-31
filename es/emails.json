@@ -1,0 +1,225 @@
+{
+  "footer": "Todos los derechos reservados.",
+  "tags": {
+    "critical": "CRÍTICO",
+    "warning": "AVISO",
+    "resolved": "RESUELTO",
+    "server": "SERVIDOR",
+    "environment": "ENTORNO",
+    "backup": "COPIAS",
+    "update": "ACTUALIZACIÓN",
+    "billing": "FACTURACIÓN",
+    "account": "CUENTA",
+    "test": "PRUEBA",
+    "production": "PRODUCCIÓN"
+  },
+  "months": "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic",
+  "verification": {
+    "subject": "Verifica tu correo — {product}",
+    "title": "Verifica tu correo",
+    "intro": "Usa el siguiente código para completar tu registro. Expira en",
+    "minutes": "15 minutos",
+    "ignore": "Si no solicitaste esto, puedes ignorar este correo."
+  },
+  "reset": {
+    "subject": "Restablecer contraseña — {product}",
+    "title": "Restablecer contraseña",
+    "intro": "Usa el siguiente código para crear una nueva contraseña. Expira en",
+    "minutes": "15 minutos",
+    "ignore": "Si no solicitaste esto, ignora este correo. Tu contraseña no cambiará."
+  },
+  "alert": {
+    "todo": "Qué hacer",
+    "open": "Ver en el panel",
+    "once": "Recibirás otro aviso cuando se resuelva.",
+    "closed": "No hace falta hacer nada más.",
+    "rows": {
+      "server": "Servidor",
+      "project": "Proyecto",
+      "environment": "Entorno",
+      "since": "Desde",
+      "lasted": "Duración",
+      "detail": "Detalle"
+    },
+    "span": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} h {minutes} min",
+      "days": "{days} d {hours} h"
+    },
+    "kinds": {
+      "agent_offline": {
+        "headline": "El servidor dejó de reportar",
+        "resolved": "El servidor vuelve a reportar",
+        "advice": "Comprueba que la máquina esté encendida y con conexión a internet."
+      },
+      "backup_failed": {
+        "headline": "La copia de seguridad falló",
+        "resolved": "Las copias vuelven a funcionar",
+        "advice": "Revisa el espacio en disco del servidor y lanza una copia manual."
+      },
+      "disk_low": {
+        "headline": "El disco está casi lleno",
+        "resolved": "El disco tiene espacio de nuevo",
+        "advice": "Libera espacio o amplía el disco: al llenarse, Odoo deja de funcionar."
+      },
+      "environment_down": {
+        "headline": "Producción no está funcionando",
+        "resolved": "Producción vuelve a funcionar",
+        "advice": "Revisa los registros del entorno y reinícialo desde el panel."
+      },
+      "agent_outdated": {
+        "headline": "El agente necesita actualizarse",
+        "resolved": "El agente está actualizado",
+        "advice": "Pulsa «Actualizar ahora» en la ficha del servidor. Hasta entonces no se puede desplegar ni hacer copias."
+      },
+      "agent_version_unknown": {
+        "headline": "El agente no informa su versión",
+        "resolved": "El agente vuelve a informar su versión",
+        "advice": "Hasta que lo haga no se pueden comprobar sus actualizaciones. Pulsa «Actualizar ahora» en la ficha del servidor o vuelve a instalar el agente."
+      },
+      "update_failed": {
+        "headline": "La actualización del agente falló",
+        "resolved": "La actualización del agente se completó",
+        "advice": "El servidor volvió solo a la versión anterior y sigue funcionando. Vuelve a intentarlo con «Actualizar ahora»."
+      },
+      "platform_step_failed": {
+        "headline": "Un componente no pudo actualizarse",
+        "resolved": "El componente se actualizó",
+        "advice": "Volvió solo a su versión anterior y sigue funcionando. Se reintentará con la próxima versión."
+      },
+      "platform_behind": {
+        "headline": "El servidor lleva días sin actualizarse",
+        "resolved": "El servidor está al día",
+        "advice": "Revisa que tenga las actualizaciones automáticas activadas y espacio en disco."
+      },
+      "backup_not_offsite": {
+        "headline": "Producción no tiene copia fuera del servidor",
+        "resolved": "Producción vuelve a tener copia fuera del servidor",
+        "advice": "Si el servidor se pierde, se pierden los datos. Revisa la copia nocturna."
+      },
+      "backup_suspicious": {
+        "headline": "La última copia es mucho más pequeña que la anterior",
+        "resolved": "Las copias vuelven a tener un tamaño normal",
+        "advice": "Comprueba que los datos del entorno siguen ahí. Las copias anteriores se conservan."
+      },
+      "backup_growing": {
+        "headline": "Las copias crecen más de lo normal",
+        "resolved": "Las copias tienen un tamaño estable",
+        "advice": "Revisa el tamaño de la base de datos y la lista de copias."
+      },
+      "restore_test_failed": {
+        "headline": "La restauración de prueba falló",
+        "resolved": "La restauración de prueba vuelve a funcionar",
+        "advice": "Haz una copia manual y no cuentes con restaurar la última hasta que la prueba pase."
+      }
+    },
+    "details": {
+      "agent_offline": "Sin señal hace {minutes} min",
+      "disk_low": "{percent} % usado · {free_gb} GB libres",
+      "environment_down": "Estado: {state}",
+      "agent_outdated": "Versión {version} · mínima {min_version}",
+      "update_failed": "No pudo pasar a {version} · sigue en {current}",
+      "platform_step_failed": "{step} · plataforma {platform}",
+      "platform_behind": "En {applied} · disponible {latest}",
+      "backup_not_offsite": "Última copia fuera hace {hours} h",
+      "backup_suspicious": "{size_mb} MB · la anterior {previous_mb} MB",
+      "backup_growing": "De {from_gb} GB a {to_gb} GB en una semana",
+      "restore_test_failed": "{reason}"
+    },
+    "states": {
+      "stopped": "detenido",
+      "failed": "en error",
+      "provisioning": "instalándose",
+      "failing": "no responde",
+      "unknown": "desconocido"
+    },
+    "reasons": {
+      "no_room": "sin espacio en disco para la prueba",
+      "nothing": "no había copia que probar",
+      "connection": "no se pudo conectar a la base de datos",
+      "restore_errors": "la restauración terminó con errores",
+      "incomplete": "la base restaurada quedó incompleta",
+      "unanswered": "el servidor no terminó la prueba"
+    },
+    "leave": "Dejar de recibir estas alertas"
+  },
+  "billing": {
+    "go": "Ir a facturación",
+    "nothing_deleted": "Nada de lo que tienes se borra por un pago pendiente.",
+    "card_refused": {
+      "subject": "No pudimos cobrar tu suscripción",
+      "detail": "El banco respondió: {reason}.",
+      "retry": "Lo volveremos a intentar el {date}.",
+      "change": "Puedes cambiar la tarjeta desde facturación."
+    },
+    "plan_ended": {
+      "subject": "Tu plan terminó por falta de pago",
+      "detail": "Tus proyectos siguen funcionando en tus servidores. La plataforma sigue trabajando con el que conservas en el plan gratuito; los demás se pueden ver, descargar sus copias o eliminar. Vuelve a suscribirte desde facturación cuando quieras."
+    },
+    "plan_cancelled": {
+      "subject": "Tu plan terminó como pediste",
+      "detail": "El periodo que pagaste ha terminado y la suscripción no se renovó. Tus proyectos siguen funcionando en tus servidores. La plataforma sigue trabajando con el que conservas en el plan gratuito; los demás se pueden ver, descargar sus copias o eliminar. Vuelve a suscribirte desde facturación cuando quieras."
+    },
+    "copies_ending": {
+      "subject": "Tus copias de seguridad remotas se borrarán pronto",
+      "detail": "Tu plan terminó y las copias guardadas fuera de tus servidores se eliminarán el {date}. Descárgalas antes si las necesitas, o reactiva el plan para conservarlas."
+    },
+    "copies_deleted": {
+      "subject": "Tus copias de seguridad remotas se eliminaron",
+      "detail": "Pasaron 90 días desde que terminó tu plan. Las copias en tus propios servidores siguen intactas."
+    },
+    "declines": {
+      "insufficient_funds": "la tarjeta no tiene fondos suficientes",
+      "stolen_card": "la tarjeta figura como robada",
+      "lost_card": "la tarjeta figura como perdida",
+      "invalid_cvv": "el código de seguridad es incorrecto",
+      "expired_card": "la tarjeta está vencida",
+      "invalid_card": "la tarjeta no es válida",
+      "invalid_transaction": "la operación no es válida",
+      "issuer_not_available": "el banco no está disponible ahora",
+      "contact_issuer": "el banco pide que te comuniques con él",
+      "authentication_required": "el banco pidió confirmar el cobro",
+      "generic": "el pago fue rechazado"
+    }
+  },
+  "complaint": {
+    "subject": "Hoja de reclamación {code}",
+    "title": "Libro de reclamaciones",
+    "intro": "Recibimos su hoja de reclamación {code}. Esta es su copia.",
+    "deadline": "Le responderemos por correo en un plazo máximo de 15 días hábiles.",
+    "indecopi": "Presentar un reclamo no impide acudir a otras vías de solución de controversias ni es requisito previo para presentar una denuncia ante el INDECOPI.",
+    "kinds": {
+      "claim": "Reclamo: disconformidad con el servicio",
+      "grievance": "Queja: malestar con la atención"
+    },
+    "fields": {
+      "code": "Número",
+      "date": "Fecha",
+      "kind": "Tipo",
+      "name": "Nombre",
+      "document": "Documento",
+      "address": "Domicilio",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "guardian": "Padre, madre o apoderado",
+      "service": "Servicio contratado",
+      "amount": "Monto reclamado",
+      "detail": "Detalle",
+      "request": "Pedido"
+    }
+  },
+  "audience": {
+    "invitation": {
+      "headline": "Confirma que quieres recibir las alertas",
+      "detail": "Te añadieron para recibir las alertas de {org}: servidores sin señal, copias fallidas, discos llenos y otros problemas.",
+      "action": "Confirmar",
+      "note": "Si no esperabas este correo, ignóralo: no recibirás nada sin confirmar."
+    },
+    "test": {
+      "headline": "Correo de prueba",
+      "detail": "Las alertas de {org} llegan a esta dirección.",
+      "action": "Ver alertas",
+      "note": "No hace falta hacer nada."
+    }
+  }
+}

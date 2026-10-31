@@ -1,0 +1,225 @@
+{
+  "footer": "All rights reserved.",
+  "tags": {
+    "critical": "CRITICAL",
+    "warning": "WARNING",
+    "resolved": "RESOLVED",
+    "server": "SERVER",
+    "environment": "ENVIRONMENT",
+    "backup": "BACKUP",
+    "update": "UPDATE",
+    "billing": "BILLING",
+    "account": "ACCOUNT",
+    "test": "TEST",
+    "production": "PRODUCTION"
+  },
+  "months": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
+  "verification": {
+    "subject": "Verify your email — {product}",
+    "title": "Verify your email",
+    "intro": "Use this code to finish signing up. It expires in",
+    "minutes": "15 minutes",
+    "ignore": "If you did not ask for this, you can ignore this email."
+  },
+  "reset": {
+    "subject": "Reset your password — {product}",
+    "title": "Reset your password",
+    "intro": "Use this code to set a new password. It expires in",
+    "minutes": "15 minutes",
+    "ignore": "If you did not ask for this, ignore this email. Your password will not change."
+  },
+  "alert": {
+    "todo": "What to do",
+    "open": "Open in the panel",
+    "once": "You will get another notice when it is resolved.",
+    "closed": "Nothing else needs doing.",
+    "rows": {
+      "server": "Server",
+      "project": "Project",
+      "environment": "Environment",
+      "since": "Since",
+      "lasted": "Duration",
+      "detail": "Detail"
+    },
+    "span": {
+      "minutes": "{minutes} min",
+      "hours": "{hours} h {minutes} min",
+      "days": "{days} d {hours} h"
+    },
+    "kinds": {
+      "agent_offline": {
+        "headline": "The server stopped reporting",
+        "resolved": "The server is reporting again",
+        "advice": "Check that the machine is powered on and connected to the internet."
+      },
+      "backup_failed": {
+        "headline": "The backup failed",
+        "resolved": "Backups are working again",
+        "advice": "Check the server's free disk space and run a manual backup."
+      },
+      "disk_low": {
+        "headline": "The disk is almost full",
+        "resolved": "The disk has free space again",
+        "advice": "Free up space or enlarge the disk: once it is full, Odoo stops working."
+      },
+      "environment_down": {
+        "headline": "Production is not running",
+        "resolved": "Production is running again",
+        "advice": "Check the environment's logs and restart it from the panel."
+      },
+      "agent_outdated": {
+        "headline": "The agent needs an update",
+        "resolved": "The agent is up to date",
+        "advice": "Press “Update now” on the server's page. Until then, deploys and backups are not possible."
+      },
+      "agent_version_unknown": {
+        "headline": "The agent does not report its version",
+        "resolved": "The agent reports its version again",
+        "advice": "Its updates cannot be checked until it does. Press “Update now” on the server's page, or install the agent again."
+      },
+      "update_failed": {
+        "headline": "The agent update failed",
+        "resolved": "The agent update completed",
+        "advice": "The server went back to the previous version on its own and keeps running. Try again with “Update now”."
+      },
+      "platform_step_failed": {
+        "headline": "A component could not be updated",
+        "resolved": "The component was updated",
+        "advice": "It went back to its previous version on its own and keeps running. It will be retried with the next version."
+      },
+      "platform_behind": {
+        "headline": "The server has not updated for days",
+        "resolved": "The server is up to date",
+        "advice": "Check that automatic updates are on and that the disk has free space."
+      },
+      "backup_not_offsite": {
+        "headline": "Production has no backup off the server",
+        "resolved": "Production has a backup off the server again",
+        "advice": "If the server is lost, the data is lost. Check the nightly backup."
+      },
+      "backup_suspicious": {
+        "headline": "The latest backup is much smaller than the previous one",
+        "resolved": "Backups are a normal size again",
+        "advice": "Check that the environment's data is still there. Earlier backups are kept."
+      },
+      "backup_growing": {
+        "headline": "Backups are growing faster than usual",
+        "resolved": "Backups are a stable size",
+        "advice": "Check the size of the database and the list of backups."
+      },
+      "restore_test_failed": {
+        "headline": "The test restore failed",
+        "resolved": "The test restore works again",
+        "advice": "Run a manual backup, and do not count on restoring the latest one until a test passes."
+      }
+    },
+    "details": {
+      "agent_offline": "No signal for {minutes} min",
+      "disk_low": "{percent}% used · {free_gb} GB free",
+      "environment_down": "State: {state}",
+      "agent_outdated": "Version {version} · minimum {min_version}",
+      "update_failed": "Could not move to {version} · still on {current}",
+      "platform_step_failed": "{step} · platform {platform}",
+      "platform_behind": "On {applied} · available {latest}",
+      "backup_not_offsite": "Last off-server backup {hours} h ago",
+      "backup_suspicious": "{size_mb} MB · previous {previous_mb} MB",
+      "backup_growing": "From {from_gb} GB to {to_gb} GB in a week",
+      "restore_test_failed": "{reason}"
+    },
+    "states": {
+      "stopped": "stopped",
+      "failed": "failed",
+      "provisioning": "installing",
+      "failing": "not responding",
+      "unknown": "unknown"
+    },
+    "reasons": {
+      "no_room": "not enough disk space for the test",
+      "nothing": "there was no backup to test",
+      "connection": "could not connect to the database",
+      "restore_errors": "the restore ended with errors",
+      "incomplete": "the restored database was incomplete",
+      "unanswered": "the server did not finish the test"
+    },
+    "leave": "Stop receiving these alerts"
+  },
+  "billing": {
+    "go": "Go to billing",
+    "nothing_deleted": "Nothing you have is deleted over a pending payment.",
+    "card_refused": {
+      "subject": "We could not charge your subscription",
+      "detail": "Your bank answered: {reason}.",
+      "retry": "We will try again on {date}.",
+      "change": "You can change the card from billing."
+    },
+    "plan_ended": {
+      "subject": "Your plan ended for lack of payment",
+      "detail": "Your projects keep running on your servers. The platform keeps working on the one you keep on the free plan; the rest can be viewed, their backups downloaded or deleted. Subscribe again from billing whenever you want."
+    },
+    "plan_cancelled": {
+      "subject": "Your plan ended as you asked",
+      "detail": "The period you paid for is over and the subscription was not renewed. Your projects keep running on your servers. The platform keeps working on the one you keep on the free plan; the rest can be viewed, their backups downloaded or deleted. Subscribe again from billing whenever you want."
+    },
+    "copies_ending": {
+      "subject": "Your off-site backups will be deleted soon",
+      "detail": "Your plan ended and the backups kept off your servers will be deleted on {date}. Download them before if you need them, or reactivate the plan to keep them."
+    },
+    "copies_deleted": {
+      "subject": "Your off-site backups were deleted",
+      "detail": "Ninety days passed since your plan ended. The backups on your own servers are untouched."
+    },
+    "declines": {
+      "insufficient_funds": "the card has insufficient funds",
+      "stolen_card": "the card was reported stolen",
+      "lost_card": "the card was reported lost",
+      "invalid_cvv": "the security code is wrong",
+      "expired_card": "the card has expired",
+      "invalid_card": "the card is not valid",
+      "invalid_transaction": "the transaction is not valid",
+      "issuer_not_available": "the bank is not available right now",
+      "contact_issuer": "the bank asks you to contact it",
+      "authentication_required": "the bank asked to confirm the charge",
+      "generic": "the payment was declined"
+    }
+  },
+  "complaint": {
+    "subject": "Complaint sheet {code}",
+    "title": "Complaints book",
+    "intro": "We received your complaint sheet {code}. This is your copy.",
+    "deadline": "We will answer by email within 15 working days at most.",
+    "indecopi": "Filing a complaint does not prevent you from using other means of dispute resolution, nor is it required before filing a report with INDECOPI.",
+    "kinds": {
+      "claim": "Claim: disagreement with the service",
+      "grievance": "Grievance: discontent with how you were attended"
+    },
+    "fields": {
+      "code": "Number",
+      "date": "Date",
+      "kind": "Kind",
+      "name": "Name",
+      "document": "Document",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone",
+      "guardian": "Parent or guardian",
+      "service": "Service contracted",
+      "amount": "Amount claimed",
+      "detail": "Detail",
+      "request": "Request"
+    }
+  },
+  "audience": {
+    "invitation": {
+      "headline": "Confirm that you want to receive alerts",
+      "detail": "You were added to receive the alerts of {org}: servers without signal, failed backups, full disks and other problems.",
+      "action": "Confirm",
+      "note": "If you did not expect this email, ignore it: nothing is sent without confirmation."
+    },
+    "test": {
+      "headline": "Test email",
+      "detail": "The alerts of {org} reach this address.",
+      "action": "View alerts",
+      "note": "Nothing needs doing."
+    }
+  }
+}
