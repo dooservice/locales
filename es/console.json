@@ -1,0 +1,30 @@
+{
+  "starting": "Iniciando",
+  "stages": {
+    "development": "desarrollo",
+    "production": "producción"
+  },
+  "welcome": {
+    "place": "Estás en {project} · entorno {stage} {environment}",
+    "odoo": "{odoo} · servidor {server}",
+    "commands": "Comandos útiles:",
+    "modules": "<módulos>",
+    "claude": "Claude Code con tu cuenta",
+    "opencode": "opencode con tu proveedor",
+    "shell": "Shell de Odoo sobre esta base",
+    "update": "Actualizar módulos",
+    "install": "Instalar módulos",
+    "test": "Ejecutar los tests de un módulo",
+    "restart": "Reiniciar el Odoo de este entorno",
+    "logs": "Seguir el log de Odoo",
+    "storage": "Ver lo que ocupa el entorno",
+    "psql": "Base de datos del entorno",
+    "no_repository": "Sin repositorio: la IA configura Odoo, pero no crea ni modifica módulos.",
+    "production_data": "PRODUCCIÓN: datos reales. Se está haciendo una copia de la base: hasta que termine, solo lectura.",
+    "production_deploy": "No se instalan módulos ni se publica código desde aquí.",
+    "idle": "La sesión se cierra tras {minutes} minutos sin actividad.",
+    "idle_unknown": "La sesión se cierra tras un tiempo sin actividad.",
+    "limit": "Dura {minutes} minutos como máximo.",
+    "limit_unknown": "Tiene una duración máxima."
+  }
+}

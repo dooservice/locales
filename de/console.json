@@ -1,0 +1,30 @@
+{
+  "starting": "Starte",
+  "stages": {
+    "development": "Entwicklung",
+    "production": "Produktion"
+  },
+  "welcome": {
+    "place": "Du bist in {project} · Umgebung {environment} ({stage})",
+    "odoo": "{odoo} · Server {server}",
+    "commands": "Nützliche Befehle:",
+    "modules": "<Module>",
+    "claude": "Claude Code mit deinem Konto",
+    "opencode": "opencode mit deinem Anbieter",
+    "shell": "Odoo-Shell auf dieser Datenbank",
+    "update": "Module aktualisieren",
+    "install": "Module installieren",
+    "test": "Die Tests eines Moduls ausführen",
+    "restart": "Das Odoo dieser Umgebung neu starten",
+    "logs": "Dem Odoo-Log folgen",
+    "storage": "Anzeigen, wie viel die Umgebung belegt",
+    "psql": "Datenbank der Umgebung",
+    "no_repository": "Kein Repository: Die KI konfiguriert Odoo, erstellt oder ändert aber keine Module.",
+    "production_data": "PRODUKTION: echte Daten. Die Datenbank wird gesichert: bis dahin nur lesen.",
+    "production_deploy": "Von hier werden keine Module installiert und kein Code veröffentlicht.",
+    "idle": "Die Sitzung wird nach {minutes} Minuten ohne Aktivität geschlossen.",
+    "idle_unknown": "Die Sitzung wird nach einer Weile ohne Aktivität geschlossen.",
+    "limit": "Sie dauert höchstens {minutes} Minuten.",
+    "limit_unknown": "Sie hat eine Höchstdauer."
+  }
+}

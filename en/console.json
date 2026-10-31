@@ -1,0 +1,30 @@
+{
+  "starting": "Starting",
+  "stages": {
+    "development": "development",
+    "production": "production"
+  },
+  "welcome": {
+    "place": "You are in {project} · {stage} environment {environment}",
+    "odoo": "{odoo} · server {server}",
+    "commands": "Useful commands:",
+    "modules": "<modules>",
+    "claude": "Claude Code with your account",
+    "opencode": "opencode with your provider",
+    "shell": "Odoo shell on this database",
+    "update": "Update modules",
+    "install": "Install modules",
+    "test": "Run a module's tests",
+    "restart": "Restart this environment's Odoo",
+    "logs": "Follow the Odoo log",
+    "storage": "See what the environment occupies",
+    "psql": "The environment's database",
+    "no_repository": "No repository: the AI configures Odoo, but does not create or change modules.",
+    "production_data": "PRODUCTION: real data. A backup of the database is being made: until it ends, read only.",
+    "production_deploy": "No modules are installed and no code is published from here.",
+    "idle": "The session closes after {minutes} minutes without activity.",
+    "idle_unknown": "The session closes after a while without activity.",
+    "limit": "It lasts {minutes} minutes at most.",
+    "limit_unknown": "It has a time limit."
+  }
+}
