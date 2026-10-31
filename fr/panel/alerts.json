@@ -1,0 +1,133 @@
+{
+  "title": "Alertes",
+  "open": "{{count}} problème en cours",
+  "open_other": "{{count}} problèmes en cours",
+  "seeHistory": "Voir l'historique",
+  "deliveredTo": "envoyée à {{count}}",
+  "notSent": "non envoyée",
+  "notNotified": "Aucun e-mail n'est parti. En général, le serveur n'a pas d'e-mail configuré.",
+  "empty": {
+    "title": "Rien ne s'est jamais mal passé.",
+    "hint": "Les serveurs qui ne répondent plus, les sauvegardes qui échouent et les disques qui se remplissent apparaîtront ici, en indiquant si quelqu'un a été prévenu."
+  },
+  "kind": {
+    "agent_offline": "ne répond plus",
+    "backup_failed": "échec de la dernière sauvegarde",
+    "disk_low": "disque presque plein",
+    "environment_down": "production arrêtée",
+    "agent_outdated": "agent obsolète",
+    "update_failed": "mise à jour annulée",
+    "platform_step_failed": "composant rétabli",
+    "platform_behind": "plateforme en retard",
+    "backup_not_offsite": "aucune copie distante",
+    "backup_suspicious": "sauvegarde suspecte",
+    "backup_growing": "sauvegardes en croissance",
+    "restore_test_failed": "échec du test de restauration",
+    "agent_version_unknown": "agent sans version"
+  },
+  "recovered": "résolu : {{what}}",
+  "details": {
+    "agent_offline": "Aucun signal depuis {{minutes}} min",
+    "disk_low": "{{percent}} % utilisé · {{free_gb}} Go libres",
+    "environment_down": "État : {{state}}",
+    "agent_outdated": "Version {{version}} · minimum {{min_version}}",
+    "update_failed": "Passage à {{version}} impossible · toujours en {{current}}",
+    "platform_step_failed": "{{step}} · plateforme {{platform}}",
+    "platform_behind": "En {{applied}} · disponible {{latest}}",
+    "backup_not_offsite": "Dernière sauvegarde hors serveur il y a {{hours}} h",
+    "backup_suspicious": "{{size_mb}} Mo · précédente {{previous_mb}} Mo",
+    "backup_growing": "De {{from_gb}} Go à {{to_gb}} Go en une semaine",
+    "restore_test_failed": "{{reason}}"
+  },
+  "states": {
+    "stopped": "arrêté",
+    "failed": "en échec",
+    "provisioning": "installation",
+    "unknown": "inconnu"
+  },
+  "openNow": {
+    "title": "En cours",
+    "count_one": "{{count}} problème en cours",
+    "count_other": "{{count}} problèmes en cours",
+    "none": "Aucun problème en cours."
+  },
+  "failedTo_one": "{{count}} en échec",
+  "failedTo_other": "{{count}} en échec",
+  "audience": {
+    "title": "Destinataires des alertes",
+    "subtitle": "Qui reçoit un e-mail en cas de problème sur les serveurs et les environnements de cette organisation.",
+    "test": "Envoyer un test",
+    "testSent_one": "Test envoyé à {{count}} adresse",
+    "testSent_other": "Test envoyé à {{count}} adresses",
+    "members": "Membres",
+    "membersHint": "Propriétaires et administrateurs. Chacun choisit ce qu'il reçoit.",
+    "added": "Autres adresses",
+    "addedHint": "Adresses extérieures à l'organisation, comme le support. Elles reçoivent un e-mail de confirmation avant tout envoi.",
+    "pending": "En attente de confirmation",
+    "remove": "Retirer",
+    "add": "Ajouter",
+    "emailPlaceholder": "support@company.com",
+    "invited": "Nous avons envoyé un e-mail de confirmation à {{email}}",
+    "addFailed": "Impossible de l'ajouter",
+    "levelsHint": "Critiques : serveur sans signal, production arrêtée, disque plein et échecs de sauvegarde. Avertissements : mises à jour en attente ou annulées et sauvegardes de taille inhabituelle.",
+    "level": {
+      "all": "Toutes",
+      "critical": "Critiques uniquement",
+      "none": "Aucune"
+    }
+  },
+  "link": {
+    "invalid": "Le lien n'est pas valide ou a déjà été utilisé.",
+    "confirm": {
+      "title": "Confirmer les alertes",
+      "done": "C'est fait. Cette adresse recevra les alertes de l'organisation."
+    },
+    "leave": {
+      "title": "Ne plus recevoir d'alertes",
+      "done": "C'est fait. Cette adresse ne recevra plus d'alertes."
+    }
+  },
+  "reasons": {
+    "no_room": "pas assez d'espace disque pour le test",
+    "nothing": "aucune sauvegarde à tester",
+    "connection": "connexion à la base de données impossible",
+    "restore_errors": "la restauration s'est terminée avec des erreurs",
+    "incomplete": "la base restaurée était incomplète",
+    "unanswered": "le test n'a pas répondu"
+  },
+  "group": {
+    "agent_offline_one": "{{count}} serveur sans signal",
+    "agent_offline_other": "{{count}} serveurs sans signal",
+    "backup_failed_one": "{{count}} sauvegarde en échec",
+    "backup_failed_other": "{{count}} sauvegardes en échec",
+    "disk_low_one": "{{count}} disque presque plein",
+    "disk_low_other": "{{count}} disques presque pleins",
+    "environment_down_one": "{{count}} production arrêtée",
+    "environment_down_other": "{{count}} productions arrêtées",
+    "agent_outdated_one": "{{count}} agent obsolète",
+    "agent_outdated_other": "{{count}} agents obsolètes",
+    "update_failed_one": "{{count}} mise à jour annulée",
+    "update_failed_other": "{{count}} mises à jour annulées",
+    "platform_step_failed_one": "{{count}} composant rétabli",
+    "platform_step_failed_other": "{{count}} composants rétablis",
+    "platform_behind_one": "{{count}} serveur en retard",
+    "platform_behind_other": "{{count}} serveurs en retard",
+    "backup_not_offsite_one": "{{count}} production sans sauvegarde hors site",
+    "backup_not_offsite_other": "{{count}} productions sans sauvegarde hors site",
+    "backup_suspicious_one": "{{count}} sauvegarde suspecte",
+    "backup_suspicious_other": "{{count}} sauvegardes suspectes",
+    "backup_growing_one": "{{count}} environnement aux sauvegardes en croissance",
+    "backup_growing_other": "{{count}} environnements aux sauvegardes en croissance",
+    "restore_test_failed_one": "{{count}} test de restauration en échec",
+    "restore_test_failed_other": "{{count}} tests de restauration en échec",
+    "agent_version_unknown_one": "{{count}} agent sans version",
+    "agent_version_unknown_other": "{{count}} agents sans version"
+  },
+  "onServers_one": "sur {{count}} serveur",
+  "onServers_other": "sur {{count}} serveurs",
+  "moreKinds_one": "et {{count}} autre type",
+  "moreKinds_other": "et {{count}} autres types",
+  "seeAlerts": "Voir les alertes →",
+  "openOnServer_one": "{{count}} problème en cours",
+  "openOnServer_other": "{{count}} problèmes en cours"
+}

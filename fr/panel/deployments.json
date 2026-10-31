@@ -1,0 +1,29 @@
+{
+  "count": "{{count}} déploiements",
+  "noDeployments": "Aucun déploiement pour l'instant. Ils apparaîtront après un git pull.",
+  "rollback": "Revenir en arrière",
+  "statuses": {
+    "success": "Réussi",
+    "failed": "Échec",
+    "rolled_back": "Annulé",
+    "dropped": "Supprimé"
+  },
+  "rollbackDialog": {
+    "title": "Revenir sur ce déploiement ?",
+    "description": "<strong>{{name}}</strong> revient au commit <code>{{commit}}</code> (révision n° {{revision}}) et sa base de données à la sauvegarde prise avant ce déploiement. Une sauvegarde complète de l'environnement dans son état actuel est d'abord effectuée, et les pièces jointes sont conservées.",
+    "confirm": "Oui, revenir en arrière",
+    "started": "Retour en arrière lancé",
+    "failed": "Échec du retour en arrière"
+  },
+  "unknownAuthor": "Auteur inconnu",
+  "commitUnavailable": "Ce commit n'est plus dans le dépôt",
+  "detail": {
+    "title": "Déploiement n° {{revision}}",
+    "compare": "Voir les modifications sur GitHub",
+    "commits_one": "{{count}} commit inclus",
+    "commits_other": "{{count}} commits inclus",
+    "unknown": "Le dépôt ne contient plus ces commits.",
+    "backup": "Sauvegarde préalable",
+    "rollback": "Revenir à ce déploiement"
+  }
+}

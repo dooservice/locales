@@ -1,0 +1,73 @@
+{
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "create": "Créer",
+  "delete": "Supprimer",
+  "close": "Fermer",
+  "confirm": "Confirmer",
+  "loading": "Chargement…",
+  "comingSoon": "Bientôt disponible",
+  "optional": "facultatif",
+  "settings": "Paramètres",
+  "signOut": "Se déconnecter",
+  "darkMode": "Mode sombre",
+  "lightMode": "Mode clair",
+  "actions": {
+    "open": "Ouvrir"
+  },
+  "copy": "Copier",
+  "copied": "Copié",
+  "aria": {
+    "accountMenu": "Menu du compte",
+    "projectActions": "Actions du projet"
+  },
+  "copyFailed": "Appuyez sur Ctrl+C",
+  "typeToConfirm": "Saisissez {{name}} pour confirmer.",
+  "jobs": {
+    "title": "Tâches",
+    "running_one": "{{count}} en cours",
+    "running_other": "{{count}} en cours",
+    "recent": "Récentes",
+    "waiting": "En file d'attente",
+    "status": {
+      "queued": "En file d'attente",
+      "running": "En cours",
+      "completed": "Terminée",
+      "failed": "Échec"
+    },
+    "kind": {
+      "env_provision": "Provisionner l'environnement",
+      "env_clone": "Cloner l'environnement",
+      "env_rebuild": "Reconstruire l'environnement",
+      "env_rollback": "Revenir à un déploiement",
+      "env_renew_image": "Renouveler l'image Odoo",
+      "env_delete": "Supprimer l'environnement",
+      "git_pull": "Déployer",
+      "submodule_sync": "Synchroniser les sous-modules",
+      "agent_update": "Mettre à jour le serveur",
+      "platform_apply_shared": "Effectuer la maintenance",
+      "backup_create": "Créer une sauvegarde",
+      "backup_restore": "Restaurer une sauvegarde",
+      "project_create": "Créer un projet"
+    },
+    "history": {
+      "server": "Serveur",
+      "state": "État",
+      "kind": "Type",
+      "allServers": "Tous les serveurs",
+      "allStates": "Tous les états",
+      "allKinds": "Tous les types",
+      "by": "Par {{name}}",
+      "automatic": "Automatique",
+      "took": "durée : {{duration}}",
+      "empty": "Aucune tâche ne correspond à ces filtres.",
+      "emptyHint": "Tout ce qui s'exécute sur les serveurs de l'organisation apparaît ici : en cours, terminé ou en échec.",
+      "more": "Afficher plus",
+      "seeAll": "Voir toutes les tâches"
+    }
+  },
+  "zone": {
+    "search": "Rechercher une zone…",
+    "none": "Aucune zone de ce nom."
+  }
+}

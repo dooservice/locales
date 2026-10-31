@@ -1,0 +1,17 @@
+{
+  "title": "Paramètres",
+  "nav": {
+    "account": "Compte"
+  },
+  "profile": {
+    "title": "Paramètres du compte",
+    "email": "Adresse e-mail",
+    "emailHelper": "L'adresse e-mail ne peut pas être modifiée.",
+    "displayName": "Nom affiché",
+    "saveChanges": "Enregistrer les modifications"
+  },
+  "language": {
+    "title": "Langue",
+    "description": "Choisissez la langue de l'interface."
+  }
+}

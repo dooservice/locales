@@ -1,0 +1,289 @@
+{
+  "progress": "Étape {{step}} sur {{total}}",
+  "next": "Suivant",
+  "back": "Retour",
+  "finish": "Terminer",
+  "stop": "Arrêter la visite",
+  "hide": "Masquer pour l'instant",
+  "tours": {
+    "platform": {
+      "welcome": {
+        "title": "Bonjour, je suis Doo",
+        "body": "Une demi-minute pour vous présenter cet écran.",
+        "points": [
+          "Chaque écran a sa propre visite",
+          "Vous pouvez l'arrêter quand vous voulez"
+        ]
+      },
+      "projects": {
+        "title": "Projets",
+        "body": "Un projet regroupe le travail d'un client ou d'une implémentation.",
+        "points": [
+          "Ses environnements Odoo",
+          "Son dépôt de modules",
+          "Les autorisations de chaque personne"
+        ]
+      },
+      "servers": {
+        "title": "Serveurs",
+        "body": "Les machines sur lesquelles les environnements sont déployés.",
+        "points": [
+          "Créez-en un chez votre fournisseur cloud",
+          "Ou enregistrez un serveur que vous exploitez déjà",
+          "La machine et sa facture sont à vous"
+        ]
+      },
+      "org": {
+        "title": "Organisation",
+        "body": "Elle définit le périmètre de tout ce que vous voyez.",
+        "points": [
+          "Projets, serveurs, sauvegardes et alertes",
+          "Vous pouvez avoir une organisation par client"
+        ]
+      },
+      "orgMenu": {
+        "title": "Menu de l'organisation",
+        "body": "",
+        "points": [
+          "Changer d'organisation",
+          "Membres : équipe et autorisations",
+          "Stockage : espace occupé par vos sauvegardes",
+          "Alertes : incidents dans toute l'organisation",
+          "Sauvegardes : où les copies sont conservées",
+          "Paramètres : le nom de l'organisation",
+          "Créer une nouvelle organisation"
+        ]
+      },
+      "account": {
+        "title": "Votre compte",
+        "body": "",
+        "points": [
+          "Langue",
+          "Thème clair ou sombre",
+          "Informations personnelles et mot de passe",
+          "Se déconnecter"
+        ]
+      },
+      "done": {
+        "title": "Terminé",
+        "body": "Chaque écran a sa propre visite.",
+        "points": [
+          "Projets",
+          "Serveurs",
+          "Le détail d'un projet, quand vous l'ouvrez"
+        ]
+      }
+    },
+    "servers": {
+      "add": {
+        "title": "Ajouter un serveur",
+        "body": "Deux façons d'enregistrer une machine.",
+        "points": [
+          "La créer dans votre compte cloud",
+          "Enregistrer une machine existante avec une commande",
+          "La machine et sa facture sont à vous"
+        ]
+      },
+      "list": {
+        "title": "Serveurs enregistrés",
+        "body": "Toutes les machines de l'organisation.",
+        "points": [
+          "Une machine sans espace ou sans signal ressort ici"
+        ]
+      },
+      "card": {
+        "title": "Un serveur en un coup d'œil",
+        "body": "Chaque carte résume une machine.",
+        "points": [
+          "État de la connexion",
+          "Utilisation du CPU, de la mémoire et du disque",
+          "Dernier signal reçu",
+          "Ouvrez-la pour voir le détail complet"
+        ]
+      }
+    },
+    "server": {
+      "overview": {
+        "title": "Détail du serveur",
+        "body": "Données envoyées par l'agent installé sur la machine.",
+        "points": [
+          "Adresse et région",
+          "Temps de fonctionnement",
+          "Utilisation du CPU, de la mémoire et du disque"
+        ]
+      },
+      "alerts": {
+        "title": "Alertes du serveur",
+        "body": "Les incidents de cette machine, pas de tout le parc.",
+        "points": [
+          "Pannes et rétablissements",
+          "Historique, pour repérer des tendances"
+        ]
+      },
+      "settings": {
+        "title": "Paramètres du serveur",
+        "body": "",
+        "points": [
+          "Heures de mise à jour et accès anticipé",
+          "Réseau public ou privé : il détermine le domaine des instances et l'origine de leur certificat",
+          "Retirer le serveur de la plateforme"
+        ]
+      },
+      "storage": {
+        "title": "Stockage",
+        "body": "Ce que contient le disque de cette machine, projet par projet.",
+        "points": [
+          "Base de données, fichiers et sauvegardes conservées ici",
+          "Les sauvegardes déjà hors du serveur apparaissent dans Facturation"
+        ]
+      },
+      "updates": {
+        "title": "Mises à jour",
+        "body": "Ce que ce serveur doit encore recevoir, et quand.",
+        "points": [
+          "Ce qui est en attente et quand cela s'applique",
+          "La version de chaque composant",
+          "Ce qu'apporte chaque version"
+        ]
+      }
+    },
+    "projects": {
+      "create": {
+        "title": "Nouveau projet",
+        "body": "En le créant, vous définissez :",
+        "points": [
+          "Le serveur sur lequel vivront ses environnements",
+          "Le nom, utilisé dans les domaines"
+        ]
+      },
+      "list": {
+        "title": "Vos projets",
+        "body": "Ceux de l'organisation sélectionnée.",
+        "points": [
+          "Uniquement ceux que votre rôle vous permet de voir"
+        ]
+      },
+      "card": {
+        "title": "Un projet en un coup d'œil",
+        "body": "Chaque carte résume un projet.",
+        "points": [
+          "Serveur sur lequel il tourne",
+          "Nombre d'environnements",
+          "Votre rôle dans le projet"
+        ]
+      }
+    },
+    "project": {
+      "nav": {
+        "title": "Sections du projet",
+        "body": "Quatre sections, toujours visibles.",
+        "points": [
+          "Environnements",
+          "Ressources",
+          "Alertes",
+          "Configuration"
+        ]
+      },
+      "navEnvironments": {
+        "title": "Environnements",
+        "body": "Les installations Odoo du projet.",
+        "points": [
+          "La section ouverte en ce moment"
+        ]
+      },
+      "navResources": {
+        "title": "Ressources",
+        "body": "La consommation du projet, environnement par environnement.",
+        "points": [
+          "CPU, mémoire et disque",
+          "Repère avant d'ajouter de la charge au serveur"
+        ]
+      },
+      "navAlerts": {
+        "title": "Alertes du projet",
+        "body": "Les incidents limités à ce projet.",
+        "points": [
+          "Déploiements en échec",
+          "Sauvegardes non terminées",
+          "Environnements arrêtés"
+        ]
+      },
+      "envs": {
+        "title": "Environnements du projet",
+        "body": "Chaque environnement est une installation Odoo distincte, avec sa propre base de données et son propre domaine.",
+        "points": [
+          "La production, en haut",
+          "Staging et développement, en dessous",
+          "Bouton pour en créer un nouveau"
+        ]
+      },
+      "overview": {
+        "title": "Vue d'ensemble",
+        "body": "État de l'environnement sélectionné.",
+        "points": [
+          "Domaine et version d'Odoo",
+          "Démarrer, arrêter et redémarrer"
+        ]
+      },
+      "deployments": {
+        "title": "Déploiements",
+        "body": "La publication des modules du dépôt.",
+        "points": [
+          "Lancer un déploiement",
+          "Historique avec son résultat",
+          "Journal en cas d'échec"
+        ]
+      },
+      "addons": {
+        "title": "Addons",
+        "body": "D'où cet environnement tire le code qu'il charge.",
+        "points": [
+          "Ce que déclare le dépôt",
+          "Ce que vous ajoutez ici, et son accès"
+        ]
+      },
+      "logs": {
+        "title": "Journaux",
+        "body": "La sortie d'Odoo en temps réel.",
+        "points": [
+          "Aucun accès SSH nécessaire"
+        ]
+      },
+      "console": {
+        "title": "Console",
+        "body": "Un terminal à l'intérieur de l'environnement.",
+        "points": [
+          "Claude Code et opencode disponibles",
+          "Shell pour les commandes et les scripts"
+        ]
+      },
+      "backups": {
+        "title": "Sauvegardes",
+        "body": "Les copies de l'environnement et de sa base de données.",
+        "points": [
+          "Planification configurable",
+          "Destination : votre serveur ou votre bucket",
+          "Cloner la production en staging, neutralisée",
+          "Restaurer une copie"
+        ]
+      },
+      "settings": {
+        "title": "Paramètres de l'environnement",
+        "body": "",
+        "points": [
+          "Ressources attribuées",
+          "Domaine",
+          "Planification et conservation des sauvegardes"
+        ]
+      },
+      "done": {
+        "title": "Fin de la visite",
+        "body": "Vous connaissez maintenant tout le projet.",
+        "points": [
+          "Les environnements à gauche",
+          "Sept onglets par environnement"
+        ]
+      }
+    }
+  }
+}

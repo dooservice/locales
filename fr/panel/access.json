@@ -1,0 +1,16 @@
+{
+  "roles": {
+    "admin": {
+      "label": "Administrateur",
+      "description": "Contrôle total, y compris les membres, le verrouillage et la suppression"
+    },
+    "developer": {
+      "label": "Développeur",
+      "description": "Créer et piloter des environnements, déployer et revenir en arrière"
+    },
+    "viewer": {
+      "label": "Lecteur",
+      "description": "Accès en lecture seule, journaux compris"
+    }
+  }
+}

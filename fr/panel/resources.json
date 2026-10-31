@@ -1,0 +1,99 @@
+{
+  "title": "Stockage",
+  "gb": "{{value}} Go",
+  "empty": "Aucune mesure pour l'instant. Les serveurs indiquent ce qu'ils stockent à chaque signal de vie.",
+  "unreachable": "Impossible de lire votre utilisation.",
+  "storage": {
+    "title": "Stockage",
+    "database": "Base de données",
+    "filestore": "Fichiers",
+    "backups": "Sauvegardes",
+    "freshness": "Mesuré sur chaque serveur et actualisé toutes les heures : ce ne sont pas des chiffres en temps réel.",
+    "byEnvironment": "Stockage par environnement"
+  },
+  "accounted": {
+    "title": "Stockage par projet",
+    "hint": "Chaque copie compte pour sa taille complète, car c'est ce qu'elle occupe sur le disque."
+  },
+  "table": {
+    "total": "Total",
+    "accounted": "Total",
+    "project": "Projet",
+    "environment": "Environnement",
+    "environmentCount": "{{count}} environnement",
+    "environmentCount_other": "{{count}} environnements"
+  },
+  "mode": {
+    "production": "Production",
+    "development": "Développement"
+  },
+  "project": {
+    "title": "Ressources",
+    "hint": "Ce que ce projet exécute et ce qu'il reste à son serveur."
+  },
+  "workers": {
+    "title": "Workers de production",
+    "hint": "Un seul suffit pour développer. Utilisez-en deux ou plus pour servir des clients.",
+    "count": "{{count}} worker",
+    "count_other": "{{count}} workers",
+    "cannotDecrease": "Ne peut qu'augmenter : réduire couperait les sessions que ces workers servent",
+    "noRoom": "Plus de place sur ce serveur",
+    "willRestart": "Appliquer ce changement redémarre Odoo. Rien n'est perdu, mais le site est indisponible quelques secondes.",
+    "apply": "Appliquer",
+    "cancel": "Annuler",
+    "tier": {
+      "1": "Développement",
+      "2": "Production légère",
+      "4": "Production standard",
+      "8": "Fort trafic"
+    }
+  },
+  "capacity": {
+    "memory": "Mémoire",
+    "disk": "Disque",
+    "of": "{{used}} sur {{total}} Go",
+    "unreported": "Ce serveur n'a encore rien signalé. Les chiffres apparaîtront à son premier signal de vie.",
+    "freeLeft": "· {{value}} Go libres ({{percent}} % utilisé)",
+    "oversubscribed": "Ce serveur a promis à ses instances plus de mémoire qu'il n'en a. Elles tournent car aucune n'utilise toute sa limite en même temps, mais plus rien ne rentre tant que l'une d'elles n'est pas réduite ou que la machine n'est pas agrandie."
+  },
+  "health": {
+    "title": "Santé de la base de données",
+    "hint": "Ce qui occupe de la place dans la base de données de {{environment}}. Calculé à l'ouverture.",
+    "unreachable": "Impossible de lire la base de données. Le serveur est peut-être hors ligne ou l'environnement arrêté.",
+    "readOnly": "Lecture seule : rien n'est supprimé ici. Ce qui peut être nettoyé dépend de l'usage des données, et c'est vous qui le savez.",
+    "table": "Table",
+    "rows": "Lignes",
+    "size": "Taille",
+    "total": "Total de la base",
+    "rowCount": "{{count}} ligne",
+    "rowCount_other": "{{count}} lignes",
+    "advice": {
+      "mail_message": "L'historique du chatter. Il grossit avec chaque e-mail et chaque note. Odoo fournit une règle de suppression automatique, généralement désactivée par défaut.",
+      "mail_tracking": "Le suivi des champs modifiés dans chaque message. Il est nettoyé avec les messages.",
+      "orphan_attachments": "Pièces jointes qui ne sont plus rattachées à aucun enregistrement. Ce sont souvent des restes d'imports et de rapports générés.",
+      "logging": "Journaux qu'Odoo conserve dans la base elle-même. Vous pouvez les vider sans rien perdre de l'activité.",
+      "stuck_jobs": "Tâches de file d'attente en échec ou bloquées. Ce n'est pas qu'une question de place : quelque chose ne s'est peut-être pas exécuté depuis un moment."
+    },
+    "sizeAnyway": "La base de données pèse {{value}} Mo, mais son contenu n'a pas pu être examiné."
+  },
+  "history": {
+    "title": "Évolution",
+    "hint": "Ce qu'occupe chaque environnement, jour après jour. {{count}} jours d'historique.",
+    "tooEarly": "Pas encore assez d'historique pour dégager une tendance. Revenez demain : un point est conservé par jour."
+  },
+  "summary": {
+    "perMonth": "/mois",
+    "breakdown": "Voir le projet",
+    "breakdown_other": "Voir les {{count}} projets",
+    "environments": "{{count}} environnement",
+    "environments_other": "{{count}} environnements"
+  },
+  "disk": {
+    "title": "Disque",
+    "usage": "{{used}} sur {{total}} · {{free}} libres",
+    "database": "Bases de données",
+    "filestore": "Fichiers",
+    "backups": "Sauvegardes",
+    "system": "Système et images Docker"
+  }
+}
