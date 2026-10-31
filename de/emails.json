@@ -1,0 +1,225 @@
+{
+  "footer": "Alle Rechte vorbehalten.",
+  "tags": {
+    "critical": "KRITISCH",
+    "warning": "WARNUNG",
+    "resolved": "BEHOBEN",
+    "server": "SERVER",
+    "environment": "UMGEBUNG",
+    "backup": "BACKUP",
+    "update": "UPDATE",
+    "billing": "ABRECHNUNG",
+    "account": "KONTO",
+    "test": "TEST",
+    "production": "PRODUKTION"
+  },
+  "months": "Jan,Feb,Mär,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez",
+  "verification": {
+    "subject": "Bestätige deine E-Mail-Adresse — {product}",
+    "title": "Bestätige deine E-Mail-Adresse",
+    "intro": "Gib diesen Code ein, um die Registrierung abzuschließen. Er läuft ab in",
+    "minutes": "15 Minuten",
+    "ignore": "Wenn du das nicht angefordert hast, kannst du diese E-Mail ignorieren."
+  },
+  "reset": {
+    "subject": "Setze dein Passwort zurück — {product}",
+    "title": "Setze dein Passwort zurück",
+    "intro": "Gib diesen Code ein, um ein neues Passwort festzulegen. Er läuft ab in",
+    "minutes": "15 Minuten",
+    "ignore": "Wenn du das nicht angefordert hast, ignoriere diese E-Mail. Dein Passwort bleibt unverändert."
+  },
+  "alert": {
+    "todo": "Was zu tun ist",
+    "open": "Im Panel öffnen",
+    "once": "Du erhältst eine weitere Nachricht, sobald es behoben ist.",
+    "closed": "Es ist nichts weiter zu tun.",
+    "rows": {
+      "server": "Server",
+      "project": "Projekt",
+      "environment": "Umgebung",
+      "since": "Seit",
+      "lasted": "Dauer",
+      "detail": "Detail"
+    },
+    "span": {
+      "minutes": "{minutes} Min.",
+      "hours": "{hours} Std. {minutes} Min.",
+      "days": "{days} T. {hours} Std."
+    },
+    "kinds": {
+      "agent_offline": {
+        "headline": "Der Server meldet sich nicht mehr",
+        "resolved": "Der Server meldet sich wieder",
+        "advice": "Prüfe, ob die Maschine eingeschaltet und mit dem Internet verbunden ist."
+      },
+      "backup_failed": {
+        "headline": "Das Backup ist fehlgeschlagen",
+        "resolved": "Backups funktionieren wieder",
+        "advice": "Prüfe den freien Speicherplatz des Servers und starte ein manuelles Backup."
+      },
+      "disk_low": {
+        "headline": "Die Festplatte ist fast voll",
+        "resolved": "Die Festplatte hat wieder freien Platz",
+        "advice": "Gib Speicherplatz frei oder vergrößere die Festplatte: Sobald sie voll ist, funktioniert Odoo nicht mehr."
+      },
+      "environment_down": {
+        "headline": "Die Produktion läuft nicht",
+        "resolved": "Die Produktion läuft wieder",
+        "advice": "Prüfe die Logs der Umgebung und starte sie im Panel neu."
+      },
+      "agent_outdated": {
+        "headline": "Der Agent braucht ein Update",
+        "resolved": "Der Agent ist aktuell",
+        "advice": "Klicke auf der Seite des Servers auf „Jetzt aktualisieren“. Bis dahin sind keine Deployments und Backups möglich."
+      },
+      "agent_version_unknown": {
+        "headline": "Der Agent meldet seine Version nicht",
+        "resolved": "Der Agent meldet seine Version wieder",
+        "advice": "Bis dahin können seine Updates nicht geprüft werden. Klicke auf der Seite des Servers auf „Jetzt aktualisieren“ oder installiere den Agent neu."
+      },
+      "update_failed": {
+        "headline": "Das Update des Agents ist fehlgeschlagen",
+        "resolved": "Das Update des Agents ist abgeschlossen",
+        "advice": "Der Server ist von selbst zur vorherigen Version zurückgekehrt und läuft weiter. Versuche es erneut mit „Jetzt aktualisieren“."
+      },
+      "platform_step_failed": {
+        "headline": "Eine Komponente konnte nicht aktualisiert werden",
+        "resolved": "Die Komponente wurde aktualisiert",
+        "advice": "Sie ist von selbst zu ihrer vorherigen Version zurückgekehrt und läuft weiter. Mit der nächsten Version wird es erneut versucht."
+      },
+      "platform_behind": {
+        "headline": "Der Server wurde seit Tagen nicht aktualisiert",
+        "resolved": "Der Server ist aktuell",
+        "advice": "Prüfe, ob automatische Updates aktiviert sind und die Festplatte freien Platz hat."
+      },
+      "backup_not_offsite": {
+        "headline": "Die Produktion hat kein Backup außerhalb des Servers",
+        "resolved": "Die Produktion hat wieder ein Backup außerhalb des Servers",
+        "advice": "Geht der Server verloren, sind die Daten verloren. Prüfe das nächtliche Backup."
+      },
+      "backup_suspicious": {
+        "headline": "Das letzte Backup ist viel kleiner als das vorherige",
+        "resolved": "Die Backups haben wieder eine normale Größe",
+        "advice": "Prüfe, ob die Daten der Umgebung noch vorhanden sind. Frühere Backups bleiben erhalten."
+      },
+      "backup_growing": {
+        "headline": "Die Backups wachsen schneller als üblich",
+        "resolved": "Die Backups haben eine stabile Größe",
+        "advice": "Prüfe die Größe der Datenbank und die Liste der Backups."
+      },
+      "restore_test_failed": {
+        "headline": "Die Testwiederherstellung ist fehlgeschlagen",
+        "resolved": "Die Testwiederherstellung funktioniert wieder",
+        "advice": "Starte ein manuelles Backup und verlass dich nicht darauf, das letzte wiederherstellen zu können, bis ein Test erfolgreich ist."
+      }
+    },
+    "details": {
+      "agent_offline": "Seit {minutes} Min. kein Signal",
+      "disk_low": "{percent} % belegt · {free_gb} GB frei",
+      "environment_down": "Status: {state}",
+      "agent_outdated": "Version {version} · Minimum {min_version}",
+      "update_failed": "Wechsel auf {version} nicht möglich · weiterhin {current}",
+      "platform_step_failed": "{step} · Plattform {platform}",
+      "platform_behind": "Auf {applied} · verfügbar {latest}",
+      "backup_not_offsite": "Letztes externes Backup vor {hours} Std.",
+      "backup_suspicious": "{size_mb} MB · vorher {previous_mb} MB",
+      "backup_growing": "Von {from_gb} GB auf {to_gb} GB in einer Woche",
+      "restore_test_failed": "{reason}"
+    },
+    "states": {
+      "stopped": "gestoppt",
+      "failed": "fehlgeschlagen",
+      "provisioning": "wird installiert",
+      "failing": "antwortet nicht",
+      "unknown": "unbekannt"
+    },
+    "reasons": {
+      "no_room": "nicht genug Speicherplatz für den Test",
+      "nothing": "es gab kein Backup zum Testen",
+      "connection": "keine Verbindung zur Datenbank",
+      "restore_errors": "die Wiederherstellung endete mit Fehlern",
+      "incomplete": "die wiederhergestellte Datenbank war unvollständig",
+      "unanswered": "der Server hat den Test nicht abgeschlossen"
+    },
+    "leave": "Diese Alarme nicht mehr erhalten"
+  },
+  "billing": {
+    "go": "Zur Abrechnung",
+    "nothing_deleted": "Wegen einer ausstehenden Zahlung wird nichts von dir gelöscht.",
+    "card_refused": {
+      "subject": "Wir konnten dein Abonnement nicht abbuchen",
+      "detail": "Deine Bank hat geantwortet: {reason}.",
+      "retry": "Wir versuchen es am {date} erneut.",
+      "change": "Du kannst die Karte unter Abrechnung ändern."
+    },
+    "plan_ended": {
+      "subject": "Dein Plan ist wegen fehlender Zahlung beendet",
+      "detail": "Deine Projekte laufen auf deinen Servern weiter. Die Plattform funktioniert weiter für das Projekt, das du im kostenlosen Plan behältst; die übrigen kannst du ansehen, ihre Backups herunterladen oder löschen. Du kannst jederzeit unter Abrechnung wieder abonnieren."
+    },
+    "plan_cancelled": {
+      "subject": "Dein Plan ist wie gewünscht beendet",
+      "detail": "Der bezahlte Zeitraum ist abgelaufen und das Abonnement wurde nicht verlängert. Deine Projekte laufen auf deinen Servern weiter. Die Plattform funktioniert weiter für das Projekt, das du im kostenlosen Plan behältst; die übrigen kannst du ansehen, ihre Backups herunterladen oder löschen. Du kannst jederzeit unter Abrechnung wieder abonnieren."
+    },
+    "copies_ending": {
+      "subject": "Deine externen Backups werden bald gelöscht",
+      "detail": "Dein Plan ist beendet, und die außerhalb deiner Server aufbewahrten Backups werden am {date} gelöscht. Lade sie vorher herunter, wenn du sie brauchst, oder aktiviere den Plan wieder, um sie zu behalten."
+    },
+    "copies_deleted": {
+      "subject": "Deine externen Backups wurden gelöscht",
+      "detail": "Seit dem Ende deines Plans sind neunzig Tage vergangen. Die Backups auf deinen eigenen Servern bleiben unberührt."
+    },
+    "declines": {
+      "insufficient_funds": "die Karte ist nicht ausreichend gedeckt",
+      "stolen_card": "die Karte wurde als gestohlen gemeldet",
+      "lost_card": "die Karte wurde als verloren gemeldet",
+      "invalid_cvv": "der Sicherheitscode ist falsch",
+      "expired_card": "die Karte ist abgelaufen",
+      "invalid_card": "die Karte ist ungültig",
+      "invalid_transaction": "die Transaktion ist ungültig",
+      "issuer_not_available": "die Bank ist gerade nicht erreichbar",
+      "contact_issuer": "die Bank bittet dich, sie zu kontaktieren",
+      "authentication_required": "die Bank möchte die Zahlung bestätigen lassen",
+      "generic": "die Zahlung wurde abgelehnt"
+    }
+  },
+  "complaint": {
+    "subject": "Beschwerdeblatt {code}",
+    "title": "Beschwerdebuch",
+    "intro": "Wir haben dein Beschwerdeblatt {code} erhalten. Dies ist deine Kopie.",
+    "deadline": "Wir antworten per E-Mail innerhalb von höchstens 15 Werktagen.",
+    "indecopi": "Eine Beschwerde hindert dich nicht daran, andere Wege der Streitbeilegung zu nutzen, und ist keine Voraussetzung für eine Anzeige bei INDECOPI.",
+    "kinds": {
+      "claim": "Reklamation: Unzufriedenheit mit dem Service",
+      "grievance": "Beschwerde: Unzufriedenheit mit der Betreuung"
+    },
+    "fields": {
+      "code": "Nummer",
+      "date": "Datum",
+      "kind": "Art",
+      "name": "Name",
+      "document": "Ausweisdokument",
+      "address": "Adresse",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "guardian": "Elternteil oder Vormund",
+      "service": "Vertraglicher Service",
+      "amount": "Geforderter Betrag",
+      "detail": "Detail",
+      "request": "Anliegen"
+    }
+  },
+  "audience": {
+    "invitation": {
+      "headline": "Bestätige, dass du Alarme erhalten möchtest",
+      "detail": "Du wurdest hinzugefügt, um die Alarme von {org} zu erhalten: Server ohne Signal, fehlgeschlagene Backups, volle Festplatten und andere Probleme.",
+      "action": "Bestätigen",
+      "note": "Wenn du diese E-Mail nicht erwartet hast, ignoriere sie: Ohne Bestätigung wird nichts gesendet."
+    },
+    "test": {
+      "headline": "Test-E-Mail",
+      "detail": "Die Alarme von {org} kommen an dieser Adresse an.",
+      "action": "Alarme anzeigen",
+      "note": "Es ist nichts zu tun."
+    }
+  }
+}
