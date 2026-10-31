@@ -182,6 +182,32 @@
       "generic": "o pagamento foi recusado"
     }
   },
+  "complaint": {
+    "subject": "Folha de reclamação {code}",
+    "title": "Livro de reclamações",
+    "intro": "Recebemos sua folha de reclamação {code}. Esta é a sua cópia.",
+    "deadline": "Responderemos por e-mail em no máximo 15 dias úteis.",
+    "indecopi": "Apresentar uma reclamação não impede que você recorra a outras vias de solução de controvérsias, nem é requisito prévio para apresentar uma denúncia perante o INDECOPI.",
+    "kinds": {
+      "claim": "Reclamação: desacordo com o serviço",
+      "grievance": "Queixa: insatisfação com o atendimento"
+    },
+    "fields": {
+      "code": "Número",
+      "date": "Data",
+      "kind": "Tipo",
+      "name": "Nome",
+      "document": "Documento",
+      "address": "Endereço",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "guardian": "Pai, mãe ou responsável",
+      "service": "Serviço contratado",
+      "amount": "Valor reclamado",
+      "detail": "Detalhe",
+      "request": "Pedido"
+    }
+  },
   "audience": {
     "invitation": {
       "headline": "Confirme que deseja receber os alertas",
