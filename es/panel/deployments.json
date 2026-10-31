@@ -1,0 +1,29 @@
+{
+  "count": "{{count}} despliegues",
+  "noDeployments": "Sin despliegues aún. Aparecerán al hacer git pull.",
+  "rollback": "Revertir",
+  "statuses": {
+    "success": "Exitoso",
+    "failed": "Fallido",
+    "rolled_back": "Revertido",
+    "dropped": "Descartado"
+  },
+  "rollbackDialog": {
+    "title": "¿Revertir despliegue?",
+    "description": "Esto devolverá <strong>{{name}}</strong> al commit <code>{{commit}}</code> (revisión #{{revision}}) y su base de datos a la copia tomada antes de ese despliegue. Antes se guarda una copia completa del entorno tal como está, y los adjuntos se conservan.",
+    "confirm": "Sí, revertir",
+    "started": "Rollback iniciado",
+    "failed": "Error al revertir"
+  },
+  "unknownAuthor": "Autor desconocido",
+  "commitUnavailable": "Commit no disponible en el repositorio",
+  "detail": {
+    "title": "Despliegue #{{revision}}",
+    "compare": "Ver cambios en GitHub",
+    "commits_one": "{{count}} commit incluido",
+    "commits_other": "{{count}} commits incluidos",
+    "unknown": "El repositorio ya no tiene estos commits.",
+    "backup": "Copia previa",
+    "rollback": "Volver a este despliegue"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "create": "Crear",
+  "delete": "Eliminar",
+  "close": "Cerrar",
+  "confirm": "Confirmar",
+  "loading": "Cargando…",
+  "comingSoon": "Próximamente",
+  "optional": "opcional",
+  "settings": "Configuración",
+  "signOut": "Cerrar sesión",
+  "darkMode": "Modo oscuro",
+  "lightMode": "Modo claro",
+  "actions": {
+    "open": "Abrir"
+  },
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "aria": {
+    "accountMenu": "Menú de cuenta",
+    "projectActions": "Acciones del proyecto"
+  },
+  "copyFailed": "Pulsa Ctrl+C",
+  "typeToConfirm": "Escribe {{name}} para confirmar.",
+  "jobs": {
+    "title": "Trabajos",
+    "running_one": "{{count}} en curso",
+    "running_other": "{{count}} en curso",
+    "recent": "Recientes",
+    "waiting": "En cola",
+    "status": {
+      "queued": "En cola",
+      "running": "En curso",
+      "completed": "Terminado",
+      "failed": "Falló"
+    },
+    "kind": {
+      "env_provision": "Aprovisionar entorno",
+      "env_clone": "Clonar entorno",
+      "env_rebuild": "Reconstruir entorno",
+      "env_rollback": "Volver a un despliegue",
+      "env_renew_image": "Renovar imagen de Odoo",
+      "env_delete": "Eliminar entorno",
+      "git_pull": "Desplegar",
+      "submodule_sync": "Sincronizar submódulos",
+      "agent_update": "Actualizar servidor",
+      "platform_apply_shared": "Aplicar mantenimiento",
+      "backup_create": "Crear copia",
+      "backup_restore": "Restaurar copia",
+      "project_create": "Crear proyecto"
+    },
+    "history": {
+      "server": "Servidor",
+      "state": "Estado",
+      "kind": "Tipo",
+      "allServers": "Todos los servidores",
+      "allStates": "Todos los estados",
+      "allKinds": "Todos los tipos",
+      "by": "Por {{name}}",
+      "automatic": "Automático",
+      "took": "tardó {{duration}}",
+      "empty": "No hay trabajos con estos filtros.",
+      "emptyHint": "Aquí aparece todo lo que se ejecuta en los servidores de la organización: en marcha, terminado o fallido.",
+      "more": "Cargar más",
+      "seeAll": "Ver todos los trabajos"
+    }
+  },
+  "zone": {
+    "search": "Buscar zona…",
+    "none": "Ninguna zona con ese nombre."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "title": "Copias de seguridad",
+  "create": "Crear copia de seguridad",
+  "upload": "Subir",
+  "download": "Descargar",
+  "downloadPreparing": "Preparando la descarga: tarda unos minutos y empezará sola.",
+  "downloadFailed": "No se pudo preparar la descarga",
+  "restore": "Restaurar",
+  "count_one": "{{count}} copia de seguridad",
+  "count_other": "{{count}} copias de seguridad",
+  "noBackupsYet": "Sin copias de seguridad",
+  "backupTypes": {
+    "full": "Completa",
+    "database": "Base de datos"
+  },
+  "date": "Fecha",
+  "type": "Tipo",
+  "status": "Estado",
+  "size": "Tamaño",
+  "description": "Descripción",
+  "statuses": {
+    "completed": "Completada",
+    "in_progress": "En curso",
+    "failed": "Fallida",
+    "dropped": "Descartada"
+  },
+  "onlyS3": "Solo disponible para backups en S3",
+  "createDialog": {
+    "title": "Crear copia de seguridad",
+    "description": "Crear una instantánea de <strong>{{name}}</strong>.",
+    "backupType": "Tipo de copia",
+    "full": "Completa",
+    "fullDesc": "Base de datos + filestore",
+    "database": "Solo base de datos",
+    "databaseDesc": "Más pequeña y rápida",
+    "descriptionLabel": "Descripción",
+    "descriptionPlaceholder": "ej. antes de la migración",
+    "started": "Copia de seguridad iniciada"
+  },
+  "uploadDialog": {
+    "title": "Subir copia de seguridad",
+    "description": "Sube un archivo .zip de backup para <strong>{{name}}</strong>. El archivo se subirá directamente a S3.",
+    "selectFile": "Haz clic para seleccionar un archivo .zip",
+    "uploading": "Subiendo a S3…",
+    "registering": "Registrando copia de seguridad…",
+    "imported": "Copia importada",
+    "importedDesc": "La copia de seguridad ya está disponible en la lista.",
+    "failed": "Error al subir"
+  },
+  "schedule": {
+    "title": "Copias automáticas",
+    "descEnabled": "Las copias se ejecutarán una vez al día a la hora configurada.",
+    "descDisabled": "Activa para configurar una copia diaria recurrente.",
+    "runAt": "Ejecutar a las",
+    "saved": "Programación de copias guardada",
+    "saveFailed": "Error al guardar la programación",
+    "save": "Guardar programación"
+  },
+  "restoreDialog": {
+    "title": "Restaurar copia de seguridad",
+    "description": "Esto sustituirá los datos de <strong>{{name}}</strong> por los de la copia de {{date}}. Antes se comprueba la copia y se guarda una copia completa del entorno tal como está, para poder volver atrás. Si la copia es solo de base de datos, los adjuntos actuales se conservan.",
+    "started": "Restauración iniciada",
+    "failed": "Error en la restauración",
+    "origin": "Origen",
+    "immediate": "Inmediato",
+    "download": "Descarga de {{size}}",
+    "notHere": "Sin copia en esta ubicación"
+  },
+  "sources": {
+    "scheduled": "Diaria",
+    "pre_deploy": "Previa a despliegue",
+    "manual": "Manual"
+  },
+  "places": {
+    "title": "Ubicaciones",
+    "server": "Servidor",
+    "primary": "Principal",
+    "vault": "Bóveda",
+    "own": "Bucket propio",
+    "hint": {
+      "server": "En el propio servidor. Restaurar desde aquí es lo más rápido.",
+      "primary": "Fuera del servidor, en otra región. Guarda todas las copias.",
+      "vault": "Una copia por semana que nadie puede borrar ni modificar durante 14 días.",
+      "own": "En el almacenamiento propio de tu organización."
+    }
+  },
+  "kept": {
+    "title": "Conservación",
+    "daily": "Diaria",
+    "weekly": "Semanal",
+    "monthly": "Mensual",
+    "manual": "Manual ({{position}} de {{total}})",
+    "until": "Hasta {{date}}",
+    "suspicious": "En revisión: tamaño inusual",
+    "floor": "Mínimo de seguridad",
+    "leaving": "Pendiente de eliminación"
+  },
+  "summary": {
+    "newest": "Última copia",
+    "pending": "Pendiente",
+    "check": "Prueba de restauración",
+    "passed": "Correcta",
+    "failed": "Fallida",
+    "skipped": "No realizada",
+    "counted": "{{tables}} tablas · {{users}} usuarios",
+    "noCheck": "Pendiente",
+    "offsiteHint": "Fecha de la copia más reciente en cada ubicación.",
+    "checkHint": "Cada domingo se restaura la última copia en un entorno aislado para confirmar que funciona.",
+    "next": "Próxima: {{date}}",
+    "reasons": {
+      "no_room": "Sin espacio en el servidor",
+      "nothing": "Sin copias para probar",
+      "connection": "Sin conexión con la base de datos",
+      "restore_errors": "Restaurada con errores",
+      "incomplete": "Restauración incompleta",
+      "unanswered": "La prueba no respondió"
+    }
+  },
+  "detail": {
+    "title": "Copia de seguridad · {{date}}",
+    "fingerprint": "Huella",
+    "available": "Disponible",
+    "vaultDates": "Bloqueada hasta el {{locked}} · se elimina el {{expires}}"
+  }
+}
