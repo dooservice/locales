@@ -1,0 +1,73 @@
+{
+  "cancel": "Abbrechen",
+  "save": "Speichern",
+  "create": "Erstellen",
+  "delete": "Löschen",
+  "close": "Schließen",
+  "confirm": "Bestätigen",
+  "loading": "Lädt…",
+  "comingSoon": "Demnächst",
+  "optional": "optional",
+  "settings": "Einstellungen",
+  "signOut": "Abmelden",
+  "darkMode": "Dunkler Modus",
+  "lightMode": "Heller Modus",
+  "actions": {
+    "open": "Öffnen"
+  },
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "aria": {
+    "accountMenu": "Kontomenü",
+    "projectActions": "Projektaktionen"
+  },
+  "copyFailed": "Drücke Strg+C",
+  "typeToConfirm": "Gib {{name}} ein, um zu bestätigen.",
+  "jobs": {
+    "title": "Jobs",
+    "running_one": "{{count}} läuft",
+    "running_other": "{{count}} laufen",
+    "recent": "Zuletzt",
+    "waiting": "Wartet",
+    "status": {
+      "queued": "Wartet",
+      "running": "Läuft",
+      "completed": "Fertig",
+      "failed": "Fehlgeschlagen"
+    },
+    "kind": {
+      "env_provision": "Umgebung bereitstellen",
+      "env_clone": "Umgebung klonen",
+      "env_rebuild": "Umgebung neu aufbauen",
+      "env_rollback": "Deployment zurücksetzen",
+      "env_renew_image": "Odoo-Image erneuern",
+      "env_delete": "Umgebung löschen",
+      "git_pull": "Deployen",
+      "submodule_sync": "Submodule synchronisieren",
+      "agent_update": "Server aktualisieren",
+      "platform_apply_shared": "Wartung ausführen",
+      "backup_create": "Backup erstellen",
+      "backup_restore": "Backup wiederherstellen",
+      "project_create": "Projekt erstellen"
+    },
+    "history": {
+      "server": "Server",
+      "state": "Status",
+      "kind": "Art",
+      "allServers": "Alle Server",
+      "allStates": "Alle Status",
+      "allKinds": "Alle Arten",
+      "by": "Von {{name}}",
+      "automatic": "Automatisch",
+      "took": "dauerte {{duration}}",
+      "empty": "Keine Jobs für diese Filter.",
+      "emptyHint": "Hier erscheint alles, was auf den Servern der Organisation läuft: laufend, beendet oder fehlgeschlagen.",
+      "more": "Mehr laden",
+      "seeAll": "Alle Jobs anzeigen"
+    }
+  },
+  "zone": {
+    "search": "Zone suchen…",
+    "none": "Keine Zone mit diesem Namen."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Speicherplatz",
+  "gb": "{{value}} GB",
+  "empty": "Noch keine Messungen. Server melden bei jedem Heartbeat, was sie speichern.",
+  "unreachable": "Deine Nutzung konnte nicht gelesen werden.",
+  "storage": {
+    "title": "Speicherplatz",
+    "database": "Datenbank",
+    "filestore": "Dateien",
+    "backups": "Backups",
+    "freshness": "Auf jedem Server gemessen und stündlich aktualisiert, also keine Live-Werte.",
+    "byEnvironment": "Speicherplatz nach Umgebung"
+  },
+  "accounted": {
+    "title": "Speicherplatz nach Projekt",
+    "hint": "Jede Kopie zählt in voller Größe, weil sie so viel Platz auf der Festplatte belegt."
+  },
+  "table": {
+    "total": "Gesamt",
+    "accounted": "Gesamt",
+    "project": "Projekt",
+    "environment": "Umgebung",
+    "environmentCount": "{{count}} Umgebung",
+    "environmentCount_other": "{{count}} Umgebungen"
+  },
+  "mode": {
+    "production": "Produktion",
+    "development": "Entwicklung"
+  },
+  "project": {
+    "title": "Ressourcen",
+    "hint": "Was dieses Projekt ausführt und was seinem Server noch bleibt."
+  },
+  "workers": {
+    "title": "Produktions-Worker",
+    "hint": "Einer reicht zum Entwickeln. Nutze zwei oder mehr für Kunden.",
+    "count": "{{count}} Worker",
+    "count_other": "{{count}} Worker",
+    "cannotDecrease": "Nur Erhöhen möglich: Verringern würde die Sitzungen abbrechen, die diese Worker bedienen",
+    "noRoom": "Kein Platz auf diesem Server",
+    "willRestart": "Das Anwenden startet Odoo neu. Nichts geht verloren, aber die Seite ist ein paar Sekunden nicht erreichbar.",
+    "apply": "Anwenden",
+    "cancel": "Abbrechen",
+    "tier": {
+      "1": "Entwicklung",
+      "2": "Leichte Produktion",
+      "4": "Standard-Produktion",
+      "8": "Hoher Traffic"
+    }
+  },
+  "capacity": {
+    "memory": "Arbeitsspeicher",
+    "disk": "Festplatte",
+    "of": "{{used}} von {{total}} GB",
+    "unreported": "Dieser Server hat sich noch nicht gemeldet. Die Werte erscheinen bei seinem ersten Heartbeat.",
+    "freeLeft": "· {{value}} GB frei ({{percent}} % belegt)",
+    "oversubscribed": "Dieser Server hat seinen Instanzen mehr Arbeitsspeicher zugesagt, als er hat. Sie laufen, weil keine ihr ganzes Limit gleichzeitig nutzt, aber es passt nichts mehr dazu, bis eine kleiner wird oder die Maschine wächst."
+  },
+  "health": {
+    "title": "Datenbank-Zustand",
+    "hint": "Was in der Datenbank von {{environment}} Platz belegt. Wird beim Öffnen abgefragt.",
+    "unreachable": "Die Datenbank konnte nicht gelesen werden. Der Server ist möglicherweise nicht erreichbar oder die Umgebung gestoppt.",
+    "readOnly": "Nur lesend: Hier wird nichts gelöscht. Was bereinigt werden kann, hängt davon ab, wofür die Daten sind, und das weißt du.",
+    "table": "Tabelle",
+    "rows": "Zeilen",
+    "size": "Größe",
+    "total": "Datenbank gesamt",
+    "rowCount": "{{count}} Zeile",
+    "rowCount_other": "{{count}} Zeilen",
+    "advice": {
+      "mail_message": "Der Chatter-Verlauf. Er wächst mit jeder E-Mail und jeder Notiz. Odoo bringt eine automatische Löschregel mit, die meist deaktiviert ist.",
+      "mail_tracking": "Die Aufzeichnung, welches Feld sich in jeder Nachricht geändert hat. Sie wird zusammen mit den Nachrichten bereinigt.",
+      "orphan_attachments": "Anhänge, die an keinem Datensatz mehr hängen. Meist Überbleibsel von Importen und erzeugten Berichten.",
+      "logging": "Logs, die Odoo in der Datenbank selbst speichert. Können gefahrlos geleert werden, ohne Geschäftsdaten zu verlieren.",
+      "stuck_jobs": "Fehlgeschlagene oder hängende Queue-Jobs. Nicht nur Platz: Möglicherweise ist etwas seit einer Weile nicht gelaufen."
+    },
+    "sizeAnyway": "Die Datenbank ist {{value}} MB groß, konnte aber nicht untersucht werden."
+  },
+  "history": {
+    "title": "Wie es gewachsen ist",
+    "hint": "Was jede Umgebung Tag für Tag belegt. {{count}} Tage Verlauf.",
+    "tooEarly": "Noch nicht genug Verlauf für einen Trend. Schau morgen wieder vorbei — pro Tag wird ein Punkt gespeichert."
+  },
+  "summary": {
+    "perMonth": "/Monat",
+    "breakdown": "Projekt ansehen",
+    "breakdown_other": "Alle {{count}} Projekte ansehen",
+    "environments": "{{count}} Umgebung",
+    "environments_other": "{{count}} Umgebungen"
+  },
+  "disk": {
+    "title": "Festplatte",
+    "usage": "{{used}} von {{total}} · {{free}} frei",
+    "database": "Datenbanken",
+    "filestore": "Dateien",
+    "backups": "Backups",
+    "system": "System und Docker-Images"
+  }
+}

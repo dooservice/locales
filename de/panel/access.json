@@ -1,0 +1,16 @@
+{
+  "roles": {
+    "admin": {
+      "label": "Admin",
+      "description": "Volle Kontrolle, inklusive Mitglieder, Sperren und Löschen"
+    },
+    "developer": {
+      "label": "Entwickler",
+      "description": "Umgebungen erstellen und betreiben, deployen und zurücksetzen"
+    },
+    "viewer": {
+      "label": "Betrachter",
+      "description": "Nur Lesezugriff, inklusive Logs"
+    }
+  }
+}

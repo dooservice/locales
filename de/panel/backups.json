@@ -1,0 +1,125 @@
+{
+  "title": "Backups",
+  "create": "Backup erstellen",
+  "upload": "Hochladen",
+  "download": "Herunterladen",
+  "downloadPreparing": "Download wird vorbereitet: Das dauert ein paar Minuten und startet von selbst.",
+  "downloadFailed": "Der Download konnte nicht vorbereitet werden",
+  "restore": "Wiederherstellen",
+  "count_one": "{{count}} Backup",
+  "count_other": "{{count}} Backups",
+  "noBackupsYet": "Noch keine Backups",
+  "backupTypes": {
+    "full": "Vollständig",
+    "database": "Datenbank"
+  },
+  "date": "Datum",
+  "type": "Typ",
+  "status": "Status",
+  "size": "Größe",
+  "description": "Beschreibung",
+  "statuses": {
+    "completed": "Abgeschlossen",
+    "in_progress": "Läuft",
+    "failed": "Fehlgeschlagen",
+    "dropped": "Verworfen"
+  },
+  "onlyS3": "Nur für S3-Backups verfügbar",
+  "createDialog": {
+    "title": "Backup erstellen",
+    "description": "Erstelle einen Snapshot von <strong>{{name}}</strong>.",
+    "backupType": "Backup-Typ",
+    "full": "Vollständig",
+    "fullDesc": "Datenbank + Filestore",
+    "database": "Nur Datenbank",
+    "databaseDesc": "Kleiner, schneller",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "z. B. vor der Migration",
+    "started": "Backup gestartet"
+  },
+  "uploadDialog": {
+    "title": "Backup hochladen",
+    "description": "Lade eine .zip-Backup-Datei für <strong>{{name}}</strong> hoch. Die Datei wird direkt in S3 hochgeladen.",
+    "selectFile": "Klicke, um eine .zip-Datei auszuwählen",
+    "uploading": "Wird in S3 hochgeladen…",
+    "registering": "Backup wird registriert…",
+    "imported": "Backup importiert",
+    "importedDesc": "Das Backup ist jetzt in der Liste verfügbar.",
+    "failed": "Hochladen fehlgeschlagen"
+  },
+  "schedule": {
+    "title": "Automatische Backups",
+    "descEnabled": "Backups laufen einmal täglich zur eingestellten Uhrzeit.",
+    "descDisabled": "Aktiviere die Option, um ein tägliches Backup einzurichten.",
+    "runAt": "Ausführen um",
+    "saved": "Backup-Zeitplan gespeichert",
+    "saveFailed": "Zeitplan konnte nicht gespeichert werden",
+    "save": "Zeitplan speichern"
+  },
+  "restoreDialog": {
+    "title": "Backup wiederherstellen",
+    "description": "Dadurch werden die Daten von <strong>{{name}}</strong> durch das Backup vom {{date}} ersetzt. Vorher wird das Backup geprüft und ein vollständiges Backup der Umgebung im aktuellen Stand erstellt, damit du zurückkehren kannst. Enthält das Backup nur die Datenbank, bleiben die aktuellen Anhänge erhalten.",
+    "started": "Wiederherstellung gestartet",
+    "failed": "Wiederherstellung fehlgeschlagen",
+    "origin": "Quelle",
+    "immediate": "Sofort",
+    "download": "{{size}} Download",
+    "notHere": "Keine Kopie an diesem Speicherort"
+  },
+  "sources": {
+    "scheduled": "Täglich",
+    "pre_deploy": "Vor Deployment",
+    "manual": "Manuell"
+  },
+  "places": {
+    "title": "Speicherorte",
+    "server": "Server",
+    "primary": "Primär",
+    "vault": "Tresor",
+    "own": "Eigener Bucket",
+    "hint": {
+      "server": "Auf dem Server selbst. Von hier aus geht die Wiederherstellung am schnellsten.",
+      "primary": "Außerhalb des Servers, in einer anderen Region. Bewahrt jedes Backup auf.",
+      "vault": "Ein Backup pro Woche, das 14 Tage lang niemand löschen oder ändern kann.",
+      "own": "Im eigenen Speicher deiner Organisation."
+    }
+  },
+  "kept": {
+    "title": "Aufbewahrung",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "monthly": "Monatlich",
+    "manual": "Manuell ({{position}} von {{total}})",
+    "until": "Bis {{date}}",
+    "suspicious": "In Prüfung: ungewöhnliche Größe",
+    "floor": "Sicherheitsminimum",
+    "leaving": "Löschung ausstehend"
+  },
+  "summary": {
+    "newest": "Letztes Backup",
+    "pending": "Ausstehend",
+    "check": "Wiederherstellungstest",
+    "passed": "Bestanden",
+    "failed": "Fehlgeschlagen",
+    "skipped": "Nicht ausgeführt",
+    "counted": "{{tables}} Tabellen · {{users}} Nutzer",
+    "noCheck": "Ausstehend",
+    "offsiteHint": "Datum der neuesten Kopie an jedem Speicherort.",
+    "checkHint": "Jeden Sonntag wird das letzte Backup in einer isolierten Umgebung wiederhergestellt, um zu bestätigen, dass es funktioniert.",
+    "next": "Nächster: {{date}}",
+    "reasons": {
+      "no_room": "Kein Speicherplatz auf dem Server",
+      "nothing": "Keine Backups zum Testen",
+      "connection": "Keine Verbindung zur Datenbank",
+      "restore_errors": "Mit Fehlern wiederhergestellt",
+      "incomplete": "Unvollständige Wiederherstellung",
+      "unanswered": "Der Test hat nicht geantwortet"
+    }
+  },
+  "detail": {
+    "title": "Backup · {{date}}",
+    "fingerprint": "Fingerabdruck",
+    "available": "Verfügbar",
+    "vaultDates": "Gesperrt bis {{locked}} · gelöscht am {{expires}}"
+  }
+}

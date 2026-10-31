@@ -1,0 +1,29 @@
+{
+  "card": {
+    "title": "GitHub",
+    "loading": "Lädt...",
+    "connected": "Verbunden",
+    "disconnect": "Trennen",
+    "connectDesc": "Verbinde GitHub, um Repositorys zu erstellen und zu verknüpfen.",
+    "connectBtn": "GitHub verbinden"
+  },
+  "repoMode": {
+    "none": "Kein Repository",
+    "create": "Neues Repo erstellen",
+    "link": "Bestehendes verknüpfen"
+  },
+  "ownerCombobox": {
+    "selectOwner": "Eigentümer wählen...",
+    "searchOwner": "Eigentümer suchen...",
+    "noOwners": "Keine Eigentümer gefunden.",
+    "org": "Org",
+    "you": "du"
+  },
+  "repoCombobox": {
+    "loading": "Lädt…",
+    "selectRepo": "Repository wählen…",
+    "searchRepo": "Repository suchen...",
+    "noRepos": "Keine Repositorys gefunden.",
+    "private": "privat"
+  }
+}

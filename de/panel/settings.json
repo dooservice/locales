@@ -1,0 +1,17 @@
+{
+  "title": "Einstellungen",
+  "nav": {
+    "account": "Konto"
+  },
+  "profile": {
+    "title": "Kontoeinstellungen",
+    "email": "E-Mail-Adresse",
+    "emailHelper": "Die E-Mail-Adresse kann nicht geändert werden.",
+    "displayName": "Anzeigename",
+    "saveChanges": "Änderungen speichern"
+  },
+  "language": {
+    "title": "Sprache",
+    "description": "Wähle die Sprache der Oberfläche."
+  }
+}

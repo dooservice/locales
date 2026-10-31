@@ -1,0 +1,289 @@
+{
+  "progress": "Schritt {{step}} von {{total}}",
+  "next": "Weiter",
+  "back": "Zurück",
+  "finish": "Fertig",
+  "stop": "Tour beenden",
+  "hide": "Vorerst ausblenden",
+  "tours": {
+    "platform": {
+      "welcome": {
+        "title": "Hallo, ich bin Doo",
+        "body": "Eine halbe Minute, um dir diesen Bildschirm zu zeigen.",
+        "points": [
+          "Jeder Bildschirm hat seine eigene Tour",
+          "Du kannst sie jederzeit beenden"
+        ]
+      },
+      "projects": {
+        "title": "Projekte",
+        "body": "Ein Projekt enthält die Arbeit für einen Kunden oder eine Implementierung.",
+        "points": [
+          "Seine Odoo-Umgebungen",
+          "Sein Modul-Repository",
+          "Die Berechtigungen jeder Person"
+        ]
+      },
+      "servers": {
+        "title": "Server",
+        "body": "Die Maschinen, auf denen die Umgebungen deployt werden.",
+        "points": [
+          "Erstelle einen bei deinem Cloud-Anbieter",
+          "Oder registriere einen, den du bereits betreibst",
+          "Die Maschine und ihre Rechnung gehören dir"
+        ]
+      },
+      "org": {
+        "title": "Organisation",
+        "body": "Sie bestimmt den Rahmen für alles, was du siehst.",
+        "points": [
+          "Projekte, Server, Backups und Alarme",
+          "Du kannst eine Organisation pro Kunde haben"
+        ]
+      },
+      "orgMenu": {
+        "title": "Organisationsmenü",
+        "body": "",
+        "points": [
+          "Organisation wechseln",
+          "Mitglieder: Team und Berechtigungen",
+          "Speicher: Platz, den deine Backups belegen",
+          "Alarme: Vorfälle in der ganzen Organisation",
+          "Backups: wo die Kopien liegen",
+          "Einstellungen: der Name der Organisation",
+          "Neue Organisation erstellen"
+        ]
+      },
+      "account": {
+        "title": "Dein Konto",
+        "body": "",
+        "points": [
+          "Sprache",
+          "Helles oder dunkles Design",
+          "Persönliche Daten und Passwort",
+          "Abmelden"
+        ]
+      },
+      "done": {
+        "title": "Fertig",
+        "body": "Jeder Bildschirm hat seine eigene Tour.",
+        "points": [
+          "Projekte",
+          "Server",
+          "Die Details eines Projekts, wenn du es öffnest"
+        ]
+      }
+    },
+    "servers": {
+      "add": {
+        "title": "Server hinzufügen",
+        "body": "Zwei Wege, eine Maschine zu registrieren.",
+        "points": [
+          "In deinem Cloud-Konto erstellen",
+          "Eine bestehende per Befehl registrieren",
+          "Die Maschine und ihre Rechnung gehören dir"
+        ]
+      },
+      "list": {
+        "title": "Registrierte Server",
+        "body": "Alle Maschinen der Organisation.",
+        "points": [
+          "Eine Maschine ohne Speicherplatz oder ohne Signal fällt hier auf"
+        ]
+      },
+      "card": {
+        "title": "Ein Server auf einen Blick",
+        "body": "Jede Karte fasst eine Maschine zusammen.",
+        "points": [
+          "Verbindungsstatus",
+          "CPU-, Speicher- und Festplattennutzung",
+          "Letztes empfangenes Signal",
+          "Öffne sie für alle Details"
+        ]
+      }
+    },
+    "server": {
+      "overview": {
+        "title": "Serverdetails",
+        "body": "Daten, die der auf der Maschine installierte Agent sendet.",
+        "points": [
+          "Adresse und Region",
+          "Laufzeit",
+          "CPU-, Speicher- und Festplattennutzung"
+        ]
+      },
+      "alerts": {
+        "title": "Server-Alarme",
+        "body": "Vorfälle auf dieser Maschine, nicht in der ganzen Flotte.",
+        "points": [
+          "Ausfälle und Wiederherstellungen",
+          "Verlauf, um Muster zu erkennen"
+        ]
+      },
+      "settings": {
+        "title": "Server-Einstellungen",
+        "body": "",
+        "points": [
+          "Update-Zeiten und Vorabzugang",
+          "Öffentliches oder privates Netzwerk: bestimmt die Domain der Instanzen und woher ihr Zertifikat kommt",
+          "Den Server von der Plattform entfernen"
+        ]
+      },
+      "storage": {
+        "title": "Speicher",
+        "body": "Was die Festplatte dieser Maschine enthält, Projekt für Projekt.",
+        "points": [
+          "Datenbank, Dateien und die hier aufbewahrten Backups",
+          "Backups, die bereits außerhalb des Servers liegen, stehen unter Abrechnung"
+        ]
+      },
+      "updates": {
+        "title": "Updates",
+        "body": "Was dieser Server noch erhalten muss und wann.",
+        "points": [
+          "Was aussteht und wann es angewendet wird",
+          "Die Version jeder Komponente",
+          "Was jede Version mitbringt"
+        ]
+      }
+    },
+    "projects": {
+      "create": {
+        "title": "Neues Projekt",
+        "body": "Beim Erstellen legst du fest:",
+        "points": [
+          "Den Server, auf dem seine Umgebungen laufen",
+          "Den Namen, der in den Domains verwendet wird"
+        ]
+      },
+      "list": {
+        "title": "Deine Projekte",
+        "body": "Die der ausgewählten Organisation.",
+        "points": [
+          "Nur die, die deine Rolle dich sehen lässt"
+        ]
+      },
+      "card": {
+        "title": "Ein Projekt auf einen Blick",
+        "body": "Jede Karte fasst ein Projekt zusammen.",
+        "points": [
+          "Server, auf dem es läuft",
+          "Anzahl der Umgebungen",
+          "Deine Rolle im Projekt"
+        ]
+      }
+    },
+    "project": {
+      "nav": {
+        "title": "Projektbereiche",
+        "body": "Vier Bereiche, immer sichtbar.",
+        "points": [
+          "Umgebungen",
+          "Ressourcen",
+          "Alarme",
+          "Konfiguration"
+        ]
+      },
+      "navEnvironments": {
+        "title": "Umgebungen",
+        "body": "Die Odoo-Installationen des Projekts.",
+        "points": [
+          "Der gerade geöffnete Bereich"
+        ]
+      },
+      "navResources": {
+        "title": "Ressourcen",
+        "body": "Der Verbrauch des Projekts, Umgebung für Umgebung.",
+        "points": [
+          "CPU, Speicher und Festplatte",
+          "Orientierung, bevor du den Server stärker belastest"
+        ]
+      },
+      "navAlerts": {
+        "title": "Projekt-Alarme",
+        "body": "Vorfälle nur in diesem Projekt.",
+        "points": [
+          "Fehlgeschlagene Deployments",
+          "Nicht abgeschlossene Backups",
+          "Gestoppte Umgebungen"
+        ]
+      },
+      "envs": {
+        "title": "Umgebungen des Projekts",
+        "body": "Jede Umgebung ist eine eigene Odoo-Installation mit eigener Datenbank und Domain.",
+        "points": [
+          "Produktion ganz oben",
+          "Staging und Entwicklung darunter",
+          "Button zum Erstellen einer neuen"
+        ]
+      },
+      "overview": {
+        "title": "Übersicht",
+        "body": "Status der ausgewählten Umgebung.",
+        "points": [
+          "Domain und Odoo-Version",
+          "Starten, Stoppen und Neustarten"
+        ]
+      },
+      "deployments": {
+        "title": "Deployments",
+        "body": "Veröffentlichen der Module aus dem Repository.",
+        "points": [
+          "Ein Deployment ausführen",
+          "Verlauf mit Ergebnis",
+          "Log bei einem Fehler"
+        ]
+      },
+      "addons": {
+        "title": "Addons",
+        "body": "Woher diese Umgebung den geladenen Code bezieht.",
+        "points": [
+          "Was das Repository deklariert",
+          "Was du hier hinzufügst, und der Zugriff darauf"
+        ]
+      },
+      "logs": {
+        "title": "Logs",
+        "body": "Die Ausgabe von Odoo in Echtzeit.",
+        "points": [
+          "Kein SSH-Zugang nötig"
+        ]
+      },
+      "console": {
+        "title": "Konsole",
+        "body": "Ein Terminal innerhalb der Umgebung.",
+        "points": [
+          "Claude Code und opencode verfügbar",
+          "Shell für Befehle und Skripte"
+        ]
+      },
+      "backups": {
+        "title": "Backups",
+        "body": "Kopien der Umgebung und ihrer Datenbank.",
+        "points": [
+          "Einstellbarer Zeitplan",
+          "Ziel: dein Server oder dein Bucket",
+          "Produktion neutralisiert nach Staging klonen",
+          "Eine Kopie wiederherstellen"
+        ]
+      },
+      "settings": {
+        "title": "Umgebungseinstellungen",
+        "body": "",
+        "points": [
+          "Zugewiesene Ressourcen",
+          "Domain",
+          "Backup-Zeitplan und Aufbewahrung"
+        ]
+      },
+      "done": {
+        "title": "Ende der Tour",
+        "body": "Jetzt kennst du das ganze Projekt.",
+        "points": [
+          "Umgebungen links",
+          "Sieben Tabs pro Umgebung"
+        ]
+      }
+    }
+  }
+}
