@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Membros",
-    "invite": "Adicionar alguém",
-    "inviteHint": "A pessoa precisa já ter uma conta. Administradores podem registrar servidores e gerenciar membros.",
     "emailPlaceholder": "nome@empresa.com",
-    "add": "Adicionar",
-    "addFailed": "Não foi possível adicionar. Verifique se o endereço é de uma conta registrada.",
     "you": "(você)",
     "remove": "Remover da organização",
     "description": "Decida quem está nesta organização e até onde cada pessoa tem acesso.",
     "inviteAction": "Convidar",
     "inviteTitle": "Convidar para a organização",
-    "inviteDescription": "A pessoa terá acesso aos projetos que a função dela permitir.",
+    "inviteDescription": "Enviamos por e-mail um link válido por sete dias. Com ele a pessoa pode entrar ou criar uma conta.",
     "email": "E-mail",
     "role": "Função",
     "roleScopedHint": "Tem acesso a todos os projetos por padrão. Depois você pode limitar a uma lista.",
@@ -207,6 +203,11 @@
         "access_changed": "Acesso a projetos alterado",
         "removed": "Membro removido"
       },
+      "invitation": {
+        "sent": "Convite enviado",
+        "revoked": "Convite retirado",
+        "accepted": "Convite aceito"
+      },
       "org": {
         "deleted": "Organização eliminada"
       },
@@ -256,5 +257,35 @@
         "removed": "Servidor removido"
       }
     }
+  },
+  "invitations": {
+    "title": "Convites pendentes",
+    "send": "Enviar convite",
+    "sent": "Convite enviado",
+    "sentTo": "Um convite está a caminho de {{email}}.",
+    "invitedBy": "Convidado por {{name}}",
+    "expires": "expira {{when}}",
+    "expired": "Expirado",
+    "resend": "Enviar de novo",
+    "revoke": "Retirar convite",
+    "resendFailed": "Não foi possível reenviar o convite.",
+    "revokeFailed": "Não foi possível retirar o convite."
+  },
+  "invitation": {
+    "title": "Convite",
+    "summary": "<strong>{{inviter}}</strong> convidou você para entrar em <strong>{{org}}</strong>.",
+    "signInFirst": "Entre ou crie uma conta com este e-mail para aceitá-lo.",
+    "signIn": "Entrar",
+    "signUp": "Criar conta",
+    "otherAccount": "Este convite é para {{email}}, e você entrou como {{current}}. Saia e entre com esse e-mail para aceitá-lo.",
+    "signOut": "Sair",
+    "accept": "Entrar na organização",
+    "acceptFailed": "Não foi possível aceitar o convite.",
+    "joined": "Você entrou em {{org}}",
+    "home": "Ir para o Dooservice",
+    "missing": "Este link de convite não é válido. Peça um novo.",
+    "expired": "Este convite expirou. Peça a quem convidou você para enviá-lo de novo.",
+    "accepted": "Este convite já foi aceito.",
+    "revoked": "Este convite foi retirado."
   }
 }

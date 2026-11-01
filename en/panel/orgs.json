@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Members",
-    "invite": "Add someone",
-    "inviteHint": "They need an account already. Admins can register servers and manage members.",
     "emailPlaceholder": "name@company.com",
-    "add": "Add",
-    "addFailed": "Could not add them. Check the address is a registered account.",
     "you": "(you)",
     "remove": "Remove from the organization",
     "description": "Decide who is in this organization and how much of it they reach.",
     "inviteAction": "Invite",
     "inviteTitle": "Invite to the organization",
-    "inviteDescription": "They will reach the projects their role allows.",
+    "inviteDescription": "We email them a link that works for seven days. They can sign in or create an account with it.",
     "email": "Email",
     "role": "Role",
     "roleScopedHint": "Reaches every project by default. You can narrow it to a list afterwards.",
@@ -207,6 +203,11 @@
         "access_changed": "Project access changed",
         "removed": "Member removed"
       },
+      "invitation": {
+        "sent": "Invitation sent",
+        "revoked": "Invitation withdrawn",
+        "accepted": "Invitation accepted"
+      },
       "org": {
         "deleted": "Organization deleted"
       },
@@ -256,5 +257,35 @@
         "removed": "Server removed"
       }
     }
+  },
+  "invitations": {
+    "title": "Pending invitations",
+    "send": "Send invitation",
+    "sent": "Invitation sent",
+    "sentTo": "An invitation is on its way to {{email}}.",
+    "invitedBy": "Invited by {{name}}",
+    "expires": "expires {{when}}",
+    "expired": "Expired",
+    "resend": "Send again",
+    "revoke": "Withdraw invitation",
+    "resendFailed": "Could not send the invitation again.",
+    "revokeFailed": "Could not withdraw the invitation."
+  },
+  "invitation": {
+    "title": "Invitation",
+    "summary": "<strong>{{inviter}}</strong> invited you to join <strong>{{org}}</strong>.",
+    "signInFirst": "Sign in or create an account with this email to accept it.",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "otherAccount": "This invitation is for {{email}}, and you are signed in as {{current}}. Sign out and sign in with that email to accept it.",
+    "signOut": "Sign out",
+    "accept": "Join the organization",
+    "acceptFailed": "Could not accept the invitation.",
+    "joined": "You joined {{org}}",
+    "home": "Go to Dooservice",
+    "missing": "This invitation link is not valid. Ask for a new one.",
+    "expired": "This invitation has expired. Ask whoever invited you to send it again.",
+    "accepted": "This invitation has already been accepted.",
+    "revoked": "This invitation was withdrawn."
   }
 }

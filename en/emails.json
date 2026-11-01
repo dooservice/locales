@@ -194,5 +194,19 @@
       "action": "View alerts",
       "note": "Nothing needs doing."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} invited you to {org}",
+      "detail": "{inviter} invited you to join {org} on {product} as {role}. Sign in or create an account with this email address to accept.",
+      "action": "View the invitation",
+      "note": "The link works once and expires in 7 days. If you did not expect this email, ignore it: nothing changes until you accept.",
+      "roles": {
+        "owner": "owner",
+        "admin": "administrator",
+        "developer": "developer",
+        "viewer": "viewer"
+      }
+    }
   }
 }

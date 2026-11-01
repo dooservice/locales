@@ -194,5 +194,19 @@
       "action": "Ver alertas",
       "note": "No hace falta hacer nada."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} te invitó a {org}",
+      "detail": "{inviter} te invitó a unirte a {org} en {product} como {role}. Inicia sesión o crea una cuenta con esta dirección de correo para aceptar.",
+      "action": "Ver la invitación",
+      "note": "El enlace sirve una sola vez y caduca en 7 días. Si no esperabas este correo, ignóralo: nada cambia hasta que aceptes.",
+      "roles": {
+        "owner": "propietario",
+        "admin": "administrador",
+        "developer": "desarrollador",
+        "viewer": "lector"
+      }
+    }
   }
 }

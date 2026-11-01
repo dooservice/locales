@@ -194,5 +194,19 @@
       "action": "Alarme anzeigen",
       "note": "Es ist nichts zu tun."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} hat dich zu {org} eingeladen",
+      "detail": "{inviter} hat dich eingeladen, {org} auf {product} als {role} beizutreten. Melde dich mit dieser E-Mail-Adresse an oder erstelle ein Konto, um anzunehmen.",
+      "action": "Einladung ansehen",
+      "note": "Der Link funktioniert nur einmal und läuft in 7 Tagen ab. Wenn du diese E-Mail nicht erwartet hast, ignoriere sie: Nichts ändert sich, bis du annimmst.",
+      "roles": {
+        "owner": "Inhaber",
+        "admin": "Administrator",
+        "developer": "Entwickler",
+        "viewer": "Betrachter"
+      }
+    }
   }
 }

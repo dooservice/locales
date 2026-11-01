@@ -266,5 +266,10 @@
   "image_pull_failed": "Der Server konnte das benötigte Image nicht herunterladen.",
   "server_failure": "Der Server konnte den Vorgang nicht abschließen.",
   "job_watch_unavailable": "Der Fortschritt lässt sich gerade nicht verfolgen. Die Arbeit läuft auf dem Server weiter.",
-  "upload_interrupted": "Der Upload wurde unterbrochen. Prüfe deine Verbindung und versuche es erneut."
+  "upload_interrupted": "Der Upload wurde unterbrochen. Prüfe deine Verbindung und versuche es erneut.",
+  "invitation_not_found": "Diese Einladung gibt es nicht.",
+  "invitation_expired": "Diese Einladung ist abgelaufen. Bitte um eine neue.",
+  "invitation_used": "Diese Einladung wurde bereits angenommen.",
+  "invitation_wrong_account": "Diese Einladung gilt für eine andere E-Mail. Melde dich mit dieser an, um sie anzunehmen.",
+  "invitation_revoked": "Diese Einladung wurde zurückgezogen."
 }

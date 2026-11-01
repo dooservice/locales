@@ -194,5 +194,19 @@
       "action": "Voir les alertes",
       "note": "Aucune action n'est nécessaire."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} vous a invité à rejoindre {org}",
+      "detail": "{inviter} vous a invité à rejoindre {org} sur {product} en tant que {role}. Connectez-vous ou créez un compte avec cette adresse e-mail pour accepter.",
+      "action": "Voir l'invitation",
+      "note": "Le lien ne fonctionne qu'une fois et expire dans 7 jours. Si vous n'attendiez pas cet e-mail, ignorez-le : rien ne change tant que vous n'acceptez pas.",
+      "roles": {
+        "owner": "propriétaire",
+        "admin": "administrateur",
+        "developer": "développeur",
+        "viewer": "lecteur"
+      }
+    }
   }
 }

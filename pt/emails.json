@@ -194,5 +194,19 @@
       "action": "Ver alertas",
       "note": "Não é preciso fazer nada."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} convidou você para {org}",
+      "detail": "{inviter} convidou você para entrar em {org} no {product} como {role}. Entre ou crie uma conta com este endereço de e-mail para aceitar.",
+      "action": "Ver o convite",
+      "note": "O link funciona uma única vez e expira em 7 dias. Se você não esperava este e-mail, ignore-o: nada muda até você aceitar.",
+      "roles": {
+        "owner": "proprietário",
+        "admin": "administrador",
+        "developer": "desenvolvedor",
+        "viewer": "leitor"
+      }
+    }
   }
 }
