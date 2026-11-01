@@ -194,5 +194,19 @@
       "action": "Vedi avvisi",
       "note": "Non serve fare nulla."
     }
+  },
+  "members": {
+    "invitation": {
+      "subject": "{inviter} ti ha invitato in {org}",
+      "detail": "{inviter} ti ha invitato a unirti a {org} su {product} come {role}. Accedi o crea un account con questo indirizzo email per accettare.",
+      "action": "Vedi l'invito",
+      "note": "Il link funziona una sola volta e scade tra 7 giorni. Se non ti aspettavi questa email, ignorala: nulla cambia finché non accetti.",
+      "roles": {
+        "owner": "proprietario",
+        "admin": "amministratore",
+        "developer": "sviluppatore",
+        "viewer": "lettore"
+      }
+    }
   }
 }
