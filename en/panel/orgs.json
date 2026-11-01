@@ -163,7 +163,98 @@
     "title": "Organization",
     "tabs": {
       "general": "General",
-      "members": "Members"
+      "members": "Members",
+      "activity": "Activity"
+    }
+  },
+  "activity": {
+    "title": "Activity",
+    "description": "Sensitive actions in this organization: who did what, and when. Only owners see this.",
+    "filter": "Filter by action",
+    "everyAction": "All actions",
+    "when": "When",
+    "who": "Who",
+    "action": "Action",
+    "target": "On",
+    "empty": "Nothing recorded yet.",
+    "failed": "Could not load the activity.",
+    "more": "Load more",
+    "formerUser": "A deleted account",
+    "formerMember": "A former member",
+    "backup": "backup {{id}}",
+    "freePlan": "Free plan",
+    "periods": {
+      "monthly": "monthly",
+      "yearly": "yearly"
+    },
+    "modes": {
+      "production": "production",
+      "development": "development"
+    },
+    "subjects": {
+      "organization": "The organization",
+      "subscription": "Subscription"
+    },
+    "actors": {
+      "agent": "Server {{id}}",
+      "operator": "Dooservice operator",
+      "system": "Dooservice"
+    },
+    "actions": {
+      "member": {
+        "added": "Member added",
+        "role_changed": "Role changed",
+        "access_changed": "Project access changed",
+        "removed": "Member removed"
+      },
+      "org": {
+        "deleted": "Organization deleted"
+      },
+      "project": {
+        "created": "Project created",
+        "deleted": "Project deleted",
+        "locked": "Project locked",
+        "unlocked": "Project unlocked"
+      },
+      "github": {
+        "repository_linked": "Repository linked"
+      },
+      "environment": {
+        "cloned": "Environment cloned",
+        "deleted": "Environment deleted",
+        "restored": "Backup restored"
+      },
+      "deployment": {
+        "rolled_back": "Deployment rolled back"
+      },
+      "backup": {
+        "download_issued": "Backup downloaded",
+        "uploaded": "Backup uploaded"
+      },
+      "backup_storage": {
+        "saved": "Own bucket set",
+        "removed": "Own bucket removed"
+      },
+      "connect": {
+        "signed_in": "Signed in to Odoo"
+      },
+      "console": {
+        "production_opened": "Production console opened",
+        "policy_changed": "Production console policy changed"
+      },
+      "billing": {
+        "subscribed": "Subscribed",
+        "plan_changed": "Plan changed",
+        "add_ons_changed": "Add-ons changed",
+        "canceled": "Subscription canceled",
+        "resumed": "Subscription resumed",
+        "card_replaced": "Card replaced",
+        "profile_saved": "Billing details updated"
+      },
+      "server": {
+        "enrolled": "Server registered",
+        "removed": "Server removed"
+      }
     }
   }
 }

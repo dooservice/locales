@@ -163,7 +163,98 @@
     "title": "Organização",
     "tabs": {
       "general": "Geral",
-      "members": "Membros"
+      "members": "Membros",
+      "activity": "Atividade"
+    }
+  },
+  "activity": {
+    "title": "Atividade",
+    "description": "As ações sensíveis desta organização: quem fez o quê e quando. Só os proprietários a veem.",
+    "filter": "Filtrar por ação",
+    "everyAction": "Todas as ações",
+    "when": "Quando",
+    "who": "Quem",
+    "action": "Ação",
+    "target": "Sobre",
+    "empty": "Ainda não há nada registado.",
+    "failed": "Não foi possível carregar a atividade.",
+    "more": "Carregar mais",
+    "formerUser": "Uma conta eliminada",
+    "formerMember": "Um antigo membro",
+    "backup": "cópia {{id}}",
+    "freePlan": "Plano gratuito",
+    "periods": {
+      "monthly": "mensal",
+      "yearly": "anual"
+    },
+    "modes": {
+      "production": "produção",
+      "development": "desenvolvimento"
+    },
+    "subjects": {
+      "organization": "A organização",
+      "subscription": "Subscrição"
+    },
+    "actors": {
+      "agent": "Servidor {{id}}",
+      "operator": "Operador da Dooservice",
+      "system": "Dooservice"
+    },
+    "actions": {
+      "member": {
+        "added": "Membro adicionado",
+        "role_changed": "Função alterada",
+        "access_changed": "Acesso a projetos alterado",
+        "removed": "Membro removido"
+      },
+      "org": {
+        "deleted": "Organização eliminada"
+      },
+      "project": {
+        "created": "Projeto criado",
+        "deleted": "Projeto eliminado",
+        "locked": "Projeto bloqueado",
+        "unlocked": "Projeto desbloqueado"
+      },
+      "github": {
+        "repository_linked": "Repositório ligado"
+      },
+      "environment": {
+        "cloned": "Ambiente clonado",
+        "deleted": "Ambiente eliminado",
+        "restored": "Cópia restaurada"
+      },
+      "deployment": {
+        "rolled_back": "Implementação revertida"
+      },
+      "backup": {
+        "download_issued": "Cópia descarregada",
+        "uploaded": "Cópia enviada"
+      },
+      "backup_storage": {
+        "saved": "Bucket próprio configurado",
+        "removed": "Bucket próprio removido"
+      },
+      "connect": {
+        "signed_in": "Acesso ao Odoo"
+      },
+      "console": {
+        "production_opened": "Consola de produção aberta",
+        "policy_changed": "Política da consola de produção alterada"
+      },
+      "billing": {
+        "subscribed": "Subscrição contratada",
+        "plan_changed": "Plano alterado",
+        "add_ons_changed": "Extras alterados",
+        "canceled": "Subscrição cancelada",
+        "resumed": "Subscrição retomada",
+        "card_replaced": "Cartão substituído",
+        "profile_saved": "Dados de faturação atualizados"
+      },
+      "server": {
+        "enrolled": "Servidor registado",
+        "removed": "Servidor removido"
+      }
     }
   }
 }
