@@ -69,5 +69,6 @@
   "zone": {
     "search": "Zone suchen…",
     "none": "Keine Zone mit diesem Namen."
-  }
+  },
+  "technicalDetail": "Technisches Detail"
 }
