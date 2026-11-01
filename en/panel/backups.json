@@ -121,5 +121,6 @@
     "fingerprint": "Fingerprint",
     "available": "Available",
     "vaultDates": "Locked until {{locked}} · deleted on {{expires}}"
-  }
+  },
+  "unavailable": "Backups are not available while the server is offline"
 }

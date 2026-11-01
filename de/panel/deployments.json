@@ -25,5 +25,6 @@
     "unknown": "Das Repository hat diese Commits nicht mehr.",
     "backup": "Backup davor",
     "rollback": "Zu diesem Deployment zurückkehren"
-  }
+  },
+  "unavailable": "Deployments sind nicht verfügbar, solange der Server getrennt ist"
 }

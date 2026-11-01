@@ -25,5 +25,6 @@
     "unknown": "O repositório não tem mais esses commits.",
     "backup": "Backup anterior",
     "rollback": "Voltar a este deploy"
-  }
+  },
+  "unavailable": "As implantações não ficam disponíveis enquanto o servidor estiver desconectado"
 }

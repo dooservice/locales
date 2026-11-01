@@ -121,5 +121,6 @@
     "fingerprint": "Impressão digital",
     "available": "Disponível",
     "vaultDates": "Bloqueado até {{locked}} · excluído em {{expires}}"
-  }
+  },
+  "unavailable": "Os backups não ficam disponíveis enquanto o servidor estiver desconectado"
 }

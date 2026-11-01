@@ -25,5 +25,6 @@
     "unknown": "Le dépôt ne contient plus ces commits.",
     "backup": "Sauvegarde préalable",
     "rollback": "Revenir à ce déploiement"
-  }
+  },
+  "unavailable": "Les déploiements ne sont pas disponibles tant que le serveur est déconnecté"
 }

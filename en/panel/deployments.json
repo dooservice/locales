@@ -25,5 +25,6 @@
     "unknown": "The repository no longer has these commits.",
     "backup": "Backup before",
     "rollback": "Go back to this deployment"
-  }
+  },
+  "unavailable": "Deployments are not available while the server is offline"
 }

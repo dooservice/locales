@@ -122,5 +122,6 @@
     "fingerprint": "Impronta",
     "available": "Disponibile",
     "vaultDates": "Bloccato fino al {{locked}} · eliminato il {{expires}}"
-  }
+  },
+  "unavailable": "I backup non sono disponibili finché il server è disconnesso"
 }

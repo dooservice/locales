@@ -25,5 +25,6 @@
     "unknown": "El repositorio ya no tiene estos commits.",
     "backup": "Copia previa",
     "rollback": "Volver a este despliegue"
-  }
+  },
+  "unavailable": "Los despliegues no están disponibles mientras el servidor esté desconectado"
 }
