@@ -92,6 +92,24 @@
       "failed": "Rebuild failed",
       "running": "Rebuilding environment..."
     },
+    "start": {
+      "title": "Starting Environment",
+      "done": "Environment started",
+      "failed": "Start failed",
+      "running": "Starting environment..."
+    },
+    "stop": {
+      "title": "Stopping Environment",
+      "done": "Environment stopped",
+      "failed": "Stop failed",
+      "running": "Stopping environment..."
+    },
+    "delete": {
+      "title": "Deleting Environment",
+      "done": "Environment deleted",
+      "failed": "Delete failed",
+      "running": "Deleting environment..."
+    },
     "takesMinutes": "This may take a few minutes...",
     "inBackground": "Keep going in the background"
   },
@@ -102,7 +120,8 @@
     "deleteDialog": {
       "title": "Delete Environment",
       "description": "Are you sure you want to delete <strong>{{name}}</strong>? This action cannot be undone."
-    }
+    },
+    "deleteFailed": "Delete failed"
   },
   "domain": {
     "title": "Custom Domain",
@@ -281,5 +300,11 @@
   },
   "connect": {
     "hint": "You go in as Odoo's administrator, without a password."
+  },
+  "freshness": {
+    "disconnected": "Server disconnected",
+    "notAnswering": "Server not responding",
+    "updated": "Updated {{when}}",
+    "hint": "Showing the last known state. It refreshes as soon as the server answers again."
   }
 }

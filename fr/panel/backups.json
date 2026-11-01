@@ -121,5 +121,6 @@
     "fingerprint": "Empreinte",
     "available": "Disponible",
     "vaultDates": "Verrouillée jusqu'au {{locked}} · supprimée le {{expires}}"
-  }
+  },
+  "unavailable": "Les sauvegardes ne sont pas disponibles tant que le serveur est déconnecté"
 }

@@ -121,5 +121,6 @@
     "fingerprint": "Huella",
     "available": "Disponible",
     "vaultDates": "Bloqueada hasta el {{locked}} · se elimina el {{expires}}"
-  }
+  },
+  "unavailable": "Las copias de seguridad no están disponibles mientras el servidor esté desconectado"
 }

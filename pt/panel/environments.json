@@ -92,6 +92,24 @@
       "failed": "Falha ao reconstruir",
       "running": "Reconstruindo o ambiente..."
     },
+    "start": {
+      "title": "Iniciando o ambiente",
+      "done": "Ambiente iniciado",
+      "failed": "Falha ao iniciar",
+      "running": "Iniciando o ambiente..."
+    },
+    "stop": {
+      "title": "Parando o ambiente",
+      "done": "Ambiente parado",
+      "failed": "Falha ao parar",
+      "running": "Parando o ambiente..."
+    },
+    "delete": {
+      "title": "Excluindo o ambiente",
+      "done": "Ambiente excluído",
+      "failed": "Falha ao excluir",
+      "running": "Excluindo o ambiente..."
+    },
     "takesMinutes": "Isso pode levar alguns minutos...",
     "inBackground": "Continuar em segundo plano"
   },
@@ -102,7 +120,8 @@
     "deleteDialog": {
       "title": "Excluir ambiente",
       "description": "Tem certeza de que deseja excluir <strong>{{name}}</strong>? Esta ação não pode ser desfeita."
-    }
+    },
+    "deleteFailed": "Falha ao excluir"
   },
   "domain": {
     "title": "Domínio personalizado",
@@ -281,5 +300,11 @@
   },
   "connect": {
     "hint": "Você entra como administrador do Odoo, sem senha."
+  },
+  "freshness": {
+    "disconnected": "Servidor desconectado",
+    "notAnswering": "O servidor não responde",
+    "updated": "Atualizado {{when}}",
+    "hint": "Mostrando o último estado conhecido. Ele será atualizado assim que o servidor voltar a responder."
   }
 }

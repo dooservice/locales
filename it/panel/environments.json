@@ -92,6 +92,24 @@
       "failed": "Ricreazione non riuscita",
       "running": "Ricreazione dell'ambiente..."
     },
+    "start": {
+      "title": "Avvio dell'ambiente",
+      "done": "Ambiente avviato",
+      "failed": "Avvio non riuscito",
+      "running": "Avvio dell'ambiente..."
+    },
+    "stop": {
+      "title": "Arresto dell'ambiente",
+      "done": "Ambiente arrestato",
+      "failed": "Arresto non riuscito",
+      "running": "Arresto dell'ambiente..."
+    },
+    "delete": {
+      "title": "Eliminazione dell'ambiente",
+      "done": "Ambiente eliminato",
+      "failed": "Eliminazione non riuscita",
+      "running": "Eliminazione dell'ambiente..."
+    },
     "takesMinutes": "Potrebbe richiedere qualche minuto...",
     "inBackground": "Continua in background"
   },
@@ -102,7 +120,8 @@
     "deleteDialog": {
       "title": "Elimina ambiente",
       "description": "Vuoi davvero eliminare <strong>{{name}}</strong>? Questa azione non si può annullare."
-    }
+    },
+    "deleteFailed": "Eliminazione non riuscita"
   },
   "domain": {
     "title": "Dominio personalizzato",
@@ -281,5 +300,11 @@
   },
   "connect": {
     "hint": "Entri come amministratore di Odoo, senza password."
+  },
+  "freshness": {
+    "disconnected": "Server disconnesso",
+    "notAnswering": "Il server non risponde",
+    "updated": "Aggiornato {{when}}",
+    "hint": "Viene mostrato l'ultimo stato noto. Si aggiornerà appena il server risponderà di nuovo."
   }
 }

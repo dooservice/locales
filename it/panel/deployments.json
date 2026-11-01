@@ -26,5 +26,6 @@
     "unknown": "Il repository non ha più questi commit.",
     "backup": "Backup precedente",
     "rollback": "Torna a questo deploy"
-  }
+  },
+  "unavailable": "I deploy non sono disponibili finché il server è disconnesso"
 }

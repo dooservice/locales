@@ -121,5 +121,6 @@
     "fingerprint": "Fingerabdruck",
     "available": "Verfügbar",
     "vaultDates": "Gesperrt bis {{locked}} · gelöscht am {{expires}}"
-  }
+  },
+  "unavailable": "Backups sind nicht verfügbar, solange der Server getrennt ist"
 }

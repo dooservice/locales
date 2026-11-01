@@ -92,6 +92,24 @@
       "failed": "Échec de la reconstruction",
       "running": "Reconstruction de l'environnement..."
     },
+    "start": {
+      "title": "Démarrage de l'environnement",
+      "done": "Environnement démarré",
+      "failed": "Échec du démarrage",
+      "running": "Démarrage de l'environnement..."
+    },
+    "stop": {
+      "title": "Arrêt de l'environnement",
+      "done": "Environnement arrêté",
+      "failed": "Échec de l'arrêt",
+      "running": "Arrêt de l'environnement..."
+    },
+    "delete": {
+      "title": "Suppression de l'environnement",
+      "done": "Environnement supprimé",
+      "failed": "Échec de la suppression",
+      "running": "Suppression de l'environnement..."
+    },
     "takesMinutes": "Cela peut prendre quelques minutes...",
     "inBackground": "Continuer en arrière-plan"
   },
@@ -102,7 +120,8 @@
     "deleteDialog": {
       "title": "Supprimer l'environnement",
       "description": "Voulez-vous vraiment supprimer <strong>{{name}}</strong> ? Cette action est irréversible."
-    }
+    },
+    "deleteFailed": "Échec de la suppression"
   },
   "domain": {
     "title": "Domaine personnalisé",
@@ -281,5 +300,11 @@
   },
   "connect": {
     "hint": "Vous entrez en tant qu'administrateur d'Odoo, sans mot de passe."
+  },
+  "freshness": {
+    "disconnected": "Serveur déconnecté",
+    "notAnswering": "Le serveur ne répond pas",
+    "updated": "Mis à jour {{when}}",
+    "hint": "Dernier état connu affiché. Il sera actualisé dès que le serveur répondra à nouveau."
   }
 }

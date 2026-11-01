@@ -92,6 +92,24 @@
       "failed": "Neuaufbau fehlgeschlagen",
       "running": "Umgebung wird neu aufgebaut..."
     },
+    "start": {
+      "title": "Umgebung wird gestartet",
+      "done": "Umgebung gestartet",
+      "failed": "Starten fehlgeschlagen",
+      "running": "Umgebung wird gestartet..."
+    },
+    "stop": {
+      "title": "Umgebung wird gestoppt",
+      "done": "Umgebung gestoppt",
+      "failed": "Stoppen fehlgeschlagen",
+      "running": "Umgebung wird gestoppt..."
+    },
+    "delete": {
+      "title": "Umgebung wird gelöscht",
+      "done": "Umgebung gelöscht",
+      "failed": "Löschen fehlgeschlagen",
+      "running": "Umgebung wird gelöscht..."
+    },
     "takesMinutes": "Das kann einige Minuten dauern...",
     "inBackground": "Im Hintergrund weiterlaufen lassen"
   },
@@ -102,7 +120,8 @@
     "deleteDialog": {
       "title": "Umgebung löschen",
       "description": "Willst du <strong>{{name}}</strong> wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden."
-    }
+    },
+    "deleteFailed": "Löschen fehlgeschlagen"
   },
   "domain": {
     "title": "Eigene Domain",
@@ -281,5 +300,11 @@
   },
   "connect": {
     "hint": "Du meldest dich als Odoo-Administrator an, ohne Passwort."
+  },
+  "freshness": {
+    "disconnected": "Server getrennt",
+    "notAnswering": "Server antwortet nicht",
+    "updated": "Aktualisiert {{when}}",
+    "hint": "Angezeigt wird der zuletzt bekannte Stand. Er wird aktualisiert, sobald der Server wieder antwortet."
   }
 }
