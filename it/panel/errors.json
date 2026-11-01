@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Ricomincia la configurazione dell'app di autenticazione.",
   "session_not_found": "Quella sessione non esiste più.",
   "password_not_set": "Questo account non ha una password. Impostala con \"Password dimenticata\".",
-  "wrong_current_password": "La password attuale non è corretta."
+  "wrong_current_password": "La password attuale non è corretta.",
+  "collector_offline": "Il server non è connesso. Farà la pulizia quando tornerà online.",
+  "collector_unavailable": "Questo server non può ancora pulire i suoi residui. Aggiorna il suo agente.",
+  "copies_not_removed": "Alcune copie di questo backup non sono ancora state rimosse. Riprova più tardi.",
+  "environment_not_on_this_server": "Quell'ambiente appartiene a un progetto su un altro server.",
+  "image_renewal_busy": "Questo ambiente sta già passando alla nuova immagine.",
+  "not_ready": "Il servizio si sta ancora avviando. Riprova tra un momento.",
+  "nothing_to_export": "Questo backup non ha nessuna copia esportabile.",
+  "relay_not_approved": "Questo relay non è approvato sulla piattaforma.",
+  "relay_signature": "La firma del relay non è valida.",
+  "rollout_token_invalid": "Il token di rollout non è valido.",
+  "shared_apply_busy": "Questo server sta già aggiornando i suoi servizi condivisi.",
+  "shared_apply_unavailable": "Questo server non può ancora aggiornare i servizi condivisi su richiesta. Aggiorna il suo agente.",
+  "status_page_not_found": "Non c'è nessuna pagina di stato a questo indirizzo.",
+  "upload_incomplete": "Il caricamento non è arrivato completo. Riprova."
 }

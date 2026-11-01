@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Start setting up the authenticator app again.",
   "session_not_found": "That session no longer exists.",
   "password_not_set": "This account has no password. Set one with \"Forgot password\".",
-  "wrong_current_password": "The current password is not correct."
+  "wrong_current_password": "The current password is not correct.",
+  "collector_offline": "The server is not connected. It cleans up once it is back.",
+  "collector_unavailable": "This server cannot clean up its leftovers yet. Update its agent.",
+  "copies_not_removed": "Some copies of this backup could not be removed yet. Try again later.",
+  "environment_not_on_this_server": "That environment belongs to a project on another server.",
+  "image_renewal_busy": "This environment is already moving to its new image.",
+  "not_ready": "The service is still starting. Try again in a moment.",
+  "nothing_to_export": "This backup has no copy that can be exported.",
+  "relay_not_approved": "This relay is not approved on the platform.",
+  "relay_signature": "The relay's signature is not valid.",
+  "rollout_token_invalid": "The rollout token is not valid.",
+  "shared_apply_busy": "This server is already updating its shared services.",
+  "shared_apply_unavailable": "This server cannot update its shared services on request yet. Update its agent.",
+  "status_page_not_found": "There is no status page at this address.",
+  "upload_incomplete": "The upload did not arrive complete. Try again."
 }

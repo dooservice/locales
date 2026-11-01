@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Recommencez la configuration de l'application d'authentification.",
   "session_not_found": "Cette session n'existe plus.",
   "password_not_set": "Ce compte n'a pas de mot de passe. Définissez-en un avec « Mot de passe oublié ».",
-  "wrong_current_password": "Le mot de passe actuel est incorrect."
+  "wrong_current_password": "Le mot de passe actuel est incorrect.",
+  "collector_offline": "Le serveur n'est pas connecté. Il fera le nettoyage à son retour.",
+  "collector_unavailable": "Ce serveur ne peut pas encore nettoyer ses restes. Mettez à jour son agent.",
+  "copies_not_removed": "Certaines copies de cette sauvegarde n'ont pas encore pu être supprimées. Réessayez plus tard.",
+  "environment_not_on_this_server": "Cet environnement appartient à un projet hébergé sur un autre serveur.",
+  "image_renewal_busy": "Cet environnement passe déjà à sa nouvelle image.",
+  "not_ready": "Le service est encore en train de démarrer. Réessayez dans un instant.",
+  "nothing_to_export": "Cette sauvegarde n'a aucune copie exportable.",
+  "relay_not_approved": "Ce relais n'est pas approuvé sur la plateforme.",
+  "relay_signature": "La signature du relais n'est pas valide.",
+  "rollout_token_invalid": "Le jeton de déploiement progressif n'est pas valide.",
+  "shared_apply_busy": "Ce serveur met déjà à jour ses services partagés.",
+  "shared_apply_unavailable": "Ce serveur ne peut pas encore mettre à jour ses services partagés à la demande. Mettez à jour son agent.",
+  "status_page_not_found": "Il n'y a aucune page d'état à cette adresse.",
+  "upload_incomplete": "Le fichier n'est pas arrivé complet. Réessayez."
 }

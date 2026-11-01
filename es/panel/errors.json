@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Vuelve a empezar la configuración de la app de autenticación.",
   "session_not_found": "Esa sesión ya no existe.",
   "password_not_set": "Esta cuenta no tiene contraseña. Crea una con «¿Olvidaste tu contraseña?».",
-  "wrong_current_password": "La contraseña actual no es correcta."
+  "wrong_current_password": "La contraseña actual no es correcta.",
+  "collector_offline": "El servidor no está conectado. Hará la limpieza cuando vuelva.",
+  "collector_unavailable": "Este servidor aún no puede limpiar sus restos. Actualiza su agente.",
+  "copies_not_removed": "Algunas copias de este respaldo aún no se pudieron borrar. Inténtalo más tarde.",
+  "environment_not_on_this_server": "Ese entorno pertenece a un proyecto de otro servidor.",
+  "image_renewal_busy": "Este entorno ya está pasando a su nueva imagen.",
+  "not_ready": "El servicio aún está arrancando. Inténtalo de nuevo en un momento.",
+  "nothing_to_export": "Este respaldo no tiene ninguna copia que se pueda exportar.",
+  "relay_not_approved": "Este relé no está aprobado en la plataforma.",
+  "relay_signature": "La firma del relé no es válida.",
+  "rollout_token_invalid": "El token de despliegue gradual no es válido.",
+  "shared_apply_busy": "Este servidor ya está actualizando sus servicios compartidos.",
+  "shared_apply_unavailable": "Este servidor aún no puede actualizar sus servicios compartidos a petición. Actualiza su agente.",
+  "status_page_not_found": "No hay ninguna página de estado en esta dirección.",
+  "upload_incomplete": "La subida no llegó completa. Inténtalo de nuevo."
 }

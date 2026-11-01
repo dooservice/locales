@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Beginne die Einrichtung der Authenticator-App erneut.",
   "session_not_found": "Diese Sitzung gibt es nicht mehr.",
   "password_not_set": "Dieses Konto hat kein Passwort. Lege eines über „Passwort vergessen“ fest.",
-  "wrong_current_password": "Das aktuelle Passwort ist falsch."
+  "wrong_current_password": "Das aktuelle Passwort ist falsch.",
+  "collector_offline": "Der Server ist nicht verbunden. Er räumt auf, sobald er wieder da ist.",
+  "collector_unavailable": "Dieser Server kann seine Überreste noch nicht aufräumen. Aktualisiere seinen Agent.",
+  "copies_not_removed": "Einige Kopien dieses Backups konnten noch nicht entfernt werden. Versuche es später erneut.",
+  "environment_not_on_this_server": "Diese Umgebung gehört zu einem Projekt auf einem anderen Server.",
+  "image_renewal_busy": "Diese Umgebung wechselt bereits auf ihr neues Image.",
+  "not_ready": "Der Dienst startet noch. Versuche es gleich noch einmal.",
+  "nothing_to_export": "Von diesem Backup gibt es keine Kopie, die exportiert werden kann.",
+  "relay_not_approved": "Dieses Relay ist auf der Plattform nicht freigegeben.",
+  "relay_signature": "Die Signatur des Relays ist ungültig.",
+  "rollout_token_invalid": "Das Rollout-Token ist ungültig.",
+  "shared_apply_busy": "Dieser Server aktualisiert seine gemeinsamen Dienste bereits.",
+  "shared_apply_unavailable": "Dieser Server kann seine gemeinsamen Dienste noch nicht auf Anfrage aktualisieren. Aktualisiere seinen Agent.",
+  "status_page_not_found": "Unter dieser Adresse gibt es keine Statusseite.",
+  "upload_incomplete": "Der Upload ist nicht vollständig angekommen. Versuche es erneut."
 }

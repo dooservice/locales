@@ -216,5 +216,19 @@
   "mfa_enrollment_not_started": "Comece de novo a configuração do app autenticador.",
   "session_not_found": "Essa sessão não existe mais.",
   "password_not_set": "Esta conta não tem senha. Crie uma em \"Esqueceu a senha?\".",
-  "wrong_current_password": "A senha atual não está correta."
+  "wrong_current_password": "A senha atual não está correta.",
+  "collector_offline": "O servidor não está conectado. Ele faz a limpeza quando voltar.",
+  "collector_unavailable": "Este servidor ainda não consegue limpar suas sobras. Atualize o agente.",
+  "copies_not_removed": "Algumas cópias deste backup ainda não puderam ser removidas. Tente novamente mais tarde.",
+  "environment_not_on_this_server": "Esse ambiente pertence a um projeto em outro servidor.",
+  "image_renewal_busy": "Este ambiente já está passando para a nova imagem.",
+  "not_ready": "O serviço ainda está iniciando. Tente novamente em instantes.",
+  "nothing_to_export": "Este backup não tem nenhuma cópia que possa ser exportada.",
+  "relay_not_approved": "Este relay não está aprovado na plataforma.",
+  "relay_signature": "A assinatura do relay não é válida.",
+  "rollout_token_invalid": "O token de rollout não é válido.",
+  "shared_apply_busy": "Este servidor já está atualizando seus serviços compartilhados.",
+  "shared_apply_unavailable": "Este servidor ainda não consegue atualizar seus serviços compartilhados sob demanda. Atualize o agente.",
+  "status_page_not_found": "Não há nenhuma página de status neste endereço.",
+  "upload_incomplete": "O envio não chegou completo. Tente novamente."
 }
