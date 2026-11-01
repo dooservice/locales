@@ -1,7 +1,8 @@
 {
   "title": "Configurações",
   "nav": {
-    "account": "Conta"
+    "account": "Conta",
+    "security": "Segurança"
   },
   "profile": {
     "title": "Configurações da conta",
@@ -13,5 +14,37 @@
   "language": {
     "title": "Idioma",
     "description": "Escolha o idioma da interface."
+  },
+  "security": {
+    "title": "Verificação em duas etapas",
+    "on": "Ativada",
+    "description": "Ao entrar e antes de ações sensíveis, é pedido um código do seu app autenticador.",
+    "codesLeft_one": "Resta {{count}} código de recuperação",
+    "codesLeft_other": "Restam {{count}} códigos de recuperação",
+    "newCodes": "Novos códigos de recuperação",
+    "changeApp": "Trocar app autenticador",
+    "codesTitle": "Novos códigos de recuperação",
+    "changeAppTitle": "Trocar app autenticador",
+    "failed": "Não foi possível concluir a ação"
+  },
+  "password": {
+    "title": "Senha",
+    "none": "Você entra com Google ou GitHub, então esta conta não tem senha.",
+    "setOne": "Criar uma senha",
+    "current": "Senha atual",
+    "new": "Nova senha",
+    "submit": "Alterar senha",
+    "changed": "Senha alterada",
+    "changedDesc": "Suas outras sessões foram encerradas."
+  },
+  "sessions": {
+    "title": "Sessões",
+    "closeOthers": "Encerrar as outras sessões",
+    "closedOthers_one": "{{count}} sessão encerrada",
+    "closedOthers_other": "{{count}} sessões encerradas",
+    "unknownDevice": "Dispositivo desconhecido",
+    "lastActive": "Última atividade {{when}}",
+    "current": "Este dispositivo",
+    "close": "Encerrar"
   }
 }

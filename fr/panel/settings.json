@@ -1,7 +1,8 @@
 {
   "title": "Paramètres",
   "nav": {
-    "account": "Compte"
+    "account": "Compte",
+    "security": "Sécurité"
   },
   "profile": {
     "title": "Paramètres du compte",
@@ -13,5 +14,37 @@
   "language": {
     "title": "Langue",
     "description": "Choisissez la langue de l'interface."
+  },
+  "security": {
+    "title": "Validation en deux étapes",
+    "on": "Activée",
+    "description": "Un code de votre application d'authentification est demandé à la connexion et avant les actions sensibles.",
+    "codesLeft_one": "{{count}} code de récupération restant",
+    "codesLeft_other": "{{count}} codes de récupération restants",
+    "newCodes": "Nouveaux codes de récupération",
+    "changeApp": "Changer d'application d'authentification",
+    "codesTitle": "Nouveaux codes de récupération",
+    "changeAppTitle": "Changer d'application d'authentification",
+    "failed": "Impossible de terminer l'action"
+  },
+  "password": {
+    "title": "Mot de passe",
+    "none": "Vous vous connectez avec Google ou GitHub : ce compte n'a pas de mot de passe.",
+    "setOne": "Définir un mot de passe",
+    "current": "Mot de passe actuel",
+    "new": "Nouveau mot de passe",
+    "submit": "Changer le mot de passe",
+    "changed": "Mot de passe changé",
+    "changedDesc": "Vos autres sessions ont été déconnectées."
+  },
+  "sessions": {
+    "title": "Sessions",
+    "closeOthers": "Déconnecter les autres sessions",
+    "closedOthers_one": "{{count}} session déconnectée",
+    "closedOthers_other": "{{count}} sessions déconnectées",
+    "unknownDevice": "Appareil inconnu",
+    "lastActive": "Dernière activité {{when}}",
+    "current": "Cet appareil",
+    "close": "Déconnecter"
   }
 }

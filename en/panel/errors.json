@@ -207,5 +207,14 @@
   "backup_not_found": "That backup does not exist in this project.",
   "repo_not_accessible": "You cannot push to {{repo}} on GitHub. Ask for write access, or choose another repository.",
   "new_repository_needs_admin": "Only a project admin can add {{repo}}, which this project does not use yet.",
-  "agent_id_retired": "A removed server used this name recently. Choose another name for this server."
+  "agent_id_retired": "A removed server used this name recently. Choose another name for this server.",
+  "mfa_challenge_pending": "Enter the code from your authenticator app to finish signing in.",
+  "mfa_enrollment_required": "Set up two-step verification to continue.",
+  "mfa_unlock_required": "Confirm this action with a code from your authenticator app.",
+  "invalid_mfa_code": "The code is not valid. Check it and try again.",
+  "mfa_not_enabled": "Two-step verification is not set up.",
+  "mfa_enrollment_not_started": "Start setting up the authenticator app again.",
+  "session_not_found": "That session no longer exists.",
+  "password_not_set": "This account has no password. Set one with \"Forgot password\".",
+  "wrong_current_password": "The current password is not correct."
 }

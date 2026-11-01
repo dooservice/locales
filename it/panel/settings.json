@@ -1,7 +1,8 @@
 {
   "title": "Impostazioni",
   "nav": {
-    "account": "Account"
+    "account": "Account",
+    "security": "Sicurezza"
   },
   "profile": {
     "title": "Impostazioni account",
@@ -13,5 +14,37 @@
   "language": {
     "title": "Lingua",
     "description": "Scegli la lingua dell'interfaccia."
+  },
+  "security": {
+    "title": "Verifica in due passaggi",
+    "on": "Attiva",
+    "description": "All'accesso e prima delle azioni delicate viene chiesto un codice della tua app di autenticazione.",
+    "codesLeft_one": "Ti resta {{count}} codice di recupero",
+    "codesLeft_other": "Ti restano {{count}} codici di recupero",
+    "newCodes": "Nuovi codici di recupero",
+    "changeApp": "Cambia app di autenticazione",
+    "codesTitle": "Nuovi codici di recupero",
+    "changeAppTitle": "Cambia app di autenticazione",
+    "failed": "Impossibile completare l'azione"
+  },
+  "password": {
+    "title": "Password",
+    "none": "Accedi con Google o GitHub, quindi questo account non ha una password.",
+    "setOne": "Imposta una password",
+    "current": "Password attuale",
+    "new": "Nuova password",
+    "submit": "Cambia password",
+    "changed": "Password cambiata",
+    "changedDesc": "Le tue altre sessioni sono state chiuse."
+  },
+  "sessions": {
+    "title": "Sessioni",
+    "closeOthers": "Chiudi le altre sessioni",
+    "closedOthers_one": "{{count}} sessione chiusa",
+    "closedOthers_other": "{{count}} sessioni chiuse",
+    "unknownDevice": "Dispositivo sconosciuto",
+    "lastActive": "Ultima attività {{when}}",
+    "current": "Questo dispositivo",
+    "close": "Chiudi"
   }
 }
