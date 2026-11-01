@@ -35,7 +35,8 @@
     "databaseDesc": "Plus petite, plus rapide",
     "descriptionLabel": "Description",
     "descriptionPlaceholder": "ex. avant la migration",
-    "started": "Sauvegarde lancée"
+    "started": "Sauvegarde lancée",
+    "failed": "Échec de la sauvegarde"
   },
   "uploadDialog": {
     "title": "Importer une sauvegarde",

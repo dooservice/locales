@@ -70,5 +70,6 @@
   "zone": {
     "search": "Cerca zona…",
     "none": "Nessuna zona con questo nome."
-  }
+  },
+  "technicalDetail": "Dettaglio tecnico"
 }

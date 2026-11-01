@@ -35,7 +35,8 @@
     "databaseDesc": "Kleiner, schneller",
     "descriptionLabel": "Beschreibung",
     "descriptionPlaceholder": "z. B. vor der Migration",
-    "started": "Backup gestartet"
+    "started": "Backup gestartet",
+    "failed": "Backup fehlgeschlagen"
   },
   "uploadDialog": {
     "title": "Backup hochladen",

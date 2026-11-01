@@ -35,7 +35,8 @@
     "databaseDesc": "Smaller, faster",
     "descriptionLabel": "Description",
     "descriptionPlaceholder": "e.g. before migration",
-    "started": "Backup started"
+    "started": "Backup started",
+    "failed": "Backup failed"
   },
   "uploadDialog": {
     "title": "Upload backup",
