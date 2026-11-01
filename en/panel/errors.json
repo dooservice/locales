@@ -266,5 +266,10 @@
   "image_pull_failed": "The server could not download the image it needs.",
   "server_failure": "The server could not finish this.",
   "job_watch_unavailable": "Progress cannot be followed right now. The work goes on on the server.",
-  "upload_interrupted": "The upload was interrupted. Check your connection and try again."
+  "upload_interrupted": "The upload was interrupted. Check your connection and try again.",
+  "invitation_not_found": "This invitation does not exist.",
+  "invitation_expired": "This invitation has expired. Ask for a new one.",
+  "invitation_used": "This invitation has already been accepted.",
+  "invitation_wrong_account": "This invitation is for another email. Sign in with that one to accept it.",
+  "invitation_revoked": "This invitation was withdrawn."
 }

@@ -266,5 +266,10 @@
   "image_pull_failed": "Il server non è riuscito a scaricare l'immagine di cui ha bisogno.",
   "server_failure": "Il server non è riuscito a completare l'operazione.",
   "job_watch_unavailable": "Al momento non è possibile seguire l'avanzamento. Il lavoro prosegue sul server.",
-  "upload_interrupted": "Il caricamento si è interrotto. Controlla la connessione e riprova."
+  "upload_interrupted": "Il caricamento si è interrotto. Controlla la connessione e riprova.",
+  "invitation_not_found": "Questo invito non esiste.",
+  "invitation_expired": "Questo invito è scaduto. Chiedine uno nuovo.",
+  "invitation_used": "Questo invito è già stato accettato.",
+  "invitation_wrong_account": "Questo invito è per un altro indirizzo. Accedi con quello per accettarlo.",
+  "invitation_revoked": "Questo invito è stato ritirato."
 }

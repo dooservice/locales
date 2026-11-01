@@ -266,5 +266,10 @@
   "image_pull_failed": "O servidor não conseguiu baixar a imagem de que precisa.",
   "server_failure": "O servidor não conseguiu concluir isto.",
   "job_watch_unavailable": "Não é possível acompanhar o progresso agora. O trabalho continua no servidor.",
-  "upload_interrupted": "O envio foi interrompido. Verifique sua conexão e tente novamente."
+  "upload_interrupted": "O envio foi interrompido. Verifique sua conexão e tente novamente.",
+  "invitation_not_found": "Este convite não existe.",
+  "invitation_expired": "Este convite expirou. Peça um novo.",
+  "invitation_used": "Este convite já foi aceito.",
+  "invitation_wrong_account": "Este convite é para outro e-mail. Entre com ele para aceitá-lo.",
+  "invitation_revoked": "Este convite foi retirado."
 }
