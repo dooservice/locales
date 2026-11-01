@@ -35,7 +35,8 @@
     "databaseDesc": "Más pequeña y rápida",
     "descriptionLabel": "Descripción",
     "descriptionPlaceholder": "ej. antes de la migración",
-    "started": "Copia de seguridad iniciada"
+    "started": "Copia de seguridad iniciada",
+    "failed": "No se pudo hacer el respaldo"
   },
   "uploadDialog": {
     "title": "Subir copia de seguridad",
