@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Membres",
-    "invite": "Ajouter une personne",
-    "inviteHint": "La personne doit déjà avoir un compte. Les administrateurs peuvent enregistrer des serveurs et gérer les membres.",
     "emailPlaceholder": "nom@entreprise.com",
-    "add": "Ajouter",
-    "addFailed": "Impossible de l'ajouter. Vérifiez que l'adresse correspond à un compte enregistré.",
     "you": "(vous)",
     "remove": "Retirer de l'organisation",
     "description": "Décidez qui fait partie de cette organisation et à quoi chacun a accès.",
     "inviteAction": "Inviter",
     "inviteTitle": "Inviter dans l'organisation",
-    "inviteDescription": "La personne aura accès aux projets que son rôle autorise.",
+    "inviteDescription": "Nous lui envoyons par e-mail un lien valable sept jours. Avec ce lien, la personne peut se connecter ou créer un compte.",
     "email": "E-mail",
     "role": "Rôle",
     "roleScopedHint": "A accès à tous les projets par défaut. Vous pourrez ensuite le limiter à une liste.",
@@ -207,6 +203,11 @@
         "access_changed": "Accès aux projets modifié",
         "removed": "Membre retiré"
       },
+      "invitation": {
+        "sent": "Invitation envoyée",
+        "revoked": "Invitation retirée",
+        "accepted": "Invitation acceptée"
+      },
       "org": {
         "deleted": "Organisation supprimée"
       },
@@ -256,5 +257,35 @@
         "removed": "Serveur supprimé"
       }
     }
+  },
+  "invitations": {
+    "title": "Invitations en attente",
+    "send": "Envoyer l'invitation",
+    "sent": "Invitation envoyée",
+    "sentTo": "Une invitation est en route vers {{email}}.",
+    "invitedBy": "Invité par {{name}}",
+    "expires": "expire {{when}}",
+    "expired": "Expirée",
+    "resend": "Renvoyer",
+    "revoke": "Retirer l'invitation",
+    "resendFailed": "Impossible de renvoyer l'invitation.",
+    "revokeFailed": "Impossible de retirer l'invitation."
+  },
+  "invitation": {
+    "title": "Invitation",
+    "summary": "<strong>{{inviter}}</strong> vous invite à rejoindre <strong>{{org}}</strong>.",
+    "signInFirst": "Connectez-vous ou créez un compte avec cette adresse pour l'accepter.",
+    "signIn": "Se connecter",
+    "signUp": "Créer un compte",
+    "otherAccount": "Cette invitation est destinée à {{email}}, et vous êtes connecté en tant que {{current}}. Déconnectez-vous et connectez-vous avec cette adresse pour l'accepter.",
+    "signOut": "Se déconnecter",
+    "accept": "Rejoindre l'organisation",
+    "acceptFailed": "Impossible d'accepter l'invitation.",
+    "joined": "Vous avez rejoint {{org}}",
+    "home": "Aller sur Dooservice",
+    "missing": "Ce lien d'invitation n'est pas valide. Demandez-en un nouveau.",
+    "expired": "Cette invitation a expiré. Demandez à la personne qui vous a invité de la renvoyer.",
+    "accepted": "Cette invitation a déjà été acceptée.",
+    "revoked": "Cette invitation a été retirée."
   }
 }

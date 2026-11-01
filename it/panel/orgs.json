@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Membri",
-    "invite": "Aggiungi qualcuno",
-    "inviteHint": "Deve avere già un account. Gli amministratori possono registrare server e gestire i membri.",
     "emailPlaceholder": "nome@azienda.com",
-    "add": "Aggiungi",
-    "addFailed": "Impossibile aggiungerlo. Verifica che l'indirizzo corrisponda a un account registrato.",
     "you": "(tu)",
     "remove": "Rimuovi dall'organizzazione",
     "description": "Decidi chi fa parte di questa organizzazione e a cosa può accedere.",
     "inviteAction": "Invita",
     "inviteTitle": "Invita nell'organizzazione",
-    "inviteDescription": "Avrà accesso ai progetti consentiti dal suo ruolo.",
+    "inviteDescription": "Gli inviamo per e-mail un link valido per sette giorni. Con quel link può accedere o creare un account.",
     "email": "Email",
     "role": "Ruolo",
     "roleScopedHint": "Per impostazione predefinita accede a tutti i progetti. Dopo puoi limitarlo a un elenco.",
@@ -213,6 +209,11 @@
         "access_changed": "Accesso ai progetti modificato",
         "removed": "Membro rimosso"
       },
+      "invitation": {
+        "sent": "Invito inviato",
+        "revoked": "Invito ritirato",
+        "accepted": "Invito accettato"
+      },
       "org": {
         "deleted": "Organizzazione eliminata"
       },
@@ -262,5 +263,35 @@
         "removed": "Server rimosso"
       }
     }
+  },
+  "invitations": {
+    "title": "Inviti in attesa",
+    "send": "Invia invito",
+    "sent": "Invito inviato",
+    "sentTo": "Un invito è in arrivo a {{email}}.",
+    "invitedBy": "Invitato da {{name}}",
+    "expires": "scade {{when}}",
+    "expired": "Scaduto",
+    "resend": "Invia di nuovo",
+    "revoke": "Ritira invito",
+    "resendFailed": "Impossibile inviare di nuovo l'invito.",
+    "revokeFailed": "Impossibile ritirare l'invito."
+  },
+  "invitation": {
+    "title": "Invito",
+    "summary": "<strong>{{inviter}}</strong> ti ha invitato a unirti a <strong>{{org}}</strong>.",
+    "signInFirst": "Accedi o crea un account con questo indirizzo per accettarlo.",
+    "signIn": "Accedi",
+    "signUp": "Crea account",
+    "otherAccount": "Questo invito è per {{email}} e hai effettuato l'accesso come {{current}}. Esci e accedi con quell'indirizzo per accettarlo.",
+    "signOut": "Esci",
+    "accept": "Unisciti all'organizzazione",
+    "acceptFailed": "Impossibile accettare l'invito.",
+    "joined": "Ti sei unito a {{org}}",
+    "home": "Vai a Dooservice",
+    "missing": "Questo link di invito non è valido. Chiedine uno nuovo.",
+    "expired": "Questo invito è scaduto. Chiedi a chi ti ha invitato di inviarlo di nuovo.",
+    "accepted": "Questo invito è già stato accettato.",
+    "revoked": "Questo invito è stato ritirato."
   }
 }

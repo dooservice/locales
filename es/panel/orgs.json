@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Miembros",
-    "invite": "Añadir a alguien",
-    "inviteHint": "Necesita tener ya una cuenta. Los administradores pueden registrar servidores y gestionar miembros.",
     "emailPlaceholder": "nombre@empresa.com",
-    "add": "Añadir",
-    "addFailed": "No se pudo añadir. Comprueba que el correo sea de una cuenta registrada.",
     "you": "(tú)",
     "remove": "Quitar de la organización",
     "description": "Decide quién está en esta organización y hasta dónde llega.",
     "inviteAction": "Invitar",
     "inviteTitle": "Invitar a la organización",
-    "inviteDescription": "Llegará a los proyectos que permita su rol.",
+    "inviteDescription": "Le enviamos por correo un enlace válido durante siete días. Con él puede iniciar sesión o crear una cuenta.",
     "email": "Correo",
     "role": "Rol",
     "roleScopedHint": "Llega a todos los proyectos por defecto. Después puedes limitarlo a una lista.",
@@ -207,6 +203,11 @@
         "access_changed": "Acceso a proyectos cambiado",
         "removed": "Miembro retirado"
       },
+      "invitation": {
+        "sent": "Invitación enviada",
+        "revoked": "Invitación retirada",
+        "accepted": "Invitación aceptada"
+      },
       "org": {
         "deleted": "Organización eliminada"
       },
@@ -256,5 +257,35 @@
         "removed": "Servidor eliminado"
       }
     }
+  },
+  "invitations": {
+    "title": "Invitaciones pendientes",
+    "send": "Enviar invitación",
+    "sent": "Invitación enviada",
+    "sentTo": "Hay una invitación en camino a {{email}}.",
+    "invitedBy": "Invitado por {{name}}",
+    "expires": "caduca {{when}}",
+    "expired": "Caducada",
+    "resend": "Enviar de nuevo",
+    "revoke": "Retirar invitación",
+    "resendFailed": "No se pudo volver a enviar la invitación.",
+    "revokeFailed": "No se pudo retirar la invitación."
+  },
+  "invitation": {
+    "title": "Invitación",
+    "summary": "<strong>{{inviter}}</strong> te ha invitado a unirte a <strong>{{org}}</strong>.",
+    "signInFirst": "Inicia sesión o crea una cuenta con este correo para aceptarla.",
+    "signIn": "Iniciar sesión",
+    "signUp": "Crear cuenta",
+    "otherAccount": "Esta invitación es para {{email}} y has iniciado sesión como {{current}}. Cierra sesión y entra con ese correo para aceptarla.",
+    "signOut": "Cerrar sesión",
+    "accept": "Unirme a la organización",
+    "acceptFailed": "No se pudo aceptar la invitación.",
+    "joined": "Te has unido a {{org}}",
+    "home": "Ir a Dooservice",
+    "missing": "Este enlace de invitación no es válido. Pide uno nuevo.",
+    "expired": "Esta invitación ha caducado. Pide a quien te invitó que la envíe de nuevo.",
+    "accepted": "Esta invitación ya fue aceptada.",
+    "revoked": "Esta invitación fue retirada."
   }
 }

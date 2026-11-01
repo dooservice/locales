@@ -17,17 +17,13 @@
   },
   "members": {
     "title": "Mitglieder",
-    "invite": "Person hinzufügen",
-    "inviteHint": "Die Person braucht bereits ein Konto. Admins können Server registrieren und Mitglieder verwalten.",
     "emailPlaceholder": "name@firma.de",
-    "add": "Hinzufügen",
-    "addFailed": "Hinzufügen nicht möglich. Prüfe, ob die Adresse zu einem registrierten Konto gehört.",
     "you": "(du)",
     "remove": "Aus der Organisation entfernen",
     "description": "Lege fest, wer zu dieser Organisation gehört und worauf er Zugriff hat.",
     "inviteAction": "Einladen",
     "inviteTitle": "In die Organisation einladen",
-    "inviteDescription": "Die Person erhält Zugriff auf die Projekte, die ihre Rolle erlaubt.",
+    "inviteDescription": "Wir schicken der Person per E-Mail einen Link, der sieben Tage gilt. Damit kann sie sich anmelden oder ein Konto erstellen.",
     "email": "E-Mail",
     "role": "Rolle",
     "roleScopedHint": "Hat standardmäßig Zugriff auf alle Projekte. Du kannst das danach auf eine Liste beschränken.",
@@ -207,6 +203,11 @@
         "access_changed": "Projektzugriff geändert",
         "removed": "Mitglied entfernt"
       },
+      "invitation": {
+        "sent": "Einladung gesendet",
+        "revoked": "Einladung zurückgezogen",
+        "accepted": "Einladung angenommen"
+      },
       "org": {
         "deleted": "Organisation gelöscht"
       },
@@ -256,5 +257,35 @@
         "removed": "Server entfernt"
       }
     }
+  },
+  "invitations": {
+    "title": "Offene Einladungen",
+    "send": "Einladung senden",
+    "sent": "Einladung gesendet",
+    "sentTo": "Eine Einladung ist unterwegs an {{email}}.",
+    "invitedBy": "Eingeladen von {{name}}",
+    "expires": "läuft {{when}} ab",
+    "expired": "Abgelaufen",
+    "resend": "Erneut senden",
+    "revoke": "Einladung zurückziehen",
+    "resendFailed": "Die Einladung konnte nicht erneut gesendet werden.",
+    "revokeFailed": "Die Einladung konnte nicht zurückgezogen werden."
+  },
+  "invitation": {
+    "title": "Einladung",
+    "summary": "<strong>{{inviter}}</strong> hat dich zu <strong>{{org}}</strong> eingeladen.",
+    "signInFirst": "Melde dich mit dieser E-Mail an oder erstelle ein Konto, um sie anzunehmen.",
+    "signIn": "Anmelden",
+    "signUp": "Konto erstellen",
+    "otherAccount": "Diese Einladung gilt für {{email}}, und du bist als {{current}} angemeldet. Melde dich ab und mit dieser E-Mail an, um sie anzunehmen.",
+    "signOut": "Abmelden",
+    "accept": "Der Organisation beitreten",
+    "acceptFailed": "Die Einladung konnte nicht angenommen werden.",
+    "joined": "Du bist {{org}} beigetreten",
+    "home": "Zu Dooservice",
+    "missing": "Dieser Einladungslink ist ungültig. Bitte um einen neuen.",
+    "expired": "Diese Einladung ist abgelaufen. Bitte die Person, die dich eingeladen hat, sie erneut zu senden.",
+    "accepted": "Diese Einladung wurde bereits angenommen.",
+    "revoked": "Diese Einladung wurde zurückgezogen."
   }
 }
