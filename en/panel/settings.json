@@ -1,7 +1,8 @@
 {
   "title": "Settings",
   "nav": {
-    "account": "Account"
+    "account": "Account",
+    "security": "Security"
   },
   "profile": {
     "title": "Account Settings",
@@ -13,5 +14,37 @@
   "language": {
     "title": "Language",
     "description": "Choose the language for the interface."
+  },
+  "security": {
+    "title": "Two-step verification",
+    "on": "On",
+    "description": "Signing in asks for a code from your authenticator app, and so do sensitive actions.",
+    "codesLeft_one": "{{count}} recovery code left",
+    "codesLeft_other": "{{count}} recovery codes left",
+    "newCodes": "New recovery codes",
+    "changeApp": "Change authenticator app",
+    "codesTitle": "New recovery codes",
+    "changeAppTitle": "Change authenticator app",
+    "failed": "Could not complete the action"
+  },
+  "password": {
+    "title": "Password",
+    "none": "You sign in with Google or GitHub, so this account has no password.",
+    "setOne": "Set a password",
+    "current": "Current password",
+    "new": "New password",
+    "submit": "Change password",
+    "changed": "Password changed",
+    "changedDesc": "Your other sessions have been signed out."
+  },
+  "sessions": {
+    "title": "Sessions",
+    "closeOthers": "Sign out other sessions",
+    "closedOthers_one": "{{count}} session signed out",
+    "closedOthers_other": "{{count}} sessions signed out",
+    "unknownDevice": "Unknown device",
+    "lastActive": "Last active {{when}}",
+    "current": "This device",
+    "close": "Sign out"
   }
 }

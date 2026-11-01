@@ -1,7 +1,8 @@
 {
   "title": "Einstellungen",
   "nav": {
-    "account": "Konto"
+    "account": "Konto",
+    "security": "Sicherheit"
   },
   "profile": {
     "title": "Kontoeinstellungen",
@@ -13,5 +14,37 @@
   "language": {
     "title": "Sprache",
     "description": "Wähle die Sprache der Oberfläche."
+  },
+  "security": {
+    "title": "Bestätigung in zwei Schritten",
+    "on": "Aktiv",
+    "description": "Bei der Anmeldung und vor heiklen Aktionen wird ein Code aus deiner Authenticator-App verlangt.",
+    "codesLeft_one": "Noch {{count}} Wiederherstellungscode",
+    "codesLeft_other": "Noch {{count}} Wiederherstellungscodes",
+    "newCodes": "Neue Wiederherstellungscodes",
+    "changeApp": "Authenticator-App wechseln",
+    "codesTitle": "Neue Wiederherstellungscodes",
+    "changeAppTitle": "Authenticator-App wechseln",
+    "failed": "Die Aktion konnte nicht abgeschlossen werden"
+  },
+  "password": {
+    "title": "Passwort",
+    "none": "Du meldest dich mit Google oder GitHub an, daher hat dieses Konto kein Passwort.",
+    "setOne": "Passwort festlegen",
+    "current": "Aktuelles Passwort",
+    "new": "Neues Passwort",
+    "submit": "Passwort ändern",
+    "changed": "Passwort geändert",
+    "changedDesc": "Deine anderen Sitzungen wurden abgemeldet."
+  },
+  "sessions": {
+    "title": "Sitzungen",
+    "closeOthers": "Andere Sitzungen abmelden",
+    "closedOthers_one": "{{count}} Sitzung abgemeldet",
+    "closedOthers_other": "{{count}} Sitzungen abgemeldet",
+    "unknownDevice": "Unbekanntes Gerät",
+    "lastActive": "Zuletzt aktiv {{when}}",
+    "current": "Dieses Gerät",
+    "close": "Abmelden"
   }
 }

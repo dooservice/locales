@@ -207,5 +207,14 @@
   "backup_not_found": "Esse backup não existe neste projeto.",
   "repo_not_accessible": "Você não pode enviar alterações para {{repo}} no GitHub. Peça acesso de escrita ou escolha outro repositório.",
   "new_repository_needs_admin": "Só um administrador do projeto pode adicionar {{repo}}, que este projeto ainda não usa.",
-  "agent_id_retired": "Um servidor removido usou este nome recentemente. Escolha outro nome para este servidor."
+  "agent_id_retired": "Um servidor removido usou este nome recentemente. Escolha outro nome para este servidor.",
+  "mfa_challenge_pending": "Digite o código do seu app autenticador para concluir a entrada.",
+  "mfa_enrollment_required": "Ative a verificação em duas etapas para continuar.",
+  "mfa_unlock_required": "Confirme esta ação com um código do seu app autenticador.",
+  "invalid_mfa_code": "O código não é válido. Confira e tente de novo.",
+  "mfa_not_enabled": "A verificação em duas etapas não está ativada.",
+  "mfa_enrollment_not_started": "Comece de novo a configuração do app autenticador.",
+  "session_not_found": "Essa sessão não existe mais.",
+  "password_not_set": "Esta conta não tem senha. Crie uma em \"Esqueceu a senha?\".",
+  "wrong_current_password": "A senha atual não está correta."
 }
