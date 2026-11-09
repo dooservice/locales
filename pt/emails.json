@@ -208,5 +208,18 @@
         "viewer": "leitor"
       }
     }
+  },
+  "mcp": {
+    "proposal": {
+      "subject": "{client} pede para {action} em {project}",
+      "detail": "Em {environment}, o ambiente de produção de {project}. Motivo: “{reason}”. Nada muda até um admin aprovar.",
+      "action": "Revisar o pedido",
+      "note": "Expira em 24 horas. Só um admin do projeto pode aprová-lo.",
+      "actions": {
+        "restore": "restaurar um backup",
+        "rollback": "voltar a uma implantação anterior",
+        "rebuild": "reconstruir"
+      }
+    }
   }
 }

@@ -14,7 +14,10 @@
     "workTitle": "Lecture et exécution",
     "readLine": "Environnements, journaux, déploiements et sauvegardes",
     "workLine": "Aussi cloner, déployer et redémarrer. Jamais la production.",
+    "proposeTitle": "Proposer en production",
+    "proposeLine": "Aussi demander de restaurer, revenir en arrière ou reconstruire la production. Un admin l'approuve.",
     "workNone": "Développeurs et admins uniquement",
+    "proposeNone": "Admins uniquement",
     "allow": "Autoriser",
     "cancel": "Annuler",
     "back": "Vous reviendrez sur {{host}}.",
@@ -31,10 +34,11 @@
     "revoke": "Déconnecter",
     "howTitle": "Connecter un agent",
     "howHint": "Ajoutez cette adresse comme serveur MCP dans Claude, Cursor, ChatGPT ou tout client MCP. Il vous demandera ici quels projets il peut voir.",
-    "readOnly": "Les agents ne modifient que le développement et les tests ; jamais la production.",
+    "readOnly": "Les agents modifient le développement et les tests ; la production seulement avec l'approbation d'un admin.",
     "levels": {
       "read": "Lecture seule",
-      "work": "Lecture et exécution"
+      "work": "Lecture et exécution",
+      "propose": "Proposer en production"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Les agents que vos membres connectent par MCP, comme Claude ou Cursor.",
     "allow": "Laisser les agents se connecter",
     "allowHint": "Désactivé, chaque connexion s'arrête à son prochain appel ; réactivé, elles reviennent."
+  },
+  "proposal": {
+    "title": "{{client}} demande de {{action}}",
+    "where": "{{project}} · {{environment}} · production",
+    "askedBy": "Connecté par {{name}}",
+    "reason": "Motif",
+    "backup": "Sauvegarde",
+    "revision": "Déploiement n° {{revision}}",
+    "expires": "Expire {{when}}",
+    "approve": "Approuver",
+    "reject": "Refuser",
+    "states": {
+      "pending": "En attente",
+      "approved": "Approuvée",
+      "rejected": "Refusée",
+      "expired": "Expirée"
+    },
+    "noDecide": "Seul un admin du projet peut la décider.",
+    "backupFirst": "La production est sauvegardée avant d'être restaurée.",
+    "goneTitle": "Demande introuvable",
+    "banner": "{{client}} demande de {{action}} dans {{project}}",
+    "more": "+{{count}} de plus",
+    "review": "Examiner",
+    "follow": "Voir la tâche",
+    "actions": {
+      "restore": "restaurer une sauvegarde",
+      "rollback": "revenir à un déploiement précédent",
+      "rebuild": "reconstruire"
+    }
   }
 }

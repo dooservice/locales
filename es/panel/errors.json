@@ -281,5 +281,10 @@
   "mcp_work_not_allowed": "No eres desarrollador ni administrador de ningún proyecto elegido, así que el agente solo puede leer.",
   "mcp_production_closed": "Los agentes no cambian producción. Clónala y trabaja en la copia.",
   "mcp_not_agents_environment": "Un agente solo borra las copias temporales que clonó él mismo.",
-  "mcp_too_many_jobs": "Los agentes de esta organización ya tienen {{limit}} trabajos en marcha. Espera a que termine uno."
+  "mcp_too_many_jobs": "Los agentes de esta organización ya tienen {{limit}} trabajos en marcha. Espera a que termine uno.",
+  "mcp_propose_not_allowed": "No eres admin de ningún proyecto elegido, así que el agente no puede proponer en producción.",
+  "mcp_not_production": "Las peticiones son para producción. En desarrollo y pruebas el agente actúa por sí mismo.",
+  "mcp_proposal_incomplete": "Esta acción necesita {{missing}}.",
+  "mcp_proposal_not_found": "Esta petición no existe o no puedes verla.",
+  "mcp_proposal_closed": "Esta petición ya se decidió o caducó."
 }

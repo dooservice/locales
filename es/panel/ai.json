@@ -14,7 +14,10 @@
     "workTitle": "Lectura y ejecución",
     "readLine": "Entornos, logs, despliegues y copias",
     "workLine": "Además clonar, desplegar y reiniciar. Nunca producción.",
+    "proposeTitle": "Proponer en producción",
+    "proposeLine": "Además pedir restaurar, volver atrás o reconstruir producción. Lo aprueba un admin.",
     "workNone": "Solo desarrolladores y admins",
+    "proposeNone": "Solo admins",
     "allow": "Permitir",
     "cancel": "Cancelar",
     "back": "Volverás a {{host}}.",
@@ -31,10 +34,11 @@
     "revoke": "Desconectar",
     "howTitle": "Conectar un agente",
     "howHint": "Añade esta dirección como servidor MCP en Claude, Cursor, ChatGPT o cualquier cliente MCP. Te preguntará aquí qué proyectos puede ver.",
-    "readOnly": "Los agentes solo cambian desarrollo y pruebas; producción nunca.",
+    "readOnly": "Los agentes cambian desarrollo y pruebas; producción solo con la aprobación de un admin.",
     "levels": {
       "read": "Solo lectura",
-      "work": "Lectura y ejecución"
+      "work": "Lectura y ejecución",
+      "propose": "Proponer en producción"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Agentes que tus miembros conectan por MCP, como Claude o Cursor.",
     "allow": "Dejar conectar agentes",
     "allowHint": "Si se desactiva, cada conexión se detiene en su siguiente llamada; al reactivarlo, vuelven."
+  },
+  "proposal": {
+    "title": "{{client}} pide {{action}}",
+    "where": "{{project}} · {{environment}} · producción",
+    "askedBy": "Conectado por {{name}}",
+    "reason": "Motivo",
+    "backup": "Copia",
+    "revision": "Despliegue n.º {{revision}}",
+    "expires": "Caduca {{when}}",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "states": {
+      "pending": "Pendiente",
+      "approved": "Aprobada",
+      "rejected": "Rechazada",
+      "expired": "Caducada"
+    },
+    "noDecide": "Solo un admin del proyecto puede decidirla.",
+    "backupFirst": "Antes de restaurar se hace una copia de producción.",
+    "goneTitle": "Petición no encontrada",
+    "banner": "{{client}} pide {{action}} en {{project}}",
+    "more": "+{{count}} más",
+    "review": "Revisar",
+    "follow": "Ver el trabajo",
+    "actions": {
+      "restore": "restaurar una copia",
+      "rollback": "volver a un despliegue anterior",
+      "rebuild": "reconstruir"
+    }
   }
 }

@@ -14,7 +14,10 @@
     "workTitle": "Lettura ed esecuzione",
     "readLine": "Ambienti, log, deployment e backup",
     "workLine": "Anche clonare, distribuire e riavviare. Mai la produzione.",
+    "proposeTitle": "Proporre in produzione",
+    "proposeLine": "Anche chiedere di ripristinare, tornare indietro o ricostruire la produzione. Lo approva un admin.",
     "workNone": "Solo sviluppatori e admin",
+    "proposeNone": "Solo admin",
     "allow": "Consenti",
     "cancel": "Annulla",
     "back": "Tornerai a {{host}}.",
@@ -31,10 +34,11 @@
     "revoke": "Scollega",
     "howTitle": "Collegare un agente",
     "howHint": "Aggiungi questo indirizzo come server MCP in Claude, Cursor, ChatGPT o qualsiasi client MCP. Ti chiederà qui quali progetti può vedere.",
-    "readOnly": "Gli agenti modificano solo sviluppo e test; mai la produzione.",
+    "readOnly": "Gli agenti modificano sviluppo e test; la produzione solo con l'approvazione di un admin.",
     "levels": {
       "read": "Solo lettura",
-      "work": "Lettura ed esecuzione"
+      "work": "Lettura ed esecuzione",
+      "propose": "Proporre in produzione"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Agenti che i tuoi membri collegano tramite MCP, come Claude o Cursor.",
     "allow": "Lascia collegare gli agenti",
     "allowHint": "Disattivato, ogni connessione si ferma alla chiamata successiva; riattivato, tornano."
+  },
+  "proposal": {
+    "title": "{{client}} chiede di {{action}}",
+    "where": "{{project}} · {{environment}} · produzione",
+    "askedBy": "Collegato da {{name}}",
+    "reason": "Motivo",
+    "backup": "Backup",
+    "revision": "Deployment n. {{revision}}",
+    "expires": "Scade {{when}}",
+    "approve": "Approva",
+    "reject": "Rifiuta",
+    "states": {
+      "pending": "In attesa",
+      "approved": "Approvata",
+      "rejected": "Rifiutata",
+      "expired": "Scaduta"
+    },
+    "noDecide": "Solo un admin del progetto può deciderla.",
+    "backupFirst": "Prima del ripristino si fa un backup della produzione.",
+    "goneTitle": "Richiesta non trovata",
+    "banner": "{{client}} chiede di {{action}} in {{project}}",
+    "more": "+{{count}} altre",
+    "review": "Rivedi",
+    "follow": "Vedi l'attività",
+    "actions": {
+      "restore": "ripristinare un backup",
+      "rollback": "tornare a un deployment precedente",
+      "rebuild": "ricostruire"
+    }
   }
 }

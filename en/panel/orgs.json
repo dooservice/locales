@@ -260,7 +260,10 @@
         "connected": "AI agent connected",
         "disconnected": "AI agent disconnected",
         "policy_changed": "AI agents turned on or off",
-        "tool_called": "Used by an AI agent"
+        "tool_called": "Used by an AI agent",
+        "proposed": "Production action proposed by an AI agent",
+        "proposal_approved": "AI agent's proposal approved",
+        "proposal_rejected": "AI agent's proposal rejected"
       }
     }
   },

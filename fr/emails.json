@@ -208,5 +208,18 @@
         "viewer": "lecteur"
       }
     }
+  },
+  "mcp": {
+    "proposal": {
+      "subject": "{client} demande de {action} dans {project}",
+      "detail": "Dans {environment}, l'environnement de production de {project}. Motif : « {reason} ». Rien ne change tant qu'un admin ne l'approuve pas.",
+      "action": "Examiner la demande",
+      "note": "Elle expire dans 24 heures. Seul un admin du projet peut l'approuver.",
+      "actions": {
+        "restore": "restaurer une sauvegarde",
+        "rollback": "revenir à un déploiement précédent",
+        "rebuild": "reconstruire"
+      }
+    }
   }
 }

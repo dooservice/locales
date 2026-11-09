@@ -14,7 +14,10 @@
     "workTitle": "Read and run",
     "readLine": "Environments, logs, deployments and backups",
     "workLine": "Also clone, deploy and restart. Never production.",
+    "proposeTitle": "Propose on production",
+    "proposeLine": "Also ask to restore, roll back or rebuild production. An admin approves it.",
     "workNone": "Developers and admins only",
+    "proposeNone": "Admins only",
     "allow": "Allow",
     "cancel": "Cancel",
     "back": "You will go back to {{host}}.",
@@ -31,10 +34,11 @@
     "revoke": "Disconnect",
     "howTitle": "Connect an agent",
     "howHint": "Add this address as an MCP server in Claude, Cursor, ChatGPT or any MCP client. It asks you here which projects it may see.",
-    "readOnly": "Agents change development and staging only; production never.",
+    "readOnly": "Agents change development and staging; production only when an admin approves.",
     "levels": {
       "read": "Read only",
-      "work": "Read and run"
+      "work": "Read and run",
+      "propose": "Propose on production"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Agents your members connect through MCP, such as Claude or Cursor.",
     "allow": "Let agents connect",
     "allowHint": "Turned off, every connection stops at its next call; turned on again, they come back."
+  },
+  "proposal": {
+    "title": "{{client}} asks to {{action}}",
+    "where": "{{project}} · {{environment}} · production",
+    "askedBy": "Connected by {{name}}",
+    "reason": "Reason",
+    "backup": "Backup",
+    "revision": "Deployment #{{revision}}",
+    "expires": "Expires {{when}}",
+    "approve": "Approve",
+    "reject": "Reject",
+    "states": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "expired": "Expired"
+    },
+    "noDecide": "Only an admin of the project can decide it.",
+    "backupFirst": "Production is backed up before it is restored.",
+    "goneTitle": "Proposal not found",
+    "banner": "{{client}} asks to {{action}} in {{project}}",
+    "more": "+{{count}} more",
+    "review": "Review",
+    "follow": "See the job",
+    "actions": {
+      "restore": "restore a backup",
+      "rollback": "go back to an earlier deployment",
+      "rebuild": "rebuild"
+    }
   }
 }

@@ -281,5 +281,10 @@
   "mcp_work_not_allowed": "You are not a developer or admin of any chosen project, so the agent may only read.",
   "mcp_production_closed": "Agents do not change production. Clone it and work on the copy.",
   "mcp_not_agents_environment": "An agent deletes only the temporary copies it cloned itself.",
-  "mcp_too_many_jobs": "This organization's agents already have {{limit}} jobs running. Wait for one to finish."
+  "mcp_too_many_jobs": "This organization's agents already have {{limit}} jobs running. Wait for one to finish.",
+  "mcp_propose_not_allowed": "You are not an admin of any chosen project, so the agent may not propose on production.",
+  "mcp_not_production": "Proposals are for production. In development and staging the agent acts by itself.",
+  "mcp_proposal_incomplete": "This action needs {{missing}}.",
+  "mcp_proposal_not_found": "This proposal does not exist or is not one you can see.",
+  "mcp_proposal_closed": "This proposal was already decided or has expired."
 }

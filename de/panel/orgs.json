@@ -260,7 +260,10 @@
         "connected": "KI-Agent verbunden",
         "disconnected": "KI-Agent getrennt",
         "policy_changed": "KI-Agenten ein- oder ausgeschaltet",
-        "tool_called": "Von einem KI-Agenten verwendet"
+        "tool_called": "Von einem KI-Agenten verwendet",
+        "proposed": "Produktionsaktion von einem KI-Agenten vorgeschlagen",
+        "proposal_approved": "Anfrage eines KI-Agenten genehmigt",
+        "proposal_rejected": "Anfrage eines KI-Agenten abgelehnt"
       }
     }
   },

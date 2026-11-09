@@ -208,5 +208,18 @@
         "viewer": "Betrachter"
       }
     }
+  },
+  "mcp": {
+    "proposal": {
+      "subject": "{client} möchte in {project} {action}",
+      "detail": "In {environment}, der Produktionsumgebung von {project}. Grund: „{reason}“. Nichts ändert sich, bis ein Admin zustimmt.",
+      "action": "Anfrage prüfen",
+      "note": "Sie läuft in 24 Stunden ab. Nur ein Admin des Projekts kann sie genehmigen.",
+      "actions": {
+        "restore": "ein Backup wiederherstellen",
+        "rollback": "zu einem früheren Deployment zurückkehren",
+        "rebuild": "neu aufbauen"
+      }
+    }
   }
 }

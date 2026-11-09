@@ -260,7 +260,10 @@
         "connected": "Agente de IA conectado",
         "disconnected": "Agente de IA desconectado",
         "policy_changed": "Agentes de IA ativados ou desativados",
-        "tool_called": "Usado por um agente de IA"
+        "tool_called": "Usado por um agente de IA",
+        "proposed": "Ação em produção proposta por um agente de IA",
+        "proposal_approved": "Pedido de um agente de IA aprovado",
+        "proposal_rejected": "Pedido de um agente de IA rejeitado"
       }
     }
   },

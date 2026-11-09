@@ -14,7 +14,10 @@
     "workTitle": "Lesen und ausführen",
     "readLine": "Umgebungen, Logs, Deployments und Backups",
     "workLine": "Auch klonen, bereitstellen und neu starten. Nie Produktion.",
+    "proposeTitle": "In Produktion vorschlagen",
+    "proposeLine": "Auch anfragen, Produktion wiederherzustellen, zurückzusetzen oder neu aufzubauen. Ein Admin genehmigt es.",
     "workNone": "Nur Entwickler und Admins",
+    "proposeNone": "Nur Admins",
     "allow": "Erlauben",
     "cancel": "Abbrechen",
     "back": "Du kehrst zu {{host}} zurück.",
@@ -31,10 +34,11 @@
     "revoke": "Trennen",
     "howTitle": "Einen Agenten verbinden",
     "howHint": "Füge diese Adresse als MCP-Server in Claude, Cursor, ChatGPT oder einem anderen MCP-Client hinzu. Er fragt dich hier, welche Projekte er sehen darf.",
-    "readOnly": "Agenten ändern nur Entwicklung und Test, nie die Produktion.",
+    "readOnly": "Agenten ändern Entwicklung und Test, die Produktion nur mit der Zustimmung eines Admins.",
     "levels": {
       "read": "Nur lesen",
-      "work": "Lesen und ausführen"
+      "work": "Lesen und ausführen",
+      "propose": "In Produktion vorschlagen"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Agenten, die deine Mitglieder über MCP verbinden, etwa Claude oder Cursor.",
     "allow": "Agenten verbinden lassen",
     "allowHint": "Ausgeschaltet stoppt jede Verbindung beim nächsten Aufruf; wieder eingeschaltet kommen sie zurück."
+  },
+  "proposal": {
+    "title": "{{client}} möchte {{action}}",
+    "where": "{{project}} · {{environment}} · Produktion",
+    "askedBy": "Verbunden von {{name}}",
+    "reason": "Grund",
+    "backup": "Backup",
+    "revision": "Deployment Nr. {{revision}}",
+    "expires": "Läuft ab {{when}}",
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "states": {
+      "pending": "Ausstehend",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt",
+      "expired": "Abgelaufen"
+    },
+    "noDecide": "Nur ein Admin des Projekts kann darüber entscheiden.",
+    "backupFirst": "Vor dem Wiederherstellen wird die Produktion gesichert.",
+    "goneTitle": "Anfrage nicht gefunden",
+    "banner": "{{client}} möchte in {{project}} {{action}}",
+    "more": "+{{count}} weitere",
+    "review": "Prüfen",
+    "follow": "Aufgabe ansehen",
+    "actions": {
+      "restore": "ein Backup wiederherstellen",
+      "rollback": "zu einem früheren Deployment zurückkehren",
+      "rebuild": "neu aufbauen"
+    }
   }
 }

@@ -208,5 +208,18 @@
         "viewer": "viewer"
       }
     }
+  },
+  "mcp": {
+    "proposal": {
+      "subject": "{client} asks to {action} in {project}",
+      "detail": "In {environment}, the production environment of {project}. Reason: “{reason}”. Nothing changes until an admin approves it.",
+      "action": "Review the request",
+      "note": "It expires in 24 hours. Only an admin of the project can approve it.",
+      "actions": {
+        "restore": "restore a backup",
+        "rollback": "go back to an earlier deployment",
+        "rebuild": "rebuild"
+      }
+    }
   }
 }

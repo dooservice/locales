@@ -14,7 +14,10 @@
     "workTitle": "Leitura e execução",
     "readLine": "Ambientes, logs, implantações e backups",
     "workLine": "Também clonar, implantar e reiniciar. Nunca produção.",
+    "proposeTitle": "Propor em produção",
+    "proposeLine": "Também pedir para restaurar, voltar ou reconstruir a produção. Um admin aprova.",
     "workNone": "Só desenvolvedores e admins",
+    "proposeNone": "Só admins",
     "allow": "Permitir",
     "cancel": "Cancelar",
     "back": "Você voltará para {{host}}.",
@@ -31,10 +34,11 @@
     "revoke": "Desconectar",
     "howTitle": "Conectar um agente",
     "howHint": "Adicione este endereço como servidor MCP no Claude, Cursor, ChatGPT ou qualquer cliente MCP. Ele perguntará aqui quais projetos pode ver.",
-    "readOnly": "Os agentes só alteram desenvolvimento e testes; a produção nunca.",
+    "readOnly": "Os agentes alteram desenvolvimento e testes; a produção só com a aprovação de um admin.",
     "levels": {
       "read": "Somente leitura",
-      "work": "Leitura e execução"
+      "work": "Leitura e execução",
+      "propose": "Propor em produção"
     }
   },
   "org": {
@@ -42,5 +46,34 @@
     "hint": "Agentes que seus membros conectam por MCP, como Claude ou Cursor.",
     "allow": "Permitir conectar agentes",
     "allowHint": "Desativado, cada conexão para na próxima chamada; ativado de novo, elas voltam."
+  },
+  "proposal": {
+    "title": "{{client}} pede para {{action}}",
+    "where": "{{project}} · {{environment}} · produção",
+    "askedBy": "Conectado por {{name}}",
+    "reason": "Motivo",
+    "backup": "Backup",
+    "revision": "Implantação n.º {{revision}}",
+    "expires": "Expira {{when}}",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "states": {
+      "pending": "Pendente",
+      "approved": "Aprovada",
+      "rejected": "Rejeitada",
+      "expired": "Expirada"
+    },
+    "noDecide": "Só um admin do projeto pode decidir.",
+    "backupFirst": "A produção recebe um backup antes de ser restaurada.",
+    "goneTitle": "Pedido não encontrado",
+    "banner": "{{client}} pede para {{action}} em {{project}}",
+    "more": "+{{count}} mais",
+    "review": "Revisar",
+    "follow": "Ver a tarefa",
+    "actions": {
+      "restore": "restaurar um backup",
+      "rollback": "voltar a uma implantação anterior",
+      "rebuild": "reconstruir"
+    }
   }
 }
