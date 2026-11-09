@@ -286,5 +286,8 @@
   "mcp_not_production": "Anfragen gelten der Produktion. In Entwicklung und Test handelt der Agent selbst.",
   "mcp_proposal_incomplete": "Diese Aktion braucht {{missing}}.",
   "mcp_proposal_not_found": "Diese Anfrage gibt es nicht oder du kannst sie nicht sehen.",
-  "mcp_proposal_closed": "Über diese Anfrage wurde bereits entschieden oder sie ist abgelaufen."
+  "mcp_proposal_closed": "Über diese Anfrage wurde bereits entschieden oder sie ist abgelaufen.",
+  "odoo_query_failed": "Odoo hat den Vorgang abgelehnt: {{reason}}",
+  "odoo_answer_too_large": "Die Antwort von Odoo ist zu groß. Frag nach weniger Datensätzen oder Feldern.",
+  "production_read_only": "Hier wird die Produktion nur gelesen. Ändere sie im Panel."
 }

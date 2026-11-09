@@ -286,5 +286,8 @@
   "mcp_not_production": "Las peticiones son para producción. En desarrollo y pruebas el agente actúa por sí mismo.",
   "mcp_proposal_incomplete": "Esta acción necesita {{missing}}.",
   "mcp_proposal_not_found": "Esta petición no existe o no puedes verla.",
-  "mcp_proposal_closed": "Esta petición ya se decidió o caducó."
+  "mcp_proposal_closed": "Esta petición ya se decidió o caducó.",
+  "odoo_query_failed": "Odoo rechazó la operación: {{reason}}",
+  "odoo_answer_too_large": "La respuesta de Odoo es demasiado grande. Pide menos registros o campos.",
+  "production_read_only": "Aquí producción solo se lee. Cámbiala desde el panel."
 }

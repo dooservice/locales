@@ -286,5 +286,8 @@
   "mcp_not_production": "Os pedidos são para produção. Em desenvolvimento e testes o agente age sozinho.",
   "mcp_proposal_incomplete": "Esta ação precisa de {{missing}}.",
   "mcp_proposal_not_found": "Este pedido não existe ou você não pode vê-lo.",
-  "mcp_proposal_closed": "Este pedido já foi decidido ou expirou."
+  "mcp_proposal_closed": "Este pedido já foi decidido ou expirou.",
+  "odoo_query_failed": "O Odoo recusou a operação: {{reason}}",
+  "odoo_answer_too_large": "A resposta do Odoo é grande demais. Peça menos registros ou campos.",
+  "production_read_only": "Aqui a produção só é lida. Altere-a pelo painel."
 }

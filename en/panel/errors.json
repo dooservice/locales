@@ -286,5 +286,8 @@
   "mcp_not_production": "Proposals are for production. In development and staging the agent acts by itself.",
   "mcp_proposal_incomplete": "This action needs {{missing}}.",
   "mcp_proposal_not_found": "This proposal does not exist or is not one you can see.",
-  "mcp_proposal_closed": "This proposal was already decided or has expired."
+  "mcp_proposal_closed": "This proposal was already decided or has expired.",
+  "odoo_query_failed": "Odoo refused the operation: {{reason}}",
+  "odoo_answer_too_large": "Odoo's answer is too large. Ask for fewer records or fields.",
+  "production_read_only": "Production is only read here. Change it from the panel."
 }
