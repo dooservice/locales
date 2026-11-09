@@ -289,5 +289,7 @@
   "mcp_proposal_closed": "Este pedido já foi decidido ou expirou.",
   "odoo_query_failed": "O Odoo recusou a operação: {{reason}}",
   "odoo_answer_too_large": "A resposta do Odoo é grande demais. Peça menos registros ou campos.",
-  "production_read_only": "Aqui a produção só é lida. Altere-a pelo painel."
+  "production_read_only": "Aqui a produção só é lida. Altere-a pelo painel.",
+  "mcp_odoo_unavailable": "O agente deste servidor ainda não consegue consultar o Odoo para agentes de IA. Conseguirá quando for atualizado.",
+  "mcp_production_data_closed": "Esta organização não deixa a IA ler a produção. Um proprietário ativa isso nas configurações."
 }

@@ -289,5 +289,7 @@
   "mcp_proposal_closed": "Über diese Anfrage wurde bereits entschieden oder sie ist abgelaufen.",
   "odoo_query_failed": "Odoo hat den Vorgang abgelehnt: {{reason}}",
   "odoo_answer_too_large": "Die Antwort von Odoo ist zu groß. Frag nach weniger Datensätzen oder Feldern.",
-  "production_read_only": "Hier wird die Produktion nur gelesen. Ändere sie im Panel."
+  "production_read_only": "Hier wird die Produktion nur gelesen. Ändere sie im Panel.",
+  "mcp_odoo_unavailable": "Der Agent dieses Servers kann Odoo für KI-Agenten noch nicht abfragen. Nach seinem Update schon.",
+  "mcp_production_data_closed": "Diese Organisation lässt die KI die Produktion nicht lesen. Ein Eigentümer schaltet es in den Einstellungen ein."
 }
