@@ -271,5 +271,9 @@
   "invitation_expired": "Diese Einladung ist abgelaufen. Bitte um eine neue.",
   "invitation_used": "Diese Einladung wurde bereits angenommen.",
   "invitation_wrong_account": "Diese Einladung gilt für eine andere E-Mail. Melde dich mit dieser an, um sie anzunehmen.",
-  "invitation_revoked": "Diese Einladung wurde zurückgezogen."
+  "invitation_revoked": "Diese Einladung wurde zurückgezogen.",
+  "mcp_request_not_found": "Diese Autorisierung ist beendet. Starte die Verbindung erneut aus deinem Agenten.",
+  "mcp_grant_not_found": "Diese Verbindung gibt es nicht oder sie gehört nicht dir.",
+  "mcp_org_closed": "Diese Organisation lässt keine Agenten zu. Ein Admin aktiviert das in ihren Einstellungen.",
+  "mcp_projects_required": "Wähle mindestens ein Projekt, das der Agent sehen darf."
 }

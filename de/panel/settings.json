@@ -2,7 +2,8 @@
   "title": "Einstellungen",
   "nav": {
     "account": "Konto",
-    "security": "Sicherheit"
+    "security": "Sicherheit",
+    "ai": "KI-Agenten"
   },
   "profile": {
     "title": "Kontoeinstellungen",

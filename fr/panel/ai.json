@@ -1,0 +1,35 @@
+{
+  "consent": {
+    "title": "{{client}} veut accéder à Dooservice",
+    "as": "En tant que {{email}}",
+    "organization": "Organisation",
+    "projects": "Projets qu'il pourra voir",
+    "noProjects": "Vous n'avez aucun projet dans cette organisation.",
+    "closed": "Cette organisation ne laisse pas les agents se connecter. Un administrateur l'active dans les paramètres de l'organisation.",
+    "readTitle": "Lecture seule",
+    "readHint": "Les environnements, leur état, les journaux, les déploiements et les sauvegardes. Il ne peut rien modifier, ni télécharger une sauvegarde, ni voir un identifiant.",
+    "allow": "Autoriser",
+    "cancel": "Annuler",
+    "back": "Vous reviendrez sur {{host}}.",
+    "goneTitle": "Cette demande a pris fin",
+    "gone": "Relancez la connexion depuis votre agent."
+  },
+  "connections": {
+    "title": "Agents connectés",
+    "none": "Aucun agent n'est connecté.",
+    "reach_one": "{{count}} projet",
+    "reach_other": "{{count}} projets",
+    "used": "utilisé {{when}}",
+    "unused": "pas encore utilisé",
+    "revoke": "Déconnecter",
+    "howTitle": "Connecter un agent",
+    "howHint": "Ajoutez cette adresse comme serveur MCP dans Claude, Cursor, ChatGPT ou tout client MCP. Il vous demandera ici quels projets il peut voir.",
+    "readOnly": "Pour l'instant les agents peuvent seulement lire : rien de ce qu'ils font ne modifie un environnement."
+  },
+  "org": {
+    "title": "Agents d'IA",
+    "hint": "Les agents que vos membres connectent par MCP, comme Claude ou Cursor.",
+    "allow": "Laisser les agents se connecter",
+    "allowHint": "Désactivé, chaque connexion s'arrête à son prochain appel ; réactivé, elles reviennent."
+  }
+}

@@ -271,5 +271,9 @@
   "invitation_expired": "Cette invitation a expiré. Demandez-en une nouvelle.",
   "invitation_used": "Cette invitation a déjà été acceptée.",
   "invitation_wrong_account": "Cette invitation est destinée à une autre adresse. Connectez-vous avec celle-ci pour l'accepter.",
-  "invitation_revoked": "Cette invitation a été retirée."
+  "invitation_revoked": "Cette invitation a été retirée.",
+  "mcp_request_not_found": "Cette autorisation a pris fin. Relancez la connexion depuis votre agent.",
+  "mcp_grant_not_found": "Cette connexion n'existe pas ou n'est pas la vôtre.",
+  "mcp_org_closed": "Cette organisation ne laisse pas les agents se connecter. Un administrateur l'active dans ses paramètres.",
+  "mcp_projects_required": "Choisissez au moins un projet que l'agent peut voir."
 }

@@ -271,5 +271,9 @@
   "invitation_expired": "This invitation has expired. Ask for a new one.",
   "invitation_used": "This invitation has already been accepted.",
   "invitation_wrong_account": "This invitation is for another email. Sign in with that one to accept it.",
-  "invitation_revoked": "This invitation was withdrawn."
+  "invitation_revoked": "This invitation was withdrawn.",
+  "mcp_request_not_found": "This authorization ended. Start the connection again from your agent.",
+  "mcp_grant_not_found": "This connection does not exist or is not yours.",
+  "mcp_org_closed": "This organization does not let agents connect. An admin turns it on in its settings.",
+  "mcp_projects_required": "Choose at least one project the agent may see."
 }

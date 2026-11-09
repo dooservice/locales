@@ -255,6 +255,12 @@
       "server": {
         "enrolled": "Server registered",
         "removed": "Server removed"
+      },
+      "mcp": {
+        "connected": "AI agent connected",
+        "disconnected": "AI agent disconnected",
+        "policy_changed": "AI agents turned on or off",
+        "tool_called": "Read by an AI agent"
       }
     }
   },

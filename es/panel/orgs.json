@@ -255,6 +255,12 @@
       "server": {
         "enrolled": "Servidor registrado",
         "removed": "Servidor eliminado"
+      },
+      "mcp": {
+        "connected": "Agente de IA conectado",
+        "disconnected": "Agente de IA desconectado",
+        "policy_changed": "Agentes de IA activados o desactivados",
+        "tool_called": "Leído por un agente de IA"
       }
     }
   },

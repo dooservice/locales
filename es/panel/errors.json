@@ -271,5 +271,9 @@
   "invitation_expired": "Esta invitación ha caducado. Pide una nueva.",
   "invitation_used": "Esta invitación ya fue aceptada.",
   "invitation_wrong_account": "Esta invitación es para otro correo. Inicia sesión con ese para aceptarla.",
-  "invitation_revoked": "Esta invitación fue retirada."
+  "invitation_revoked": "Esta invitación fue retirada.",
+  "mcp_request_not_found": "Esta autorización terminó. Vuelve a iniciar la conexión desde tu agente.",
+  "mcp_grant_not_found": "Esta conexión no existe o no es tuya.",
+  "mcp_org_closed": "Esta organización no deja conectar agentes. Un administrador lo activa en sus ajustes.",
+  "mcp_projects_required": "Elige al menos un proyecto que el agente pueda ver."
 }

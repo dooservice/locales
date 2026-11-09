@@ -2,7 +2,8 @@
   "title": "Settings",
   "nav": {
     "account": "Account",
-    "security": "Security"
+    "security": "Security",
+    "ai": "AI agents"
   },
   "profile": {
     "title": "Account Settings",

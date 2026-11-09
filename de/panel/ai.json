@@ -1,0 +1,35 @@
+{
+  "consent": {
+    "title": "{{client}} möchte auf Dooservice zugreifen",
+    "as": "Als {{email}}",
+    "organization": "Organisation",
+    "projects": "Projekte, die es sehen darf",
+    "noProjects": "Du hast kein Projekt in dieser Organisation.",
+    "closed": "Diese Organisation lässt keine Agenten zu. Ein Admin aktiviert das in den Einstellungen der Organisation.",
+    "readTitle": "Nur lesen",
+    "readHint": "Umgebungen, ihr Zustand, Logs, Deployments und Backups. Es kann nichts ändern, kein Backup herunterladen und keine Zugangsdaten sehen.",
+    "allow": "Erlauben",
+    "cancel": "Abbrechen",
+    "back": "Du kehrst zu {{host}} zurück.",
+    "goneTitle": "Diese Anfrage ist beendet",
+    "gone": "Starte die Verbindung erneut aus deinem Agenten."
+  },
+  "connections": {
+    "title": "Verbundene Agenten",
+    "none": "Kein Agent ist verbunden.",
+    "reach_one": "{{count}} Projekt",
+    "reach_other": "{{count}} Projekte",
+    "used": "genutzt {{when}}",
+    "unused": "noch nicht genutzt",
+    "revoke": "Trennen",
+    "howTitle": "Einen Agenten verbinden",
+    "howHint": "Füge diese Adresse als MCP-Server in Claude, Cursor, ChatGPT oder einem anderen MCP-Client hinzu. Er fragt dich hier, welche Projekte er sehen darf.",
+    "readOnly": "Vorerst können Agenten nur lesen: nichts, was sie tun, ändert eine Umgebung."
+  },
+  "org": {
+    "title": "KI-Agenten",
+    "hint": "Agenten, die deine Mitglieder über MCP verbinden, etwa Claude oder Cursor.",
+    "allow": "Agenten verbinden lassen",
+    "allowHint": "Ausgeschaltet stoppt jede Verbindung beim nächsten Aufruf; wieder eingeschaltet kommen sie zurück."
+  }
+}

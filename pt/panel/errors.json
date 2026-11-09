@@ -271,5 +271,9 @@
   "invitation_expired": "Este convite expirou. Peça um novo.",
   "invitation_used": "Este convite já foi aceito.",
   "invitation_wrong_account": "Este convite é para outro e-mail. Entre com ele para aceitá-lo.",
-  "invitation_revoked": "Este convite foi retirado."
+  "invitation_revoked": "Este convite foi retirado.",
+  "mcp_request_not_found": "Esta autorização terminou. Inicie a conexão de novo a partir do seu agente.",
+  "mcp_grant_not_found": "Esta conexão não existe ou não é sua.",
+  "mcp_org_closed": "Esta organização não permite conectar agentes. Um administrador ativa isso nas configurações.",
+  "mcp_projects_required": "Escolha pelo menos um projeto que o agente possa ver."
 }
