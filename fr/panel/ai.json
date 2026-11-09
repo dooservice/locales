@@ -12,18 +12,9 @@
     "levelTitle": "Ce qu'il pourra faire",
     "readTitle": "Lecture seule",
     "workTitle": "Lecture et exécution",
-    "readPoints": {
-      "environments": "Voir les environnements et leur état",
-      "logs": "Lire les journaux et déploiements",
-      "backups": "Voir les sauvegardes, sans les télécharger"
-    },
-    "workPoints": {
-      "clone": "Cloner des environnements",
-      "deploy": "Déployer des branches et redémarrer",
-      "backups": "Faire des sauvegardes",
-      "production": "Ne touche jamais la production"
-    },
-    "workNone": "Réservé aux développeurs ou admins d'un projet choisi",
+    "readLine": "Environnements, journaux, déploiements et sauvegardes",
+    "workLine": "Aussi cloner, déployer et redémarrer. Jamais la production.",
+    "workNone": "Développeurs et admins uniquement",
     "allow": "Autoriser",
     "cancel": "Annuler",
     "back": "Vous reviendrez sur {{host}}.",

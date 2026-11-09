@@ -12,18 +12,9 @@
     "levelTitle": "Was er tun darf",
     "readTitle": "Nur lesen",
     "workTitle": "Lesen und ausführen",
-    "readPoints": {
-      "environments": "Umgebungen und ihren Zustand sehen",
-      "logs": "Logs und Deployments lesen",
-      "backups": "Backups sehen, nie herunterladen"
-    },
-    "workPoints": {
-      "clone": "Umgebungen klonen",
-      "deploy": "Branches bereitstellen und neu starten",
-      "backups": "Backups erstellen",
-      "production": "Berührt nie die Produktion"
-    },
-    "workNone": "Nur für Entwickler oder Admins eines gewählten Projekts",
+    "readLine": "Umgebungen, Logs, Deployments und Backups",
+    "workLine": "Auch klonen, bereitstellen und neu starten. Nie Produktion.",
+    "workNone": "Nur Entwickler und Admins",
     "allow": "Erlauben",
     "cancel": "Abbrechen",
     "back": "Du kehrst zu {{host}} zurück.",

@@ -12,18 +12,9 @@
     "levelTitle": "What it may do",
     "readTitle": "Read only",
     "workTitle": "Read and run",
-    "readPoints": {
-      "environments": "See environments and their state",
-      "logs": "Read logs and deployments",
-      "backups": "See backups, never download them"
-    },
-    "workPoints": {
-      "clone": "Clone environments",
-      "deploy": "Deploy branches and restart",
-      "backups": "Take backups",
-      "production": "Never touches production"
-    },
-    "workNone": "Only for developers or admins of a chosen project",
+    "readLine": "Environments, logs, deployments and backups",
+    "workLine": "Also clone, deploy and restart. Never production.",
+    "workNone": "Developers and admins only",
     "allow": "Allow",
     "cancel": "Cancel",
     "back": "You will go back to {{host}}.",
