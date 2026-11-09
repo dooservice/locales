@@ -9,8 +9,11 @@
     "clearAll": "Alle abwählen",
     "noProjects": "Du hast kein Projekt in dieser Organisation.",
     "closed": "Diese Organisation lässt keine Agenten zu. Ein Admin aktiviert das in den Einstellungen der Organisation.",
-    "readTitle": "Nur lesen",
-    "readHint": "Umgebungen, ihr Zustand, Logs, Deployments und Backups. Es kann nichts ändern, kein Backup herunterladen und keine Zugangsdaten sehen.",
+    "readTitle": "Lesen",
+    "readHint": "Umgebungen, ihr Zustand, Logs, Deployments und Backups. Es lädt nie ein Backup herunter und sieht nie Zugangsdaten.",
+    "workTitle": "In Entwicklung und Test arbeiten",
+    "workHint": "Umgebungen klonen, Branches bereitstellen, neu aufbauen, starten und stoppen und jede Umgebung sichern. Ändert nie die Produktion.",
+    "workNone": "Nur ein Entwickler oder Administrator eines gewählten Projekts kann einen Agenten arbeiten lassen.",
     "allow": "Erlauben",
     "cancel": "Abbrechen",
     "back": "Du kehrst zu {{host}} zurück.",
@@ -27,7 +30,11 @@
     "revoke": "Trennen",
     "howTitle": "Einen Agenten verbinden",
     "howHint": "Füge diese Adresse als MCP-Server in Claude, Cursor, ChatGPT oder einem anderen MCP-Client hinzu. Er fragt dich hier, welche Projekte er sehen darf.",
-    "readOnly": "Vorerst können Agenten nur lesen: nichts, was sie tun, ändert eine Umgebung."
+    "readOnly": "Agenten ändern nur Entwicklung und Test, nie die Produktion.",
+    "levels": {
+      "read": "Lesen",
+      "work": "Arbeiten"
+    }
   },
   "org": {
     "title": "KI-Agenten",

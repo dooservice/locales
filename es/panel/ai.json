@@ -9,8 +9,11 @@
     "clearAll": "Quitar todos",
     "noProjects": "No tienes ningún proyecto en esta organización.",
     "closed": "Esta organización no deja conectar agentes. Un administrador lo activa en los ajustes de la organización.",
-    "readTitle": "Solo lectura",
-    "readHint": "Entornos, su estado, logs, despliegues y copias. No puede cambiar nada, descargar una copia ni ver una credencial.",
+    "readTitle": "Leer",
+    "readHint": "Entornos, su estado, logs, despliegues y copias. Nunca descarga una copia ni ve una credencial.",
+    "workTitle": "Trabajar en desarrollo y pruebas",
+    "workHint": "Clonar entornos, desplegar ramas, reconstruir, arrancar y parar, y hacer copias de cualquier entorno. Nunca cambia producción.",
+    "workNone": "Solo un desarrollador o administrador de un proyecto elegido puede dejar que un agente trabaje.",
     "allow": "Permitir",
     "cancel": "Cancelar",
     "back": "Volverás a {{host}}.",
@@ -27,7 +30,11 @@
     "revoke": "Desconectar",
     "howTitle": "Conectar un agente",
     "howHint": "Añade esta dirección como servidor MCP en Claude, Cursor, ChatGPT o cualquier cliente MCP. Te preguntará aquí qué proyectos puede ver.",
-    "readOnly": "Por ahora los agentes solo pueden leer: nada de lo que hagan cambia un entorno."
+    "readOnly": "Los agentes solo cambian desarrollo y pruebas; producción nunca.",
+    "levels": {
+      "read": "Leer",
+      "work": "Trabajar"
+    }
   },
   "org": {
     "title": "Agentes de IA",

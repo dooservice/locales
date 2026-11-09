@@ -9,8 +9,11 @@
     "clearAll": "Tout désélectionner",
     "noProjects": "Vous n'avez aucun projet dans cette organisation.",
     "closed": "Cette organisation ne laisse pas les agents se connecter. Un administrateur l'active dans les paramètres de l'organisation.",
-    "readTitle": "Lecture seule",
-    "readHint": "Les environnements, leur état, les journaux, les déploiements et les sauvegardes. Il ne peut rien modifier, ni télécharger une sauvegarde, ni voir un identifiant.",
+    "readTitle": "Lire",
+    "readHint": "Les environnements, leur état, les journaux, les déploiements et les sauvegardes. Il ne télécharge jamais une sauvegarde et ne voit jamais un identifiant.",
+    "workTitle": "Travailler en développement et en test",
+    "workHint": "Cloner des environnements, déployer des branches, reconstruire, démarrer et arrêter, et sauvegarder n'importe quel environnement. Ne modifie jamais la production.",
+    "workNone": "Seul un développeur ou un administrateur d'un projet choisi peut laisser un agent travailler.",
     "allow": "Autoriser",
     "cancel": "Annuler",
     "back": "Vous reviendrez sur {{host}}.",
@@ -27,7 +30,11 @@
     "revoke": "Déconnecter",
     "howTitle": "Connecter un agent",
     "howHint": "Ajoutez cette adresse comme serveur MCP dans Claude, Cursor, ChatGPT ou tout client MCP. Il vous demandera ici quels projets il peut voir.",
-    "readOnly": "Pour l'instant les agents peuvent seulement lire : rien de ce qu'ils font ne modifie un environnement."
+    "readOnly": "Les agents ne modifient que le développement et les tests ; jamais la production.",
+    "levels": {
+      "read": "Lire",
+      "work": "Travailler"
+    }
   },
   "org": {
     "title": "Agents d'IA",

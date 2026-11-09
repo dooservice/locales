@@ -260,7 +260,7 @@
         "connected": "Agent d'IA connecté",
         "disconnected": "Agent d'IA déconnecté",
         "policy_changed": "Agents d'IA activés ou désactivés",
-        "tool_called": "Lu par un agent d'IA"
+        "tool_called": "Utilisé par un agent IA"
       }
     }
   },

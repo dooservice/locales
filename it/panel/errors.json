@@ -275,5 +275,11 @@
   "mcp_request_not_found": "Questa autorizzazione è terminata. Avvia di nuovo la connessione dal tuo agente.",
   "mcp_grant_not_found": "Questa connessione non esiste o non è tua.",
   "mcp_org_closed": "Questa organizzazione non lascia collegare agenti. Un amministratore lo attiva nelle impostazioni.",
-  "mcp_projects_required": "Scegli almeno un progetto che l'agente può vedere."
+  "mcp_projects_required": "Scegli almeno un progetto che l'agente può vedere.",
+  "environment_without_repository": "Questo progetto non ha un repository collegato, quindi non c'è un branch da distribuire.",
+  "mcp_level_required": "Questa connessione può solo leggere. Ricollega l'agente e lascialo lavorare.",
+  "mcp_work_not_allowed": "Non sei sviluppatore né amministratore di nessun progetto scelto, quindi l'agente può solo leggere.",
+  "mcp_production_closed": "Gli agenti non modificano la produzione. Clonala e lavora sulla copia.",
+  "mcp_not_agents_environment": "Un agente elimina solo le copie temporanee che ha clonato lui stesso.",
+  "mcp_too_many_jobs": "Gli agenti di questa organizzazione hanno già {{limit}} attività in corso. Attendi che una finisca."
 }

@@ -275,5 +275,11 @@
   "mcp_request_not_found": "This authorization ended. Start the connection again from your agent.",
   "mcp_grant_not_found": "This connection does not exist or is not yours.",
   "mcp_org_closed": "This organization does not let agents connect. An admin turns it on in its settings.",
-  "mcp_projects_required": "Choose at least one project the agent may see."
+  "mcp_projects_required": "Choose at least one project the agent may see.",
+  "environment_without_repository": "This project has no repository linked, so there is no branch to deploy.",
+  "mcp_level_required": "This connection may only read. Connect the agent again and let it work.",
+  "mcp_work_not_allowed": "You are not a developer or admin of any chosen project, so the agent may only read.",
+  "mcp_production_closed": "Agents do not change production. Clone it and work on the copy.",
+  "mcp_not_agents_environment": "An agent deletes only the temporary copies it cloned itself.",
+  "mcp_too_many_jobs": "This organization's agents already have {{limit}} jobs running. Wait for one to finish."
 }

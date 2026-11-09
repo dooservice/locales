@@ -9,8 +9,11 @@
     "clearAll": "Clear all",
     "noProjects": "You have no project in this organization.",
     "closed": "This organization does not let agents connect. An admin turns it on in the organization's settings.",
-    "readTitle": "Read only",
-    "readHint": "Environments, their state, logs, deployments and backups. It cannot change anything, download a backup or see a credential.",
+    "readTitle": "Read",
+    "readHint": "Environments, their state, logs, deployments and backups. It never downloads a backup or sees a credential.",
+    "workTitle": "Work in development and staging",
+    "workHint": "Clone environments, deploy branches, rebuild, start and stop, and back up any environment. It never changes production.",
+    "workNone": "Only a developer or admin of a chosen project can let an agent work.",
     "allow": "Allow",
     "cancel": "Cancel",
     "back": "You will go back to {{host}}.",
@@ -27,7 +30,11 @@
     "revoke": "Disconnect",
     "howTitle": "Connect an agent",
     "howHint": "Add this address as an MCP server in Claude, Cursor, ChatGPT or any MCP client. It asks you here which projects it may see.",
-    "readOnly": "Agents can only read for now: nothing they do changes an environment."
+    "readOnly": "Agents change development and staging only; production never.",
+    "levels": {
+      "read": "Read",
+      "work": "Work"
+    }
   },
   "org": {
     "title": "AI agents",

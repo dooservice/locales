@@ -260,7 +260,7 @@
         "connected": "AI agent connected",
         "disconnected": "AI agent disconnected",
         "policy_changed": "AI agents turned on or off",
-        "tool_called": "Read by an AI agent"
+        "tool_called": "Used by an AI agent"
       }
     }
   },

@@ -275,5 +275,11 @@
   "mcp_request_not_found": "Diese Autorisierung ist beendet. Starte die Verbindung erneut aus deinem Agenten.",
   "mcp_grant_not_found": "Diese Verbindung gibt es nicht oder sie gehört nicht dir.",
   "mcp_org_closed": "Diese Organisation lässt keine Agenten zu. Ein Admin aktiviert das in ihren Einstellungen.",
-  "mcp_projects_required": "Wähle mindestens ein Projekt, das der Agent sehen darf."
+  "mcp_projects_required": "Wähle mindestens ein Projekt, das der Agent sehen darf.",
+  "environment_without_repository": "Dieses Projekt hat kein verknüpftes Repository, daher gibt es keinen Branch zum Bereitstellen.",
+  "mcp_level_required": "Diese Verbindung darf nur lesen. Verbinde den Agenten erneut und lass ihn arbeiten.",
+  "mcp_work_not_allowed": "Du bist in keinem gewählten Projekt Entwickler oder Administrator, daher darf der Agent nur lesen.",
+  "mcp_production_closed": "Agenten ändern die Produktion nicht. Klone sie und arbeite an der Kopie.",
+  "mcp_not_agents_environment": "Ein Agent löscht nur die temporären Kopien, die er selbst geklont hat.",
+  "mcp_too_many_jobs": "Die Agenten dieser Organisation haben bereits {{limit}} laufende Aufgaben. Warte, bis eine fertig ist."
 }
