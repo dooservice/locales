@@ -9,11 +9,21 @@
     "clearAll": "Alle abwählen",
     "noProjects": "Du hast kein Projekt in dieser Organisation.",
     "closed": "Diese Organisation lässt keine Agenten zu. Ein Admin aktiviert das in den Einstellungen der Organisation.",
-    "readTitle": "Lesen",
-    "readHint": "Umgebungen, ihr Zustand, Logs, Deployments und Backups. Es lädt nie ein Backup herunter und sieht nie Zugangsdaten.",
-    "workTitle": "In Entwicklung und Test arbeiten",
-    "workHint": "Umgebungen klonen, Branches bereitstellen, neu aufbauen, starten und stoppen und jede Umgebung sichern. Ändert nie die Produktion.",
-    "workNone": "Nur ein Entwickler oder Administrator eines gewählten Projekts kann einen Agenten arbeiten lassen.",
+    "levelTitle": "Was er tun darf",
+    "readTitle": "Nur lesen",
+    "workTitle": "Lesen und ausführen",
+    "readPoints": {
+      "environments": "Umgebungen und ihren Zustand sehen",
+      "logs": "Logs und Deployments lesen",
+      "backups": "Backups sehen, nie herunterladen"
+    },
+    "workPoints": {
+      "clone": "Umgebungen klonen",
+      "deploy": "Branches bereitstellen und neu starten",
+      "backups": "Backups erstellen",
+      "production": "Berührt nie die Produktion"
+    },
+    "workNone": "Nur für Entwickler oder Admins eines gewählten Projekts",
     "allow": "Erlauben",
     "cancel": "Abbrechen",
     "back": "Du kehrst zu {{host}} zurück.",
@@ -32,8 +42,8 @@
     "howHint": "Füge diese Adresse als MCP-Server in Claude, Cursor, ChatGPT oder einem anderen MCP-Client hinzu. Er fragt dich hier, welche Projekte er sehen darf.",
     "readOnly": "Agenten ändern nur Entwicklung und Test, nie die Produktion.",
     "levels": {
-      "read": "Lesen",
-      "work": "Arbeiten"
+      "read": "Nur lesen",
+      "work": "Lesen und ausführen"
     }
   },
   "org": {

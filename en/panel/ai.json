@@ -9,11 +9,21 @@
     "clearAll": "Clear all",
     "noProjects": "You have no project in this organization.",
     "closed": "This organization does not let agents connect. An admin turns it on in the organization's settings.",
-    "readTitle": "Read",
-    "readHint": "Environments, their state, logs, deployments and backups. It never downloads a backup or sees a credential.",
-    "workTitle": "Work in development and staging",
-    "workHint": "Clone environments, deploy branches, rebuild, start and stop, and back up any environment. It never changes production.",
-    "workNone": "Only a developer or admin of a chosen project can let an agent work.",
+    "levelTitle": "What it may do",
+    "readTitle": "Read only",
+    "workTitle": "Read and run",
+    "readPoints": {
+      "environments": "See environments and their state",
+      "logs": "Read logs and deployments",
+      "backups": "See backups, never download them"
+    },
+    "workPoints": {
+      "clone": "Clone environments",
+      "deploy": "Deploy branches and restart",
+      "backups": "Take backups",
+      "production": "Never touches production"
+    },
+    "workNone": "Only for developers or admins of a chosen project",
     "allow": "Allow",
     "cancel": "Cancel",
     "back": "You will go back to {{host}}.",
@@ -32,8 +42,8 @@
     "howHint": "Add this address as an MCP server in Claude, Cursor, ChatGPT or any MCP client. It asks you here which projects it may see.",
     "readOnly": "Agents change development and staging only; production never.",
     "levels": {
-      "read": "Read",
-      "work": "Work"
+      "read": "Read only",
+      "work": "Read and run"
     }
   },
   "org": {
