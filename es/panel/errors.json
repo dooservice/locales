@@ -291,5 +291,9 @@
   "odoo_answer_too_large": "La respuesta de Odoo es demasiado grande. Pide menos registros o campos.",
   "production_read_only": "Aquí producción solo se lee. Cámbiala desde el panel.",
   "mcp_odoo_unavailable": "El agente de este servidor aún no puede consultar Odoo para los agentes de IA. Podrá cuando se actualice.",
-  "mcp_production_data_closed": "Esta organización no deja que la IA lea producción. Un propietario lo activa en sus ajustes."
+  "mcp_production_data_closed": "Esta organización no deja que la IA lea producción. Un propietario lo activa en sus ajustes.",
+  "workspace_not_found": "Este espacio de trabajo ya no está en el servidor. Ábrelo de nuevo.",
+  "workspace_path_refused": "No se puede usar {{path}}: {{reason}}.",
+  "workspace_file_too_large": "{{path}} pesa más de {{limit}} bytes.",
+  "workspace_nothing_to_publish": "Nada cambió en el espacio de trabajo desde que se abrió."
 }
