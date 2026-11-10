@@ -295,5 +295,7 @@
   "workspace_not_found": "Dieser Arbeitsbereich ist nicht mehr auf dem Server. Öffne ihn erneut.",
   "workspace_path_refused": "{{path}} kann nicht verwendet werden: {{reason}}.",
   "workspace_file_too_large": "{{path}} ist größer als {{limit}} Bytes.",
-  "workspace_nothing_to_publish": "Im Arbeitsbereich hat sich seit dem Öffnen nichts geändert."
+  "workspace_nothing_to_publish": "Im Arbeitsbereich hat sich seit dem Öffnen nichts geändert.",
+  "mcp_workspaces_unavailable": "Der Agent dieses Servers kann noch keine Code-Arbeitsbereiche für KI-Agenten öffnen. Nach seinem Update schon.",
+  "mcp_workspace_not_found": "Dieser Arbeitsbereich existiert nicht, ist geschlossen oder wurde von einer anderen Verbindung geöffnet."
 }

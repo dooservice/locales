@@ -295,5 +295,7 @@
   "workspace_not_found": "Questo spazio di lavoro non è più sul server. Aprilo di nuovo.",
   "workspace_path_refused": "Non si può usare {{path}}: {{reason}}.",
   "workspace_file_too_large": "{{path}} supera {{limit}} byte.",
-  "workspace_nothing_to_publish": "Nulla è cambiato nello spazio di lavoro da quando è stato aperto."
+  "workspace_nothing_to_publish": "Nulla è cambiato nello spazio di lavoro da quando è stato aperto.",
+  "mcp_workspaces_unavailable": "L'agente di questo server non può ancora aprire spazi di codice per gli agenti IA. Potrà farlo una volta aggiornato.",
+  "mcp_workspace_not_found": "Questo spazio di lavoro non esiste, è chiuso o è stato aperto da un'altra connessione."
 }

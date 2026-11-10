@@ -295,5 +295,7 @@
   "workspace_not_found": "This workspace is no longer on the server. Open it again.",
   "workspace_path_refused": "{{path}} cannot be used: {{reason}}.",
   "workspace_file_too_large": "{{path}} is larger than {{limit}} bytes.",
-  "workspace_nothing_to_publish": "Nothing changed in the workspace since it was opened."
+  "workspace_nothing_to_publish": "Nothing changed in the workspace since it was opened.",
+  "mcp_workspaces_unavailable": "This server's agent cannot open code workspaces for AI agents yet. It can once it updates.",
+  "mcp_workspace_not_found": "This workspace does not exist, is closed, or was opened by another connection."
 }
