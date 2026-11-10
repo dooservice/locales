@@ -39,7 +39,8 @@
       "read": "Solo lettura",
       "work": "Lettura ed esecuzione",
       "propose": "Proporre in produzione"
-    }
+    },
+    "skills": "Insegna al tuo agente a usare questi strumenti con la skill"
   },
   "org": {
     "title": "Agenti di IA",

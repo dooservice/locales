@@ -39,7 +39,8 @@
       "read": "Read only",
       "work": "Read and run",
       "propose": "Propose on production"
-    }
+    },
+    "skills": "Teach your agent how to use these tools with the skill"
   },
   "org": {
     "title": "AI agents",

@@ -39,7 +39,8 @@
       "read": "Nur lesen",
       "work": "Lesen und ausführen",
       "propose": "In Produktion vorschlagen"
-    }
+    },
+    "skills": "Bring deinem Agenten diese Werkzeuge mit dem Skill bei"
   },
   "org": {
     "title": "KI-Agenten",
