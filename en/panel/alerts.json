@@ -23,7 +23,9 @@
     "backup_suspicious": "suspicious backup",
     "backup_growing": "backups growing",
     "restore_test_failed": "restore test failed",
-    "agent_version_unknown": "agent without a version"
+    "agent_version_unknown": "agent without a version",
+    "environment_unstable": "production restarting",
+    "infrastructure_down": "server service down"
   },
   "recovered": "resolved: {{what}}",
   "details": {
@@ -37,13 +39,19 @@
     "backup_not_offsite": "Last off-server backup {{hours}} h ago",
     "backup_suspicious": "{{size_mb}} MB · previous {{previous_mb}} MB",
     "backup_growing": "From {{from_gb}} GB to {{to_gb}} GB in a week",
-    "restore_test_failed": "{{reason}}"
+    "restore_test_failed": "{{reason}}",
+    "environment_unstable": "Restarts in the last hour: {{restarts}}",
+    "infrastructure_down": "Down: {{components}}"
   },
   "states": {
     "stopped": "stopped",
     "failed": "failed",
     "provisioning": "installing",
-    "unknown": "unknown"
+    "unknown": "unknown",
+    "failing": "not answering",
+    "exited": "container stopped",
+    "dead": "container dead",
+    "created": "container never started"
   },
   "openNow": {
     "title": "Open",
@@ -121,7 +129,11 @@
     "restore_test_failed_one": "{{count}} failed test restore",
     "restore_test_failed_other": "{{count}} failed test restores",
     "agent_version_unknown_one": "{{count}} agent without a version",
-    "agent_version_unknown_other": "{{count}} agents without a version"
+    "agent_version_unknown_other": "{{count}} agents without a version",
+    "environment_unstable_one": "{{count}} production restarting",
+    "environment_unstable_other": "{{count}} productions restarting",
+    "infrastructure_down_one": "{{count}} server with a service down",
+    "infrastructure_down_other": "{{count}} servers with a service down"
   },
   "onServers_one": "on {{count}} server",
   "onServers_other": "on {{count}} servers",

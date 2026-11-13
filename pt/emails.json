@@ -110,6 +110,16 @@
         "headline": "A restauração de teste falhou",
         "resolved": "A restauração de teste voltou a funcionar",
         "advice": "Faça um backup manual e não conte em restaurar o último até que um teste passe."
+      },
+      "environment_unstable": {
+        "headline": "A produção reinicia sozinha",
+        "resolved": "A produção já não reinicia",
+        "advice": "Verifique os logs do ambiente: um reinício por memória pede menos carga ou mais workers."
+      },
+      "infrastructure_down": {
+        "headline": "Um serviço compartilhado do servidor está fora do ar",
+        "resolved": "Os serviços compartilhados do servidor voltaram a funcionar",
+        "advice": "Todas as instâncias do servidor dependem dele: verifique o servidor o quanto antes."
       }
     },
     "details": {
@@ -123,14 +133,19 @@
       "backup_not_offsite": "Último backup fora há {hours} h",
       "backup_suspicious": "{size_mb} MB · o anterior {previous_mb} MB",
       "backup_growing": "De {from_gb} GB para {to_gb} GB em uma semana",
-      "restore_test_failed": "{reason}"
+      "restore_test_failed": "{reason}",
+      "environment_unstable": "Reinícios na última hora: {restarts}",
+      "infrastructure_down": "Fora do ar: {components}"
     },
     "states": {
       "stopped": "parado",
       "failed": "com erro",
       "provisioning": "instalando",
       "failing": "não responde",
-      "unknown": "desconhecido"
+      "unknown": "desconhecido",
+      "exited": "contêiner parado",
+      "dead": "contêiner morto",
+      "created": "contêiner sem iniciar"
     },
     "reasons": {
       "no_room": "sem espaço em disco para o teste",

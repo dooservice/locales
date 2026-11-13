@@ -110,6 +110,16 @@
         "headline": "Le test de restauration a échoué",
         "resolved": "Le test de restauration fonctionne à nouveau",
         "advice": "Lancez une sauvegarde manuelle, et ne comptez pas sur la restauration de la dernière tant qu'un test n'a pas réussi."
+      },
+      "environment_unstable": {
+        "headline": "La production redémarre toute seule",
+        "resolved": "La production ne redémarre plus",
+        "advice": "Consultez les journaux de l'environnement : un redémarrage pour manque de mémoire demande moins de charge ou plus de workers."
+      },
+      "infrastructure_down": {
+        "headline": "Un service partagé du serveur est en panne",
+        "resolved": "Les services partagés du serveur fonctionnent à nouveau",
+        "advice": "Toutes les instances du serveur en dépendent : vérifiez le serveur au plus vite."
       }
     },
     "details": {
@@ -123,14 +133,19 @@
       "backup_not_offsite": "Dernière sauvegarde hors serveur il y a {hours} h",
       "backup_suspicious": "{size_mb} Mo · précédente {previous_mb} Mo",
       "backup_growing": "De {from_gb} Go à {to_gb} Go en une semaine",
-      "restore_test_failed": "{reason}"
+      "restore_test_failed": "{reason}",
+      "environment_unstable": "Redémarrages dans la dernière heure : {restarts}",
+      "infrastructure_down": "En panne : {components}"
     },
     "states": {
       "stopped": "arrêté",
       "failed": "en échec",
       "provisioning": "installation",
       "failing": "ne répond pas",
-      "unknown": "inconnu"
+      "unknown": "inconnu",
+      "exited": "conteneur arrêté",
+      "dead": "conteneur mort",
+      "created": "conteneur jamais démarré"
     },
     "reasons": {
       "no_room": "pas assez d'espace disque pour le test",

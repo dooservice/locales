@@ -110,6 +110,16 @@
         "headline": "The test restore failed",
         "resolved": "The test restore works again",
         "advice": "Run a manual backup, and do not count on restoring the latest one until a test passes."
+      },
+      "environment_unstable": {
+        "headline": "Production keeps restarting",
+        "resolved": "Production no longer restarts",
+        "advice": "Check the environment's logs: a restart for memory calls for less load or more workers."
+      },
+      "infrastructure_down": {
+        "headline": "A shared service on the server is down",
+        "resolved": "The server's shared services are running again",
+        "advice": "Every instance on the server depends on it: check the server as soon as you can."
       }
     },
     "details": {
@@ -123,14 +133,19 @@
       "backup_not_offsite": "Last off-server backup {hours} h ago",
       "backup_suspicious": "{size_mb} MB · previous {previous_mb} MB",
       "backup_growing": "From {from_gb} GB to {to_gb} GB in a week",
-      "restore_test_failed": "{reason}"
+      "restore_test_failed": "{reason}",
+      "environment_unstable": "Restarts in the last hour: {restarts}",
+      "infrastructure_down": "Down: {components}"
     },
     "states": {
       "stopped": "stopped",
       "failed": "failed",
       "provisioning": "installing",
       "failing": "not responding",
-      "unknown": "unknown"
+      "unknown": "unknown",
+      "exited": "container stopped",
+      "dead": "container dead",
+      "created": "container never started"
     },
     "reasons": {
       "no_room": "not enough disk space for the test",

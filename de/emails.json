@@ -110,6 +110,16 @@
         "headline": "Die Testwiederherstellung ist fehlgeschlagen",
         "resolved": "Die Testwiederherstellung funktioniert wieder",
         "advice": "Starte ein manuelles Backup und verlass dich nicht darauf, das letzte wiederherstellen zu können, bis ein Test erfolgreich ist."
+      },
+      "environment_unstable": {
+        "headline": "Die Produktion startet von selbst neu",
+        "resolved": "Die Produktion startet nicht mehr neu",
+        "advice": "Prüfe die Logs der Umgebung: ein Neustart wegen Speicher verlangt weniger Last oder mehr Worker."
+      },
+      "infrastructure_down": {
+        "headline": "Ein gemeinsamer Dienst des Servers ist ausgefallen",
+        "resolved": "Die gemeinsamen Dienste des Servers laufen wieder",
+        "advice": "Alle Instanzen des Servers hängen davon ab: prüfe den Server so schnell wie möglich."
       }
     },
     "details": {
@@ -123,14 +133,19 @@
       "backup_not_offsite": "Letztes externes Backup vor {hours} Std.",
       "backup_suspicious": "{size_mb} MB · vorher {previous_mb} MB",
       "backup_growing": "Von {from_gb} GB auf {to_gb} GB in einer Woche",
-      "restore_test_failed": "{reason}"
+      "restore_test_failed": "{reason}",
+      "environment_unstable": "Neustarts in der letzten Stunde: {restarts}",
+      "infrastructure_down": "Ausgefallen: {components}"
     },
     "states": {
       "stopped": "gestoppt",
       "failed": "fehlgeschlagen",
       "provisioning": "wird installiert",
       "failing": "antwortet nicht",
-      "unknown": "unbekannt"
+      "unknown": "unbekannt",
+      "exited": "Container gestoppt",
+      "dead": "Container tot",
+      "created": "Container nie gestartet"
     },
     "reasons": {
       "no_room": "nicht genug Speicherplatz für den Test",

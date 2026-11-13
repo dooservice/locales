@@ -110,6 +110,16 @@
         "headline": "Il ripristino di prova non è riuscito",
         "resolved": "Il ripristino di prova funziona di nuovo",
         "advice": "Esegui un backup manuale e non contare sul ripristino dell'ultimo finché una prova non riesce."
+      },
+      "environment_unstable": {
+        "headline": "La produzione si riavvia da sola",
+        "resolved": "La produzione non si riavvia più",
+        "advice": "Controlla i log dell'ambiente: un riavvio per memoria richiede meno carico o più worker."
+      },
+      "infrastructure_down": {
+        "headline": "Un servizio condiviso del server non funziona",
+        "resolved": "I servizi condivisi del server funzionano di nuovo",
+        "advice": "Tutte le istanze del server ne dipendono: controlla il server il prima possibile."
       }
     },
     "details": {
@@ -123,14 +133,19 @@
       "backup_not_offsite": "Ultimo backup fuori dal server {hours} h fa",
       "backup_suspicious": "{size_mb} MB · precedente {previous_mb} MB",
       "backup_growing": "Da {from_gb} GB a {to_gb} GB in una settimana",
-      "restore_test_failed": "{reason}"
+      "restore_test_failed": "{reason}",
+      "environment_unstable": "Riavvii nell'ultima ora: {restarts}",
+      "infrastructure_down": "Non funziona: {components}"
     },
     "states": {
       "stopped": "fermo",
       "failed": "in errore",
       "provisioning": "in installazione",
       "failing": "non risponde",
-      "unknown": "sconosciuto"
+      "unknown": "sconosciuto",
+      "exited": "container fermo",
+      "dead": "container morto",
+      "created": "container mai avviato"
     },
     "reasons": {
       "no_room": "spazio su disco insufficiente per la prova",

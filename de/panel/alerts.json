@@ -23,7 +23,9 @@
     "backup_suspicious": "verdächtiges Backup",
     "backup_growing": "Backups wachsen",
     "restore_test_failed": "Wiederherstellungstest fehlgeschlagen",
-    "agent_version_unknown": "Agent ohne Version"
+    "agent_version_unknown": "Agent ohne Version",
+    "environment_unstable": "Produktion startet neu",
+    "infrastructure_down": "Serverdienst ausgefallen"
   },
   "recovered": "behoben: {{what}}",
   "details": {
@@ -37,13 +39,19 @@
     "backup_not_offsite": "Letztes externes Backup vor {{hours}} Std.",
     "backup_suspicious": "{{size_mb}} MB · vorher {{previous_mb}} MB",
     "backup_growing": "Von {{from_gb}} GB auf {{to_gb}} GB in einer Woche",
-    "restore_test_failed": "{{reason}}"
+    "restore_test_failed": "{{reason}}",
+    "environment_unstable": "Neustarts in der letzten Stunde: {{restarts}}",
+    "infrastructure_down": "Ausgefallen: {{components}}"
   },
   "states": {
     "stopped": "gestoppt",
     "failed": "fehlgeschlagen",
     "provisioning": "wird installiert",
-    "unknown": "unbekannt"
+    "unknown": "unbekannt",
+    "failing": "antwortet nicht",
+    "exited": "Container gestoppt",
+    "dead": "Container tot",
+    "created": "Container nie gestartet"
   },
   "openNow": {
     "title": "Offen",
@@ -121,7 +129,11 @@
     "restore_test_failed_one": "{{count}} fehlgeschlagene Testwiederherstellung",
     "restore_test_failed_other": "{{count}} fehlgeschlagene Testwiederherstellungen",
     "agent_version_unknown_one": "{{count}} Agent ohne Version",
-    "agent_version_unknown_other": "{{count}} Agents ohne Version"
+    "agent_version_unknown_other": "{{count}} Agents ohne Version",
+    "environment_unstable_one": "{{count}} Produktion startet neu",
+    "environment_unstable_other": "{{count}} Produktionen starten neu",
+    "infrastructure_down_one": "{{count}} Server mit ausgefallenem Dienst",
+    "infrastructure_down_other": "{{count}} Server mit ausgefallenem Dienst"
   },
   "onServers_one": "auf {{count}} Server",
   "onServers_other": "auf {{count}} Servern",

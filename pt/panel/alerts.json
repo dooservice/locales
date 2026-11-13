@@ -23,7 +23,9 @@
     "backup_suspicious": "backup suspeito",
     "backup_growing": "backups crescendo",
     "restore_test_failed": "teste de restauração falhou",
-    "agent_version_unknown": "agente sem versão"
+    "agent_version_unknown": "agente sem versão",
+    "environment_unstable": "produção reiniciando",
+    "infrastructure_down": "serviço do servidor fora do ar"
   },
   "recovered": "resolvido: {{what}}",
   "details": {
@@ -37,13 +39,19 @@
     "backup_not_offsite": "Último backup fora do servidor há {{hours}} h",
     "backup_suspicious": "{{size_mb}} MB · anterior {{previous_mb}} MB",
     "backup_growing": "De {{from_gb}} GB para {{to_gb}} GB em uma semana",
-    "restore_test_failed": "{{reason}}"
+    "restore_test_failed": "{{reason}}",
+    "environment_unstable": "Reinícios na última hora: {{restarts}}",
+    "infrastructure_down": "Fora do ar: {{components}}"
   },
   "states": {
     "stopped": "parado",
     "failed": "falhou",
     "provisioning": "instalando",
-    "unknown": "desconhecido"
+    "unknown": "desconhecido",
+    "failing": "não responde",
+    "exited": "contêiner parado",
+    "dead": "contêiner morto",
+    "created": "contêiner sem iniciar"
   },
   "openNow": {
     "title": "Abertos",
@@ -121,7 +129,11 @@
     "restore_test_failed_one": "{{count}} teste de restauração com falha",
     "restore_test_failed_other": "{{count}} testes de restauração com falha",
     "agent_version_unknown_one": "{{count}} agente sem versão",
-    "agent_version_unknown_other": "{{count}} agentes sem versão"
+    "agent_version_unknown_other": "{{count}} agentes sem versão",
+    "environment_unstable_one": "{{count}} produção reiniciando",
+    "environment_unstable_other": "{{count}} produções reiniciando",
+    "infrastructure_down_one": "{{count}} servidor com um serviço fora do ar",
+    "infrastructure_down_other": "{{count}} servidores com um serviço fora do ar"
   },
   "onServers_one": "em {{count}} servidor",
   "onServers_other": "em {{count}} servidores",
