@@ -74,7 +74,10 @@
       "logging": "Logs, die Odoo in der Datenbank selbst speichert. Können gefahrlos geleert werden, ohne Geschäftsdaten zu verlieren.",
       "stuck_jobs": "Fehlgeschlagene oder hängende Queue-Jobs. Nicht nur Platz: Möglicherweise ist etwas seit einer Weile nicht gelaufen."
     },
-    "sizeAnyway": "Die Datenbank ist {{value}} MB groß, konnte aber nicht untersucht werden."
+    "sizeAnyway": "Die Datenbank ist {{value}} MB groß, konnte aber nicht untersucht werden.",
+    "scanned": "{{scans}}-mal vollständig gelesen bei {{rows}} Zeilen: ihr fehlt ein Index",
+    "slowTitle": "Abfragen, die am meisten Zeit brauchen",
+    "slowFigures": "{{mean}} ms im Mittel · {{calls}}-mal · {{total}} s insgesamt"
   },
   "history": {
     "title": "Wie es gewachsen ist",

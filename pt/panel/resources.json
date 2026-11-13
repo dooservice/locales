@@ -74,7 +74,10 @@
       "logging": "Logs que o Odoo guarda na própria base de dados. Podem ser esvaziados sem perder nada do negócio.",
       "stuck_jobs": "Tarefas da fila com falha ou travadas. Não é só espaço: algo pode não ter sido executado há um tempo."
     },
-    "sizeAnyway": "A base de dados ocupa {{value}} MB, mas não foi possível olhar dentro dela."
+    "sizeAnyway": "A base de dados ocupa {{value}} MB, mas não foi possível olhar dentro dela.",
+    "scanned": "lida inteira {{scans}} vezes com {{rows}} linhas: falta um índice",
+    "slowTitle": "Consultas que mais tempo levam",
+    "slowFigures": "{{mean}} ms em média · {{calls}} vezes · {{total}} s no total"
   },
   "history": {
     "title": "Como cresceu",

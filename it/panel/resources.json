@@ -77,7 +77,10 @@
       "logging": "Log che Odoo conserva nel database stesso. Si possono svuotare senza perdere nulla del business.",
       "stuck_jobs": "Job della coda falliti o bloccati. Non è solo spazio: qualcosa potrebbe non essere stato eseguito da tempo."
     },
-    "sizeAnyway": "Il database pesa {{value}} MB, ma non è stato possibile guardarci dentro."
+    "sizeAnyway": "Il database pesa {{value}} MB, ma non è stato possibile guardarci dentro.",
+    "scanned": "letta per intero {{scans}} volte con {{rows}} righe: le manca un indice",
+    "slowTitle": "Query che richiedono più tempo",
+    "slowFigures": "{{mean}} ms in media · {{calls}} volte · {{total}} s in totale"
   },
   "history": {
     "title": "Come è cresciuto",

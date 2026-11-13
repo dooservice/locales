@@ -74,7 +74,10 @@
       "logging": "Logs Odoo keeps in the database itself. Safe to empty without losing anything of the business.",
       "stuck_jobs": "Queue jobs failed or stuck. Not only room: something may not have run in a while."
     },
-    "sizeAnyway": "The database weighs {{value}} MB, but could not be looked inside."
+    "sizeAnyway": "The database weighs {{value}} MB, but could not be looked inside.",
+    "scanned": "read whole {{scans}} times with {{rows}} rows: it lacks an index",
+    "slowTitle": "Queries that take the most time",
+    "slowFigures": "{{mean}} ms on average · {{calls}} times · {{total}} s in total"
   },
   "history": {
     "title": "How it has grown",

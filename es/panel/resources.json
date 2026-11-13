@@ -74,7 +74,10 @@
       "logging": "Registros que Odoo guarda en la propia base. Se pueden vaciar sin perder nada del negocio.",
       "stuck_jobs": "Trabajos en cola fallidos o colgados. No solo ocupan: puede que algo lleve tiempo sin ejecutarse."
     },
-    "sizeAnyway": "La base pesa {{value}} MB, pero no se pudo mirar dentro."
+    "sizeAnyway": "La base pesa {{value}} MB, pero no se pudo mirar dentro.",
+    "scanned": "se lee entera {{scans}} veces con {{rows}} filas: le falta un índice",
+    "slowTitle": "Consultas que más tiempo toman",
+    "slowFigures": "{{mean}} ms de media · {{calls}} veces · {{total}} s en total"
   },
   "history": {
     "title": "Cómo ha crecido",

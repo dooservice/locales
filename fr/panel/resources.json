@@ -74,7 +74,10 @@
       "logging": "Journaux qu'Odoo conserve dans la base elle-même. Vous pouvez les vider sans rien perdre de l'activité.",
       "stuck_jobs": "Tâches de file d'attente en échec ou bloquées. Ce n'est pas qu'une question de place : quelque chose ne s'est peut-être pas exécuté depuis un moment."
     },
-    "sizeAnyway": "La base de données pèse {{value}} Mo, mais son contenu n'a pas pu être examiné."
+    "sizeAnyway": "La base de données pèse {{value}} Mo, mais son contenu n'a pas pu être examiné.",
+    "scanned": "lue entièrement {{scans}} fois avec {{rows}} lignes : il lui manque un index",
+    "slowTitle": "Requêtes qui prennent le plus de temps",
+    "slowFigures": "{{mean}} ms en moyenne · {{calls}} fois · {{total}} s au total"
   },
   "history": {
     "title": "Évolution",
