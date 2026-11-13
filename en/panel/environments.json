@@ -76,7 +76,13 @@
       "created": "Container never started",
       "restarting": "Restarting",
       "paused": "Container paused"
-    }
+    },
+    "traffic": "Traffic (last hour)",
+    "requests_one": "{{formatted}} request",
+    "requests_other": "{{formatted}} requests",
+    "p95": "95 % under {{ms}} ms",
+    "serverErrors_one": "{{count}} server error",
+    "serverErrors_other": "{{count}} server errors"
   },
   "clone": {
     "title": "Clone environment",

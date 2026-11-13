@@ -76,7 +76,13 @@
       "created": "Container mai avviato",
       "restarting": "Riavvio in corso",
       "paused": "Container in pausa"
-    }
+    },
+    "traffic": "Traffico (ultima ora)",
+    "requests_one": "{{formatted}} richiesta",
+    "requests_other": "{{formatted}} richieste",
+    "p95": "95 % in meno di {{ms}} ms",
+    "serverErrors_one": "{{count}} errore del server",
+    "serverErrors_other": "{{count}} errori del server"
   },
   "clone": {
     "title": "Clona ambiente",

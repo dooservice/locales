@@ -76,7 +76,13 @@
       "created": "Container nie gestartet",
       "restarting": "Startet neu",
       "paused": "Container pausiert"
-    }
+    },
+    "traffic": "Datenverkehr (letzte Stunde)",
+    "requests_one": "{{formatted}} Anfrage",
+    "requests_other": "{{formatted}} Anfragen",
+    "p95": "95 % unter {{ms}} ms",
+    "serverErrors_one": "{{count}} Serverfehler",
+    "serverErrors_other": "{{count}} Serverfehler"
   },
   "clone": {
     "title": "Umgebung klonen",

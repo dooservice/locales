@@ -76,7 +76,13 @@
       "created": "Conteneur jamais démarré",
       "restarting": "Redémarrage en cours",
       "paused": "Conteneur en pause"
-    }
+    },
+    "traffic": "Trafic (dernière heure)",
+    "requests_one": "{{formatted}} requête",
+    "requests_other": "{{formatted}} requêtes",
+    "p95": "95 % en moins de {{ms}} ms",
+    "serverErrors_one": "{{count}} erreur du serveur",
+    "serverErrors_other": "{{count}} erreurs du serveur"
   },
   "clone": {
     "title": "Cloner l'environnement",

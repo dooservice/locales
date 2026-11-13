@@ -76,7 +76,13 @@
       "created": "Contenedor sin arrancar",
       "restarting": "Reiniciándose",
       "paused": "Contenedor en pausa"
-    }
+    },
+    "traffic": "Tráfico (última hora)",
+    "requests_one": "{{formatted}} petición",
+    "requests_other": "{{formatted}} peticiones",
+    "p95": "95 % en menos de {{ms}} ms",
+    "serverErrors_one": "{{count}} error del servidor",
+    "serverErrors_other": "{{count}} errores del servidor"
   },
   "clone": {
     "title": "Clonar entorno",
