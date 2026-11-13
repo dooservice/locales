@@ -120,6 +120,11 @@
         "headline": "A shared service on the server is down",
         "resolved": "The server's shared services are running again",
         "advice": "Every instance on the server depends on it: check the server as soon as you can."
+      },
+      "server_busy": {
+        "headline": "The server is short of resources",
+        "resolved": "The server has room again",
+        "advice": "Every instance on the server runs slower: spread the load or enlarge the server."
       }
     },
     "details": {
@@ -135,7 +140,8 @@
       "backup_growing": "From {from_gb} GB to {to_gb} GB in a week",
       "restore_test_failed": "{reason}",
       "environment_unstable": "Restarts in the last hour: {restarts}",
-      "infrastructure_down": "Down: {components}"
+      "infrastructure_down": "Down: {components}",
+      "server_busy": "{reason} at {percent} % for 15 min"
     },
     "states": {
       "stopped": "stopped",
@@ -153,7 +159,9 @@
       "connection": "could not connect to the database",
       "restore_errors": "the restore ended with errors",
       "incomplete": "the restored database was incomplete",
-      "unanswered": "the server did not finish the test"
+      "unanswered": "the server did not finish the test",
+      "memory": "Memory",
+      "cpu": "CPU"
     },
     "leave": "Stop receiving these alerts"
   },

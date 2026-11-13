@@ -25,7 +25,8 @@
     "restore_test_failed": "restauración de prueba fallida",
     "agent_version_unknown": "agente sin versión",
     "environment_unstable": "producción reiniciándose",
-    "infrastructure_down": "servicio del servidor caído"
+    "infrastructure_down": "servicio del servidor caído",
+    "server_busy": "servidor sin margen"
   },
   "recovered": "resuelto: {{what}}",
   "details": {
@@ -41,7 +42,8 @@
     "backup_growing": "De {{from_gb}} GB a {{to_gb}} GB en una semana",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Reinicios en la última hora: {{restarts}}",
-    "infrastructure_down": "Caído: {{components}}"
+    "infrastructure_down": "Caído: {{components}}",
+    "server_busy": "{{reason}} al {{percent}} % durante 15 min"
   },
   "states": {
     "stopped": "detenido",
@@ -101,7 +103,9 @@
     "connection": "no se pudo conectar a la base de datos",
     "restore_errors": "la restauración terminó con errores",
     "incomplete": "la base restaurada quedó incompleta",
-    "unanswered": "la prueba no respondió"
+    "unanswered": "la prueba no respondió",
+    "memory": "Memoria",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} servidor sin señal",
@@ -133,7 +137,9 @@
     "environment_unstable_one": "{{count}} producción reiniciándose",
     "environment_unstable_other": "{{count}} producciones reiniciándose",
     "infrastructure_down_one": "{{count}} servidor con un servicio caído",
-    "infrastructure_down_other": "{{count}} servidores con un servicio caído"
+    "infrastructure_down_other": "{{count}} servidores con un servicio caído",
+    "server_busy_one": "{{count}} servidor sin margen",
+    "server_busy_other": "{{count}} servidores sin margen"
   },
   "onServers_one": "en {{count}} servidor",
   "onServers_other": "en {{count}} servidores",

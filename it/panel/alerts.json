@@ -26,7 +26,8 @@
     "restore_test_failed": "test di ripristino fallito",
     "agent_version_unknown": "agente senza versione",
     "environment_unstable": "produzione che si riavvia",
-    "infrastructure_down": "servizio del server fermo"
+    "infrastructure_down": "servizio del server fermo",
+    "server_busy": "server senza margine"
   },
   "recovered": "risolto: {{what}}",
   "details": {
@@ -42,7 +43,8 @@
     "backup_growing": "Da {{from_gb}} GB a {{to_gb}} GB in una settimana",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Riavvii nell'ultima ora: {{restarts}}",
-    "infrastructure_down": "Non funziona: {{components}}"
+    "infrastructure_down": "Non funziona: {{components}}",
+    "server_busy": "{{reason}} al {{percent}} % per 15 min"
   },
   "states": {
     "stopped": "fermo",
@@ -105,7 +107,9 @@
     "connection": "impossibile connettersi al database",
     "restore_errors": "il ripristino è terminato con errori",
     "incomplete": "il database ripristinato era incompleto",
-    "unanswered": "il test non ha risposto"
+    "unanswered": "il test non ha risposto",
+    "memory": "Memoria",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} server senza segnale",
@@ -150,7 +154,9 @@
     "environment_unstable_one": "{{count}} produzione che si riavvia",
     "environment_unstable_other": "{{count}} produzioni che si riavviano",
     "infrastructure_down_one": "{{count}} server con un servizio fermo",
-    "infrastructure_down_other": "{{count}} server con un servizio fermo"
+    "infrastructure_down_other": "{{count}} server con un servizio fermo",
+    "server_busy_one": "{{count}} server senza margine",
+    "server_busy_other": "{{count}} server senza margine"
   },
   "onServers_one": "su {{count}} server",
   "onServers_other": "su {{count}} server",

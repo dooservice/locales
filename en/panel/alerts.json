@@ -25,7 +25,8 @@
     "restore_test_failed": "restore test failed",
     "agent_version_unknown": "agent without a version",
     "environment_unstable": "production restarting",
-    "infrastructure_down": "server service down"
+    "infrastructure_down": "server service down",
+    "server_busy": "server out of room"
   },
   "recovered": "resolved: {{what}}",
   "details": {
@@ -41,7 +42,8 @@
     "backup_growing": "From {{from_gb}} GB to {{to_gb}} GB in a week",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Restarts in the last hour: {{restarts}}",
-    "infrastructure_down": "Down: {{components}}"
+    "infrastructure_down": "Down: {{components}}",
+    "server_busy": "{{reason}} at {{percent}} % for 15 min"
   },
   "states": {
     "stopped": "stopped",
@@ -101,7 +103,9 @@
     "connection": "could not connect to the database",
     "restore_errors": "the restore ended with errors",
     "incomplete": "the restored database was incomplete",
-    "unanswered": "the test did not answer"
+    "unanswered": "the test did not answer",
+    "memory": "Memory",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} server without signal",
@@ -133,7 +137,9 @@
     "environment_unstable_one": "{{count}} production restarting",
     "environment_unstable_other": "{{count}} productions restarting",
     "infrastructure_down_one": "{{count}} server with a service down",
-    "infrastructure_down_other": "{{count}} servers with a service down"
+    "infrastructure_down_other": "{{count}} servers with a service down",
+    "server_busy_one": "{{count}} server out of room",
+    "server_busy_other": "{{count}} servers out of room"
   },
   "onServers_one": "on {{count}} server",
   "onServers_other": "on {{count}} servers",

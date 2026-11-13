@@ -25,7 +25,8 @@
     "restore_test_failed": "Wiederherstellungstest fehlgeschlagen",
     "agent_version_unknown": "Agent ohne Version",
     "environment_unstable": "Produktion startet neu",
-    "infrastructure_down": "Serverdienst ausgefallen"
+    "infrastructure_down": "Serverdienst ausgefallen",
+    "server_busy": "Server ohne Spielraum"
   },
   "recovered": "behoben: {{what}}",
   "details": {
@@ -41,7 +42,8 @@
     "backup_growing": "Von {{from_gb}} GB auf {{to_gb}} GB in einer Woche",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Neustarts in der letzten Stunde: {{restarts}}",
-    "infrastructure_down": "Ausgefallen: {{components}}"
+    "infrastructure_down": "Ausgefallen: {{components}}",
+    "server_busy": "{{reason}} bei {{percent}} % seit 15 Min."
   },
   "states": {
     "stopped": "gestoppt",
@@ -101,7 +103,9 @@
     "connection": "keine Verbindung zur Datenbank",
     "restore_errors": "die Wiederherstellung endete mit Fehlern",
     "incomplete": "die wiederhergestellte Datenbank war unvollständig",
-    "unanswered": "der Test hat nicht geantwortet"
+    "unanswered": "der Test hat nicht geantwortet",
+    "memory": "Speicher",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} Server ohne Signal",
@@ -133,7 +137,9 @@
     "environment_unstable_one": "{{count}} Produktion startet neu",
     "environment_unstable_other": "{{count}} Produktionen starten neu",
     "infrastructure_down_one": "{{count}} Server mit ausgefallenem Dienst",
-    "infrastructure_down_other": "{{count}} Server mit ausgefallenem Dienst"
+    "infrastructure_down_other": "{{count}} Server mit ausgefallenem Dienst",
+    "server_busy_one": "{{count}} Server ohne Spielraum",
+    "server_busy_other": "{{count}} Server ohne Spielraum"
   },
   "onServers_one": "auf {{count}} Server",
   "onServers_other": "auf {{count}} Servern",

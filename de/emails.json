@@ -120,6 +120,11 @@
         "headline": "Ein gemeinsamer Dienst des Servers ist ausgefallen",
         "resolved": "Die gemeinsamen Dienste des Servers laufen wieder",
         "advice": "Alle Instanzen des Servers hängen davon ab: prüfe den Server so schnell wie möglich."
+      },
+      "server_busy": {
+        "headline": "Dem Server gehen die Ressourcen aus",
+        "resolved": "Der Server hat wieder Spielraum",
+        "advice": "Alle Instanzen des Servers werden langsamer: verteile die Last oder vergrößere den Server."
       }
     },
     "details": {
@@ -135,7 +140,8 @@
       "backup_growing": "Von {from_gb} GB auf {to_gb} GB in einer Woche",
       "restore_test_failed": "{reason}",
       "environment_unstable": "Neustarts in der letzten Stunde: {restarts}",
-      "infrastructure_down": "Ausgefallen: {components}"
+      "infrastructure_down": "Ausgefallen: {components}",
+      "server_busy": "{reason} bei {percent} % seit 15 Min."
     },
     "states": {
       "stopped": "gestoppt",
@@ -153,7 +159,9 @@
       "connection": "keine Verbindung zur Datenbank",
       "restore_errors": "die Wiederherstellung endete mit Fehlern",
       "incomplete": "die wiederhergestellte Datenbank war unvollständig",
-      "unanswered": "der Server hat den Test nicht abgeschlossen"
+      "unanswered": "der Server hat den Test nicht abgeschlossen",
+      "memory": "Speicher",
+      "cpu": "CPU"
     },
     "leave": "Diese Alarme nicht mehr erhalten"
   },

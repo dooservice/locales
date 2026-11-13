@@ -25,7 +25,8 @@
     "restore_test_failed": "échec du test de restauration",
     "agent_version_unknown": "agent sans version",
     "environment_unstable": "production qui redémarre",
-    "infrastructure_down": "service du serveur en panne"
+    "infrastructure_down": "service du serveur en panne",
+    "server_busy": "serveur sans marge"
   },
   "recovered": "résolu : {{what}}",
   "details": {
@@ -41,7 +42,8 @@
     "backup_growing": "De {{from_gb}} Go à {{to_gb}} Go en une semaine",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Redémarrages dans la dernière heure : {{restarts}}",
-    "infrastructure_down": "En panne : {{components}}"
+    "infrastructure_down": "En panne : {{components}}",
+    "server_busy": "{{reason}} à {{percent}} % pendant 15 min"
   },
   "states": {
     "stopped": "arrêté",
@@ -101,7 +103,9 @@
     "connection": "connexion à la base de données impossible",
     "restore_errors": "la restauration s'est terminée avec des erreurs",
     "incomplete": "la base restaurée était incomplète",
-    "unanswered": "le test n'a pas répondu"
+    "unanswered": "le test n'a pas répondu",
+    "memory": "Mémoire",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} serveur sans signal",
@@ -133,7 +137,9 @@
     "environment_unstable_one": "{{count}} production qui redémarre",
     "environment_unstable_other": "{{count}} productions qui redémarrent",
     "infrastructure_down_one": "{{count}} serveur avec un service en panne",
-    "infrastructure_down_other": "{{count}} serveurs avec un service en panne"
+    "infrastructure_down_other": "{{count}} serveurs avec un service en panne",
+    "server_busy_one": "{{count}} serveur sans marge",
+    "server_busy_other": "{{count}} serveurs sans marge"
   },
   "onServers_one": "sur {{count}} serveur",
   "onServers_other": "sur {{count}} serveurs",

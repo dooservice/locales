@@ -25,7 +25,8 @@
     "restore_test_failed": "teste de restauração falhou",
     "agent_version_unknown": "agente sem versão",
     "environment_unstable": "produção reiniciando",
-    "infrastructure_down": "serviço do servidor fora do ar"
+    "infrastructure_down": "serviço do servidor fora do ar",
+    "server_busy": "servidor sem folga"
   },
   "recovered": "resolvido: {{what}}",
   "details": {
@@ -41,7 +42,8 @@
     "backup_growing": "De {{from_gb}} GB para {{to_gb}} GB em uma semana",
     "restore_test_failed": "{{reason}}",
     "environment_unstable": "Reinícios na última hora: {{restarts}}",
-    "infrastructure_down": "Fora do ar: {{components}}"
+    "infrastructure_down": "Fora do ar: {{components}}",
+    "server_busy": "{{reason}} em {{percent}} % durante 15 min"
   },
   "states": {
     "stopped": "parado",
@@ -101,7 +103,9 @@
     "connection": "não foi possível conectar à base de dados",
     "restore_errors": "a restauração terminou com erros",
     "incomplete": "a base de dados restaurada estava incompleta",
-    "unanswered": "o teste não respondeu"
+    "unanswered": "o teste não respondeu",
+    "memory": "Memória",
+    "cpu": "CPU"
   },
   "group": {
     "agent_offline_one": "{{count}} servidor sem sinal",
@@ -133,7 +137,9 @@
     "environment_unstable_one": "{{count}} produção reiniciando",
     "environment_unstable_other": "{{count}} produções reiniciando",
     "infrastructure_down_one": "{{count}} servidor com um serviço fora do ar",
-    "infrastructure_down_other": "{{count}} servidores com um serviço fora do ar"
+    "infrastructure_down_other": "{{count}} servidores com um serviço fora do ar",
+    "server_busy_one": "{{count}} servidor sem folga",
+    "server_busy_other": "{{count}} servidores sem folga"
   },
   "onServers_one": "em {{count}} servidor",
   "onServers_other": "em {{count}} servidores",

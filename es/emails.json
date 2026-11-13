@@ -120,6 +120,11 @@
         "headline": "Un servicio compartido del servidor está caído",
         "resolved": "Los servicios compartidos del servidor vuelven a funcionar",
         "advice": "Todas las instancias del servidor dependen de él: revisa el servidor cuanto antes."
+      },
+      "server_busy": {
+        "headline": "El servidor va justo de recursos",
+        "resolved": "El servidor vuelve a tener margen",
+        "advice": "Todas las instancias del servidor van más lentas: reparte la carga o amplía el servidor."
       }
     },
     "details": {
@@ -135,7 +140,8 @@
       "backup_growing": "De {from_gb} GB a {to_gb} GB en una semana",
       "restore_test_failed": "{reason}",
       "environment_unstable": "Reinicios en la última hora: {restarts}",
-      "infrastructure_down": "Caído: {components}"
+      "infrastructure_down": "Caído: {components}",
+      "server_busy": "{reason} al {percent} % durante 15 min"
     },
     "states": {
       "stopped": "detenido",
@@ -153,7 +159,9 @@
       "connection": "no se pudo conectar a la base de datos",
       "restore_errors": "la restauración terminó con errores",
       "incomplete": "la base restaurada quedó incompleta",
-      "unanswered": "el servidor no terminó la prueba"
+      "unanswered": "el servidor no terminó la prueba",
+      "memory": "Memoria",
+      "cpu": "CPU"
     },
     "leave": "Dejar de recibir estas alertas"
   },

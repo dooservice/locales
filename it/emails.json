@@ -120,6 +120,11 @@
         "headline": "Un servizio condiviso del server non funziona",
         "resolved": "I servizi condivisi del server funzionano di nuovo",
         "advice": "Tutte le istanze del server ne dipendono: controlla il server il prima possibile."
+      },
+      "server_busy": {
+        "headline": "Il server è a corto di risorse",
+        "resolved": "Il server ha di nuovo margine",
+        "advice": "Tutte le istanze del server rallentano: distribuisci il carico o amplia il server."
       }
     },
     "details": {
@@ -135,7 +140,8 @@
       "backup_growing": "Da {from_gb} GB a {to_gb} GB in una settimana",
       "restore_test_failed": "{reason}",
       "environment_unstable": "Riavvii nell'ultima ora: {restarts}",
-      "infrastructure_down": "Non funziona: {components}"
+      "infrastructure_down": "Non funziona: {components}",
+      "server_busy": "{reason} al {percent} % per 15 min"
     },
     "states": {
       "stopped": "fermo",
@@ -153,7 +159,9 @@
       "connection": "impossibile connettersi al database",
       "restore_errors": "il ripristino è terminato con errori",
       "incomplete": "il database ripristinato era incompleto",
-      "unanswered": "il server non ha completato la prova"
+      "unanswered": "il server non ha completato la prova",
+      "memory": "Memoria",
+      "cpu": "CPU"
     },
     "leave": "Non ricevere più questi avvisi"
   },
