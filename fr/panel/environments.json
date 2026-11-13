@@ -63,7 +63,20 @@
     "lastBackup": "Dernière sauvegarde",
     "none": "Aucun pour l'instant",
     "repository": "Dépôt",
-    "noRepository": "Aucun dépôt lié"
+    "noRepository": "Aucun dépôt lié",
+    "load": "Consommation",
+    "loadValue": "CPU {{cpu}} % · {{memory}}",
+    "memoryOf": "{{used}} sur {{limit}}",
+    "restarts_one": "{{count}} redémarrage dans la dernière heure",
+    "restarts_other": "{{count}} redémarrages dans la dernière heure",
+    "outOfMemory": "le système l'a arrêté faute de mémoire",
+    "container": {
+      "exited": "Conteneur arrêté",
+      "dead": "Conteneur mort",
+      "created": "Conteneur jamais démarré",
+      "restarting": "Redémarrage en cours",
+      "paused": "Conteneur en pause"
+    }
   },
   "clone": {
     "title": "Cloner l'environnement",

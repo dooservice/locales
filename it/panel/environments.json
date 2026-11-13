@@ -63,7 +63,20 @@
     "lastBackup": "Ultimo backup",
     "none": "Ancora nessuno",
     "repository": "Repository",
-    "noRepository": "Nessun repository collegato"
+    "noRepository": "Nessun repository collegato",
+    "load": "Consumo",
+    "loadValue": "CPU {{cpu}} % · {{memory}}",
+    "memoryOf": "{{used}} di {{limit}}",
+    "restarts_one": "{{count}} riavvio nell'ultima ora",
+    "restarts_other": "{{count}} riavvii nell'ultima ora",
+    "outOfMemory": "il sistema l'ha fermato per mancanza di memoria",
+    "container": {
+      "exited": "Container fermo",
+      "dead": "Container morto",
+      "created": "Container mai avviato",
+      "restarting": "Riavvio in corso",
+      "paused": "Container in pausa"
+    }
   },
   "clone": {
     "title": "Clona ambiente",

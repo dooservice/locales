@@ -63,7 +63,20 @@
     "lastBackup": "Last backup",
     "none": "None yet",
     "repository": "Repository",
-    "noRepository": "No repository linked"
+    "noRepository": "No repository linked",
+    "load": "Usage",
+    "loadValue": "CPU {{cpu}} % · {{memory}}",
+    "memoryOf": "{{used}} of {{limit}}",
+    "restarts_one": "{{count}} restart in the last hour",
+    "restarts_other": "{{count}} restarts in the last hour",
+    "outOfMemory": "the system stopped it for lack of memory",
+    "container": {
+      "exited": "Container stopped",
+      "dead": "Container dead",
+      "created": "Container never started",
+      "restarting": "Restarting",
+      "paused": "Container paused"
+    }
   },
   "clone": {
     "title": "Clone environment",
