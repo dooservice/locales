@@ -297,5 +297,6 @@
   "workspace_file_too_large": "{{path}} pesa más de {{limit}} bytes.",
   "workspace_nothing_to_publish": "Nada cambió en el espacio de trabajo desde que se abrió.",
   "mcp_workspaces_unavailable": "El agente de este servidor aún no puede abrir espacios de código para los agentes de IA. Podrá cuando se actualice.",
-  "mcp_workspace_not_found": "Este espacio de trabajo no existe, está cerrado o lo abrió otra conexión."
+  "mcp_workspace_not_found": "Este espacio de trabajo no existe, está cerrado o lo abrió otra conexión.",
+  "deploy_rolled_back": "Producción no respondió con el commit {{commit}} y volvió sola a {{previous}}, que sí funcionaba. Revisa los registros antes de desplegar de nuevo."
 }

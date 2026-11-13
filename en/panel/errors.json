@@ -297,5 +297,6 @@
   "workspace_file_too_large": "{{path}} is larger than {{limit}} bytes.",
   "workspace_nothing_to_publish": "Nothing changed in the workspace since it was opened.",
   "mcp_workspaces_unavailable": "This server's agent cannot open code workspaces for AI agents yet. It can once it updates.",
-  "mcp_workspace_not_found": "This workspace does not exist, is closed, or was opened by another connection."
+  "mcp_workspace_not_found": "This workspace does not exist, is closed, or was opened by another connection.",
+  "deploy_rolled_back": "Production did not answer on commit {{commit}} and went back by itself to {{previous}}, which worked. Check the logs before deploying again."
 }

@@ -297,5 +297,6 @@
   "workspace_file_too_large": "{{path}} ist größer als {{limit}} Bytes.",
   "workspace_nothing_to_publish": "Im Arbeitsbereich hat sich seit dem Öffnen nichts geändert.",
   "mcp_workspaces_unavailable": "Der Agent dieses Servers kann noch keine Code-Arbeitsbereiche für KI-Agenten öffnen. Nach seinem Update schon.",
-  "mcp_workspace_not_found": "Dieser Arbeitsbereich existiert nicht, ist geschlossen oder wurde von einer anderen Verbindung geöffnet."
+  "mcp_workspace_not_found": "Dieser Arbeitsbereich existiert nicht, ist geschlossen oder wurde von einer anderen Verbindung geöffnet.",
+  "deploy_rolled_back": "Die Produktion hat mit Commit {{commit}} nicht geantwortet und ist von selbst zu {{previous}} zurückgekehrt, der funktionierte. Prüfe die Logs, bevor du erneut deployst."
 }
