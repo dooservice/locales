@@ -93,7 +93,6 @@
     "manual": "Manuell ({{position}} von {{total}})",
     "until": "Bis {{date}}",
     "suspicious": "In Prüfung: ungewöhnliche Größe",
-    "recent": "Aktuell (24 h)",
     "floor": "Sicherheitsminimum",
     "leaving": "Löschung ausstehend"
   },

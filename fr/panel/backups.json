@@ -93,7 +93,6 @@
     "manual": "Manuelle ({{position}} sur {{total}})",
     "until": "Jusqu'au {{date}}",
     "suspicious": "En cours d'examen : taille inhabituelle",
-    "recent": "Récente (24 h)",
     "floor": "Minimum de sécurité",
     "leaving": "Suppression prévue"
   },

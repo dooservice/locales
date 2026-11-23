@@ -93,7 +93,6 @@
     "manual": "Manual ({{position}} of {{total}})",
     "until": "Until {{date}}",
     "suspicious": "Under review: unusual size",
-    "recent": "Recent (24 h)",
     "floor": "Safety minimum",
     "leaving": "Pending deletion"
   },
