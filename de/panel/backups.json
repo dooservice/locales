@@ -8,6 +8,8 @@
   "restore": "Wiederherstellen",
   "count_one": "{{count}} Backup",
   "count_other": "{{count}} Backups",
+  "showDropped": "{{count}} verworfene anzeigen",
+  "hideDropped": "Verworfene ausblenden",
   "noBackupsYet": "Noch keine Backups",
   "backupTypes": {
     "full": "Vollständig",

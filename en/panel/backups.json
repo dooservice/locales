@@ -8,6 +8,8 @@
   "restore": "Restore",
   "count_one": "{{count}} backup",
   "count_other": "{{count}} backups",
+  "showDropped": "Show {{count}} discarded",
+  "hideDropped": "Hide discarded",
   "noBackupsYet": "No backups yet",
   "backupTypes": {
     "full": "Full",

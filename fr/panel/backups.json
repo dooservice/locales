@@ -8,6 +8,8 @@
   "restore": "Restaurer",
   "count_one": "{{count}} sauvegarde",
   "count_other": "{{count}} sauvegardes",
+  "showDropped": "Voir {{count}} supprimées",
+  "hideDropped": "Masquer les supprimées",
   "noBackupsYet": "Aucune sauvegarde pour l'instant",
   "backupTypes": {
     "full": "Complète",

@@ -8,6 +8,8 @@
   "restore": "Ripristina",
   "count_one": "{{count}} backup",
   "count_other": "{{count}} backup",
+  "showDropped": "Mostra {{count}} scartate",
+  "hideDropped": "Nascondi scartate",
   "count_many": "{{count}} backup",
   "noBackupsYet": "Ancora nessun backup",
   "backupTypes": {
