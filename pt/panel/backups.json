@@ -93,6 +93,7 @@
     "manual": "Manual ({{position}} de {{total}})",
     "until": "Até {{date}}",
     "suspicious": "Em revisão: tamanho incomum",
+    "recent": "Recente (24 h)",
     "floor": "Mínimo de segurança",
     "leaving": "Exclusão pendente"
   },
